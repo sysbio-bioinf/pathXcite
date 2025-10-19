@@ -10,7 +10,7 @@ AA6005 dark orange
 <p align="left">
  <img alt="Task" src="https://img.shields.io/badge/Literature%20Based-Enrichment%20Analysis-3D91A6?labelColor=FFA500">
   <a href="https://sysbio.uni-ulm.de/software/pathxcite/html/index.html" target="https://sysbio.uni-ulm.de/software/pathxcite/html/index.html"><img alt="Docs & Tutorials" src="https://img.shields.io/badge/Docs & Tutorials-0F739E"></a>
-  <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-AA6005"></a>
+  <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/License-GNU v3.0-AA6005"></a>
   <img alt="Platforms" src="https://img.shields.io/badge/Platforms-Windows|macOS|Ubuntu-informational"></img>
   <img alt="Integrated User Interface" src="https://img.shields.io/badge/Integrated%20User%20Interface-3D91A6"></img>
   <img alt="Hypothesis Generation" src="https://img.shields.io/badge/Hypothesis%20Generation-AA6005"></img>
