@@ -226,7 +226,7 @@ class SelectedGeneCardsWidget(QWidget):
         self.setStyleSheet("""
         QListView {border: none;}
         # Chip { border: 1px solid palette(mid); border-radius: 10px; background: palette(base); padding: 2px 8px; }
-        QFrame
+        
         QLabel  # ChipText { font-weight: 600; }
         """)
 
@@ -427,9 +427,9 @@ class SelectedGeneCardsWidget(QWidget):
             # Document card
             card = QFrame(self.sections_container)
             card.setObjectName("DocCard")
-            card.setStyleSheet(
+            '''card.setStyleSheet(
                 """QFrame  # DocCard { border: 1px solid palette(mid);
-                border-radius: 8px; background: palette(base); }""")
+                border-radius: 8px; background: palette(base); }""")'''
             cl = QVBoxLayout(card)
             cl.setContentsMargins(12, 12, 12, 12)
             cl.setSpacing(12)

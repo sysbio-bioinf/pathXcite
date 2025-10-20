@@ -416,8 +416,8 @@ def generate_interactive_html_report(data):
           const title = (it.title||"").trim();
           const link = pmid ? `https://pubmed.ncbi.nlm.nih.gov/${{encodeURIComponent(pmid)}}/` : null;
           li.innerHTML = link
-            ? `<div><a href="${{link}}" target="_blank" rel="noopener noreferrer" class="pub-pmid">PMID ${{pmid}}</a></div><div>${{title||'(untitled)'}}<\/div>`
-            : `<div class="pub-pmid">${{pmid||'(no PMID)'}}<\/div><div>${{title||'(untitled)'}}<\/div>`;
+            ? `<div><a href="${{link}}" target="_blank" rel="noopener noreferrer" class="pub-pmid">PMID ${{pmid}}</a></div><div>${{title||'(untitled)'}}</div>`
+            : `<div class="pub-pmid">${{pmid||'(no PMID)'}}</div><div>${{title||'(untitled)'}}</div>`;
           modalList.appendChild(li);
         }}
       }}
@@ -536,7 +536,7 @@ def generate_interactive_html_report(data):
         if (this.sortToggle) {{
           this.sortToggle.addEventListener('click', ()=>{{
             this.sortDesc = !this.sortDesc;
-            this.sortToggle.innerHTML = `Sort: <strong>${{this.sortDesc?'Desc':'Asc'}}<\/strong>`;
+            this.sortToggle.innerHTML = `Sort: <strong>${{this.sortDesc?'Desc':'Asc'}}</strong>`;
             this.update(true);
           }});
         }}
