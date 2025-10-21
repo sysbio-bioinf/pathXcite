@@ -7,6 +7,7 @@ import os
 
 # --- Local Imports ---
 from app.utils import resource_path
+from app.database.database_creation import add_indexes_to_all_tables
 
 
 def rebuild_db_files() -> None:
@@ -107,3 +108,11 @@ def rebuild_db_files() -> None:
         conn.commit()
         conn.close()
     print(f"Finished rebuild (3/3)")
+
+    # Finally, add indexes to all tables in the rebuilt databases
+    print("Adding indexes to all rebuilt database tables...")
+    add_indexes_to_all_tables(pubtator_count_target_db_path)
+    add_indexes_to_all_tables(pubtator_doc_count_target_db_path)
+    add_indexes_to_all_tables(gene_summary_target_db_path)
+    print("Indexes added successfully.")
+    print("Rebuild of database files completed.")

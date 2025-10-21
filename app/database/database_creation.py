@@ -1,6 +1,7 @@
 """Provides functions to create the local database schema for PubMed data"""
 
 # --- Standard Library Imports ---
+from contextlib import closing, contextmanager
 import sqlite3
 
 # --- Public Functions ---
@@ -78,6 +79,160 @@ def create_database(db_path: str) -> None:
 
     conn.commit()
     conn.close()
+
+
+def add_indexes_to_all_tables(
+    db_path: str,
+    *,
+    dry_run: bool = False,
+    include_unique_columns: bool = True,
+    verbose: bool = True
+) -> None:
+    """
+    Add helpful indexes to every user table in a SQLite database.
+    (Speeds up especially the document card selection)
+
+    What it does:
+      - For each user table (not a view, not sqlite_*), create an index for:
+          (1) each non-PK column that doesn't already have a single-column index
+          (2) each foreign key column (if not already indexed)
+      - Index names follow: idx_<table>__<col>  (double underscore between table and column)
+      - Uses IF NOT EXISTS to be idempotent and avoid failure if a same-named index already exists.
+
+    Parameters
+    ----------
+    db_path : str
+        Path to the SQLite database file.
+    dry_run : bool, default False
+        If True, prints the CREATE INDEX statements but does not execute them.
+    include_unique_columns : bool, default True
+        If False, columns that are the sole target of a UNIQUE constraint are not
+        additionally single-indexed (they're already backed by an index).
+    verbose : bool, default True
+        If True, prints progress.
+    """
+
+    def quote_ident(name: str) -> str:
+        # Minimal identifier quoting for SQLite identifiers
+        return '"' + name.replace('"', '""') + '"'
+
+    @contextmanager
+    def connect(db_path):
+        con = sqlite3.connect(db_path)
+        try:
+            con.execute("PRAGMA foreign_keys = ON;")
+            yield con
+        finally:
+            con.close()
+
+    with connect(db_path) as con, closing(con.cursor()) as cur:
+        # Get all user tables (skip views and sqlite_internal tables)
+        cur.execute("""
+            SELECT name, type
+            FROM sqlite_master
+            WHERE type IN ('table','view')
+              AND name NOT LIKE 'sqlite_%'
+        """)
+        objects = cur.fetchall()
+
+        tables = [name for (name, typ) in objects if typ == 'table']
+        views = [name for (name, typ) in objects if typ == 'view']
+
+        if verbose and views:
+            print(f"Skipping views (not indexable): {', '.join(views)}")
+
+        # Collect planned statements
+        create_statements = []
+
+        for table in tables:
+            # Skip if it's a WITHOUT ROWID table? (still indexable)
+            if verbose:
+                print(f"\nAnalyzing table: {table}")
+
+            # Columns and PK info
+            cur.execute(f"PRAGMA table_info({quote_ident(table)});")
+            cols_info = cur.fetchall()
+            # PRAGMA table_info returns: cid, name, type, notnull, dflt_value, pk
+            col_names = [row[1] for row in cols_info]
+            pk_cols = {row[1] for row in cols_info if row[5] > 0}
+
+            # Existing indexes and their columns
+            cur.execute(f"PRAGMA index_list({quote_ident(table)});")
+            idx_list = cur.fetchall()
+            # PRAGMA index_list returns: seq, name, unique, origin, partial
+            existing_indexes = []
+            for _, idx_name, is_unique, *_ in idx_list:
+                cur.execute(f"PRAGMA index_info({quote_ident(idx_name)});")
+                idx_cols = [r[2] for r in cur.fetchall()]  # seqno, cid, name
+                existing_indexes.append(
+                    (idx_name, bool(is_unique), tuple(idx_cols)))
+
+            # Build helpers
+            single_col_indexed = {cols[0] for _, _,
+                                  cols in existing_indexes if len(cols) == 1}
+            unique_single_col = {cols[0] for _, is_unique, cols in existing_indexes
+                                 if is_unique and len(cols) == 1}
+
+            # Foreign keys
+            cur.execute(f"PRAGMA foreign_key_list({quote_ident(table)});")
+            fk_rows = cur.fetchall()
+            # PRAGMA foreign_key_list returns:
+            # (id, seq, table, from, to, on_update, on_delete, match)
+            fk_cols = {r[3] for r in fk_rows if r[3] is not None}
+
+            # Decide which columns should get a single-column index
+            candidate_cols = []
+            for c in col_names:
+                if c in pk_cols:
+                    continue  # primary keys already indexed
+                if not include_unique_columns and c in unique_single_col:
+                    continue  # already uniquely indexed
+                if c in single_col_indexed:
+                    continue  # already has a single-col index
+                candidate_cols.append(c)
+
+            # Prioritize foreign-key columns (put them first)
+            fk_candidates = [c for c in candidate_cols if c in fk_cols]
+            non_fk_candidates = [c for c in candidate_cols if c not in fk_cols]
+
+            # Prepare CREATE INDEX statements (IF NOT EXISTS for safety)
+            for c in fk_candidates + non_fk_candidates:
+                idx_name = f"idx_{table}__{c}"
+                stmt = f"CREATE INDEX IF NOT EXISTS {quote_ident(idx_name)} ON {quote_ident(table)} ({quote_ident(c)});"
+                create_statements.append(stmt)
+
+            # Also ensure foreign key columns have an index even if excluded above
+            for c in fk_cols:
+                if c in pk_cols:
+                    continue
+                if c not in single_col_indexed:
+                    idx_name = f"idx_{table}__{c}"
+                    stmt = f"CREATE INDEX IF NOT EXISTS {quote_ident(idx_name)} ON {quote_ident(table)} ({quote_ident(c)});"
+                    if stmt not in create_statements:
+                        create_statements.append(stmt)
+
+        # Execute or print
+        if not create_statements:
+            if verbose:
+                print("\nNo new indexes to create.")
+            return
+
+        if dry_run:
+            if verbose:
+                print("\n-- Dry run: planned CREATE INDEX statements --")
+            for s in create_statements:
+                print(s)
+            return
+
+        if verbose:
+            print("\nCreating indexes in a single transaction...")
+
+        with con:  # transaction
+            for s in create_statements:
+                con.execute(s)
+
+        if verbose:
+            print(f"Done. Created/ensured {len(create_statements)} indexes.")
 
 
 """
