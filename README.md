@@ -9,7 +9,7 @@ AA6005 dark orange
 3D91A6 other lighter teal-->
 <p align="left">
  <img alt="Task" src="https://img.shields.io/badge/Literature%20Based-Enrichment%20Analysis-3D91A6?labelColor=FFA500">
-  <a href="https://sysbio.uni-ulm.de/software/pathxcite/html/index.html" target="https://sysbio.uni-ulm.de/software/pathxcite/html/index.html"><img alt="Docs & Tutorials" src="https://img.shields.io/badge/Docs & Tutorials-0F739E"></a>
+  <a href="https://sysbio.uni-ulm.de/software/pathXcite" target="https://sysbio.uni-ulm.de/software/pathXcite"><img alt="Docs & Tutorials" src="https://img.shields.io/badge/Docs & Tutorials-0F739E"></a>
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/License-GNU v3.0-AA6005"></a>
   <img alt="Platforms" src="https://img.shields.io/badge/Platforms-Windows|macOS|Ubuntu-informational"></img>
   <img alt="Integrated User Interface" src="https://img.shields.io/badge/Integrated%20User%20Interface-3D91A6"></img>
@@ -30,7 +30,7 @@ Key benefits:
 
 Links: 
 - **Repository:** <https://github.com/sysbio-bioinf/pathXcite>  
-- **Documentation & Tutorials:** [pathXcite Website](https://sysbio.uni-ulm.de/software/pathxcite/html/index.html)
+- **Documentation & Tutorials:** [pathXcite Website](https://sysbio.uni-ulm.de/software/pathXcite)
 
 ![pathXcite Logo](assets/readme_assets/workflow001.svg)
 ---
@@ -71,7 +71,7 @@ Links:
 - Enrichment against **240+** built-in libraries or custom **`.gmt`** files  
 - Interactive visualizations, exportable results, and local **self-contained project folders** for reproducibility
 
-> Check out our [Quick start and step-by-step tutorials](https://sysbio.uni-ulm.de/software/html/index.html)
+> Check out our [Quick start and step-by-step tutorials](https://sysbio.uni-ulm.de/software/pathXcite)
 <p align="center">
   <img src="assets/readme_assets/screen_animation.gif" alt="Demo GIF" style="width:60%;">
 </p>
@@ -295,7 +295,7 @@ chmod +x ./pathXcite_os.sh
 4. **Rank genes** — Choose **Absolute Frequency** or **GF-IDF** (topic-specific weighting).
 5. **Run enrichment** — Select libraries, inspect **interactive visualizations**, export results.
 
-> See **Quick Start** and full walkthroughs with screenshots at [the Website](https://sysbio.uni-ulm.de/software/html/index.html).
+> See **Quick Start** and full walkthroughs with screenshots at [the Website](https://sysbio.uni-ulm.de/software/pathXcite).
 
 ---
 
@@ -366,7 +366,7 @@ chmod +x ./pathXcite_os.sh
 
 ## Links
 * **Project repo:** [https://github.com/sysbio-bioinf/pathXcite](https://github.com/sysbio-bioinf/pathXcite)
-* **Documentation, Quick Start, Tutorials:** [https://sysbio.uni-ulm.de/software/pathxcite/html/index.html](https://sysbio.uni-ulm.de/software/pathxcite/html/index.html)
+* **Documentation, Quick Start, Tutorials:** [https://sysbio.uni-ulm.de/software/pathXcite](https://sysbio.uni-ulm.de/software/pathXcite)
 
 ---
 
