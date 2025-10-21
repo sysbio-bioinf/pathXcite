@@ -1,13 +1,18 @@
-from app.utils import resource_path
+"""Rebuilds SQLite3 databases which are too large to distribute"""
 
+# --- Third Party Imports ---
 import sqlite3
 import pandas as pd
 import os
 
+# --- Local Imports ---
+from app.utils import resource_path
 
-def rebuild_db_files():
-    """ Rebuilds database files which were too large to process in one go. """
 
+def rebuild_db_files() -> None:
+    """Rebuilds SQLite3 databases which are too large to distribute"""
+
+    print("Rebuild of database files started ...")
     folder_path = "assets/external_data"
     # These paths point to the CSV halves
     pubtator_count_path_first = resource_path(
@@ -27,6 +32,7 @@ def rebuild_db_files():
         print(
             f"Database file {pubtator_count_target_db_path} already exists and is not empty. Skipping rebuild.")
     else:
+        print(f"Starting rebuild for pubtator_count.db")
         # Write a new sqlite3 database from the two CSV halves, with table and column names, combining both halves
         conn = sqlite3.connect(pubtator_count_target_db_path)
         cursor = conn.cursor()
@@ -40,6 +46,7 @@ def rebuild_db_files():
 
         conn.commit()
         conn.close()
+    print(f"Finished rebuild (1/3)")
 
     # Repeat similar process for pubtator_doc_count
     pubtator_doc_count_path_first = resource_path(
@@ -57,6 +64,7 @@ def rebuild_db_files():
         print(
             f"Database file {pubtator_doc_count_target_db_path} already exists and is not empty. Skipping rebuild.")
     else:
+        print(f"Starting rebuild for pubtator_doc_count.db")
         # Write a new sqlite3 database from the two CSV halves, with table and column names, combining both halves
         conn = sqlite3.connect(pubtator_doc_count_target_db_path)
         cursor = conn.cursor()
@@ -70,6 +78,7 @@ def rebuild_db_files():
 
         conn.commit()
         conn.close()
+    print(f"Finished rebuild (2/3)")
 
     # Finally, rebuild gene_summary database from its CSV
     gene_summary_path = resource_path(
@@ -84,6 +93,7 @@ def rebuild_db_files():
         print(
             f"Database file {gene_summary_target_db_path} already exists and is not empty. Skipping rebuild.")
     else:
+        print(f"Starting rebuild for gene_summary.db")
         # Write a new sqlite3 database from the CSV, with table and column names
         conn = sqlite3.connect(gene_summary_target_db_path)
         cursor = conn.cursor()
@@ -96,3 +106,4 @@ def rebuild_db_files():
 
         conn.commit()
         conn.close()
+    print(f"Finished rebuild (3/3)")
