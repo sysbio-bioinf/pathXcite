@@ -11,11 +11,9 @@ AA6005 dark orange
  <img alt="Task" src="https://img.shields.io/badge/Literature%20Based-Enrichment%20Analysis-3D91A6?labelColor=FFA500">
   <a href="https://sysbio.uni-ulm.de/software/pathXcite" target="https://sysbio.uni-ulm.de/software/pathXcite"><img alt="Docs & Tutorials" src="https://img.shields.io/badge/Docs & Tutorials-0F739E"></a>
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/License-GNU v3.0-AA6005"></a>
- <a href="https://doi.org/10.5281/zenodo.17417215"><img src="https://zenodo.org/badge/1070823988.svg" alt="DOI"></a>
-
   <img alt="Platforms" src="https://img.shields.io/badge/Platforms-Windows|macOS|Ubuntu-informational"></img>
   <img alt="Integrated User Interface" src="https://img.shields.io/badge/Integrated%20User%20Interface-3D91A6"></img>
-  <img alt="Hypothesis Generation" src="https://img.shields.io/badge/Hypothesis%20Generation-AA6005"></img>
+  <a href="https://doi.org/10.5281/zenodo.17417215"><img src="https://zenodo.org/badge/1070823988.svg" alt="DOI"></a>
 </p>
 
 **pathXcite** is an integrated **graphical tool** for **literature-based over-representation analysis** (ORA). It tests a list of genes against curated libraries to find enriched pathways, phenotypes, diseases, and other biological concepts.
