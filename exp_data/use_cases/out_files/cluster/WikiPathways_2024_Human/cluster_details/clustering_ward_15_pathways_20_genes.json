@@ -1,0 +1,2015 @@
+{
+    "metadata": {
+        "timestamp": "2025-03-19T14:14:03.375830",
+        "top_n": 15,
+        "gene_n": 20,
+        "method": "ward",
+        "num_clusters": 22
+    },
+    "disease_to_cluster": {
+        "Endometrial_cancer": {
+            "cluster": 9,
+            "pathways": [
+                "Breast Cancer Pathway WP4262",
+                "Head And Neck Squamous Cell Carcinoma WP4674",
+                "EGFR Tyrosine Kinase Inhibitor Resistance WP4806",
+                "Cancer Pathways WP5434",
+                "Endometrial Cancer WP4155",
+                "RAC1 PAK1 P38 MMP2 Pathway WP3303",
+                "Pancreatic Adenocarcinoma Pathway WP4263",
+                "DNA Damage Response Only ATM Dependent WP710",
+                "Gastrin Signaling WP4659",
+                "Leptin Signaling WP2034",
+                "Prolactin Signaling WP2037",
+                "RIOK1 And RIOK2 In EGFR And PI3K Mediated Tumorigenesis WP3873",
+                "ErbB Signaling WP673",
+                "Macrophage Stimulating Protein MSP Signaling WP5353",
+                "Androgen Receptor Network In Prostate Cancer WP2263"
+            ]
+        },
+        "Shigellosis": {
+            "cluster": 21,
+            "pathways": [
+                "Cytosolic DNA Sensing Pathway WP4655",
+                "Chemokine Signaling WP3929",
+                "G13 Signaling WP524",
+                "ATM Signaling WP2516",
+                "PDGF Pathway WP2526",
+                "Nucleotide Binding Oligomerization Domain NOD Pathway WP1433",
+                "RANKL RANK Signaling WP2018",
+                "Synaptic Vesicle Pathway WP2267",
+                "Pathogenic Escherichia Coli Infection WP2272",
+                "Novel Intracellular Components Of RIG I Like Receptor Pathway WP3865",
+                "MAPK Signaling WP382",
+                "Histone Modifications WP2369",
+                "Network Map Of SARS CoV 2 Signaling WP5115",
+                "Folate Metabolism WP176",
+                "Leptin Signaling WP2034"
+            ]
+        },
+        "Bladder_cancer": {
+            "cluster": 11,
+            "pathways": [
+                "Head And Neck Squamous Cell Carcinoma WP4674",
+                "Endometrial Cancer WP4155",
+                "Bladder Cancer WP2828",
+                "Pancreatic Adenocarcinoma Pathway WP4263",
+                "Non Small Cell Lung Cancer WP4255",
+                "Glioblastoma Signaling WP2261",
+                "Breast Cancer Pathway WP4262",
+                "EGFR Tyrosine Kinase Inhibitor Resistance WP4806",
+                "RIOK1 And RIOK2 In EGFR And PI3K Mediated Tumorigenesis WP3873",
+                "ErbB Signaling WP673",
+                "Cancer Pathways WP5434",
+                "RAC1 PAK1 P38 MMP2 Pathway WP3303",
+                "Melanoma WP4685",
+                "Gastrin Signaling WP4659",
+                "Thyroid Stimulating Hormone TSH Signaling WP2032"
+            ]
+        },
+        "Asthma": {
+            "cluster": 2,
+            "pathways": [
+                "Ulcerative Colitis Signaling WP5174",
+                "Development And Heterogeneity Of The ILC Family WP3893",
+                "Inflammatory Bowel Disease Signaling WP5198",
+                "Cytokine Cytokine Receptor Interaction WP5473",
+                "Overview Of Proinflammatory And Profibrotic Mediators WP5095",
+                "Neuroinflammation And Glutamatergic Signaling WP5083",
+                "Cytokines And Inflammatory Response WP530",
+                "IL19 Signaling WP5422",
+                "Interactions Immune Cells And miRNAs In Tumor Microenvironment WP4559",
+                "Selective Expression Of Chemokine Receptors T Cell Polarization WP4494",
+                "Inflammatory Response Pathway WP453",
+                "Cancer Pathways WP5434",
+                "Immune Infiltration In Pancreatic Cancer WP5285",
+                "IL4 Signaling WP395",
+                "Effects Of Nitric Oxide WP1995"
+            ]
+        },
+        "Pathogenic_Escherichia_coli_infection": {
+            "cluster": 22,
+            "pathways": [
+                "IL3 Signaling WP286",
+                "Macrophage Stimulating Protein MSP Signaling WP5353",
+                "Gastrin Signaling WP4659",
+                "Hepatitis B Infection WP4666",
+                "Photodynamic Therapy Induced AP 1 Survival Signaling WP3611",
+                "Synaptic Vesicle Pathway WP2267",
+                "TGF Beta Receptor Signaling WP560",
+                "15Q11Q13 Copy Number Variation WP5407",
+                "TGF Beta Receptor Signaling In Skeletal Dysplasias WP4816",
+                "Network Map Of SARS CoV 2 Signaling WP5115",
+                "Prolactin Signaling WP2037",
+                "Toll Like Receptor Signaling WP75",
+                "P53 Transcriptional Gene Network WP4963",
+                "Corticotropin Releasing Hormone Signaling WP2355",
+                "Apoptosis Modulation And Signaling WP1772"
+            ]
+        },
+        "Type_II_diabetes_mellitus": {
+            "cluster": 15,
+            "pathways": [
+                "AMP Activated Protein Kinase Signaling WP1403",
+                "Angiopoietin Like Protein 8 Regulatory Pathway WP3915",
+                "Leptin Signaling WP2034",
+                "Head And Neck Squamous Cell Carcinoma WP4674",
+                "Nonalcoholic Fatty Liver Disease WP4396",
+                "Orexin Receptor Pathway WP5094",
+                "Synaptic Signaling Associated With Autism Spectrum Disorder WP4539",
+                "Sterol Regulatory Element Binding Proteins SREBP Signaling WP1982",
+                "GLP 1 From Intestine And Pancreas Role In Glucose Homeostasis WP5452",
+                "GLP 1 In Pancreatic Islet Cells WP5447",
+                "Target Of Rapamycin Signaling WP1471",
+                "Macrophage Stimulating Protein MSP Signaling WP5353",
+                "Leptin And Adiponectin WP3934",
+                "Effect Of Omega 3 PUFA On Huntington 39 S Disease Pathways WP5470",
+                "Pleural Mesothelioma WP5087"
+            ]
+        },
+        "Toxoplasmosis": {
+            "cluster": 18,
+            "pathways": [
+                "Electron Transport Chain OXPHOS System In Mitochondria WP111",
+                "Oxidative Phosphorylation WP623",
+                "Mitochondrial Complex I Assembly Model OXPHOS System WP4324",
+                "Aerobic Glycolysis Augmented WP4628",
+                "Aerobic Glycolysis WP4629",
+                "Glycolysis In Senescence WP5049",
+                "IDO Metabolic Pathway WP5414",
+                "Nonalcoholic Fatty Liver Disease WP4396",
+                "Neuroinflammation WP4919",
+                "Effects Of Nitric Oxide WP1995",
+                "NAD Biosynthesis II From Tryptophan WP2485",
+                "CAMKK2 Pathway WP4874",
+                "7Q11 23 Copy Number Variation Syndrome WP4932",
+                "Arsenic Metabolism And Reactive Oxygen Species Generation WP5233",
+                "Quercetin And Nf kB AP 1 Induced Apoptosis WP2435"
+            ]
+        },
+        "Yersinia_infection": {
+            "cluster": 17,
+            "pathways": [
+                "Ebola Virus Infection In Host WP4217",
+                "Integrin Mediated Cell Adhesion WP185",
+                "Leukocyte Intrinsic Hippo Pathway Functions WP4542",
+                "Nucleotide Binding Oligomerization Domain NOD Pathway WP1433",
+                "Leptin Signaling WP2034",
+                "Extrafollicular And Follicular B Cell Activation By SARS CoV 2 WP5218",
+                "Prolactin Signaling WP2037",
+                "B Cell Receptor Signaling WP23",
+                "2Q21 1 Copy Number Variation Syndrome WP5223",
+                "GNAQ Pathways In Port Wine Stain WP5437",
+                "Gastrin Signaling WP4659",
+                "Physiological And Pathological Hypertrophy Of The Heart WP1528",
+                "TGF Beta Signaling Pathway WP366",
+                "Amyotrophic Lateral Sclerosis ALS WP2447",
+                "13Q12 12 Copy Number Variation WP5406"
+            ]
+        },
+        "Human_cytomegalovirus_infection": {
+            "cluster": 6,
+            "pathways": [
+                "PI3K Akt Signaling WP4172",
+                "ROS In COVID 19 Endothelial Dysfunction WP5258",
+                "Regulatory Circuits Of STAT3 Signaling WP4538",
+                "Hair Follicle Development Cytodifferentiation Stage 3 Of 3 WP2840",
+                "GPCRs Class C Metabotropic Glutamate Pheromone WP501",
+                "Hippo Signaling Regulation WP4540",
+                "Hippo Merlin Signaling Dysregulation WP4541",
+                "Cell Lineage Map For Neuronal Differentiation WP5417",
+                "GABA Receptor Signaling WP4159",
+                "Hair Follicle Development Organogenesis Part 2 Of 3 WP2839",
+                "Host Pathogen Interaction Of Human CoV Interferon Induction WP4880",
+                "Ras Signaling WP4223",
+                "Pleural Mesothelioma WP5087",
+                "Aryl Hydrocarbon Receptor Pathway WP2586",
+                "TROP2 Regulatory Signaling WP5300"
+            ]
+        },
+        "Kaposi_sarcoma-associated_herpesvirus_infection": {
+            "cluster": 22,
+            "pathways": [
+                "LTF Danger Signal Response Pathway WP4478",
+                "Macrophage Stimulating Protein MSP Signaling WP5353",
+                "Pathogenesis Of SARS CoV 2 Mediated By Nsp9 Nsp10 Complex WP4884",
+                "Antiviral And Anti-Inflam Effects Of Nrf2 On SARS CoV 2 Pathway WP5113",
+                "Hepatitis B Infection WP4666",
+                "Prostaglandin Signaling WP5088",
+                "Signal Transduction Through IL1R WP4496",
+                "IL26 Signaling WP5347",
+                "Urotensin II Mediated Signaling WP5158",
+                "SARS CoV 2 Innate Immunity Evasion And Cell Immune Response WP5039",
+                "Cytosolic DNA Sensing Pathway WP4655",
+                "P53 Transcriptional Gene Network WP4963",
+                "Toll Like Receptor Signaling WP75",
+                "Altered Glycosylation Of MUC1 In Tumor Microenvironment WP4480",
+                "Somitogenesis In The Context Of Spondylocostal Dysostosis WP4785"
+            ]
+        },
+        "Epstein-Barr_virus_infection": {
+            "cluster": 1,
+            "pathways": [
+                "Pathogenesis Of SARS CoV 2 Mediated By Nsp9 Nsp10 Complex WP4884",
+                "Retinoblastoma Gene In Cancer WP2446",
+                "Complement System WP2806",
+                "11P11 2 Copy Number Variation Syndrome WP5348",
+                "T Cell Antigen Receptor TCR Pathway During Staph A. Infection WP3863",
+                "Extrafollicular And Follicular B Cell Activation By SARS CoV 2 WP5218",
+                "RIOK1 And RIOK2 In EGFR And PI3K Mediated Tumorigenesis WP3873",
+                "Network Map Of SARS CoV 2 Signaling WP5115",
+                "Androgen Receptor Network In Prostate Cancer WP2263",
+                "Ca Mediated T Cell Apoptosis Inclusion Body Myositis WP5142",
+                "Cell Cycle WP179",
+                "Cancer Immunotherapy By PD 1 Blockade WP4585",
+                "Prion Disease Pathway WP3995",
+                "16P11 2 Distal Deletion Syndrome WP4950",
+                "miRNA Regulation Of Prostate Cancer Signaling WP3981"
+            ]
+        },
+        "Amyotrophic_lateral_sclerosis": {
+            "cluster": 16,
+            "pathways": [
+                "HDAC6 Interactions In The Central Nervous System WP5426",
+                "Clock Controlled Autophagy In Bone Metabolism WP5205",
+                "Galanin Receptor Pathway WP4970",
+                "Perturbations Host Cell Autophagy Induced By SARS CoV 2 Prots WP4936",
+                "Vitamin B12 Metabolism WP1533",
+                "Physico Chemical Features And Toxicity Associated Pathways WP3680",
+                "Folate Metabolism WP176",
+                "MECP2 And Associated Rett Syndrome WP3584",
+                "Clear Cell Renal Cell Carcinoma Pathways WP4018",
+                "Selenium Micronutrient Network WP15",
+                "SARS CoV 2 Altering Angiogenesis Via NRP1 WP5065",
+                "CAMKK2 Pathway WP4874",
+                "ROBO4 And VEGF Signaling Crosstalk WP3943",
+                "miRNA Targeting Cancer Growth And Vascularization Glioblastoma WP3593",
+                "SARS CoV 2 B 1 1 7 Variant Antagonises Innate Immune Activation WP5116"
+            ]
+        },
+        "Staphylococcus_aureus_infection": {
+            "cluster": 4,
+            "pathways": [
+                "Immune Infiltration In Pancreatic Cancer WP5285",
+                "Overview Of Proinflammatory And Profibrotic Mediators WP5095",
+                "Development And Heterogeneity Of The ILC Family WP3893",
+                "Prostaglandin Signaling WP5088",
+                "Cytokines And Inflammatory Response WP530",
+                "Lung Fibrosis WP3624",
+                "Network Map Of SARS CoV 2 Signaling WP5115",
+                "Cytokine Cytokine Receptor Interaction WP5473",
+                "Spinal Cord Injury WP2431",
+                "Post COVID Neuroinflammation WP5485",
+                "Inflammatory Bowel Disease Signaling WP5198",
+                "COVID 19 Adverse Outcome Pathway WP4891",
+                "Ulcerative Colitis Signaling WP5174",
+                "LTF Danger Signal Response Pathway WP4478",
+                "Folate Metabolism WP176"
+            ]
+        },
+        "Pertussis": {
+            "cluster": 17,
+            "pathways": [
+                "Extrafollicular And Follicular B Cell Activation By SARS CoV 2 WP5218",
+                "Cells And Molecules Involved In Acute Inflammatory Response WP4493",
+                "Fibrin Complement Receptor 3 Signaling WP4136",
+                "Kinin Kallikrein Pathway WP5089",
+                "Acetaminophen In Analgesia And Antipyresis WP5444",
+                "Cancer Pathways WP5434",
+                "ACE Inhibitor Pathway WP554",
+                "Overview Of Nanoparticle Effects WP3287",
+                "RAS And Bradykinin Pathways In COVID 19 WP4969",
+                "Photodynamic Therapy Induced NF kB Survival Signaling WP3617",
+                "Microglia Pathogen Phagocytosis Pathway WP3937",
+                "Hepatitis C And Hepatocellular Carcinoma WP3646",
+                "TYROBP Causal Network In Microglia WP3945",
+                "Acute Viral Myocarditis WP4298",
+                "Selenium Micronutrient Network WP15"
+            ]
+        },
+        "Hepatitis_B": {
+            "cluster": 6,
+            "pathways": [
+                "ROS In COVID 19 Endothelial Dysfunction WP5258",
+                "COVID 19 Adverse Outcome Pathway WP4891",
+                "LTF Danger Signal Response Pathway WP4478",
+                "Selenium Micronutrient Network WP15",
+                "Post COVID Neuroinflammation WP5485",
+                "SARS CoV 2 Mt Chronic Ox Stress And Endothelial Dysfunction WP5183",
+                "Antiviral And Anti-Inflam Effects Of Nrf2 On SARS CoV 2 Pathway WP5113",
+                "Prostaglandin Signaling WP5088",
+                "Signal Transduction Through IL1R WP4496",
+                "Hepatitis B Infection WP4666",
+                "Vitamin B12 Metabolism WP1533",
+                "Altered Glycosylation Of MUC1 In Tumor Microenvironment WP4480",
+                "SARS CoV 2 Innate Immunity Evasion And Cell Immune Response WP5039",
+                "Folate Metabolism WP176",
+                "FOXP3 In COVID 19 WP5063"
+            ]
+        },
+        "Gastric_cancer": {
+            "cluster": 10,
+            "pathways": [
+                "Bladder Cancer WP2828",
+                "Urotensin II Mediated Signaling WP5158",
+                "Burn Wound Healing WP5055",
+                "Focal Adhesion PI3K Akt mTOR Signaling WP3932",
+                "Focal Adhesion WP306",
+                "NRP1 Triggered Signaling In Pancreatic Cancer WP5144",
+                "Endometrial Cancer WP4155",
+                "miR 509 3P Alteration Of YAP1 ECM Axis WP3967",
+                "PI3K Akt Signaling WP4172",
+                "Non Small Cell Lung Cancer WP4255",
+                "Head And Neck Squamous Cell Carcinoma WP4674",
+                "miRNA Targets In ECM And Membrane Receptors WP2911",
+                "Unfolded Protein Response WP4925",
+                "Pancreatic Adenocarcinoma Pathway WP4263",
+                "Pleural Mesothelioma WP5087"
+            ]
+        },
+        "Influenza_A": {
+            "cluster": 1,
+            "pathways": [
+                "Ca Mediated T Cell Apoptosis Inclusion Body Myositis WP5142",
+                "Pathogenesis Of SARS CoV 2 Mediated By Nsp9 Nsp10 Complex WP4884",
+                "T Cell Antigen Receptor TCR Pathway During Staph A. Infection WP3863",
+                "T Cell Receptor Signaling WP69",
+                "SARS CoV 2 And ACE2 Receptor Molecular Mechanisms WP4883",
+                "Amino Acid Metabolism In Triple Negative Breast Cancer Cells WP5213",
+                "COVID 19 Thrombosis And Anticoagulation WP4927",
+                "GABA Metabolism Aka GHB WP4157",
+                "SARS CoV 2 And COVID 19 Pathway WP4846",
+                "Vitamin K Metabolism And Activation Of Dependent Proteins WP5186",
+                "Selective Expression Of Chemokine Receptors T Cell Polarization WP4494",
+                "FBXL10 Enhancement Of MAP ERK Signaling In DLBCL WP4553",
+                "Mitochondrial Immune Response To SARS CoV 2 WP5038",
+                "Metabolic Pathways Of Fibroblasts WP5312",
+                "Type I Interferon Induction And Signaling SARS CoV 2 Infection WP4868"
+            ]
+        },
+        "Legionellosis": {
+            "cluster": 7,
+            "pathways": [
+                "CAMKK2 Pathway WP4874",
+                "Overview Of Nanoparticle Effects WP3287",
+                "Lung Pathology Of COVID 19 WP5146",
+                "Cytokines And Inflammatory Response WP530",
+                "Interactions Of Natural Killer Cells In Pancreatic Cancer WP5092",
+                "Photodynamic Therapy Induced NF kB Survival Signaling WP3617",
+                "Immune Infiltration In Pancreatic Cancer WP5285",
+                "IL26 Signaling WP5347",
+                "Vitamin B12 Metabolism WP1533",
+                "T Cell Antigen Receptor TCR Pathway During Staph A. Infection WP3863",
+                "Lung Fibrosis WP3624",
+                "SARS CoV 2 Innate Immunity Evasion And Cell Immune Response WP5039",
+                "Folate Metabolism WP176",
+                "Extrafollicular And Follicular B Cell Activation By SARS CoV 2 WP5218",
+                "Glioblastoma Signaling WP2261"
+            ]
+        },
+        "Human_immunodeficiency_virus_1_infection": {
+            "cluster": 8,
+            "pathways": [
+                "Acute Viral Myocarditis WP4298",
+                "Selective Expression Of Chemokine Receptors T Cell Polarization WP4494",
+                "Network Map Of SARS CoV 2 Signaling WP5115",
+                "Cell Interactions Of The Pancreatic Cancer Microenvironment WP5284",
+                "Cytokines And Inflammatory Response WP530",
+                "IL19 Signaling WP5422",
+                "Burn Wound Healing WP5055",
+                "Extrafollicular And Follicular B Cell Activation By SARS CoV 2 WP5218",
+                "Peptide GPCRs WP24",
+                "Cytokine Cytokine Receptor Interaction WP5473",
+                "T Cell Antigen Receptor TCR Pathway During Staph A. Infection WP3863",
+                "T Cell Activation SARS CoV 2 WP5098",
+                "Tyrosine Metabolism And Related Disorders WP4506",
+                "5Q35 Copy Number Variation WP5380",
+                "CAMKK2 Pathway WP4874"
+            ]
+        },
+        "Systemic_lupus_erythematosus": {
+            "cluster": 5,
+            "pathways": [
+                "Prostaglandin Signaling WP5088",
+                "Toll Like Receptor Signaling WP75",
+                "Signal Transduction Through IL1R WP4496",
+                "miRNA Role In Immune Response In Sepsis WP4329",
+                "Overview Of Proinflammatory And Profibrotic Mediators WP5095",
+                "Microglia Pathogen Phagocytosis Pathway WP3937",
+                "Inflammatory Bowel Disease Signaling WP5198",
+                "Aryl Hydrocarbon Receptor Pathway WP2873",
+                "Hepatitis B Infection WP4666",
+                "ROS In COVID 19 Endothelial Dysfunction WP5258",
+                "SARS CoV 2 Innate Immunity Evasion And Cell Immune Response WP5039",
+                "Extrafollicular And Follicular B Cell Activation By SARS CoV 2 WP5218",
+                "Allograft Rejection WP2328",
+                "Mammary Gland Development Pathway Embryonic Development Stg 1/4 WP2813",
+                "Platelet Mediated Interactions W Vascular And Circulating Cells WP4462"
+            ]
+        },
+        "Dilated_cardiomyopathy": {
+            "cluster": 13,
+            "pathways": [
+                "Arrhythmogenic Right Ventricular Cardiomyopathy WP2118",
+                "Striated Muscle Contraction Pathway WP383",
+                "Microtubule Cytoskeleton Regulation WP2038",
+                "AGE RAGE Pathway WP2324",
+                "Urotensin II Mediated Signaling WP5158",
+                "Axon Guidance WP5289",
+                "MicroRNAs In Cardiomyocyte Hypertrophy WP1544",
+                "Complement System WP2806",
+                "Integrin Mediated Cell Adhesion WP185",
+                "lncRNA Mediated Mechanisms Of Therapeutic Resistance WP3672",
+                "Adipogenesis WP236",
+                "miRNA Targeting Cancer Growth And Vascularization Glioblastoma WP3593",
+                "HIF1A And PPARG In Cardiac Hypertropthy WP2456",
+                "Acquired Partial Lipodystrophy Barraquer Simons Syndrome WP5104",
+                "NAD Metabolism Sirtuins And Aging WP3630"
+            ]
+        },
+        "Thyroid_cancer": {
+            "cluster": 19,
+            "pathways": [
+                "Cancer Pathways WP5434",
+                "Glioblastoma Signaling WP2261",
+                "Thyroid Hormones And Peripheral Downstream Signaling Effects WP4746",
+                "Relationship Between Inflammation COX 2 And EGFR WP4483",
+                "Head And Neck Squamous Cell Carcinoma WP4674",
+                "PI3K AKT mTOR Signaling And Therapeutic In Prostate Cancer WP3844",
+                "Relevant Molecular Pathways And Targeted Agents In TNBC WP5215",
+                "DNA Damage Response Only ATM Dependent WP710",
+                "Thyroid Stimulating Hormone TSH Signaling WP2032",
+                "MET In Type 1 Papillary Renal Cell Carcinoma WP4205",
+                "Endometrial Cancer WP4155",
+                "Melanoma WP4685",
+                "Non Small Cell Lung Cancer WP4255",
+                "EGFR Tyrosine Kinase Inhibitor Resistance WP4806",
+                "Regucalcin In Proximal Tubule Epithelial Kidney Cells WP4838"
+            ]
+        },
+        "Graft-versus-host_disease": {
+            "cluster": 3,
+            "pathways": [
+                "Allograft Rejection WP2328",
+                "Cytokine Cytokine Receptor Interaction WP5473",
+                "T Cell Antigen Receptor TCR Pathway During Staph A. Infection WP3863",
+                "Control Of Immune Tolerance By Vasoactive Intestinal Peptide WP4484",
+                "COVID 19 Adverse Outcome Pathway WP4891",
+                "FOXP3 In COVID 19 WP5063",
+                "Post COVID Neuroinflammation WP5485",
+                "Cytokines And Inflammatory Response WP530",
+                "Extrafollicular And Follicular B Cell Activation By SARS CoV 2 WP5218",
+                "Inflammatory Response Pathway WP453",
+                "Immune Infiltration In Pancreatic Cancer WP5285",
+                "Inflammatory Bowel Disease Signaling WP5198",
+                "Spinal Cord Injury WP2431",
+                "Overview Of Proinflammatory And Profibrotic Mediators WP5095",
+                "Ulcerative Colitis Signaling WP5174"
+            ]
+        },
+        "Huntington_disease": {
+            "cluster": 12,
+            "pathways": [
+                "Involvement Of Secretase In Neurodegenerative Diseases WP5372",
+                "HDAC6 Interactions In The Central Nervous System WP5426",
+                "Copper Homeostasis WP3286",
+                "Neurogenesis Regulation In The Olfactory Epithelium WP5265",
+                "Inclusion Body Myositis WP5120",
+                "6Q16 Copy Number Variation WP5400",
+                "Orexin Receptor Pathway WP5094",
+                "ERK Pathway In Huntington 39 S Disease WP3853",
+                "Alzheimer 39 S Disease WP5124",
+                "Alzheimer 39 S Disease And miRNA Effects WP2059",
+                "Effect Of Omega 3 PUFA On Huntington 39 S Disease Pathways WP5470",
+                "Dopaminergic Neurogenesis WP2855",
+                "NO cGMP PKG Mediated Neuroprotection WP4008",
+                "Pluripotent Stem Cell Differentiation Pathway WP2848",
+                "15Q11Q13 Copy Number Variation WP5407"
+            ]
+        },
+        "Colorectal_cancer": {
+            "cluster": 11,
+            "pathways": [
+                "Pancreatic Adenocarcinoma Pathway WP4263",
+                "Cancer Pathways WP5434",
+                "Extracellular Vesicle Mediated Signaling In Recipient Cells WP2870",
+                "DNA Damage Response Only ATM Dependent WP710",
+                "Endometrial Cancer WP4155",
+                "Pleural Mesothelioma WP5087",
+                "Non Small Cell Lung Cancer WP4255",
+                "Head And Neck Squamous Cell Carcinoma WP4674",
+                "EGFR Tyrosine Kinase Inhibitor Resistance WP4806",
+                "Gastrin Signaling WP4659",
+                "RAC1 PAK1 P38 MMP2 Pathway WP3303",
+                "Chromosomal And Microsatellite Instability In Colorectal Cancer WP4216",
+                "Glioblastoma Signaling WP2261",
+                "Breast Cancer Pathway WP4262",
+                "Bladder Cancer WP2828"
+            ]
+        },
+        "Prion_disease": {
+            "cluster": 12,
+            "pathways": [
+                "Involvement Of Secretase In Neurodegenerative Diseases WP5372",
+                "Copper Homeostasis WP3286",
+                "Inclusion Body Myositis WP5120",
+                "HDAC6 Interactions In The Central Nervous System WP5426",
+                "Cell Lineage Map For Neuronal Differentiation WP5417",
+                "Male Infertility WP4673",
+                "Amyotrophic Lateral Sclerosis ALS WP2447",
+                "Neurogenesis Regulation In The Olfactory Epithelium WP5265",
+                "DYRK1A Involvement Regarding Cell Prolif In Brain Development WP5180",
+                "Alzheimer 39 S Disease WP5124",
+                "Alzheimer 39 S Disease And miRNA Effects WP2059",
+                "Parkin Ubiquitin Proteasomal System Pathway WP2359",
+                "Orexin Receptor Pathway WP5094",
+                "Hormonal Control Of Pubertal Growth Spurt WP4194",
+                "Neuroinflammation And Glutamatergic Signaling WP5083"
+            ]
+        },
+        "Salmonella_infection": {
+            "cluster": 5,
+            "pathways": [
+                "Th17 Cell Differentiation Pathway WP5130",
+                "Inflammatory Bowel Disease Signaling WP5198",
+                "Toll Like Receptor Signaling WP75",
+                "Overview Of Proinflammatory And Profibrotic Mediators WP5095",
+                "Antiviral And Anti-Inflam Effects Of Nrf2 On SARS CoV 2 Pathway WP5113",
+                "Development And Heterogeneity Of The ILC Family WP3893",
+                "T Cell Activation SARS CoV 2 WP5098",
+                "Vitamin B12 Metabolism WP1533",
+                "Novel Intracellular Components Of RIG I Like Receptor Pathway WP3865",
+                "Network Map Of SARS CoV 2 Signaling WP5115",
+                "Vitamin D In Inflammatory Diseases WP4482",
+                "Folate Metabolism WP176",
+                "Ebstein Barr Virus LMP1 Signaling WP262",
+                "Non Genomic Actions Of 1 25 Dihydroxyvitamin D3 WP4341",
+                "Cytokines And Inflammatory Response WP530"
+            ]
+        },
+        "Parkinson_disease": {
+            "cluster": 12,
+            "pathways": [
+                "Parkinson 39 S Disease Pathway WP2371",
+                "Involvement Of Secretase In Neurodegenerative Diseases WP5372",
+                "HDAC6 Interactions In The Central Nervous System WP5426",
+                "ADHD And Autism ASD Pathways WP5420",
+                "Neurotransmitter Disorders WP4220",
+                "Inclusion Body Myositis WP5120",
+                "Dopamine Metabolism WP2436",
+                "Biosynth Of Tetrahydrobiopterin And Phenylalanine Catabolism WP4156",
+                "Autophagy In Pancreatic Ductal Adenocarcinoma WP5331",
+                "5Q35 Copy Number Variation WP5380",
+                "22Q11 2 Copy Number Variation Syndrome WP4657",
+                "Microtubule Cytoskeleton Regulation WP2038",
+                "Copper Homeostasis WP3286",
+                "Apoptosis Related Network Due To Altered Notch3 Ovarian Cancer WP2864",
+                "Neurogenesis Regulation In The Olfactory Epithelium WP5265"
+            ]
+        },
+        "Malaria": {
+            "cluster": 1,
+            "pathways": [
+                "Wnt Signaling In Kidney Disease WP4150",
+                "Vitamin D Receptor Pathway WP2877",
+                "Pathogenesis Of SARS CoV 2 Mediated By Nsp9 Nsp10 Complex WP4884",
+                "Tamoxifen Metabolism WP691",
+                "Urea Cycle And Metabolism Of Amino Groups WP497",
+                "Disorders Of Folate Metabolism And Transport WP4259",
+                "Overview Of Nanoparticle Effects WP3287",
+                "Glutathione Metabolism WP100",
+                "Fatty Acid Transporters WP5061",
+                "Fatty Acid Omega Oxidation WP206",
+                "Cori Cycle WP1946",
+                "Galanin Receptor Pathway WP4970",
+                "Mitochondrial Complex III Assembly WP4921",
+                "Biosynth Of Tetrahydrobiopterin And Phenylalanine Catabolism WP4156",
+                "Codeine And Morphine Metabolism WP1604"
+            ]
+        },
+        "Prostate_cancer": {
+            "cluster": 9,
+            "pathways": [
+                "Androgen Receptor Network In Prostate Cancer WP2263",
+                "Glioblastoma Signaling WP2261",
+                "miRNA Regulation Of Prostate Cancer Signaling WP3981",
+                "Cancer Pathways WP5434",
+                "Integrated Cancer Pathway WP1971",
+                "Breast Cancer Pathway WP4262",
+                "Hepatitis C And Hepatocellular Carcinoma WP3646",
+                "DNA IR Double Strand Breaks And Cellular Response Via ATM WP3959",
+                "Pathways Affected In Adenoid Cystic Carcinoma WP3651",
+                "Pleural Mesothelioma WP5087",
+                "DNA IR Damage And Cellular Response Via ATR WP4016",
+                "Androgen Receptor Signaling WP138",
+                "RIOK1 And RIOK2 In EGFR And PI3K Mediated Tumorigenesis WP3873",
+                "TP53 Network WP1742",
+                "miRNA Regulation Of P53 Pathway In Prostate Cancer WP3982"
+            ]
+        },
+        "Renal_cell_carcinoma": {
+            "cluster": 20,
+            "pathways": [
+                "Type 2 Papillary Renal Cell Carcinoma WP4241",
+                "Clear Cell Renal Cell Carcinoma Pathways WP4018",
+                "Warburg Effect Mod By Deubiquitinating Enzymes And Substrates WP5216",
+                "Gamma Glutamyl Cycle For Glutathione Including Diseases WP4518",
+                "Amino Acid Metabolism In Triple Negative Breast Cancer Cells WP5213",
+                "MET In Type 1 Papillary Renal Cell Carcinoma WP4205",
+                "Head And Neck Squamous Cell Carcinoma WP4674",
+                "EGFR Tyrosine Kinase Inhibitor Resistance WP4806",
+                "Transcriptional Activation By NRF2 In Response To Phytochemicals WP3",
+                "Cancer Pathways WP5434",
+                "Amplification And Expansion Of Oncogenic Pathways WP3678",
+                "Macrophage Stimulating Protein MSP Signaling WP5353",
+                "Glutathione Metabolism WP100",
+                "Autophagy In Pancreatic Ductal Adenocarcinoma WP5331",
+                "Gastrin Signaling WP4659"
+            ]
+        },
+        "Non-small_cell_lung_cancer": {
+            "cluster": 11,
+            "pathways": [
+                "Non Small Cell Lung Cancer WP4255",
+                "Bladder Cancer WP2828",
+                "Glioblastoma Signaling WP2261",
+                "Pancreatic Adenocarcinoma Pathway WP4263",
+                "Cancer Pathways WP5434",
+                "Head And Neck Squamous Cell Carcinoma WP4674",
+                "ErbB Signaling WP673",
+                "Endometrial Cancer WP4155",
+                "EGFR Tyrosine Kinase Inhibitor Resistance WP4806",
+                "RAC1 PAK1 P38 MMP2 Pathway WP3303",
+                "Melanoma WP4685",
+                "Breast Cancer Pathway WP4262",
+                "Relationship Between Inflammation COX 2 And EGFR WP4483",
+                "Focal Adhesion WP306",
+                "DNA Damage Response Only ATM Dependent WP710"
+            ]
+        },
+        "Measles": {
+            "cluster": 4,
+            "pathways": [
+                "Measles Virus Infection WP4630",
+                "Allograft Rejection WP2328",
+                "Overview Of Proinflammatory And Profibrotic Mediators WP5095",
+                "Cytokines And Inflammatory Response WP530",
+                "Immune Infiltration In Pancreatic Cancer WP5285",
+                "T Cell Modulation In Pancreatic Cancer WP5078",
+                "Extrafollicular And Follicular B Cell Activation By SARS CoV 2 WP5218",
+                "Complement System WP2806",
+                "Toll Like Receptor Signaling WP75",
+                "Acute Viral Myocarditis WP4298",
+                "Neuroinflammation And Glutamatergic Signaling WP5083",
+                "IL10 Anti Inflammatory Signaling WP4495",
+                "Network Map Of SARS CoV 2 Signaling WP5115",
+                "Control Of Immune Tolerance By Vasoactive Intestinal Peptide WP4484",
+                "LDL Influence On CD14 And TLR4 WP5272"
+            ]
+        },
+        "Cushing_syndrome": {
+            "cluster": 18,
+            "pathways": [
+                "Prostaglandin Synthesis And Regulation WP98",
+                "Mineralocorticoid Biosynthesis WP5279",
+                "Glucocorticoid Biosynthesis WP5280",
+                "Corticotropin Releasing Hormone Signaling WP2355",
+                "Thyroid Hormones And Peripheral Downstream Signaling Effects WP4746",
+                "Classcl Pathway Steroidogenesis W Glucocort Mineralocort Metab WP4523",
+                "Serotonin And Anxiety WP3947",
+                "ACE Inhibitor Pathway WP554",
+                "Mammary Gland Development Pregnancy And Lactation Stage 3 Of 4 WP2817",
+                "Renin Angiotensin Aldosterone System RAAS WP4756",
+                "Peptide GPCRs WP24",
+                "Hormonal Control Of Pubertal Growth Spurt WP4194",
+                "Conversion Of Angiotensinogen To Angiotensin II WP4818",
+                "EV Release From Cardiac Cells And Their Functional Effects WP3297",
+                "SARS CoV 2 And ACE2 Receptor Molecular Mechanisms WP4883"
+            ]
+        },
+        "Vibrio_cholerae_infection": {
+            "cluster": 7,
+            "pathways": [
+                "Disorders Of Bile Acid Synthesis And Biliary Transport WP5176",
+                "Cholestasis WP5238",
+                "Pathogenesis Of SARS CoV 2 Mediated By Nsp9 Nsp10 Complex WP4884",
+                "Cytokines And Inflammatory Response WP530",
+                "IL26 Signaling WP5347",
+                "Hematopoietic SC Differentiation WP2849",
+                "Extrafollicular And Follicular B Cell Activation By SARS CoV 2 WP5218",
+                "Non Genomic Actions Of 1 25 Dihydroxyvitamin D3 WP4341",
+                "Lung Pathology Of COVID 19 WP5146",
+                "Vitamin D In Inflammatory Diseases WP4482",
+                "Transcription Factor Regulation In Adipogenesis WP3599",
+                "Post COVID Neuroinflammation WP5485",
+                "Cancer Immunotherapy By PD 1 Blockade WP4585",
+                "LDL Influence On CD14 And TLR4 WP5272",
+                "SARS CoV 2 Mt Chronic Ox Stress And Endothelial Dysfunction WP5183"
+            ]
+        },
+        "Glioma": {
+            "cluster": 10,
+            "pathways": [
+                "2Q37 Copy Number Variation Syndrome WP5224",
+                "Burn Wound Healing WP5055",
+                "Cancer Pathways WP5434",
+                "Bladder Cancer WP2828",
+                "Endometrial Cancer WP4155",
+                "Non Small Cell Lung Cancer WP4255",
+                "EGFR Tyrosine Kinase Inhibitor Resistance WP4806",
+                "Pancreatic Adenocarcinoma Pathway WP4263",
+                "VEGFA VEGFR2 Signaling WP3888",
+                "Effect Of Omega 3 PUFA On Huntington 39 S Disease Pathways WP5470",
+                "Breast Cancer Pathway WP4262",
+                "Photodynamic Therapy Induced AP 1 Survival Signaling WP3611",
+                "11P11 2 Copy Number Variation Syndrome WP5348",
+                "Pleural Mesothelioma WP5087",
+                "Head And Neck Squamous Cell Carcinoma WP4674"
+            ]
+        },
+        "Type_I_diabetes_mellitus": {
+            "cluster": 3,
+            "pathways": [
+                "Allograft Rejection WP2328",
+                "Control Of Immune Tolerance By Vasoactive Intestinal Peptide WP4484",
+                "FOXP3 In COVID 19 WP5063",
+                "Interactions Immune Cells And miRNAs In Tumor Microenvironment WP4559",
+                "Inflammatory Response Pathway WP453",
+                "T Cell Modulation In Pancreatic Cancer WP5078",
+                "Cancer Immunotherapy By CTLA4 Blockade WP4582",
+                "T Cell Activation SARS CoV 2 WP5098",
+                "Cell Interactions Of The Pancreatic Cancer Microenvironment WP5284",
+                "T Cell Receptor And Co Stimulatory Signaling WP2583",
+                "T Cell Antigen Receptor TCR Pathway During Staph A. Infection WP3863",
+                "COVID 19 Adverse Outcome Pathway WP4891",
+                "Genes Associated With The Development Of Rheumatoid Arthritis WP5033",
+                "Roles Of Ceramides In Development Of Insulin Resistance WP5181",
+                "PI3K AKT mTOR Vitamin D3 Signaling WP4141"
+            ]
+        },
+        "Arrhythmogenic_right_ventricular_cardiomyopathy": {
+            "cluster": 13,
+            "pathways": [
+                "Arrhythmogenic Right Ventricular Cardiomyopathy WP2118",
+                "Epithelial To Mesenchymal Transition In Colorectal Cancer WP4239",
+                "Striated Muscle Contraction Pathway WP383",
+                "Envelope Proteins And Potential Roles In EDMD Physiopathology WP4535",
+                "Cardiac Progenitor Differentiation WP2406",
+                "Cancer Pathways WP5434",
+                "Cell Type Dependent Selectivity Of CCK2R Signaling WP3679",
+                "SRF And miRs In Smooth Muscle Differentiation And Proliferation WP1991",
+                "NPHP1 Deletion Syndrome WP5399",
+                "Sudden Infant Death Syndrome SIDS Susceptibility Pathways WP706",
+                "Primary Ovarian Insufficiency WP5316",
+                "Calcium Regulation In Cardiac Cells WP536",
+                "Primary Ovarian Insufficiency WP5461",
+                "Hypothetical Craniofacial Development Pathway WP3655",
+                "CCL18 Signaling WP5097"
+            ]
+        },
+        "Allograft_rejection": {
+            "cluster": 2,
+            "pathways": [
+                "Inflammatory Bowel Disease Signaling WP5198",
+                "Ulcerative Colitis Signaling WP5174",
+                "Th17 Cell Differentiation Pathway WP5130",
+                "Allograft Rejection WP2328",
+                "Cytokines And Inflammatory Response WP530",
+                "Overview Of Proinflammatory And Profibrotic Mediators WP5095",
+                "T Cell Modulation In Pancreatic Cancer WP5078",
+                "T Cell Antigen Receptor TCR Pathway During Staph A. Infection WP3863",
+                "SARS CoV 2 Innate Immunity Evasion And Cell Immune Response WP5039",
+                "Peptide GPCRs WP24",
+                "Extrafollicular And Follicular B Cell Activation By SARS CoV 2 WP5218",
+                "Affected Pathways In Duchenne Muscular Dystrophy WP5356",
+                "Control Of Immune Tolerance By Vasoactive Intestinal Peptide WP4484",
+                "Acute Viral Myocarditis WP4298",
+                "COVID 19 Adverse Outcome Pathway WP4891"
+            ]
+        },
+        "Spinocerebellar_ataxia": {
+            "cluster": 16,
+            "pathways": [
+                "PKC Gamma Calcium Signaling In Ataxia WP4760",
+                "Calcium Regulation In Cardiac Cells WP536",
+                "MAPK Signaling WP382",
+                "G Protein Signaling WP35",
+                "HDAC6 Interactions In The Central Nervous System WP5426",
+                "Linoleic Acid Metabolism Affected By SARS CoV 2 WP4853",
+                "Kisspeptin Kisspeptin Receptor System In The Ovary WP4871",
+                "Ovarian Infertility WP34",
+                "Common Pathways Underlying Drug Addiction WP2636",
+                "DNA Replication WP466",
+                "Eukaryotic Transcription Initiation WP405",
+                "Cholesterol Biosynthesis Pathway In Hepatocytes WP5329",
+                "15Q25 Copy Number Variation WP5408",
+                "Nucleotide Excision Repair WP4753",
+                "Parkinson 39 S Disease Pathway WP2371"
+            ]
+        },
+        "Leishmaniasis": {
+            "cluster": 3,
+            "pathways": [
+                "Allograft Rejection WP2328",
+                "Cytokines And Inflammatory Response WP530",
+                "Immune Infiltration In Pancreatic Cancer WP5285",
+                "Post COVID Neuroinflammation WP5485",
+                "T Cell Antigen Receptor TCR Pathway During Staph A. Infection WP3863",
+                "Extrafollicular And Follicular B Cell Activation By SARS CoV 2 WP5218",
+                "Acute Viral Myocarditis WP4298",
+                "T Cell Activation SARS CoV 2 WP5098",
+                "Inflammatory Bowel Disease Signaling WP5198",
+                "Overview Of Proinflammatory And Profibrotic Mediators WP5095",
+                "Selective Expression Of Chemokine Receptors T Cell Polarization WP4494",
+                "Development And Heterogeneity Of The ILC Family WP3893",
+                "Control Of Immune Tolerance By Vasoactive Intestinal Peptide WP4484",
+                "Spinal Cord Injury WP2431",
+                "Ulcerative Colitis Signaling WP5174"
+            ]
+        },
+        "Tuberculosis": {
+            "cluster": 6,
+            "pathways": [
+                "Cytokines And Inflammatory Response WP530",
+                "COVID 19 Adverse Outcome Pathway WP4891",
+                "Post COVID Neuroinflammation WP5485",
+                "Overview Of Proinflammatory And Profibrotic Mediators WP5095",
+                "Immune Infiltration In Pancreatic Cancer WP5285",
+                "Network Map Of SARS CoV 2 Signaling WP5115",
+                "Prostaglandin Signaling WP5088",
+                "Acute Viral Myocarditis WP4298",
+                "Photodynamic Therapy Induced NF kB Survival Signaling WP3617",
+                "Inflammatory Bowel Disease Signaling WP5198",
+                "IL26 Signaling WP5347",
+                "Spinal Cord Injury WP2431",
+                "Cytokine Cytokine Receptor Interaction WP5473",
+                "T Cell Antigen Receptor TCR Pathway During Staph A. Infection WP3863",
+                "Lung Pathology Of COVID 19 WP5146"
+            ]
+        },
+        "Diabetic_cardiomyopathy": {
+            "cluster": 15,
+            "pathways": [
+                "Nonalcoholic Fatty Liver Disease WP4396",
+                "Effect Of Omega 3 PUFA On Huntington 39 S Disease Pathways WP5470",
+                "Angiopoietin Like Protein 8 Regulatory Pathway WP3915",
+                "Pleural Mesothelioma WP5087",
+                "AGE RAGE Pathway WP2324",
+                "Transcription Factors Regulate miRNAs Cardiac Hypertrophy WP1559",
+                "Macrophage Stimulating Protein MSP Signaling WP5353",
+                "Energy Metabolism WP1541",
+                "Adipogenesis WP236",
+                "Nuclear Receptors Meta Pathway WP2882",
+                "AMP Activated Protein Kinase Signaling WP1403",
+                "Sterol Regulatory Element Binding Proteins SREBP Signaling WP1982",
+                "Leptin Signaling WP2034",
+                "Head And Neck Squamous Cell Carcinoma WP4674",
+                "Roles Of Ceramides In Development Of Insulin Resistance WP5181"
+            ]
+        },
+        "Chronic_myeloid_leukemia": {
+            "cluster": 19,
+            "pathways": [
+                "Cancer Pathways WP5434",
+                "Pleural Mesothelioma WP5087",
+                "Physico Chemical Features And Toxicity Associated Pathways WP3680",
+                "RAC1 PAK1 P38 MMP2 Pathway WP3303",
+                "Prolactin Signaling WP2037",
+                "EPO Receptor Signaling WP581",
+                "ErbB Signaling WP673",
+                "DNA Damage Response Only ATM Dependent WP710",
+                "Hepatitis B Infection WP4666",
+                "miRNAs Involved In DNA Damage Response WP1545",
+                "TP53 Network WP1742",
+                "Imatinib And Chronic Myeloid Leukemia WP3640",
+                "Macrophage Stimulating Protein MSP Signaling WP5353",
+                "Gastric Cancer Network 2 WP2363",
+                "Gastrin Signaling WP4659"
+            ]
+        },
+        "Acute_myeloid_leukemia": {
+            "cluster": 19,
+            "pathways": [
+                "Acute Myeloid Leukemia WP5293",
+                "Cytosine Methylation WP3585",
+                "Pleural Mesothelioma WP5087",
+                "Cancer Pathways WP5434",
+                "Hematopoietic SC Gene Regulation By GABP Alpha Beta Complex WP3657",
+                "Autophagy In Pancreatic Ductal Adenocarcinoma WP5331",
+                "PI3K Akt Signaling WP4172",
+                "miRNA Regulation Of Prostate Cancer Signaling WP3981",
+                "Neovascularization Processes WP4331",
+                "Ras Signaling WP4223",
+                "ATM Signaling In Development And Disease WP3878",
+                "Hepatitis C And Hepatocellular Carcinoma WP3646",
+                "IL4 Signaling WP395",
+                "Th17 Cell Differentiation Pathway WP5130",
+                "Folate Metabolism WP176"
+            ]
+        },
+        "Primary_immunodeficiency": {
+            "cluster": 8,
+            "pathways": [
+                "T Cell Antigen Receptor TCR Pathway During Staph A. Infection WP3863",
+                "T Cell Activation SARS CoV 2 WP5098",
+                "Chemokine Signaling WP3929",
+                "Th17 Cell Differentiation Pathway WP5130",
+                "T Cell Receptor Signaling WP69",
+                "Acute Viral Myocarditis WP4298",
+                "Cancer Immunotherapy By PD 1 Blockade WP4585",
+                "IL19 Signaling WP5422",
+                "T Cell Receptor And Co Stimulatory Signaling WP2583",
+                "Selective Expression Of Chemokine Receptors T Cell Polarization WP4494",
+                "Thymic Stromal Lymphopoietin TSLP Signaling WP2203",
+                "Inflammatory Bowel Disease Signaling WP5198",
+                "IL4 Signaling WP395",
+                "TGF Beta Receptor Signaling WP560",
+                "TGF Beta Receptor Signaling In Skeletal Dysplasias WP4816"
+            ]
+        },
+        "Hepatitis_C": {
+            "cluster": 14,
+            "pathways": [
+                "Metabolic Pathway Of LDL HDL And TG Including Diseases WP4522",
+                "Statin Inhibition Of Cholesterol Production WP430",
+                "Lipid Particles Composition WP3601",
+                "Familial Hyperlipidemia Type 3 WP5110",
+                "Cholesterol Metabolism WP5304",
+                "Fatty Acids And Lipoproteins Transport In Hepatocytes WP5323",
+                "Vitamin B12 Metabolism WP1533",
+                "Familial Hyperlipidemia Type 2 WP5109",
+                "Hepatitis C And Hepatocellular Carcinoma WP3646",
+                "Sterol Regulatory Element Binding Proteins SREBP Signaling WP1982",
+                "Folate Metabolism WP176",
+                "Neuroinflammation WP4919",
+                "Selenium Micronutrient Network WP15",
+                "Familial Hyperlipidemia Type 5 WP5112",
+                "Alzheimer 39 S Disease WP5124"
+            ]
+        },
+        "Hypertrophic_cardiomyopathy": {
+            "cluster": 13,
+            "pathways": [
+                "Striated Muscle Contraction Pathway WP383",
+                "Cardiac Progenitor Differentiation WP2406",
+                "MFAP5 Effect On Permeability And Motility Of Endothelial Cells WP4560",
+                "Focal Adhesion WP306",
+                "Urotensin II Mediated Signaling WP5158",
+                "22Q11 2 Copy Number Variation Syndrome WP4657",
+                "Regulation Of Actin Cytoskeleton WP51",
+                "Myometrial Relaxation And Contraction Pathways WP289",
+                "PtdIns 4 5 P2 In Cytokinesis Pathway WP5199",
+                "MFAP5 Mediated Ovarian Cancer Cell Motility And Invasiveness WP3301",
+                "Mammary Gland Development Pathway Puberty Stage 2 Of 4 WP2814",
+                "PGK1 PKM2 KHKC KHKA Acting As Protein Kinases WP5433",
+                "16P11 2 Distal Deletion Syndrome WP4950",
+                "Matrix Metalloproteinases WP129",
+                "Lipid Metabolism Pathway WP3965"
+            ]
+        },
+        "Basal_cell_carcinoma": {
+            "cluster": 17,
+            "pathways": [
+                "Hedgehog Signaling WP47",
+                "Hedgehog Signaling WP4249",
+                "Hair Follicle Development Organogenesis Part 2 Of 3 WP2839",
+                "EDA Signaling In Hair Follicle Development WP3930",
+                "Development Of Ureteric Derived Collecting System WP5053",
+                "Cancer Pathways WP5434",
+                "Tumor Suppressor Activity Of SMARCB1 WP4204",
+                "Leukocyte Intrinsic Hippo Pathway Functions WP4542",
+                "TGF Beta Signaling Pathway WP366",
+                "DNA IR Double Strand Breaks And Cellular Response Via ATM WP3959",
+                "Bardet Biedl Syndrome WP5234",
+                "Hippo YAP Signaling WP4537",
+                "Dopaminergic Neurogenesis WP2855",
+                "Alstrom Syndrome WP5202",
+                "Pleural Mesothelioma WP5087"
+            ]
+        },
+        "Alcoholic_liver_disease": {
+            "cluster": 15,
+            "pathways": [
+                "Post COVID Neuroinflammation WP5485",
+                "Nonalcoholic Fatty Liver Disease WP4396",
+                "SREBF And miR33 In Cholesterol And Lipid Homeostasis WP2011",
+                "Burn Wound Healing WP5055",
+                "LTF Danger Signal Response Pathway WP4478",
+                "TLR4 Signaling And Tolerance WP3851",
+                "Antiviral And Anti-Inflam Effects Of Nrf2 On SARS CoV 2 Pathway WP5113",
+                "CAMKK2 Pathway WP4874",
+                "miRNA Role In Immune Response In Sepsis WP4329",
+                "Adipogenesis WP236",
+                "Smith Magenis And Potocki Lupski Syndrome Copy Number Variation WP5381",
+                "Energy Metabolism WP1541",
+                "Lung Fibrosis WP3624",
+                "Ethanol Metabolism Production Of ROS By CYP2E1 WP4269",
+                "Sterol Regulatory Element Binding Proteins SREBP Signaling WP1982"
+            ]
+        },
+        "Hepatocellular_carcinoma": {
+            "cluster": 20,
+            "pathways": [
+                "Extracellular Vesicle Mediated Signaling In Recipient Cells WP2870",
+                "EGFR Tyrosine Kinase Inhibitor Resistance WP4806",
+                "RIOK1 And RIOK2 In EGFR And PI3K Mediated Tumorigenesis WP3873",
+                "NRP1 Triggered Signaling In Pancreatic Cancer WP5144",
+                "Pleural Mesothelioma WP5087",
+                "Head And Neck Squamous Cell Carcinoma WP4674",
+                "Cancer Pathways WP5434",
+                "PI3K Akt Signaling WP4172",
+                "Pancreatic Adenocarcinoma Pathway WP4263",
+                "Focal Adhesion WP306",
+                "Caloric Restriction And Aging WP4191",
+                "Gastrin Signaling WP4659",
+                "Focal Adhesion PI3K Akt mTOR Signaling WP3932",
+                "Burn Wound Healing WP5055",
+                "Glioblastoma Signaling WP2261"
+            ]
+        },
+        "Human_T-cell_leukemia_virus_1_infection": {
+            "cluster": 1,
+            "pathways": [
+                "Ca Mediated T Cell Apoptosis Inclusion Body Myositis WP5142",
+                "Initiation Of Transcription And Translation Elongation HIV1 LTR WP3414",
+                "TGF Beta Receptor Signaling WP560",
+                "TGF Beta Receptor Signaling In Skeletal Dysplasias WP4816",
+                "T Cell Antigen Receptor TCR Pathway During Staph A. Infection WP3863",
+                "Th17 Cell Differentiation Pathway WP5130",
+                "Urotensin II Mediated Signaling WP5158",
+                "T Cell Receptor Signaling WP69",
+                "T Cell Activation SARS CoV 2 WP5098",
+                "Hematopoietic SC Gene Regulation By GABP Alpha Beta Complex WP3657",
+                "15Q13 3 Copy Number Variation Syndrome WP4942",
+                "Pathogenesis Of SARS CoV 2 Mediated By Nsp9 Nsp10 Complex WP4884",
+                "DNA Mismatch Repair WP531",
+                "Cancer Immunotherapy By PD 1 Blockade WP4585",
+                "Ebola Virus Infection In Host WP4217"
+            ]
+        },
+        "African_trypanosomiasis": {
+            "cluster": 2,
+            "pathways": [
+                "Ulcerative Colitis Signaling WP5174",
+                "Extrafollicular And Follicular B Cell Activation By SARS CoV 2 WP5218",
+                "Inflammatory Bowel Disease Signaling WP5198",
+                "Vitamin B12 Metabolism WP1533",
+                "T Cell Antigen Receptor TCR Pathway During Staph A. Infection WP3863",
+                "Folate Metabolism WP176",
+                "Induction Of Autophagy And TLR Signaling By Graphene Oxide WP5336",
+                "IDO Metabolic Pathway WP5414",
+                "Acute Viral Myocarditis WP4298",
+                "Selenium Micronutrient Network WP15",
+                "T Cell Activation SARS CoV 2 WP5098",
+                "Allograft Rejection WP2328",
+                "Network Map Of SARS CoV 2 Signaling WP5115",
+                "Overview Of Nanoparticle Effects WP3287",
+                "Post COVID Neuroinflammation WP5485"
+            ]
+        },
+        "Coronavirus_disease_-_COVID-19": {
+            "cluster": 1,
+            "pathways": [
+                "Pathogenesis Of SARS CoV 2 Mediated By Nsp9 Nsp10 Complex WP4884",
+                "Post COVID Neuroinflammation WP5485",
+                "Antiviral And Anti-Inflam Effects Of Nrf2 On SARS CoV 2 Pathway WP5113",
+                "SARS CoV 2 And COVID 19 Pathway WP4846",
+                "Network Map Of SARS CoV 2 Signaling WP5115",
+                "COVID 19 Adverse Outcome Pathway WP4891",
+                "SARS CoV 2 Altering Angiogenesis Via NRP1 WP5065",
+                "SARS CoV 2 And ACE2 Receptor Molecular Mechanisms WP4883",
+                "Altered Glycosylation Of MUC1 In Tumor Microenvironment WP4480",
+                "Modulators Of TCR Signaling And T Cell Activation WP5072",
+                "T Cell Antigen Receptor TCR Pathway During Staph A. Infection WP3863",
+                "Extrafollicular And Follicular B Cell Activation By SARS CoV 2 WP5218",
+                "T Cell Receptor Signaling WP69",
+                "Galanin Receptor Pathway WP4970",
+                "Overview Of Nanoparticle Effects WP3287"
+            ]
+        },
+        "Epithelial_cell_signaling_in_Helicobacter_pylori_infection": {
+            "cluster": 22,
+            "pathways": [
+                "IL26 Signaling WP5347",
+                "Gastrin Signaling WP4659",
+                "IL19 Signaling WP5422",
+                "Resistin As A Regulator Of Inflammation WP4481",
+                "Toll Like Receptor Signaling WP75",
+                "Macrophage Stimulating Protein MSP Signaling WP5353",
+                "Hepatitis C And Hepatocellular Carcinoma WP3646",
+                "GNAQ Pathways In Port Wine Stain WP5437",
+                "Urotensin II Mediated Signaling WP5158",
+                "Hepatitis B Infection WP4666",
+                "RAC1 PAK1 P38 MMP2 Pathway WP3303",
+                "Cancer Pathways WP5434",
+                "MicroRNAs In Cardiomyocyte Hypertrophy WP1544",
+                "Acute Viral Myocarditis WP4298",
+                "TNF Alpha Signaling WP231"
+            ]
+        },
+        "Alcoholism": {
+            "cluster": 16,
+            "pathways": [
+                "Nicotine Effect On Dopaminergic Neurons WP1602",
+                "Circadian Rhythm Genes WP3594",
+                "Monoamine GPCRs WP58",
+                "Common Pathways Underlying Drug Addiction WP2636",
+                "ADHD And Autism ASD Pathways WP5420",
+                "Selenium Micronutrient Network WP15",
+                "NRF2 Pathway WP2884",
+                "Sudden Infant Death Syndrome SIDS Susceptibility Pathways WP706",
+                "Gamma Glutamyl Cycle For Glutathione Including Diseases WP4518",
+                "GPCRs Class A Rhodopsin Like WP455",
+                "Serotonin Transporter Activity WP1455",
+                "Nuclear Receptors Meta Pathway WP2882",
+                "6Q16 Copy Number Variation WP5400",
+                "Leukotriene Metabolic Pathway WP5171",
+                "Involvement Of Secretase In Neurodegenerative Diseases WP5372"
+            ]
+        },
+        "Chagas_disease": {
+            "cluster": 3,
+            "pathways": [
+                "Allograft Rejection WP2328",
+                "T Cell Antigen Receptor TCR Pathway During Staph A. Infection WP3863",
+                "Cytokines And Inflammatory Response WP530",
+                "Interactions Of Natural Killer Cells In Pancreatic Cancer WP5092",
+                "Network Map Of SARS CoV 2 Signaling WP5115",
+                "Acute Viral Myocarditis WP4298",
+                "T Cell Activation SARS CoV 2 WP5098",
+                "Pathogenesis Of SARS CoV 2 Mediated By Nsp9 Nsp10 Complex WP4884",
+                "Cancer Immunotherapy By PD 1 Blockade WP4585",
+                "Selective Expression Of Chemokine Receptors T Cell Polarization WP4494",
+                "Vitamin B12 Metabolism WP1533",
+                "Control Of Immune Tolerance By Vasoactive Intestinal Peptide WP4484",
+                "Ulcerative Colitis Signaling WP5174",
+                "Extrafollicular And Follicular B Cell Activation By SARS CoV 2 WP5218",
+                "Post COVID Neuroinflammation WP5485"
+            ]
+        },
+        "Inflammatory_bowel_disease": {
+            "cluster": 2,
+            "pathways": [
+                "Inflammatory Bowel Disease Signaling WP5198",
+                "Cytokine Cytokine Receptor Interaction WP5473",
+                "Ulcerative Colitis Signaling WP5174",
+                "MYD88 Distinct Input Output Pathway WP3877",
+                "Extrafollicular And Follicular B Cell Activation By SARS CoV 2 WP5218",
+                "LTF Danger Signal Response Pathway WP4478",
+                "Non Genomic Actions Of 1 25 Dihydroxyvitamin D3 WP4341",
+                "Acute Viral Myocarditis WP4298",
+                "T Cell Activation SARS CoV 2 WP5098",
+                "Toll Like Receptor Signaling WP75",
+                "Toll Like Receptor Signaling Related To MyD88 WP3858",
+                "ApoE And miR 146 In Inflammation And Atherosclerosis WP3926",
+                "Induction Of Autophagy And TLR Signaling By Graphene Oxide WP5336",
+                "IL10 Anti Inflammatory Signaling WP4495",
+                "8Q11 23 RB1CC1 Copy Number Variation WP5412"
+            ]
+        },
+        "Melanoma": {
+            "cluster": 11,
+            "pathways": [
+                "Melanoma WP4685",
+                "Glioblastoma Signaling WP2261",
+                "Non Small Cell Lung Cancer WP4255",
+                "Bladder Cancer WP2828",
+                "T Cell Modulation In Pancreatic Cancer WP5078",
+                "Cancer Pathways WP5434",
+                "T Cell Antigen Receptor TCR Pathway During Staph A. Infection WP3863",
+                "Head And Neck Squamous Cell Carcinoma WP4674",
+                "Interactions Immune Cells And miRNAs In Tumor Microenvironment WP4559",
+                "Pleural Mesothelioma WP5087",
+                "MAPK Cascade WP422",
+                "Hepatitis B Infection WP4666",
+                "Pilocytic Astrocytoma WP2253",
+                "Breast Cancer Pathway WP4262",
+                "Acute Myeloid Leukemia WP5293"
+            ]
+        },
+        "Viral_myocarditis": {
+            "cluster": 20,
+            "pathways": [
+                "Network Map Of SARS CoV 2 Signaling WP5115",
+                "EGFR Tyrosine Kinase Inhibitor Resistance WP4806",
+                "Relevant Molecular Pathways And Targeted Agents In TNBC WP5215",
+                "Toll Like Receptor Signaling WP75",
+                "Fibrin Complement Receptor 3 Signaling WP4136",
+                "Translation Inhibitors In Chronically Activated PDGFRA Cells WP4566",
+                "Macrophage Stimulating Protein MSP Signaling WP5353",
+                "Synaptic Signaling Associated With Autism Spectrum Disorder WP4539",
+                "Effect Of Omega 3 PUFA On Huntington 39 S Disease Pathways WP5470",
+                "LTF Danger Signal Response Pathway WP4478",
+                "AMP Activated Protein Kinase Signaling WP1403",
+                "Acute Myeloid Leukemia WP5293",
+                "Hepatitis B Infection WP4666",
+                "Follicle Stimulating Hormone FSH Signaling WP2035",
+                "Burn Wound Healing WP5055"
+            ]
+        },
+        "Small_cell_lung_cancer": {
+            "cluster": 9,
+            "pathways": [
+                "Breast Cancer Pathway WP4262",
+                "Bladder Cancer WP2828",
+                "RAC1 PAK1 P38 MMP2 Pathway WP3303",
+                "Head And Neck Squamous Cell Carcinoma WP4674",
+                "TP53 Network WP1742",
+                "Cancer Immunotherapy By PD 1 Blockade WP4585",
+                "Gastric Cancer Network 2 WP2363",
+                "Tumor Suppressor Activity Of SMARCB1 WP4204",
+                "Androgen Receptor Network In Prostate Cancer WP2263",
+                "Hair Follicle Development Organogenesis Part 2 Of 3 WP2839",
+                "Spinal Cord Injury WP2431",
+                "Effect Of Progerin On Genes Involved In Progeria WP4320",
+                "Cancer Pathways WP5434",
+                "2Q37 Copy Number Variation Syndrome WP5224",
+                "Integrated Cancer Pathway WP1971"
+            ]
+        },
+        "Breast_cancer": {
+            "cluster": 9,
+            "pathways": [
+                "Pathways Affected In Adenoid Cystic Carcinoma WP3651",
+                "Breast Cancer Pathway WP4262",
+                "Glioblastoma Signaling WP2261",
+                "Androgen Receptor Network In Prostate Cancer WP2263",
+                "Mammary Gland Development Pathway Puberty Stage 2 Of 4 WP2814",
+                "Pancreatic Adenocarcinoma Pathway WP4263",
+                "ErbB Signaling WP673",
+                "Mammary Gland Development Pregnancy And Lactation Stage 3 Of 4 WP2817",
+                "Nuclear Receptors WP170",
+                "DNA IR Double Strand Breaks And Cellular Response Via ATM WP3959",
+                "Endometrial Cancer WP4155",
+                "RAC1 PAK1 P38 MMP2 Pathway WP3303",
+                "Non Small Cell Lung Cancer WP4255",
+                "Head And Neck Squamous Cell Carcinoma WP4674",
+                "DNA IR Damage And Cellular Response Via ATR WP4016"
+            ]
+        },
+        "Maturity_onset_diabetes_of_the_young": {
+            "cluster": 18,
+            "pathways": [
+                "GLP 1 In Pancreatic Islet Cells WP5447",
+                "Markers Of Kidney Cell Lineage WP5236",
+                "Cori Cycle WP1946",
+                "Type II Diabetes Mellitus WP1584",
+                "Dopaminergic Neurogenesis WP2855",
+                "Glycolysis And Gluconeogenesis WP534",
+                "8P23 1 Copy Number Variation Syndrome WP5346",
+                "Metabolic Epileptic Disorders WP5355",
+                "B Cell Receptor Signaling WP23",
+                "GLP 1 Secretion From Intestine To Portal Vein WP5446",
+                "GLP 1 From Intestine And Pancreas Role In Glucose Homeostasis WP5452",
+                "Adipogenesis WP236",
+                "Cell Lineage Map For Neuronal Differentiation WP5417",
+                "Congenital Generalized Lipodystrophy WP5101",
+                "Genes Associated With The Development Of Rheumatoid Arthritis WP5033"
+            ]
+        },
+        "Pancreatic_cancer": {
+            "cluster": 11,
+            "pathways": [
+                "Pancreatic Adenocarcinoma Pathway WP4263",
+                "Head And Neck Squamous Cell Carcinoma WP4674",
+                "IL19 Signaling WP5422",
+                "Glioblastoma Signaling WP2261",
+                "Cancer Pathways WP5434",
+                "Gastrin Signaling WP4659",
+                "Hepatitis C And Hepatocellular Carcinoma WP3646",
+                "DNA IR Double Strand Breaks And Cellular Response Via ATM WP3959",
+                "Breast Cancer Pathway WP4262",
+                "RAC1 PAK1 P38 MMP2 Pathway WP3303",
+                "Non Small Cell Lung Cancer WP4255",
+                "Autophagy In Pancreatic Ductal Adenocarcinoma WP5331",
+                "Extracellular Vesicle Mediated Signaling In Recipient Cells WP2870",
+                "miRNA Regulation Of Prostate Cancer Signaling WP3981",
+                "Androgen Receptor Network In Prostate Cancer WP2263"
+            ]
+        },
+        "Rheumatoid_arthritis": {
+            "cluster": 4,
+            "pathways": [
+                "Overview Of Proinflammatory And Profibrotic Mediators WP5095",
+                "Allograft Rejection WP2328",
+                "Prostaglandin Signaling WP5088",
+                "Cytokine Cytokine Receptor Interaction WP5473",
+                "Cytokines And Inflammatory Response WP530",
+                "Network Map Of SARS CoV 2 Signaling WP5115",
+                "LTF Danger Signal Response Pathway WP4478",
+                "Burn Wound Healing WP5055",
+                "Chemokine Signaling WP3929",
+                "RAS And Bradykinin Pathways In COVID 19 WP4969",
+                "Development And Heterogeneity Of The ILC Family WP3893",
+                "Signal Transduction Through IL1R WP4496",
+                "Photodynamic Therapy Induced NF kB Survival Signaling WP3617",
+                "Immune Infiltration In Pancreatic Cancer WP5285",
+                "Catabolism Of Skeletal Muscle In Cachexia WP5474"
+            ]
+        },
+        "Herpes_simplex_virus_1_infection": {
+            "cluster": 21,
+            "pathways": [
+                "Cytosolic DNA Sensing Pathway WP4655",
+                "Pathways Of Nucleic Acid Metabolism And Innate Immune Sensing WP4705",
+                "1P36 Copy Number Variation Syndrome WP5345",
+                "Lung Pathology Of COVID 19 WP5146",
+                "STING Pathway In Kawasaki Like Disease And COVID 19 WP4961",
+                "Mitochondrial Immune Response To SARS CoV 2 WP5038",
+                "Prostaglandin Signaling WP5088",
+                "Genes Controlling Nephrogenesis WP4823",
+                "Novel Intracellular Components Of RIG I Like Receptor Pathway WP3865",
+                "SARS CoV 2 Altering Angiogenesis Via NRP1 WP5065",
+                "Measles Virus Infection WP4630",
+                "ROS In COVID 19 Endothelial Dysfunction WP5258",
+                "Overview Of Proinflammatory And Profibrotic Mediators WP5095",
+                "miRNA Targeting Cancer Growth And Vascularization Glioblastoma WP3593",
+                "ROBO4 And VEGF Signaling Crosstalk WP3943"
+            ]
+        },
+        "Non-alcoholic_fatty_liver_disease": {
+            "cluster": 15,
+            "pathways": [
+                "Adipogenesis WP236",
+                "Nonalcoholic Fatty Liver Disease WP4396",
+                "Leptin And Adiponectin WP3934",
+                "Transcription Factor Regulation In Adipogenesis WP3599",
+                "AMP Activated Protein Kinase Signaling WP1403",
+                "Circadian Rhythm Genes WP3594",
+                "Sterol Regulatory Element Binding Proteins SREBP Signaling WP1982",
+                "Selenium Micronutrient Network WP15",
+                "6Q16 Copy Number Variation WP5400",
+                "Orexin Receptor Pathway WP5094",
+                "Leptin Insulin Signaling Overlap WP3935",
+                "Galanin Receptor Pathway WP4970",
+                "Cori Cycle WP1946",
+                "FOXA2 Pathway WP5066",
+                "Type II Diabetes Mellitus WP1584"
+            ]
+        },
+        "Amoebiasis": {
+            "cluster": 1,
+            "pathways": [
+                "Pathogenesis Of SARS CoV 2 Mediated By Nsp9 Nsp10 Complex WP4884",
+                "Ca Mediated T Cell Apoptosis Inclusion Body Myositis WP5142",
+                "Network Map Of SARS CoV 2 Signaling WP5115",
+                "T Cell Antigen Receptor TCR Pathway During Staph A. Infection WP3863",
+                "T Cell Receptor Signaling WP69",
+                "Selenium Micronutrient Network WP15",
+                "Galanin Receptor Pathway WP4970",
+                "Overview Of Nanoparticle Effects WP3287",
+                "T Cell Receptor And Co Stimulatory Signaling WP2583",
+                "Selective Expression Of Chemokine Receptors T Cell Polarization WP4494",
+                "Cancer Immunotherapy By PD 1 Blockade WP4585",
+                "Cytokines And Inflammatory Response WP530",
+                "IL6 Signaling WP364",
+                "Vitamin B12 Metabolism WP1533",
+                "11P11 2 Copy Number Variation Syndrome WP5348"
+            ]
+        },
+        "Alzheimer_disease": {
+            "cluster": 12,
+            "pathways": [
+                "Alzheimer 39 S Disease WP5124",
+                "Alzheimer 39 S Disease And miRNA Effects WP2059",
+                "Neurogenesis Regulation In The Olfactory Epithelium WP5265",
+                "Inclusion Body Myositis WP5120",
+                "DYRK1A Involvement Regarding Cell Prolif In Brain Development WP5180",
+                "Brain Derived Neurotrophic Factor BDNF Signaling WP2380",
+                "Involvement Of Secretase In Neurodegenerative Diseases WP5372",
+                "Leptin And Adiponectin WP3934",
+                "Pleural Mesothelioma WP5087",
+                "Synaptic Signaling Associated With Autism Spectrum Disorder WP4539",
+                "Copper Homeostasis WP3286",
+                "Notch Signaling WP61",
+                "6Q16 Copy Number Variation WP5400",
+                "Nonalcoholic Fatty Liver Disease WP4396",
+                "AMP Activated Protein Kinase Signaling WP1403"
+            ]
+        },
+        "Lipid_and_atherosclerosis": {
+            "cluster": 14,
+            "pathways": [
+                "Cholesterol Metabolism WP5304",
+                "Metabolic Pathway Of LDL HDL And TG Including Diseases WP4522",
+                "Vitamin B12 Metabolism WP1533",
+                "Lipid Particles Composition WP3601",
+                "Statin Inhibition Of Cholesterol Production WP430",
+                "Fatty Acids And Lipoproteins Transport In Hepatocytes WP5323",
+                "Selenium Micronutrient Network WP15",
+                "Folate Metabolism WP176",
+                "Familial Hyperlipidemia Type 2 WP5109",
+                "Familial Hyperlipidemia Type 3 WP5110",
+                "Lipid Metabolism In Senescent Cells WP5149",
+                "PPAR Alpha Pathway WP2878",
+                "Enterocyte Cholesterol Metabolism WP5333",
+                "PPAR Signaling WP3942",
+                "Female Steroid Hormones In Cardiomyocyte Energy Metabolism WP5318"
+            ]
+        }
+    },
+    "cluster_to_diseases": {
+        "9": [
+            "Endometrial_cancer",
+            "Prostate_cancer",
+            "Small_cell_lung_cancer",
+            "Breast_cancer"
+        ],
+        "21": [
+            "Shigellosis",
+            "Herpes_simplex_virus_1_infection"
+        ],
+        "11": [
+            "Bladder_cancer",
+            "Colorectal_cancer",
+            "Non-small_cell_lung_cancer",
+            "Melanoma",
+            "Pancreatic_cancer"
+        ],
+        "2": [
+            "Asthma",
+            "Allograft_rejection",
+            "African_trypanosomiasis",
+            "Inflammatory_bowel_disease"
+        ],
+        "22": [
+            "Pathogenic_Escherichia_coli_infection",
+            "Kaposi_sarcoma-associated_herpesvirus_infection",
+            "Epithelial_cell_signaling_in_Helicobacter_pylori_infection"
+        ],
+        "15": [
+            "Type_II_diabetes_mellitus",
+            "Diabetic_cardiomyopathy",
+            "Alcoholic_liver_disease",
+            "Non-alcoholic_fatty_liver_disease"
+        ],
+        "18": [
+            "Toxoplasmosis",
+            "Cushing_syndrome",
+            "Maturity_onset_diabetes_of_the_young"
+        ],
+        "17": [
+            "Yersinia_infection",
+            "Pertussis",
+            "Basal_cell_carcinoma"
+        ],
+        "6": [
+            "Human_cytomegalovirus_infection",
+            "Hepatitis_B",
+            "Tuberculosis"
+        ],
+        "1": [
+            "Epstein-Barr_virus_infection",
+            "Influenza_A",
+            "Malaria",
+            "Human_T-cell_leukemia_virus_1_infection",
+            "Coronavirus_disease_-_COVID-19",
+            "Amoebiasis"
+        ],
+        "16": [
+            "Amyotrophic_lateral_sclerosis",
+            "Spinocerebellar_ataxia",
+            "Alcoholism"
+        ],
+        "4": [
+            "Staphylococcus_aureus_infection",
+            "Measles",
+            "Rheumatoid_arthritis"
+        ],
+        "10": [
+            "Gastric_cancer",
+            "Glioma"
+        ],
+        "7": [
+            "Legionellosis",
+            "Vibrio_cholerae_infection"
+        ],
+        "8": [
+            "Human_immunodeficiency_virus_1_infection",
+            "Primary_immunodeficiency"
+        ],
+        "5": [
+            "Systemic_lupus_erythematosus",
+            "Salmonella_infection"
+        ],
+        "13": [
+            "Dilated_cardiomyopathy",
+            "Arrhythmogenic_right_ventricular_cardiomyopathy",
+            "Hypertrophic_cardiomyopathy"
+        ],
+        "19": [
+            "Thyroid_cancer",
+            "Chronic_myeloid_leukemia",
+            "Acute_myeloid_leukemia"
+        ],
+        "3": [
+            "Graft-versus-host_disease",
+            "Type_I_diabetes_mellitus",
+            "Leishmaniasis",
+            "Chagas_disease"
+        ],
+        "12": [
+            "Huntington_disease",
+            "Prion_disease",
+            "Parkinson_disease",
+            "Alzheimer_disease"
+        ],
+        "20": [
+            "Renal_cell_carcinoma",
+            "Hepatocellular_carcinoma",
+            "Viral_myocarditis"
+        ],
+        "14": [
+            "Hepatitis_C",
+            "Lipid_and_atherosclerosis"
+        ]
+    },
+    "disease_cluster_labels": [
+        9,
+        21,
+        11,
+        2,
+        22,
+        15,
+        18,
+        17,
+        6,
+        22,
+        1,
+        16,
+        4,
+        17,
+        6,
+        10,
+        1,
+        7,
+        8,
+        5,
+        13,
+        19,
+        3,
+        12,
+        11,
+        12,
+        5,
+        12,
+        1,
+        9,
+        20,
+        11,
+        4,
+        18,
+        7,
+        10,
+        3,
+        13,
+        2,
+        16,
+        3,
+        6,
+        15,
+        19,
+        19,
+        8,
+        14,
+        13,
+        17,
+        15,
+        20,
+        1,
+        2,
+        1,
+        22,
+        16,
+        3,
+        2,
+        11,
+        20,
+        9,
+        9,
+        18,
+        11,
+        4,
+        21,
+        15,
+        1,
+        12,
+        14
+    ],
+    "linkage_matrix": [
+        [
+            23.0,
+            25.0,
+            0.46244888342103707,
+            2.0
+        ],
+        [
+            40.0,
+            56.0,
+            0.5124187765147091,
+            2.0
+        ],
+        [
+            46.0,
+            69.0,
+            0.5367589655326672,
+            2.0
+        ],
+        [
+            16.0,
+            67.0,
+            0.5640685765797898,
+            2.0
+        ],
+        [
+            2.0,
+            31.0,
+            0.5862162575332585,
+            2.0
+        ],
+        [
+            22.0,
+            36.0,
+            0.6006044099729426,
+            2.0
+        ],
+        [
+            24.0,
+            63.0,
+            0.6187258366283209,
+            2.0
+        ],
+        [
+            0.0,
+            60.0,
+            0.6281649139536365,
+            2.0
+        ],
+        [
+            38.0,
+            57.0,
+            0.6369319677723557,
+            2.0
+        ],
+        [
+            12.0,
+            64.0,
+            0.6446415504047116,
+            2.0
+        ],
+        [
+            3.0,
+            52.0,
+            0.6515708708616302,
+            2.0
+        ],
+        [
+            20.0,
+            37.0,
+            0.6515708708616302,
+            2.0
+        ],
+        [
+            10.0,
+            53.0,
+            0.7079248588613124,
+            2.0
+        ],
+        [
+            21.0,
+            43.0,
+            0.7273513851473445,
+            2.0
+        ],
+        [
+            1.0,
+            65.0,
+            0.7381130653973446,
+            2.0
+        ],
+        [
+            71.0,
+            75.0,
+            0.7407833465034799,
+            4.0
+        ],
+        [
+            29.0,
+            61.0,
+            0.7435504777285067,
+            2.0
+        ],
+        [
+            58.0,
+            74.0,
+            0.7494379585212908,
+            3.0
+        ],
+        [
+            78.0,
+            80.0,
+            0.7532316763233224,
+            4.0
+        ],
+        [
+            51.0,
+            73.0,
+            0.7557805078922393,
+            3.0
+        ],
+        [
+            32.0,
+            79.0,
+            0.7621039788462461,
+            3.0
+        ],
+        [
+            15.0,
+            35.0,
+            0.768481459319176,
+            2.0
+        ],
+        [
+            14.0,
+            41.0,
+            0.7708618205781597,
+            2.0
+        ],
+        [
+            27.0,
+            70.0,
+            0.7809937659094064,
+            3.0
+        ],
+        [
+            4.0,
+            9.0,
+            0.7857693251780072,
+            2.0
+        ],
+        [
+            5.0,
+            42.0,
+            0.80052111520262,
+            2.0
+        ],
+        [
+            19.0,
+            26.0,
+            0.8082698062924454,
+            2.0
+        ],
+        [
+            66.0,
+            95.0,
+            0.8359809140491586,
+            3.0
+        ],
+        [
+            50.0,
+            59.0,
+            0.8517603159338177,
+            2.0
+        ],
+        [
+            47.0,
+            81.0,
+            0.868420653886177,
+            3.0
+        ],
+        [
+            17.0,
+            34.0,
+            0.8760553081680701,
+            2.0
+        ],
+        [
+            54.0,
+            94.0,
+            0.8850885198228593,
+            3.0
+        ],
+        [
+            49.0,
+            97.0,
+            0.8954641081494787,
+            4.0
+        ],
+        [
+            18.0,
+            45.0,
+            0.8960994888278417,
+            2.0
+        ],
+        [
+            76.0,
+            87.0,
+            0.913175997371084,
+            5.0
+        ],
+        [
+            44.0,
+            83.0,
+            0.9201094491469648,
+            3.0
+        ],
+        [
+            68.0,
+            93.0,
+            0.9203015885060633,
+            4.0
+        ],
+        [
+            11.0,
+            39.0,
+            0.9435104354308151,
+            2.0
+        ],
+        [
+            28.0,
+            82.0,
+            0.9502759118426273,
+            3.0
+        ],
+        [
+            7.0,
+            13.0,
+            0.9566324354308151,
+            2.0
+        ],
+        [
+            48.0,
+            109.0,
+            0.9645956306972464,
+            3.0
+        ],
+        [
+            30.0,
+            98.0,
+            0.9742595065174311,
+            3.0
+        ],
+        [
+            8.0,
+            92.0,
+            0.9767231136495195,
+            3.0
+        ],
+        [
+            77.0,
+            86.0,
+            0.9938475540876756,
+            4.0
+        ],
+        [
+            55.0,
+            107.0,
+            0.9950768906140093,
+            3.0
+        ],
+        [
+            89.0,
+            108.0,
+            0.9996276496676911,
+            6.0
+        ],
+        [
+            6.0,
+            33.0,
+            1.0,
+            2.0
+        ],
+        [
+            62.0,
+            116.0,
+            1.0,
+            3.0
+        ],
+        [
+            91.0,
+            104.0,
+            1.0034735466587792,
+            7.0
+        ],
+        [
+            110.0,
+            117.0,
+            1.0214222668191977,
+            6.0
+        ],
+        [
+            90.0,
+            96.0,
+            1.0220384901558934,
+            5.0
+        ],
+        [
+            100.0,
+            103.0,
+            1.0223355384579065,
+            4.0
+        ],
+        [
+            114.0,
+            119.0,
+            1.0544301199446464,
+            9.0
+        ],
+        [
+            113.0,
+            118.0,
+            1.0777604618614967,
+            11.0
+        ],
+        [
+            105.0,
+            111.0,
+            1.0883499514911812,
+            6.0
+        ],
+        [
+            112.0,
+            121.0,
+            1.0884289279949648,
+            7.0
+        ],
+        [
+            120.0,
+            125.0,
+            1.1421612215117778,
+            12.0
+        ],
+        [
+            122.0,
+            124.0,
+            1.160452841884905,
+            15.0
+        ],
+        [
+            84.0,
+            101.0,
+            1.201658003259755,
+            5.0
+        ],
+        [
+            127.0,
+            128.0,
+            1.2168313145786205,
+            20.0
+        ],
+        [
+            85.0,
+            126.0,
+            1.2809904037793636,
+            16.0
+        ],
+        [
+            102.0,
+            129.0,
+            1.2840166701963878,
+            24.0
+        ],
+        [
+            72.0,
+            131.0,
+            1.2950724706213237,
+            26.0
+        ],
+        [
+            99.0,
+            132.0,
+            1.3265858265083867,
+            29.0
+        ],
+        [
+            88.0,
+            130.0,
+            1.3384363283896266,
+            20.0
+        ],
+        [
+            106.0,
+            133.0,
+            1.475793345781316,
+            33.0
+        ],
+        [
+            115.0,
+            134.0,
+            1.5632648352411027,
+            26.0
+        ],
+        [
+            123.0,
+            135.0,
+            1.7247014554364235,
+            44.0
+        ],
+        [
+            136.0,
+            137.0,
+            1.9727039999430165,
+            70.0
+        ]
+    ]
+}

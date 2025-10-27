@@ -1,0 +1,1101 @@
+{
+    "metadata": {
+        "timestamp": "2025-03-19T14:16:22.316054",
+        "top_n": 2,
+        "gene_n": 60,
+        "method": "ward",
+        "num_clusters": 20
+    },
+    "disease_to_cluster": {
+        "Allograft_rejection": {
+            "cluster": 4,
+            "pathways": [
+                "T Cell Receptor Complex (GO:0042101)",
+                "MHC Class I Protein Complex (GO:0042612)"
+            ]
+        },
+        "Arrhythmogenic_right_ventricular_cardiomyopathy": {
+            "cluster": 20,
+            "pathways": [
+                "Intercalated Disc (GO:0014704)",
+                "Cell-Cell Contact Zone (GO:0044291)"
+            ]
+        },
+        "Type_I_diabetes_mellitus": {
+            "cluster": 14,
+            "pathways": [
+                "Lumenal Side of Endoplasmic Reticulum Membrane (GO:0098553)",
+                "Clathrin-Coated Vesicle Membrane (GO:0030665)"
+            ]
+        },
+        "Glioma": {
+            "cluster": 18,
+            "pathways": [
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)",
+                "Nucleus (GO:0005634)"
+            ]
+        },
+        "Vibrio_cholerae_infection": {
+            "cluster": 20,
+            "pathways": [
+                "Clathrin-Coated Endocytic Vesicle Membrane (GO:0030669)",
+                "Clathrin-Coated Endocytic Vesicle (GO:0045334)"
+            ]
+        },
+        "Hepatocellular_carcinoma": {
+            "cluster": 1,
+            "pathways": [
+                "Nucleus (GO:0005634)",
+                "Cytoskeleton (GO:0005856)"
+            ]
+        },
+        "Alcoholic_liver_disease": {
+            "cluster": 5,
+            "pathways": [
+                "Secretory Granule Lumen (GO:0034774)",
+                "Cytoplasmic Vesicle Lumen (GO:0060205)"
+            ]
+        },
+        "Hypertrophic_cardiomyopathy": {
+            "cluster": 12,
+            "pathways": [
+                "Myofibril (GO:0030016)",
+                "Platelet Alpha Granule Lumen (GO:0031093)"
+            ]
+        },
+        "Basal_cell_carcinoma": {
+            "cluster": 11,
+            "pathways": [
+                "Intracellular Membraneless Organelle (GO:0043232)",
+                "Membrane Raft (GO:0045121)"
+            ]
+        },
+        "Hepatitis_C": {
+            "cluster": 20,
+            "pathways": [
+                "Endocytic Vesicle Membrane (GO:0030666)",
+                "Endoplasmic Reticulum Lumen (GO:0005788)"
+            ]
+        },
+        "Primary_immunodeficiency": {
+            "cluster": 2,
+            "pathways": [
+                "Membrane Raft (GO:0045121)",
+                "T Cell Receptor Complex (GO:0042101)"
+            ]
+        },
+        "Acute_myeloid_leukemia": {
+            "cluster": 1,
+            "pathways": [
+                "Nucleus (GO:0005634)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)"
+            ]
+        },
+        "Chronic_myeloid_leukemia": {
+            "cluster": 2,
+            "pathways": [
+                "Membrane Raft (GO:0045121)",
+                "Plasma Membrane Raft (GO:0044853)"
+            ]
+        },
+        "Diabetic_cardiomyopathy": {
+            "cluster": 5,
+            "pathways": [
+                "Secretory Granule Lumen (GO:0034774)",
+                "Mitochondrial Intermembrane Space (GO:0005758)"
+            ]
+        },
+        "Tuberculosis": {
+            "cluster": 11,
+            "pathways": [
+                "Membrane Attack Complex (GO:0005579)",
+                "Membrane Raft (GO:0045121)"
+            ]
+        },
+        "Leishmaniasis": {
+            "cluster": 14,
+            "pathways": [
+                "Endosome Membrane (GO:0010008)",
+                "MHC Protein Complex (GO:0042611)"
+            ]
+        },
+        "Spinocerebellar_ataxia": {
+            "cluster": 3,
+            "pathways": [
+                "Dendrite (GO:0030425)",
+                "Neuron Projection (GO:0043005)"
+            ]
+        },
+        "Small_cell_lung_cancer": {
+            "cluster": 1,
+            "pathways": [
+                "Nucleus (GO:0005634)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)"
+            ]
+        },
+        "Viral_myocarditis": {
+            "cluster": 2,
+            "pathways": [
+                "Membrane Raft (GO:0045121)",
+                "Cytoplasmic Vesicle Membrane (GO:0030659)"
+            ]
+        },
+        "Melanoma": {
+            "cluster": 20,
+            "pathways": [
+                "Mitochondrial Outer Membrane (GO:0005741)",
+                "Chitosome (GO:0045009)"
+            ]
+        },
+        "Inflammatory_bowel_disease": {
+            "cluster": 20,
+            "pathways": [
+                "Endolysosome Membrane (GO:0036020)",
+                "Endolysosome (GO:0036019)"
+            ]
+        },
+        "Chagas_disease": {
+            "cluster": 7,
+            "pathways": [
+                "MHC Class I Protein Complex (GO:0042612)",
+                "MHC Protein Complex (GO:0042611)"
+            ]
+        },
+        "Alcoholism": {
+            "cluster": 3,
+            "pathways": [
+                "Dendrite (GO:0030425)",
+                "Neuron Projection (GO:0043005)"
+            ]
+        },
+        "Coronavirus_disease_-_COVID-19": {
+            "cluster": 2,
+            "pathways": [
+                "Membrane Raft (GO:0045121)",
+                "Phagocytic Vesicle Membrane (GO:0030670)"
+            ]
+        },
+        "Epithelial_cell_signaling_in_Helicobacter_pylori_infection": {
+            "cluster": 10,
+            "pathways": [
+                "Focal Adhesion (GO:0005925)",
+                "Membrane Raft (GO:0045121)"
+            ]
+        },
+        "African_trypanosomiasis": {
+            "cluster": 19,
+            "pathways": [
+                "cyclin/CDK Positive Transcription Elongation Factor Complex (GO:0008024)",
+                "High-Density Lipoprotein Particle (GO:0034364)"
+            ]
+        },
+        "Human_T-cell_leukemia_virus_1_infection": {
+            "cluster": 17,
+            "pathways": [
+                "Transcription Factor AP-1 Complex (GO:0035976)",
+                "T Cell Receptor Complex (GO:0042101)"
+            ]
+        },
+        "Lipid_and_atherosclerosis": {
+            "cluster": 19,
+            "pathways": [
+                "High-Density Lipoprotein Particle (GO:0034364)",
+                "Triglyceride-Rich Plasma Lipoprotein Particle (GO:0034385)"
+            ]
+        },
+        "Alzheimer_disease": {
+            "cluster": 3,
+            "pathways": [
+                "Dendrite (GO:0030425)",
+                "Neuron Projection (GO:0043005)"
+            ]
+        },
+        "Amoebiasis": {
+            "cluster": 4,
+            "pathways": [
+                "T Cell Receptor Complex (GO:0042101)",
+                "Membrane Raft (GO:0045121)"
+            ]
+        },
+        "Non-alcoholic_fatty_liver_disease": {
+            "cluster": 11,
+            "pathways": [
+                "Endoplasmic Reticulum Membrane (GO:0005789)",
+                "Membrane Raft (GO:0045121)"
+            ]
+        },
+        "Herpes_simplex_virus_1_infection": {
+            "cluster": 1,
+            "pathways": [
+                "Nucleus (GO:0005634)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)"
+            ]
+        },
+        "Rheumatoid_arthritis": {
+            "cluster": 13,
+            "pathways": [
+                "Early Endosome (GO:0005769)",
+                "Specific Granule (GO:0042581)"
+            ]
+        },
+        "Pancreatic_cancer": {
+            "cluster": 18,
+            "pathways": [
+                "RNA N6-methyladenosine Methyltransferase Complex (GO:0036396)",
+                "Nucleus (GO:0005634)"
+            ]
+        },
+        "Maturity_onset_diabetes_of_the_young": {
+            "cluster": 14,
+            "pathways": [
+                "MHC Protein Complex (GO:0042611)",
+                "Lumenal Side of Endoplasmic Reticulum Membrane (GO:0098553)"
+            ]
+        },
+        "Breast_cancer": {
+            "cluster": 1,
+            "pathways": [
+                "Nucleus (GO:0005634)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)"
+            ]
+        },
+        "Pathogenic_Escherichia_coli_infection": {
+            "cluster": 16,
+            "pathways": [
+                "Golgi Lumen (GO:0005796)",
+                "Basolateral Plasma Membrane (GO:0016323)"
+            ]
+        },
+        "Asthma": {
+            "cluster": 5,
+            "pathways": [
+                "Secretory Granule Lumen (GO:0034774)",
+                "Clathrin-Coated Endocytic Vesicle Membrane (GO:0030669)"
+            ]
+        },
+        "Bladder_cancer": {
+            "cluster": 9,
+            "pathways": [
+                "Phosphatidylinositol 3-Kinase Complex, Class I (GO:0097651)",
+                "Phosphatidylinositol 3-Kinase Complex, Class IA (GO:0005943)"
+            ]
+        },
+        "Shigellosis": {
+            "cluster": 20,
+            "pathways": [
+                "Septin Cytoskeleton (GO:0032156)",
+                "Septin Ring (GO:0005940)"
+            ]
+        },
+        "Endometrial_cancer": {
+            "cluster": 1,
+            "pathways": [
+                "Nucleus (GO:0005634)",
+                "Phosphatidylinositol 3-Kinase Complex, Class I (GO:0097651)"
+            ]
+        },
+        "Pertussis": {
+            "cluster": 2,
+            "pathways": [
+                "Membrane Raft (GO:0045121)",
+                "Secretory Granule Membrane (GO:0030667)"
+            ]
+        },
+        "Staphylococcus_aureus_infection": {
+            "cluster": 8,
+            "pathways": [
+                "Bounding Membrane of Organelle (GO:0098588)",
+                "MHC Class I Protein Complex (GO:0042612)"
+            ]
+        },
+        "Amyotrophic_lateral_sclerosis": {
+            "cluster": 15,
+            "pathways": [
+                "Autophagosome (GO:0005776)",
+                "Neuron Projection (GO:0043005)"
+            ]
+        },
+        "Epstein-Barr_virus_infection": {
+            "cluster": 4,
+            "pathways": [
+                "T Cell Receptor Complex (GO:0042101)",
+                "Serine/Threonine Protein Kinase Complex (GO:1902554)"
+            ]
+        },
+        "Kaposi_sarcoma-associated_herpesvirus_infection": {
+            "cluster": 13,
+            "pathways": [
+                "Early Endosome (GO:0005769)",
+                "P-body (GO:0000932)"
+            ]
+        },
+        "Human_cytomegalovirus_infection": {
+            "cluster": 1,
+            "pathways": [
+                "Nucleus (GO:0005634)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)"
+            ]
+        },
+        "Yersinia_infection": {
+            "cluster": 10,
+            "pathways": [
+                "Focal Adhesion (GO:0005925)",
+                "Cell-Substrate Junction (GO:0030055)"
+            ]
+        },
+        "Toxoplasmosis": {
+            "cluster": 4,
+            "pathways": [
+                "T Cell Receptor Complex (GO:0042101)",
+                "Membrane Raft (GO:0045121)"
+            ]
+        },
+        "Type_II_diabetes_mellitus": {
+            "cluster": 3,
+            "pathways": [
+                "Dendrite (GO:0030425)",
+                "Secretory Granule Lumen (GO:0034774)"
+            ]
+        },
+        "Huntington_disease": {
+            "cluster": 3,
+            "pathways": [
+                "Dendrite (GO:0030425)",
+                "Axon (GO:0030424)"
+            ]
+        },
+        "Graft-versus-host_disease": {
+            "cluster": 17,
+            "pathways": [
+                "Phagocytic Vesicle (GO:0045335)",
+                "T Cell Receptor Complex (GO:0042101)"
+            ]
+        },
+        "Thyroid_cancer": {
+            "cluster": 9,
+            "pathways": [
+                "Phosphatidylinositol 3-Kinase Complex, Class I (GO:0097651)",
+                "Phosphatidylinositol 3-Kinase Complex, Class IA (GO:0005943)"
+            ]
+        },
+        "Dilated_cardiomyopathy": {
+            "cluster": 12,
+            "pathways": [
+                "Myofibril (GO:0030016)",
+                "Cytoskeleton (GO:0005856)"
+            ]
+        },
+        "Systemic_lupus_erythematosus": {
+            "cluster": 7,
+            "pathways": [
+                "MHC Class I Protein Complex (GO:0042612)",
+                "Endocytic Vesicle Membrane (GO:0030666)"
+            ]
+        },
+        "Human_immunodeficiency_virus_1_infection": {
+            "cluster": 8,
+            "pathways": [
+                "P-body (GO:0000932)",
+                "MHC Class I Protein Complex (GO:0042612)"
+            ]
+        },
+        "Legionellosis": {
+            "cluster": 20,
+            "pathways": [
+                "Microbody Lumen (GO:0031907)",
+                "Peroxisomal Matrix (GO:0005782)"
+            ]
+        },
+        "Influenza_A": {
+            "cluster": 2,
+            "pathways": [
+                "Membrane Raft (GO:0045121)",
+                "Lysosome (GO:0005764)"
+            ]
+        },
+        "Gastric_cancer": {
+            "cluster": 16,
+            "pathways": [
+                "Collagen-Containing Extracellular Matrix (GO:0062023)",
+                "Basolateral Plasma Membrane (GO:0016323)"
+            ]
+        },
+        "Hepatitis_B": {
+            "cluster": 2,
+            "pathways": [
+                "Membrane Raft (GO:0045121)",
+                "Microvillus (GO:0005902)"
+            ]
+        },
+        "Cushing_syndrome": {
+            "cluster": 20,
+            "pathways": [
+                "Dense Core Granule (GO:0031045)",
+                "Intracellular Organelle Lumen (GO:0070013)"
+            ]
+        },
+        "Measles": {
+            "cluster": 7,
+            "pathways": [
+                "MHC Class I Protein Complex (GO:0042612)",
+                "Late Endosome Lumen (GO:0031906)"
+            ]
+        },
+        "Non-small_cell_lung_cancer": {
+            "cluster": 6,
+            "pathways": [
+                "Protein Kinase Complex (GO:1902911)",
+                "Secretory Granule Lumen (GO:0034774)"
+            ]
+        },
+        "Renal_cell_carcinoma": {
+            "cluster": 6,
+            "pathways": [
+                "Protein Kinase Complex (GO:1902911)",
+                "Lytic Vacuole Membrane (GO:0098852)"
+            ]
+        },
+        "Prostate_cancer": {
+            "cluster": 1,
+            "pathways": [
+                "Nucleus (GO:0005634)",
+                "Vesicle (GO:0031982)"
+            ]
+        },
+        "Malaria": {
+            "cluster": 14,
+            "pathways": [
+                "Clathrin-Coated Vesicle Membrane (GO:0030665)",
+                "Tertiary Granule Lumen (GO:1904724)"
+            ]
+        },
+        "Parkinson_disease": {
+            "cluster": 15,
+            "pathways": [
+                "Neuron Projection (GO:0043005)",
+                "Axon (GO:0030424)"
+            ]
+        },
+        "Salmonella_infection": {
+            "cluster": 6,
+            "pathways": [
+                "Protein Kinase Complex (GO:1902911)",
+                "Secretory Granule Lumen (GO:0034774)"
+            ]
+        },
+        "Prion_disease": {
+            "cluster": 2,
+            "pathways": [
+                "Membrane Raft (GO:0045121)",
+                "Nucleus (GO:0005634)"
+            ]
+        },
+        "Colorectal_cancer": {
+            "cluster": 1,
+            "pathways": [
+                "Nucleus (GO:0005634)",
+                "Membrane Raft (GO:0045121)"
+            ]
+        }
+    },
+    "cluster_to_diseases": {
+        "4": [
+            "Allograft_rejection",
+            "Amoebiasis",
+            "Epstein-Barr_virus_infection",
+            "Toxoplasmosis"
+        ],
+        "20": [
+            "Arrhythmogenic_right_ventricular_cardiomyopathy",
+            "Vibrio_cholerae_infection",
+            "Hepatitis_C",
+            "Melanoma",
+            "Inflammatory_bowel_disease",
+            "Shigellosis",
+            "Legionellosis",
+            "Cushing_syndrome"
+        ],
+        "14": [
+            "Type_I_diabetes_mellitus",
+            "Leishmaniasis",
+            "Maturity_onset_diabetes_of_the_young",
+            "Malaria"
+        ],
+        "18": [
+            "Glioma",
+            "Pancreatic_cancer"
+        ],
+        "1": [
+            "Hepatocellular_carcinoma",
+            "Acute_myeloid_leukemia",
+            "Small_cell_lung_cancer",
+            "Herpes_simplex_virus_1_infection",
+            "Breast_cancer",
+            "Endometrial_cancer",
+            "Human_cytomegalovirus_infection",
+            "Prostate_cancer",
+            "Colorectal_cancer"
+        ],
+        "5": [
+            "Alcoholic_liver_disease",
+            "Diabetic_cardiomyopathy",
+            "Asthma"
+        ],
+        "12": [
+            "Hypertrophic_cardiomyopathy",
+            "Dilated_cardiomyopathy"
+        ],
+        "11": [
+            "Basal_cell_carcinoma",
+            "Tuberculosis",
+            "Non-alcoholic_fatty_liver_disease"
+        ],
+        "2": [
+            "Primary_immunodeficiency",
+            "Chronic_myeloid_leukemia",
+            "Viral_myocarditis",
+            "Coronavirus_disease_-_COVID-19",
+            "Pertussis",
+            "Influenza_A",
+            "Hepatitis_B",
+            "Prion_disease"
+        ],
+        "3": [
+            "Spinocerebellar_ataxia",
+            "Alcoholism",
+            "Alzheimer_disease",
+            "Type_II_diabetes_mellitus",
+            "Huntington_disease"
+        ],
+        "7": [
+            "Chagas_disease",
+            "Systemic_lupus_erythematosus",
+            "Measles"
+        ],
+        "10": [
+            "Epithelial_cell_signaling_in_Helicobacter_pylori_infection",
+            "Yersinia_infection"
+        ],
+        "19": [
+            "African_trypanosomiasis",
+            "Lipid_and_atherosclerosis"
+        ],
+        "17": [
+            "Human_T-cell_leukemia_virus_1_infection",
+            "Graft-versus-host_disease"
+        ],
+        "13": [
+            "Rheumatoid_arthritis",
+            "Kaposi_sarcoma-associated_herpesvirus_infection"
+        ],
+        "16": [
+            "Pathogenic_Escherichia_coli_infection",
+            "Gastric_cancer"
+        ],
+        "9": [
+            "Bladder_cancer",
+            "Thyroid_cancer"
+        ],
+        "8": [
+            "Staphylococcus_aureus_infection",
+            "Human_immunodeficiency_virus_1_infection"
+        ],
+        "15": [
+            "Amyotrophic_lateral_sclerosis",
+            "Parkinson_disease"
+        ],
+        "6": [
+            "Non-small_cell_lung_cancer",
+            "Renal_cell_carcinoma",
+            "Salmonella_infection"
+        ]
+    },
+    "disease_cluster_labels": [
+        4,
+        20,
+        14,
+        18,
+        20,
+        1,
+        5,
+        12,
+        11,
+        20,
+        2,
+        1,
+        2,
+        5,
+        11,
+        14,
+        3,
+        1,
+        2,
+        20,
+        20,
+        7,
+        3,
+        2,
+        10,
+        19,
+        17,
+        19,
+        3,
+        4,
+        11,
+        1,
+        13,
+        18,
+        14,
+        1,
+        16,
+        5,
+        9,
+        20,
+        1,
+        2,
+        8,
+        15,
+        4,
+        13,
+        1,
+        10,
+        4,
+        3,
+        3,
+        17,
+        9,
+        12,
+        7,
+        8,
+        20,
+        2,
+        16,
+        2,
+        20,
+        7,
+        6,
+        6,
+        1,
+        14,
+        15,
+        6,
+        2,
+        1
+    ],
+    "linkage_matrix": [
+        [
+            29.0,
+            48.0,
+            0.81,
+            2.0
+        ],
+        [
+            11.0,
+            17.0,
+            0.81,
+            2.0
+        ],
+        [
+            31.0,
+            71.0,
+            0.81,
+            3.0
+        ],
+        [
+            35.0,
+            72.0,
+            0.81,
+            4.0
+        ],
+        [
+            16.0,
+            22.0,
+            0.81,
+            2.0
+        ],
+        [
+            28.0,
+            74.0,
+            0.81,
+            3.0
+        ],
+        [
+            38.0,
+            52.0,
+            0.81,
+            2.0
+        ],
+        [
+            62.0,
+            67.0,
+            0.81,
+            2.0
+        ],
+        [
+            46.0,
+            73.0,
+            0.8100000000000002,
+            5.0
+        ],
+        [
+            0.0,
+            44.0,
+            0.855,
+            2.0
+        ],
+        [
+            5.0,
+            40.0,
+            0.855,
+            2.0
+        ],
+        [
+            6.0,
+            37.0,
+            0.855,
+            2.0
+        ],
+        [
+            7.0,
+            53.0,
+            0.855,
+            2.0
+        ],
+        [
+            10.0,
+            12.0,
+            0.855,
+            2.0
+        ],
+        [
+            21.0,
+            54.0,
+            0.855,
+            2.0
+        ],
+        [
+            13.0,
+            81.0,
+            0.855,
+            3.0
+        ],
+        [
+            18.0,
+            83.0,
+            0.855,
+            3.0
+        ],
+        [
+            23.0,
+            86.0,
+            0.855,
+            4.0
+        ],
+        [
+            24.0,
+            47.0,
+            0.855,
+            2.0
+        ],
+        [
+            32.0,
+            45.0,
+            0.855,
+            2.0
+        ],
+        [
+            41.0,
+            87.0,
+            0.855,
+            5.0
+        ],
+        [
+            49.0,
+            50.0,
+            0.855,
+            2.0
+        ],
+        [
+            57.0,
+            90.0,
+            0.855,
+            6.0
+        ],
+        [
+            59.0,
+            92.0,
+            0.855,
+            7.0
+        ],
+        [
+            61.0,
+            84.0,
+            0.855,
+            3.0
+        ],
+        [
+            64.0,
+            80.0,
+            0.855,
+            3.0
+        ],
+        [
+            68.0,
+            93.0,
+            0.855,
+            8.0
+        ],
+        [
+            69.0,
+            95.0,
+            0.855,
+            4.0
+        ],
+        [
+            63.0,
+            77.0,
+            0.8694826047713663,
+            3.0
+        ],
+        [
+            70.0,
+            79.0,
+            0.8766341882450169,
+            4.0
+        ],
+        [
+            75.0,
+            91.0,
+            0.8893621309680327,
+            5.0
+        ],
+        [
+            78.0,
+            97.0,
+            0.9296370259407699,
+            9.0
+        ],
+        [
+            14.0,
+            30.0,
+            0.9549999999999998,
+            2.0
+        ],
+        [
+            2.0,
+            34.0,
+            0.955,
+            2.0
+        ],
+        [
+            3.0,
+            33.0,
+            0.955,
+            2.0
+        ],
+        [
+            8.0,
+            102.0,
+            0.955,
+            3.0
+        ],
+        [
+            25.0,
+            27.0,
+            0.955,
+            2.0
+        ],
+        [
+            26.0,
+            51.0,
+            0.955,
+            2.0
+        ],
+        [
+            36.0,
+            58.0,
+            0.955,
+            2.0
+        ],
+        [
+            42.0,
+            55.0,
+            0.955,
+            2.0
+        ],
+        [
+            43.0,
+            66.0,
+            0.955,
+            2.0
+        ],
+        [
+            15.0,
+            103.0,
+            0.9852283999154713,
+            3.0
+        ],
+        [
+            65.0,
+            111.0,
+            0.9926416775453265,
+            4.0
+        ],
+        [
+            20.0,
+            39.0,
+            0.9999999999999999,
+            2.0
+        ],
+        [
+            56.0,
+            113.0,
+            0.9999999999999999,
+            3.0
+        ],
+        [
+            60.0,
+            114.0,
+            0.9999999999999999,
+            4.0
+        ],
+        [
+            1.0,
+            4.0,
+            1.0,
+            2.0
+        ],
+        [
+            9.0,
+            116.0,
+            1.0,
+            3.0
+        ],
+        [
+            19.0,
+            117.0,
+            1.0,
+            4.0
+        ],
+        [
+            115.0,
+            118.0,
+            1.0,
+            8.0
+        ],
+        [
+            94.0,
+            109.0,
+            1.0280199414408262,
+            5.0
+        ],
+        [
+            106.0,
+            119.0,
+            1.0345917069066424,
+            10.0
+        ],
+        [
+            104.0,
+            121.0,
+            1.037422286246059,
+            12.0
+        ],
+        [
+            107.0,
+            122.0,
+            1.039036298004756,
+            14.0
+        ],
+        [
+            108.0,
+            123.0,
+            1.0400437834190306,
+            16.0
+        ],
+        [
+            110.0,
+            124.0,
+            1.0407148985192822,
+            18.0
+        ],
+        [
+            112.0,
+            125.0,
+            1.056813929610214,
+            22.0
+        ],
+        [
+            88.0,
+            105.0,
+            1.0612233506665785,
+            5.0
+        ],
+        [
+            89.0,
+            126.0,
+            1.1188799018878142,
+            24.0
+        ],
+        [
+            82.0,
+            128.0,
+            1.1200537275345779,
+            26.0
+        ],
+        [
+            127.0,
+            129.0,
+            1.1325759413952319,
+            31.0
+        ],
+        [
+            76.0,
+            130.0,
+            1.1537021034476407,
+            33.0
+        ],
+        [
+            85.0,
+            98.0,
+            1.177699027765583,
+            6.0
+        ],
+        [
+            120.0,
+            131.0,
+            1.2225777568771832,
+            38.0
+        ],
+        [
+            132.0,
+            133.0,
+            1.289944293333749,
+            44.0
+        ],
+        [
+            99.0,
+            134.0,
+            1.3120670642389458,
+            48.0
+        ],
+        [
+            100.0,
+            135.0,
+            1.4336284054364337,
+            53.0
+        ],
+        [
+            96.0,
+            136.0,
+            1.5949178512908506,
+            61.0
+        ],
+        [
+            101.0,
+            137.0,
+            1.7346832786659845,
+            70.0
+        ]
+    ]
+}

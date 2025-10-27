@@ -1,0 +1,2001 @@
+{
+    "metadata": {
+        "timestamp": "2025-03-19T14:16:47.779447",
+        "top_n": 15,
+        "gene_n": 50,
+        "method": "ward",
+        "num_clusters": 15
+    },
+    "disease_to_cluster": {
+        "Malaria": {
+            "cluster": 9,
+            "pathways": [
+                "Signaling By RNF43 Mutants R-HSA-5340588",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "CD163 Mediating An Anti-Inflammatory Response R-HSA-9662834",
+                "Interleukin-6 Signaling R-HSA-1059683",
+                "Metabolism Of Folate And Pterines R-HSA-196757",
+                "Regulation Of FZD By Ubiquitination R-HSA-4641263",
+                "Interleukin-6 Family Signaling R-HSA-6783589",
+                "Signaling By WNT In Cancer R-HSA-4791275",
+                "Signaling By Interleukins R-HSA-449147",
+                "Calcitonin-like Ligand Receptors R-HSA-419812",
+                "Interleukin-21 Signaling R-HSA-9020958",
+                "MAPK3 (ERK1) Activation R-HSA-110056",
+                "STAT3 Nuclear Events Downstream Of ALK Signaling R-HSA-9701898",
+                "Interleukin-27 Signaling R-HSA-9020956"
+            ]
+        },
+        "Parkinson_disease": {
+            "cluster": 10,
+            "pathways": [
+                "Neurotransmitter Clearance R-HSA-112311",
+                "Dopamine Receptors R-HSA-390651",
+                "Transmission Across Chemical Synapses R-HSA-112315",
+                "Amyloid Fiber Formation R-HSA-977225",
+                "Amine Ligand-Binding Receptors R-HSA-375280",
+                "Neuronal System R-HSA-112316",
+                "Synthesis, Secretion, And Deacylation Of Ghrelin R-HSA-422085",
+                "Peptide Hormone Metabolism R-HSA-2980736",
+                "Class A/1 (Rhodopsin-like Receptors) R-HSA-373076",
+                "Post NMDA Receptor Activation Events R-HSA-438064",
+                "Selective Autophagy R-HSA-9663891",
+                "Activation Of NMDA Receptors And Postsynaptic Events R-HSA-442755",
+                "Metabolism Of Amine-Derived Hormones R-HSA-209776",
+                "GPCR Ligand Binding R-HSA-500792",
+                "Ras Activation Upon Ca2+ Influx Thru NMDA Receptor R-HSA-442982"
+            ]
+        },
+        "Salmonella_infection": {
+            "cluster": 2,
+            "pathways": [
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Signaling By Interleukins R-HSA-449147",
+                "Immune System R-HSA-168256",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "MyD88-independent TLR4 Cascade R-HSA-166166",
+                "Toll-like Receptor Cascades R-HSA-168898",
+                "CLEC7A/inflammasome Pathway R-HSA-5660668",
+                "Toll Like Receptor 4 (TLR4) Cascade R-HSA-166016",
+                "MyD88 Cascade Initiated On Plasma Membrane R-HSA-975871",
+                "Interleukin-1 Family Signaling R-HSA-446652",
+                "Toll Like Receptor 7/8 (TLR7/8) Cascade R-HSA-168181",
+                "Toll Like Receptor 3 (TLR3) Cascade R-HSA-168164",
+                "MyD88 Dependent Cascade Initiated On Endosome R-HSA-975155",
+                "TRAF6 Mediated Induction Of NFkB And MAP Kinases Upon TLR7/8 Or 9 Activation R-HSA-975138"
+            ]
+        },
+        "Colorectal_cancer": {
+            "cluster": 14,
+            "pathways": [
+                "Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202",
+                "Disease R-HSA-1643685",
+                "Signaling By Receptor Tyrosine Kinases R-HSA-9006934",
+                "Signal Transduction R-HSA-162582",
+                "Generic Transcription Pathway R-HSA-212436",
+                "Costimulation By CD28 Family R-HSA-388841",
+                "RNA Polymerase II Transcription R-HSA-73857",
+                "VEGFA-VEGFR2 Pathway R-HSA-4420097",
+                "Transcriptional Regulation By RUNX3 R-HSA-8878159",
+                "Signaling By ALK R-HSA-201556",
+                "Gene Expression (Transcription) R-HSA-74160",
+                "Signaling By VEGF R-HSA-194138",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Signaling By Interleukins R-HSA-449147",
+                "PIP3 Activates AKT Signaling R-HSA-1257604"
+            ]
+        },
+        "Prion_disease": {
+            "cluster": 1,
+            "pathways": [
+                "Immune System R-HSA-168256",
+                "Nuclear Signaling By ERBB4 R-HSA-1251985",
+                "Hemostasis R-HSA-109582",
+                "Signaling By ERBB4 R-HSA-1236394",
+                "Platelet Degranulation R-HSA-114608",
+                "Response To Elevated Platelet Cytosolic Ca2+ R-HSA-76005",
+                "Platelet Activation, Signaling And Aggregation R-HSA-76002",
+                "Amyloid Fiber Formation R-HSA-977225",
+                "Noncanonical Activation Of NOTCH3 R-HSA-9017802",
+                "Innate Immune System R-HSA-168249",
+                "ATF6 (ATF6-alpha) Activates Chaperone Genes R-HSA-381183",
+                "Class I MHC Mediated Antigen Processing And Presentation R-HSA-983169",
+                "NOTCH4 Activation And Transmission Of Signal To Nucleus R-HSA-9013700",
+                "ATF6 (ATF6-alpha) Activates Chaperones R-HSA-381033",
+                "Regulated Proteolysis Of p75NTR R-HSA-193692"
+            ]
+        },
+        "Cushing_syndrome": {
+            "cluster": 15,
+            "pathways": [
+                "GPCR Ligand Binding R-HSA-500792",
+                "Signaling By GPCR R-HSA-372790",
+                "GPCR Downstream Signaling R-HSA-388396",
+                "Class A/1 (Rhodopsin-like Receptors) R-HSA-373076",
+                "G Alpha (S) Signaling Events R-HSA-418555",
+                "Signal Transduction R-HSA-162582",
+                "ADORA2B Mediated Anti-Inflammatory Cytokine Production R-HSA-9660821",
+                "Anti-inflammatory Response Favoring Leishmania Infection R-HSA-9662851",
+                "Glucocorticoid Biosynthesis R-HSA-194002",
+                "Leishmania Infection R-HSA-9658195",
+                "Peptide Ligand-Binding Receptors R-HSA-375276",
+                "Metabolism Of Steroid Hormones R-HSA-196071",
+                "G Alpha (I) Signaling Events R-HSA-418594",
+                "FOXO-mediated Transcription Of Oxidative Stress, Metabolic And Neuronal Genes R-HSA-9615017",
+                "Disease R-HSA-1643685"
+            ]
+        },
+        "Measles": {
+            "cluster": 2,
+            "pathways": [
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Interleukin-12 Signaling R-HSA-9020591",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "Interleukin-12 Family Signaling R-HSA-447115",
+                "Interferon Alpha/Beta Signaling R-HSA-909733",
+                "Infectious Disease R-HSA-5663205",
+                "Immune System R-HSA-168256",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "SARS-CoV-2 Activates/Modulates Innate And Adaptive Immune Responses R-HSA-9705671",
+                "Disease R-HSA-1643685",
+                "eNOS Activation R-HSA-203615",
+                "Endosomal/Vacuolar Pathway R-HSA-1236977",
+                "Interleukin-23 Signaling R-HSA-9020933",
+                "Nef Mediated Downregulation Of MHC Class I Complex Cell Surface Expression R-HSA-164940",
+                "Interferon Signaling R-HSA-913531"
+            ]
+        },
+        "Non-small_cell_lung_cancer": {
+            "cluster": 14,
+            "pathways": [
+                "Signaling By Receptor Tyrosine Kinases R-HSA-9006934",
+                "Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202",
+                "Disease R-HSA-1643685",
+                "PIP3 Activates AKT Signaling R-HSA-1257604",
+                "Signaling By ALK Fusions And Activated Point Mutants R-HSA-9725370",
+                "Signal Transduction R-HSA-162582",
+                "Intracellular Signaling By Second Messengers R-HSA-9006925",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Signaling By ERBB2 ECD Mutants R-HSA-9665348",
+                "PI3K Events In ERBB2 Signaling R-HSA-1963642",
+                "Extra-nuclear Estrogen Signaling R-HSA-9009391",
+                "Nuclear Events Stimulated By ALK Signaling In Cancer R-HSA-9725371",
+                "Signaling By ERBB2 R-HSA-1227986",
+                "Signaling By ERBB2 KD Mutants R-HSA-9664565",
+                "Signaling By ERBB2 In Cancer R-HSA-1227990"
+            ]
+        },
+        "Renal_cell_carcinoma": {
+            "cluster": 7,
+            "pathways": [
+                "Costimulation By CD28 Family R-HSA-388841",
+                "Cellular Responses To Stress R-HSA-2262752",
+                "Cellular Responses To Stimuli R-HSA-8953897",
+                "Regulation Of Gene Expression By Hypoxia-inducible Factor R-HSA-1234158",
+                "Cellular Response To Hypoxia R-HSA-1234174",
+                "Signaling By ALK R-HSA-201556",
+                "Disease R-HSA-1643685",
+                "VEGFA-VEGFR2 Pathway R-HSA-4420097",
+                "Signaling By VEGF R-HSA-194138",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "VEGF Binds To VEGFR Leading To Receptor Dimerization R-HSA-195399",
+                "NR1H2 And NR1H3 Regulate Gene Expression Linked To Lipogenesis R-HSA-9029558",
+                "STAT3 Nuclear Events Downstream Of ALK Signaling R-HSA-9701898",
+                "RUNX1 And FOXP3 Control Development Of Regulatory T Lymphocytes (Tregs) R-HSA-8877330",
+                "TP53 Regulates Transcription Of Death Receptors And Ligands R-HSA-6803211"
+            ]
+        },
+        "Prostate_cancer": {
+            "cluster": 13,
+            "pathways": [
+                "Generic Transcription Pathway R-HSA-212436",
+                "PI3K/AKT Signaling In Cancer R-HSA-2219528",
+                "Gene Expression (Transcription) R-HSA-74160",
+                "PIP3 Activates AKT Signaling R-HSA-1257604",
+                "RNA Polymerase II Transcription R-HSA-73857",
+                "Intracellular Signaling By Second Messengers R-HSA-9006925",
+                "Regulation Of TP53 Degradation R-HSA-6804757",
+                "Regulation Of TP53 Expression And Degradation R-HSA-6806003",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Negative Regulation Of PI3K/AKT Network R-HSA-199418",
+                "Disease R-HSA-1643685",
+                "Regulation Of PTEN Gene Transcription R-HSA-8943724",
+                "PTEN Regulation R-HSA-6807070",
+                "Impaired BRCA2 Binding To PALB2 R-HSA-9709603",
+                "Defective HDR Thru Homologous Recombination (HRR) Due To BRCA1 Loss-Of-Function R-HSA-9701192"
+            ]
+        },
+        "Influenza_A": {
+            "cluster": 1,
+            "pathways": [
+                "Immune System R-HSA-168256",
+                "Immunoregulatory Interactions Between A Lymphoid And A non-Lymphoid Cell R-HSA-198933",
+                "Innate Immune System R-HSA-168249",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Adaptive Immune System R-HSA-1280218",
+                "Attachment And Entry R-HSA-9678110",
+                "Signaling By Interleukins R-HSA-449147",
+                "Early SARS-CoV-2 Infection Events R-HSA-9772572",
+                "RUNX1 And FOXP3 Control Development Of Regulatory T Lymphocytes (Tregs) R-HSA-8877330",
+                "Chemokine Receptors Bind Chemokines R-HSA-380108",
+                "Interferon Gamma Signaling R-HSA-877300",
+                "Peptide Ligand-Binding Receptors R-HSA-375276",
+                "Interferon Signaling R-HSA-913531",
+                "Syndecan Interactions R-HSA-3000170",
+                "Phosphorylation Of CD3 And TCR Zeta Chains R-HSA-202427"
+            ]
+        },
+        "Gastric_cancer": {
+            "cluster": 14,
+            "pathways": [
+                "Extracellular Matrix Organization R-HSA-1474244",
+                "Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202",
+                "Signaling By ERBB2 ECD Mutants R-HSA-9665348",
+                "PI3K Events In ERBB2 Signaling R-HSA-1963642",
+                "VEGFA-VEGFR2 Pathway R-HSA-4420097",
+                "Signaling By ERBB2 R-HSA-1227986",
+                "Signaling By VEGF R-HSA-194138",
+                "PI3K/AKT Signaling In Cancer R-HSA-2219528",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "CD28 Dependent PI3K/Akt Signaling R-HSA-389357",
+                "Signaling By Receptor Tyrosine Kinases R-HSA-9006934",
+                "Signaling By ERBB2 KD Mutants R-HSA-9664565",
+                "ESR-mediated Signaling R-HSA-8939211",
+                "Signaling By ERBB2 In Cancer R-HSA-1227990",
+                "Costimulation By CD28 Family R-HSA-388841"
+            ]
+        },
+        "Hepatitis_B": {
+            "cluster": 2,
+            "pathways": [
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Signaling By Interleukins R-HSA-449147",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Attachment And Entry R-HSA-9678110",
+                "Immune System R-HSA-168256",
+                "Early SARS-CoV-2 Infection Events R-HSA-9772572",
+                "Infectious Disease R-HSA-5663205",
+                "Insulin-like Growth Factor-2 mRNA Binding Proteins (IGF2BPs/IMPs/VICKZs) Bind RNA R-HSA-428359",
+                "Disease R-HSA-1643685",
+                "CD163 Mediating An Anti-Inflammatory Response R-HSA-9662834",
+                "Interleukin-2 Signaling R-HSA-9020558",
+                "Senescence-Associated Secretory Phenotype (SASP) R-HSA-2559582",
+                "Recycling Of Bile Acids And Salts R-HSA-159418",
+                "Metabolism Of Angiotensinogen To Angiotensins R-HSA-2022377"
+            ]
+        },
+        "Huntington_disease": {
+            "cluster": 15,
+            "pathways": [
+                "Signal Transduction R-HSA-162582",
+                "Signaling By GPCR R-HSA-372790",
+                "Peptide Ligand-Binding Receptors R-HSA-375276",
+                "Disease R-HSA-1643685",
+                "Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202",
+                "Signaling By Interleukins R-HSA-449147",
+                "CREB Phosphorylation R-HSA-199920",
+                "GPCR Ligand Binding R-HSA-500792",
+                "GPCR Downstream Signaling R-HSA-388396",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Class A/1 (Rhodopsin-like Receptors) R-HSA-373076",
+                "Heme Signaling R-HSA-9707616",
+                "Regulation Of FOXO Transcriptional Activity By Acetylation R-HSA-9617629",
+                "NCAM Signaling For Neurite Out-Growth R-HSA-375165",
+                "Post NMDA Receptor Activation Events R-HSA-438064"
+            ]
+        },
+        "Graft-versus-host_disease": {
+            "cluster": 2,
+            "pathways": [
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Immune System R-HSA-168256",
+                "Signaling By Interleukins R-HSA-449147",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "Adaptive Immune System R-HSA-1280218",
+                "RUNX1 And FOXP3 Control Development Of Regulatory T Lymphocytes (Tregs) R-HSA-8877330",
+                "Disease R-HSA-1643685",
+                "Interleukin-2 Signaling R-HSA-9020558",
+                "Interleukin-2 Family Signaling R-HSA-451927",
+                "Interferon Gamma Signaling R-HSA-877300",
+                "Infectious Disease R-HSA-5663205",
+                "Signal Transduction R-HSA-162582",
+                "Immunoregulatory Interactions Between A Lymphoid And A non-Lymphoid Cell R-HSA-198933",
+                "TNFs Bind Their Physiological Receptors R-HSA-5669034"
+            ]
+        },
+        "Thyroid_cancer": {
+            "cluster": 14,
+            "pathways": [
+                "VEGFA-VEGFR2 Pathway R-HSA-4420097",
+                "Signaling By VEGF R-HSA-194138",
+                "Signaling By Receptor Tyrosine Kinases R-HSA-9006934",
+                "Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202",
+                "Signal Transduction R-HSA-162582",
+                "Disease R-HSA-1643685",
+                "VEGFR2 Mediated Cell Proliferation R-HSA-5218921",
+                "Signaling By PDGFR In Disease R-HSA-9671555",
+                "Signaling By Erythropoietin R-HSA-9006335",
+                "Extra-nuclear Estrogen Signaling R-HSA-9009391",
+                "Signaling By High-Kinase Activity BRAF Mutants R-HSA-6802948",
+                "Signaling To ERKs R-HSA-187687",
+                "Signaling By FGFR4 In Disease R-HSA-5655291",
+                "Signaling By RAF1 Mutants R-HSA-9656223",
+                "Signaling By PDGFRA Extracellular Domain Mutants R-HSA-9673770"
+            ]
+        },
+        "Systemic_lupus_erythematosus": {
+            "cluster": 1,
+            "pathways": [
+                "Immune System R-HSA-168256",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Innate Immune System R-HSA-168249",
+                "Signaling By Interleukins R-HSA-449147",
+                "Adaptive Immune System R-HSA-1280218",
+                "Interferon Gamma Signaling R-HSA-877300",
+                "Infectious Disease R-HSA-5663205",
+                "FCGR Activation R-HSA-2029481",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Interferon Signaling R-HSA-913531",
+                "SARS-CoV-2 Activates/Modulates Innate And Adaptive Immune Responses R-HSA-9705671",
+                "Disease R-HSA-1643685",
+                "Immunoregulatory Interactions Between A Lymphoid And A non-Lymphoid Cell R-HSA-198933",
+                "Initial Triggering Of Complement R-HSA-166663",
+                "Interferon Alpha/Beta Signaling R-HSA-909733"
+            ]
+        },
+        "Dilated_cardiomyopathy": {
+            "cluster": 4,
+            "pathways": [
+                "Muscle Contraction R-HSA-397014",
+                "Striated Muscle Contraction R-HSA-390522",
+                "Regulation Of Gene Expression By Hypoxia-inducible Factor R-HSA-1234158",
+                "EPHA-mediated Growth Cone Collapse R-HSA-3928663",
+                "RHO GTPases Activate ROCKs R-HSA-5627117",
+                "Sema4D Induced Cell Migration And Growth-Cone Collapse R-HSA-416572",
+                "Sema4D In Semaphorin Signaling R-HSA-400685",
+                "Cellular Response To Hypoxia R-HSA-1234174",
+                "Signaling By ALK R-HSA-201556",
+                "PTK6 Expression R-HSA-8849473",
+                "Ion Homeostasis R-HSA-5578775",
+                "STAT3 Nuclear Events Downstream Of ALK Signaling R-HSA-9701898",
+                "Signaling By Non-Receptor Tyrosine Kinases R-HSA-9006927",
+                "Signaling By PDGFRA Extracellular Domain Mutants R-HSA-9673770",
+                "Oxygen-dependent Proline Hydroxylation Of Hypoxia-inducible Factor Alpha R-HSA-1234176"
+            ]
+        },
+        "Legionellosis": {
+            "cluster": 9,
+            "pathways": [
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "TNFR1-induced Proapoptotic Signaling R-HSA-5357786",
+                "TP53 Regulates Transcription Of Caspase Activators And Caspases R-HSA-6803207",
+                "Erythrocytes Take Up Carbon Dioxide And Release Oxygen R-HSA-1237044",
+                "Pexophagy R-HSA-9664873",
+                "Synthesis Of PIPs At Late Endosome Membrane R-HSA-1660517",
+                "Organic Anion Transporters R-HSA-428643",
+                "Activation Of Arylsulfatases R-HSA-1663150",
+                "RUNX1 Regulates Transcription Of Genes Involved In Differentiation Of Myeloid Cells R-HSA-8939246",
+                "Erythrocytes Take Up Oxygen And Release Carbon Dioxide R-HSA-1247673",
+                "Sensing Of DNA Double Strand Breaks R-HSA-5693548",
+                "TNFR1-mediated Ceramide Production R-HSA-5626978",
+                "SLC Transporter Disorders R-HSA-5619102",
+                "Disorders Of Transmembrane Transporters R-HSA-5619115",
+                "Regulation Of TP53 Degradation R-HSA-6804757"
+            ]
+        },
+        "Human_immunodeficiency_virus_1_infection": {
+            "cluster": 6,
+            "pathways": [
+                "HIV Infection R-HSA-162906",
+                "Early Phase Of HIV Life Cycle R-HSA-162594",
+                "Binding And Entry Of HIV Virion R-HSA-173107",
+                "Immune System R-HSA-168256",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Host Interactions Of HIV Factors R-HSA-162909",
+                "APOBEC3G Mediated Resistance To HIV-1 R-HSA-180689",
+                "Infectious Disease R-HSA-5663205",
+                "Alpha-defensins R-HSA-1462054",
+                "Innate Immune System R-HSA-168249",
+                "Adaptive Immune System R-HSA-1280218",
+                "Signaling By Interleukins R-HSA-449147",
+                "HIV Life Cycle R-HSA-162587",
+                "Disease R-HSA-1643685",
+                "Role Of Nef In HIV-1 Replication And Disease Pathogenesis R-HSA-164952"
+            ]
+        },
+        "Kaposi_sarcoma-associated_herpesvirus_infection": {
+            "cluster": 3,
+            "pathways": [
+                "Signaling By Interleukins R-HSA-449147",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Cellular Responses To Stress R-HSA-2262752",
+                "Cellular Responses To Stimuli R-HSA-8953897",
+                "Immune System R-HSA-168256",
+                "Cellular Senescence R-HSA-2559583",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Disease R-HSA-1643685",
+                "MyD88 Cascade Initiated On Plasma Membrane R-HSA-975871",
+                "TRAF6 Mediated Induction Of NFkB And MAP Kinases Upon TLR7/8 Or 9 Activation R-HSA-975138",
+                "MyD88 Dependent Cascade Initiated On Endosome R-HSA-975155",
+                "Toll Like Receptor 3 (TLR3) Cascade R-HSA-168164",
+                "Toll Like Receptor 7/8 (TLR7/8) Cascade R-HSA-168181",
+                "mRNA Decay By 5 To 3 Exoribonuclease R-HSA-430039",
+                "Toll Like Receptor 9 (TLR9) Cascade R-HSA-168138"
+            ]
+        },
+        "Human_cytomegalovirus_infection": {
+            "cluster": 1,
+            "pathways": [
+                "Immune System R-HSA-168256",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Disease R-HSA-1643685",
+                "Cellular Senescence R-HSA-2559583",
+                "Cytosolic Sensors Of Pathogen-Associated DNA R-HSA-1834949",
+                "Infectious Disease R-HSA-5663205",
+                "Signaling By Interleukins R-HSA-449147",
+                "Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202",
+                "Regulation Of TP53 Degradation R-HSA-6804757",
+                "Regulation Of TP53 Expression And Degradation R-HSA-6806003",
+                "Transcriptional Regulation By VENTX R-HSA-8853884",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "TP53 Regulates Transcription Of Genes Involved In G1 Cell Cycle Arrest R-HSA-6804116",
+                "Deubiquitination R-HSA-5688426"
+            ]
+        },
+        "Toxoplasmosis": {
+            "cluster": 3,
+            "pathways": [
+                "Signaling By Interleukins R-HSA-449147",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Interleukin-12 Signaling R-HSA-9020591",
+                "Interleukin-18 Signaling R-HSA-9012546",
+                "Interleukin-12 Family Signaling R-HSA-447115",
+                "RUNX1 And FOXP3 Control Development Of Regulatory T Lymphocytes (Tregs) R-HSA-8877330",
+                "Immune System R-HSA-168256",
+                "Interleukin Receptor SHC Signaling R-HSA-912526",
+                "Gene And Protein Expression By JAK-STAT Signaling After Interleukin-12 Stimulation R-HSA-8950505",
+                "Interleukin-2 Family Signaling R-HSA-451927",
+                "Interleukin-3, Interleukin-5 And GM-CSF Signaling R-HSA-512988",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "Infectious Disease R-HSA-5663205",
+                "Dopamine Receptors R-HSA-390651"
+            ]
+        },
+        "Yersinia_infection": {
+            "cluster": 1,
+            "pathways": [
+                "Immune System R-HSA-168256",
+                "Signaling By Interleukins R-HSA-449147",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Death Receptor Signaling R-HSA-73887",
+                "Innate Immune System R-HSA-168249",
+                "Signal Transduction R-HSA-162582",
+                "RAC2 GTPase Cycle R-HSA-9013404",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "P75 NTR Receptor-Mediated Signaling R-HSA-193704",
+                "Regulated Necrosis R-HSA-5218859",
+                "Pyroptosis R-HSA-5620971",
+                "RHOG GTPase Cycle R-HSA-9013408",
+                "Cell Death Signaling Via NRAGE, NRIF And NADE R-HSA-204998",
+                "GPVI-mediated Activation Cascade R-HSA-114604"
+            ]
+        },
+        "Type_II_diabetes_mellitus": {
+            "cluster": 15,
+            "pathways": [
+                "Signal Transduction R-HSA-162582",
+                "PIP3 Activates AKT Signaling R-HSA-1257604",
+                "Intracellular Signaling By Second Messengers R-HSA-9006925",
+                "Transcriptional Regulation Of White Adipocyte Differentiation R-HSA-381340",
+                "Peptide Hormone Metabolism R-HSA-2980736",
+                "Generic Transcription Pathway R-HSA-212436",
+                "Synthesis, Secretion, And Inactivation Of Glucagon-like Peptide-1 (GLP-1) R-HSA-381771",
+                "Platelet Activation, Signaling And Aggregation R-HSA-76002",
+                "Integration Of Energy Metabolism R-HSA-163685",
+                "PI5P, PP2A And IER3 Regulate PI3K/AKT Signaling R-HSA-6811558",
+                "Cellular Response To Chemical Stress R-HSA-9711123",
+                "Incretin Synthesis, Secretion, And Inactivation R-HSA-400508",
+                "Negative Regulation Of PI3K/AKT Network R-HSA-199418",
+                "RNA Polymerase II Transcription R-HSA-73857",
+                "FOXO-mediated Transcription R-HSA-9614085"
+            ]
+        },
+        "Pertussis": {
+            "cluster": 9,
+            "pathways": [
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Cell Surface Interactions At Vascular Wall R-HSA-202733",
+                "Signaling By Interleukins R-HSA-449147",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "Hemostasis R-HSA-109582",
+                "Integrin Cell Surface Interactions R-HSA-216083",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "G Alpha (I) Signaling Events R-HSA-418594",
+                "Immune System R-HSA-168256",
+                "CD22 Mediated BCR Regulation R-HSA-5690714",
+                "Biosynthesis Of EPA-derived SPMs R-HSA-9018679",
+                "Synthesis Of 15-Eicosatetraenoic Acid Derivatives R-HSA-2142770",
+                "Toll Like Receptor 4 (TLR4) Cascade R-HSA-166016",
+                "Neutrophil Degranulation R-HSA-6798695",
+                "ADORA2B Mediated Anti-Inflammatory Cytokine Production R-HSA-9660821"
+            ]
+        },
+        "Staphylococcus_aureus_infection": {
+            "cluster": 1,
+            "pathways": [
+                "Immune System R-HSA-168256",
+                "Signaling By Interleukins R-HSA-449147",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "Innate Immune System R-HSA-168249",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Disease R-HSA-1643685",
+                "Interleukin-1 Family Signaling R-HSA-446652",
+                "Neutrophil Degranulation R-HSA-6798695",
+                "Death Receptor Signaling R-HSA-73887",
+                "Signal Transduction R-HSA-162582",
+                "Infectious Disease R-HSA-5663205",
+                "Cell Recruitment (Pro-Inflammatory Response) R-HSA-9664424",
+                "ER-Phagosome Pathway R-HSA-1236974",
+                "CLEC7A/inflammasome Pathway R-HSA-5660668"
+            ]
+        },
+        "Amyotrophic_lateral_sclerosis": {
+            "cluster": 3,
+            "pathways": [
+                "Signaling By Interleukins R-HSA-449147",
+                "Immune System R-HSA-168256",
+                "Classical Antibody-Mediated Complement Activation R-HSA-173623",
+                "Macroautophagy R-HSA-1632852",
+                "Selective Autophagy R-HSA-9663891",
+                "Autophagy R-HSA-9612973",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Creation Of C4 And C2 Activators R-HSA-166786",
+                "Platelet Degranulation R-HSA-114608",
+                "Response To Elevated Platelet Cytosolic Ca2+ R-HSA-76005",
+                "Initial Triggering Of Complement R-HSA-166663",
+                "RA Biosynthesis Pathway R-HSA-5365859",
+                "Mitophagy R-HSA-5205647",
+                "Signaling By Retinoic Acid R-HSA-5362517",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807"
+            ]
+        },
+        "Epstein-Barr_virus_infection": {
+            "cluster": 7,
+            "pathways": [
+                "Costimulation By CD28 Family R-HSA-388841",
+                "Immune System R-HSA-168256",
+                "Signaling By Interleukins R-HSA-449147",
+                "Adaptive Immune System R-HSA-1280218",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "PD-1 Signaling R-HSA-389948",
+                "CD28 Dependent PI3K/Akt Signaling R-HSA-389357",
+                "Cell Cycle, Mitotic R-HSA-69278",
+                "CD28 Co-Stimulation R-HSA-389356",
+                "Mitotic G1 Phase And G1/S Transition R-HSA-453279",
+                "Regulation Of TP53 Degradation R-HSA-6804757",
+                "Regulation Of TP53 Expression And Degradation R-HSA-6806003",
+                "Transcriptional Regulation By VENTX R-HSA-8853884",
+                "Disease R-HSA-1643685",
+                "Downstream TCR Signaling R-HSA-202424"
+            ]
+        },
+        "Shigellosis": {
+            "cluster": 3,
+            "pathways": [
+                "Signaling By Interleukins R-HSA-449147",
+                "Immune System R-HSA-168256",
+                "Phosphorylation Of Emi1 R-HSA-176417",
+                "Innate Immune System R-HSA-168249",
+                "Activation Of NIMA Kinases NEK9, NEK6, NEK7 R-HSA-2980767",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Interleukin-1 Processing R-HSA-448706",
+                "Leishmania Infection R-HSA-9658195",
+                "Infectious Disease R-HSA-5663205",
+                "Disease R-HSA-1643685",
+                "Golgi Cisternae Pericentriolar Stack Reorganization R-HSA-162658",
+                "Interleukin-1 Family Signaling R-HSA-446652",
+                "DCC Mediated Attractive Signaling R-HSA-418885",
+                "Costimulation By CD28 Family R-HSA-388841",
+                "Polo-like Kinase Mediated Events R-HSA-156711"
+            ]
+        },
+        "Endometrial_cancer": {
+            "cluster": 14,
+            "pathways": [
+                "Signaling By Receptor Tyrosine Kinases R-HSA-9006934",
+                "Disease R-HSA-1643685",
+                "Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202",
+                "Signal Transduction R-HSA-162582",
+                "Generic Transcription Pathway R-HSA-212436",
+                "PI3K/AKT Signaling In Cancer R-HSA-2219528",
+                "Negative Regulation Of PI3K/AKT Network R-HSA-199418",
+                "RNA Polymerase II Transcription R-HSA-73857",
+                "PIP3 Activates AKT Signaling R-HSA-1257604",
+                "Gene Expression (Transcription) R-HSA-74160",
+                "Signaling By ERBB4 R-HSA-1236394",
+                "Diseases Of Mismatch Repair (MMR) R-HSA-5423599",
+                "Intracellular Signaling By Second Messengers R-HSA-9006925",
+                "PI5P, PP2A And IER3 Regulate PI3K/AKT Signaling R-HSA-6811558",
+                "Signaling By ERBB2 ECD Mutants R-HSA-9665348"
+            ]
+        },
+        "Pathogenic_Escherichia_coli_infection": {
+            "cluster": 8,
+            "pathways": [
+                "RUNX1 Regulates Expression Of Components Of Tight Junctions R-HSA-8935964",
+                "Disease R-HSA-1643685",
+                "Apoptotic Cleavage Of Cell Adhesion Proteins R-HSA-351906",
+                "Dissolution Of Fibrin Clot R-HSA-75205",
+                "Signaling By Interleukins R-HSA-449147",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "BMAL1:CLOCK,NPAS2 Activates Circadian Gene Expression R-HSA-1368108",
+                "Immune System R-HSA-168256",
+                "Sialic Acid Metabolism R-HSA-4085001",
+                "Apoptotic Cleavage Of Cellular Proteins R-HSA-111465",
+                "Asparagine N-linked Glycosylation R-HSA-446203",
+                "FRS-mediated FGFR2 Signaling R-HSA-5654700",
+                "Other Interleukin Signaling R-HSA-449836",
+                "Estrogen-dependent Nuclear Events Downstream Of ESR-membrane Signaling R-HSA-9634638",
+                "Termination Of O-glycan Biosynthesis R-HSA-977068"
+            ]
+        },
+        "Asthma": {
+            "cluster": 1,
+            "pathways": [
+                "Signaling By Interleukins R-HSA-449147",
+                "Immune System R-HSA-168256",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Innate Immune System R-HSA-168249",
+                "Interleukin-18 Signaling R-HSA-9012546",
+                "Neutrophil Degranulation R-HSA-6798695",
+                "Interleukin-1 Family Signaling R-HSA-446652",
+                "Signal Transduction R-HSA-162582",
+                "Signaling By Non-Receptor Tyrosine Kinases R-HSA-9006927",
+                "Translocation Of ZAP-70 To Immunological Synapse R-HSA-202430",
+                "Phosphorylation Of CD3 And TCR Zeta Chains R-HSA-202427",
+                "PD-1 Signaling R-HSA-389948",
+                "RAF-independent MAPK1/3 Activation R-HSA-112409",
+                "Interleukin-7 Signaling R-HSA-1266695"
+            ]
+        },
+        "Bladder_cancer": {
+            "cluster": 14,
+            "pathways": [
+                "PI3K/AKT Signaling In Cancer R-HSA-2219528",
+                "Signaling By Receptor Tyrosine Kinases R-HSA-9006934",
+                "Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202",
+                "PIP3 Activates AKT Signaling R-HSA-1257604",
+                "Intracellular Signaling By Second Messengers R-HSA-9006925",
+                "Signaling By ALK R-HSA-201556",
+                "PI5P, PP2A And IER3 Regulate PI3K/AKT Signaling R-HSA-6811558",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Negative Regulation Of PI3K/AKT Network R-HSA-199418",
+                "Costimulation By CD28 Family R-HSA-388841",
+                "Constitutive Signaling By Aberrant PI3K In Cancer R-HSA-2219530",
+                "Signaling By ERBB2 ECD Mutants R-HSA-9665348",
+                "PI3K Events In ERBB2 Signaling R-HSA-1963642",
+                "PI-3K cascade:FGFR3 R-HSA-5654710",
+                "Signal Transduction R-HSA-162582"
+            ]
+        },
+        "Rheumatoid_arthritis": {
+            "cluster": 2,
+            "pathways": [
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Signaling By Interleukins R-HSA-449147",
+                "Chemokine Receptors Bind Chemokines R-HSA-380108",
+                "Immune System R-HSA-168256",
+                "Peptide Ligand-Binding Receptors R-HSA-375276",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Class A/1 (Rhodopsin-like Receptors) R-HSA-373076",
+                "G Alpha (I) Signaling Events R-HSA-418594",
+                "Signaling By GPCR R-HSA-372790",
+                "GPCR Ligand Binding R-HSA-500792",
+                "GPCR Downstream Signaling R-HSA-388396",
+                "Interleukin-1 Processing R-HSA-448706",
+                "Signal Transduction R-HSA-162582",
+                "Cell Recruitment (Pro-Inflammatory Response) R-HSA-9664424"
+            ]
+        },
+        "Pancreatic_cancer": {
+            "cluster": 3,
+            "pathways": [
+                "Signaling By Interleukins R-HSA-449147",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Interleukin-20 Family Signaling R-HSA-8854691",
+                "RUNX3 Regulates CDKN1A Transcription R-HSA-8941855",
+                "Transcriptional Regulation Of Pluripotent Stem Cells R-HSA-452723",
+                "Regulation Of TP53 Degradation R-HSA-6804757",
+                "Regulation Of TP53 Expression And Degradation R-HSA-6806003",
+                "Immune System R-HSA-168256",
+                "Regulation Of TP53 Activity R-HSA-5633007",
+                "POU5F1 (OCT4), SOX2, NANOG Activate Genes Related To Proliferation R-HSA-2892247",
+                "Transcriptional Regulation By RUNX3 R-HSA-8878159",
+                "Gastrulation R-HSA-9758941",
+                "Intrinsic Pathway For Apoptosis R-HSA-109606",
+                "Disease R-HSA-1643685"
+            ]
+        },
+        "Maturity_onset_diabetes_of_the_young": {
+            "cluster": 11,
+            "pathways": [
+                "Regulation Of Beta-Cell Development R-HSA-186712",
+                "Regulation Of Gene Expression In Beta Cells R-HSA-210745",
+                "Regulation Of Insulin Secretion R-HSA-422356",
+                "Peptide Hormone Metabolism R-HSA-2980736",
+                "Regulation Of Gene Expression In Endocrine-Committed (NEUROG3+) Progenitor Cells R-HSA-210746",
+                "Synthesis, Secretion, And Inactivation Of Glucagon-like Peptide-1 (GLP-1) R-HSA-381771",
+                "Integration Of Energy Metabolism R-HSA-163685",
+                "Incretin Synthesis, Secretion, And Inactivation R-HSA-400508",
+                "Synthesis, Secretion, And Inactivation Of Glucose-dependent Insulinotropic Polypeptide (GIP) R-HSA-400511",
+                "Synthesis, Secretion, And Deacylation Of Ghrelin R-HSA-422085",
+                "Insulin Processing R-HSA-264876",
+                "Developmental Biology R-HSA-1266738",
+                "IRS Activation R-HSA-74713",
+                "Regulation Of Gene Expression In Early Pancreatic Precursor Cells R-HSA-210747",
+                "Signal Attenuation R-HSA-74749"
+            ]
+        },
+        "Breast_cancer": {
+            "cluster": 13,
+            "pathways": [
+                "Gene Expression (Transcription) R-HSA-74160",
+                "RNA Polymerase II Transcription R-HSA-73857",
+                "Generic Transcription Pathway R-HSA-212436",
+                "PI3K/AKT Signaling In Cancer R-HSA-2219528",
+                "Signaling By Receptor Tyrosine Kinases R-HSA-9006934",
+                "Disease R-HSA-1643685",
+                "PIP3 Activates AKT Signaling R-HSA-1257604",
+                "Intracellular Signaling By Second Messengers R-HSA-9006925",
+                "Signaling By ERBB4 R-HSA-1236394",
+                "Chromatin Modifying Enzymes R-HSA-3247509",
+                "Negative Regulation Of PI3K/AKT Network R-HSA-199418",
+                "Transcriptional Regulation By AP-2 (TFAP2) Family Of Transcription Factors R-HSA-8864260",
+                "Regulation Of TP53 Degradation R-HSA-6804757",
+                "Extra-nuclear Estrogen Signaling R-HSA-9009391",
+                "Signal Transduction R-HSA-162582"
+            ]
+        },
+        "Lipid_and_atherosclerosis": {
+            "cluster": 5,
+            "pathways": [
+                "Plasma Lipoprotein Assembly, Remodeling, And Clearance R-HSA-174824",
+                "Plasma Lipoprotein Remodeling R-HSA-8963899",
+                "Plasma Lipoprotein Assembly R-HSA-8963898",
+                "Plasma Lipoprotein Clearance R-HSA-8964043",
+                "Transport Of Small Molecules R-HSA-382551",
+                "Chylomicron Assembly R-HSA-8963888",
+                "Chylomicron Remodeling R-HSA-8963901",
+                "Metabolism R-HSA-1430728",
+                "HDL Remodeling R-HSA-8964058",
+                "Metabolism Of Lipids R-HSA-556833",
+                "LDL Remodeling R-HSA-8964041",
+                "Retinoid Metabolism And Transport R-HSA-975634",
+                "Metabolism Of Fat-Soluble Vitamins R-HSA-6806667",
+                "NR1H3 And NR1H2 Regulate Gene Expression Linked To Cholesterol Transport And Efflux R-HSA-9029569",
+                "Acyl Chain Remodelling Of PI R-HSA-1482922"
+            ]
+        },
+        "Alzheimer_disease": {
+            "cluster": 15,
+            "pathways": [
+                "Signal Transduction R-HSA-162582",
+                "NRIF Signals Cell Death From Nucleus R-HSA-205043",
+                "Synthesis, Secretion, And Deacylation Of Ghrelin R-HSA-422085",
+                "Amyloid Fiber Formation R-HSA-977225",
+                "Signaling By Receptor Tyrosine Kinases R-HSA-9006934",
+                "Developmental Biology R-HSA-1266738",
+                "Noncanonical Activation Of NOTCH3 R-HSA-9017802",
+                "Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202",
+                "Cell Death Signaling Via NRAGE, NRIF And NADE R-HSA-204998",
+                "Nuclear Signaling By ERBB4 R-HSA-1251985",
+                "Death Receptor Signaling R-HSA-73887",
+                "Activation Of AMPK Downstream Of NMDARs R-HSA-9619483",
+                "Metabolism Of Proteins R-HSA-392499",
+                "Regulated Proteolysis Of p75NTR R-HSA-193692",
+                "Signaling By Leptin R-HSA-2586552"
+            ]
+        },
+        "Amoebiasis": {
+            "cluster": 6,
+            "pathways": [
+                "Binding And Entry Of HIV Virion R-HSA-173107",
+                "Nef Mediated CD4 Down-regulation R-HSA-167590",
+                "Alpha-defensins R-HSA-1462054",
+                "Early Phase Of HIV Life Cycle R-HSA-162594",
+                "Translocation Of ZAP-70 To Immunological Synapse R-HSA-202430",
+                "Immune System R-HSA-168256",
+                "Nef-mediated Downmodulation Of Cell Surface Receptors By Recruitment To Clathrin Adapters R-HSA-164938",
+                "Phosphorylation Of CD3 And TCR Zeta Chains R-HSA-202427",
+                "PD-1 Signaling R-HSA-389948",
+                "Other Interleukin Signaling R-HSA-449836",
+                "Role Of Nef In HIV-1 Replication And Disease Pathogenesis R-HSA-164952",
+                "Generation Of Second Messenger Molecules R-HSA-202433",
+                "Detoxification Of Reactive Oxygen Species R-HSA-3299685",
+                "Adaptive Immune System R-HSA-1280218",
+                "Defensins R-HSA-1461973"
+            ]
+        },
+        "Non-alcoholic_fatty_liver_disease": {
+            "cluster": 11,
+            "pathways": [
+                "Metabolism Of Lipids R-HSA-556833",
+                "Metabolism R-HSA-1430728",
+                "Integration Of Energy Metabolism R-HSA-163685",
+                "Transcriptional Regulation Of White Adipocyte Differentiation R-HSA-381340",
+                "PPARA Activates Gene Expression R-HSA-1989781",
+                "Regulation Of Lipid Metabolism By PPARalpha R-HSA-400206",
+                "Acyl Chain Remodeling Of DAG And TAG R-HSA-1482883",
+                "ChREBP Activates Metabolic Gene Expression R-HSA-163765",
+                "Activation Of Gene Expression By SREBF (SREBP) R-HSA-2426168",
+                "Heme Signaling R-HSA-9707616",
+                "Nuclear Receptor Transcription Pathway R-HSA-383280",
+                "Regulation Of Cholesterol Biosynthesis By SREBP (SREBF) R-HSA-1655829",
+                "Synthesis, Secretion, And Deacylation Of Ghrelin R-HSA-422085",
+                "Metabolism Of Steroids R-HSA-8957322",
+                "SUMOylation Of Intracellular Receptors R-HSA-4090294"
+            ]
+        },
+        "Herpes_simplex_virus_1_infection": {
+            "cluster": 8,
+            "pathways": [
+                "Cytosolic Sensors Of Pathogen-Associated DNA R-HSA-1834949",
+                "Immune System R-HSA-168256",
+                "STING Mediated Induction Of Host Immune Responses R-HSA-1834941",
+                "Infectious Disease R-HSA-5663205",
+                "ZBP1(DAI) Mediated Induction Of Type I IFNs R-HSA-1606322",
+                "Disease R-HSA-1643685",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Innate Immune System R-HSA-168249",
+                "IRF3-mediated Induction Of Type I IFN R-HSA-3270619",
+                "Regulation Of Innate Immune Responses To Cytosolic DNA R-HSA-3134975",
+                "DDX58/IFIH1-mediated Induction Of Interferon-Alpha/Beta R-HSA-168928",
+                "IRF3 Mediated Activation Of Type 1 IFN R-HSA-1606341",
+                "HCMV Early Events R-HSA-9609690",
+                "HCMV Infection R-HSA-9609646",
+                "Interferon Signaling R-HSA-913531"
+            ]
+        },
+        "Alcoholism": {
+            "cluster": 10,
+            "pathways": [
+                "Dopamine Receptors R-HSA-390651",
+                "Amine Ligand-Binding Receptors R-HSA-375280",
+                "Drug ADME R-HSA-9748784",
+                "LTC4-CYSLTR Mediated IL4 Production R-HSA-9664535",
+                "HDL Remodeling R-HSA-8964058",
+                "Neurotransmitter Clearance R-HSA-112311",
+                "Scavenging Of Heme From Plasma R-HSA-2168880",
+                "Glutathione Synthesis And Recycling R-HSA-174403",
+                "Class A/1 (Rhodopsin-like Receptors) R-HSA-373076",
+                "Heme Biosynthesis R-HSA-189451",
+                "Heme Degradation R-HSA-189483",
+                "Recycling Of Bile Acids And Salts R-HSA-159418",
+                "Aflatoxin Activation And Detoxification R-HSA-5423646",
+                "Synthesis Of Leukotrienes (LT) And Eoxins (EX) R-HSA-2142691",
+                "GPCR Ligand Binding R-HSA-500792"
+            ]
+        },
+        "Chagas_disease": {
+            "cluster": 1,
+            "pathways": [
+                "Immune System R-HSA-168256",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Adaptive Immune System R-HSA-1280218",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "Signaling By Interleukins R-HSA-449147",
+                "Immunoregulatory Interactions Between A Lymphoid And A non-Lymphoid Cell R-HSA-198933",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Interferon Gamma Signaling R-HSA-877300",
+                "ER-Phagosome Pathway R-HSA-1236974",
+                "Antigen processing-Cross Presentation R-HSA-1236975",
+                "Chemokine Receptors Bind Chemokines R-HSA-380108",
+                "Endosomal/Vacuolar Pathway R-HSA-1236977",
+                "Infectious Disease R-HSA-5663205",
+                "Interferon Signaling R-HSA-913531",
+                "MyD88 Deficiency (TLR2/4) R-HSA-5602498"
+            ]
+        },
+        "Epithelial_cell_signaling_in_Helicobacter_pylori_infection": {
+            "cluster": 3,
+            "pathways": [
+                "Signaling By Interleukins R-HSA-449147",
+                "MyD88 Cascade Initiated On Plasma Membrane R-HSA-975871",
+                "MyD88-independent TLR4 Cascade R-HSA-166166",
+                "Interleukin-1 Family Signaling R-HSA-446652",
+                "Toll-like Receptor Cascades R-HSA-168898",
+                "Immune System R-HSA-168256",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Toll Like Receptor 7/8 (TLR7/8) Cascade R-HSA-168181",
+                "Toll Like Receptor 3 (TLR3) Cascade R-HSA-168164",
+                "MyD88 Dependent Cascade Initiated On Endosome R-HSA-975155",
+                "Toll Like Receptor 4 (TLR4) Cascade R-HSA-166016",
+                "TRAF6 Mediated Induction Of NFkB And MAP Kinases Upon TLR7/8 Or 9 Activation R-HSA-975138",
+                "Toll Like Receptor 9 (TLR9) Cascade R-HSA-168138",
+                "MyD88:MAL(TIRAP) Cascade Initiated On Plasma Membrane R-HSA-166058",
+                "Innate Immune System R-HSA-168249"
+            ]
+        },
+        "Coronavirus_disease_-_COVID-19": {
+            "cluster": 8,
+            "pathways": [
+                "Infectious Disease R-HSA-5663205",
+                "Immune System R-HSA-168256",
+                "Disease R-HSA-1643685",
+                "Role Of Nef In HIV-1 Replication And Disease Pathogenesis R-HSA-164952",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "CD163 Mediating An Anti-Inflammatory Response R-HSA-9662834",
+                "SARS-CoV Infections R-HSA-9679506",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "SARS-CoV-2 Infection R-HSA-9694516",
+                "Adaptive Immune System R-HSA-1280218",
+                "Nef-mediated Downmodulation Of Cell Surface Receptors By Recruitment To Clathrin Adapters R-HSA-164938",
+                "Antigen Presentation: Folding, Assembly, Peptide Loading Of Class I MHC R-HSA-983170",
+                "Attachment And Entry R-HSA-9678110",
+                "Early SARS-CoV-2 Infection Events R-HSA-9772572",
+                "Signaling By Interleukins R-HSA-449147"
+            ]
+        },
+        "African_trypanosomiasis": {
+            "cluster": 9,
+            "pathways": [
+                "Scavenging Of Heme From Plasma R-HSA-2168880",
+                "Binding And Uptake Of Ligands By Scavenger Receptors R-HSA-2173782",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Immune System R-HSA-168256",
+                "Post-translational Protein Phosphorylation R-HSA-8957275",
+                "Regulation Of IGF Transport And Uptake By IGFBPs R-HSA-381426",
+                "Platelet Degranulation R-HSA-114608",
+                "CD163 Mediating An Anti-Inflammatory Response R-HSA-9662834",
+                "Response To Elevated Platelet Cytosolic Ca2+ R-HSA-76005",
+                "HDL Remodeling R-HSA-8964058",
+                "Signaling By Interleukins R-HSA-449147",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Senescence-Associated Secretory Phenotype (SASP) R-HSA-2559582",
+                "Scavenging By Class A Receptors R-HSA-3000480"
+            ]
+        },
+        "Human_T-cell_leukemia_virus_1_infection": {
+            "cluster": 2,
+            "pathways": [
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Signaling By Interleukins R-HSA-449147",
+                "Immune System R-HSA-168256",
+                "RUNX1 And FOXP3 Control Development Of Regulatory T Lymphocytes (Tregs) R-HSA-8877330",
+                "Transcriptional Regulation By RUNX1 R-HSA-8878171",
+                "Pre-NOTCH Expression And Processing R-HSA-1912422",
+                "DDX58/IFIH1-mediated Induction Of Interferon-Alpha/Beta R-HSA-168928",
+                "Regulation Of Gene Expression By Hypoxia-inducible Factor R-HSA-1234158",
+                "Toll Like Receptor 7/8 (TLR7/8) Cascade R-HSA-168181",
+                "MyD88 Dependent Cascade Initiated On Endosome R-HSA-975155",
+                "Toll Like Receptor 3 (TLR3) Cascade R-HSA-168164",
+                "Generic Transcription Pathway R-HSA-212436",
+                "MyD88 Cascade Initiated On Plasma Membrane R-HSA-975871",
+                "TRAF6 Mediated Induction Of NFkB And MAP Kinases Upon TLR7/8 Or 9 Activation R-HSA-975138",
+                "Toll Like Receptor 9 (TLR9) Cascade R-HSA-168138"
+            ]
+        },
+        "Small_cell_lung_cancer": {
+            "cluster": 13,
+            "pathways": [
+                "Generic Transcription Pathway R-HSA-212436",
+                "Gene Expression (Transcription) R-HSA-74160",
+                "RNA Polymerase II Transcription R-HSA-73857",
+                "Signal Transduction R-HSA-162582",
+                "Signaling By Receptor Tyrosine Kinases R-HSA-9006934",
+                "Costimulation By CD28 Family R-HSA-388841",
+                "PIP3 Activates AKT Signaling R-HSA-1257604",
+                "Intracellular Signaling By Second Messengers R-HSA-9006925",
+                "PI3K/AKT Signaling In Cancer R-HSA-2219528",
+                "Regulation Of PTEN Gene Transcription R-HSA-8943724",
+                "Activation Of BH3-only Proteins R-HSA-114452",
+                "Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202",
+                "PTEN Regulation R-HSA-6807070",
+                "TP53 Regulates Metabolic Genes R-HSA-5628897",
+                "Transcriptional Regulation By AP-2 (TFAP2) Family Of Transcription Factors R-HSA-8864260"
+            ]
+        },
+        "Viral_myocarditis": {
+            "cluster": 1,
+            "pathways": [
+                "Immune System R-HSA-168256",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Signaling By Interleukins R-HSA-449147",
+                "Diseases Associated With TLR Signaling Cascade R-HSA-5602358",
+                "Disease R-HSA-1643685",
+                "Intrinsic Pathway For Apoptosis R-HSA-109606",
+                "Programmed Cell Death R-HSA-5357801",
+                "Apoptosis R-HSA-109581",
+                "Toll-like Receptor Cascades R-HSA-168898",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Innate Immune System R-HSA-168249",
+                "MTOR Signaling R-HSA-165159",
+                "Toll Like Receptor 4 (TLR4) Cascade R-HSA-166016",
+                "RIP-mediated NFkB Activation Via ZBP1 R-HSA-1810476",
+                "MyD88 Deficiency (TLR2/4) R-HSA-5602498"
+            ]
+        },
+        "Melanoma": {
+            "cluster": 12,
+            "pathways": [
+                "Intrinsic Pathway For Apoptosis R-HSA-109606",
+                "Programmed Cell Death R-HSA-5357801",
+                "Apoptosis R-HSA-109581",
+                "Immune System R-HSA-168256",
+                "Signal Transduction R-HSA-162582",
+                "Disease R-HSA-1643685",
+                "Generic Transcription Pathway R-HSA-212436",
+                "Signaling By Interleukins R-HSA-449147",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "RNA Polymerase II Transcription R-HSA-73857",
+                "Activation Of BH3-only Proteins R-HSA-114452",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Gene Expression (Transcription) R-HSA-74160",
+                "RUNX3 Regulates p14-ARF R-HSA-8951936",
+                "Activation Of BAD And Translocation To Mitochondria R-HSA-111447"
+            ]
+        },
+        "Inflammatory_bowel_disease": {
+            "cluster": 1,
+            "pathways": [
+                "Immune System R-HSA-168256",
+                "Toll-like Receptor Cascades R-HSA-168898",
+                "Diseases Associated With TLR Signaling Cascade R-HSA-5602358",
+                "MyD88:MAL(TIRAP) Cascade Initiated On Plasma Membrane R-HSA-166058",
+                "MyD88 Deficiency (TLR2/4) R-HSA-5602498",
+                "IRAK4 Deficiency (TLR2/4) R-HSA-5603041",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Toll Like Receptor 4 (TLR4) Cascade R-HSA-166016",
+                "Innate Immune System R-HSA-168249",
+                "TRAF6 Mediated Induction Of NFkB And MAP Kinases Upon TLR7/8 Or 9 Activation R-HSA-975138",
+                "MyD88 Dependent Cascade Initiated On Endosome R-HSA-975155",
+                "Toll Like Receptor 7/8 (TLR7/8) Cascade R-HSA-168181",
+                "Antigen processing-Cross Presentation R-HSA-1236975",
+                "Toll Like Receptor 9 (TLR9) Cascade R-HSA-168138",
+                "Signaling By Interleukins R-HSA-449147"
+            ]
+        },
+        "Acute_myeloid_leukemia": {
+            "cluster": 13,
+            "pathways": [
+                "Transcriptional Regulation Of Granulopoiesis R-HSA-9616222",
+                "Gene Expression (Transcription) R-HSA-74160",
+                "Generic Transcription Pathway R-HSA-212436",
+                "RNA Polymerase II Transcription R-HSA-73857",
+                "Transcriptional Regulation By VENTX R-HSA-8853884",
+                "Transcriptional Regulation By RUNX3 R-HSA-8878159",
+                "Developmental Biology R-HSA-1266738",
+                "Immune System R-HSA-168256",
+                "RUNX3 Regulates p14-ARF R-HSA-8951936",
+                "SUMO E3 Ligases SUMOylate Target Proteins R-HSA-3108232",
+                "SUMOylation R-HSA-2990846",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Regulation Of RUNX1 Expression And Activity R-HSA-8934593",
+                "Signaling By KIT In Disease R-HSA-9669938",
+                "Signal Transduction R-HSA-162582"
+            ]
+        },
+        "Chronic_myeloid_leukemia": {
+            "cluster": 1,
+            "pathways": [
+                "Immune System R-HSA-168256",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Disease R-HSA-1643685",
+                "Transcriptional Regulation By RUNX3 R-HSA-8878159",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Signaling By Interleukins R-HSA-449147",
+                "Generic Transcription Pathway R-HSA-212436",
+                "Signal Transduction R-HSA-162582",
+                "Gene Expression (Transcription) R-HSA-74160",
+                "RNA Polymerase II Transcription R-HSA-73857",
+                "Interferon Signaling R-HSA-913531",
+                "Costimulation By CD28 Family R-HSA-388841",
+                "Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202",
+                "Hemostasis R-HSA-109582",
+                "Infectious Disease R-HSA-5663205"
+            ]
+        },
+        "Diabetic_cardiomyopathy": {
+            "cluster": 3,
+            "pathways": [
+                "Signaling By Interleukins R-HSA-449147",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Cellular Responses To Stress R-HSA-2262752",
+                "Cellular Responses To Stimuli R-HSA-8953897",
+                "Transcriptional Regulation Of White Adipocyte Differentiation R-HSA-381340",
+                "Signal Transduction R-HSA-162582",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "Cellular Response To Chemical Stress R-HSA-9711123",
+                "Translocation Of SLC2A4 (GLUT4) To Plasma Membrane R-HSA-1445148",
+                "Regulation Of Gene Expression In Beta Cells R-HSA-210745",
+                "Cellular Hexose Transport R-HSA-189200",
+                "FOXO-mediated Transcription R-HSA-9614085",
+                "MTOR Signaling R-HSA-165159",
+                "Regulation Of Beta-Cell Development R-HSA-186712"
+            ]
+        },
+        "Tuberculosis": {
+            "cluster": 3,
+            "pathways": [
+                "Signaling By Interleukins R-HSA-449147",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "Immune System R-HSA-168256",
+                "CD163 Mediating An Anti-Inflammatory Response R-HSA-9662834",
+                "RUNX1 And FOXP3 Control Development Of Regulatory T Lymphocytes (Tregs) R-HSA-8877330",
+                "Leishmania Infection R-HSA-9658195",
+                "Regulation Of IGF Transport And Uptake By IGFBPs R-HSA-381426",
+                "Anti-inflammatory Response Favoring Leishmania Infection R-HSA-9662851",
+                "Gene And Protein Expression By JAK-STAT Signaling After Interleukin-12 Stimulation R-HSA-8950505",
+                "Interleukin-12 Signaling R-HSA-9020591",
+                "Interleukin-12 Family Signaling R-HSA-447115",
+                "Infectious Disease R-HSA-5663205",
+                "Disease R-HSA-1643685"
+            ]
+        },
+        "Leishmaniasis": {
+            "cluster": 2,
+            "pathways": [
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Immune System R-HSA-168256",
+                "Signaling By Interleukins R-HSA-449147",
+                "Interleukin-12 Family Signaling R-HSA-447115",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Interferon Gamma Signaling R-HSA-877300",
+                "Interleukin-12 Signaling R-HSA-9020591",
+                "Interferon Signaling R-HSA-913531",
+                "Innate Immune System R-HSA-168249",
+                "Interleukin-23 Signaling R-HSA-9020933",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "Immunoregulatory Interactions Between A Lymphoid And A non-Lymphoid Cell R-HSA-198933",
+                "RUNX1 And FOXP3 Control Development Of Regulatory T Lymphocytes (Tregs) R-HSA-8877330",
+                "Endosomal/Vacuolar Pathway R-HSA-1236977",
+                "ECM Proteoglycans R-HSA-3000178"
+            ]
+        },
+        "Spinocerebellar_ataxia": {
+            "cluster": 12,
+            "pathways": [
+                "Neuronal System R-HSA-112316",
+                "Signaling By TGF-beta Receptor Complex R-HSA-170834",
+                "TGF-beta Receptor Signaling Activates SMADs R-HSA-2173789",
+                "Signaling By TGFB Family Members R-HSA-9006936",
+                "Elevation Of Cytosolic Ca2+ Levels R-HSA-139853",
+                "Processing Of SMDT1 R-HSA-8949664",
+                "Signal Transduction R-HSA-162582",
+                "Defective Intrinsic Pathway For Apoptosis R-HSA-9734009",
+                "Synthesis Of Very Long-Chain Fatty acyl-CoAs R-HSA-75876",
+                "Muscle Contraction R-HSA-397014",
+                "Opioid Signaling R-HSA-111885",
+                "Mitochondrial Calcium Ion Transport R-HSA-8949215",
+                "Deregulated CDK5 Triggers Neurodegenerative Pathways In Alzheimers Disease Models R-HSA-8862803",
+                "Platelet Calcium Homeostasis R-HSA-418360",
+                "Downregulation Of TGF-beta Receptor Signaling R-HSA-2173788"
+            ]
+        },
+        "Hepatocellular_carcinoma": {
+            "cluster": 14,
+            "pathways": [
+                "Signaling By Receptor Tyrosine Kinases R-HSA-9006934",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Signaling By ALK R-HSA-201556",
+                "Disease R-HSA-1643685",
+                "Costimulation By CD28 Family R-HSA-388841",
+                "Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202",
+                "STAT3 Nuclear Events Downstream Of ALK Signaling R-HSA-9701898",
+                "VEGFA-VEGFR2 Pathway R-HSA-4420097",
+                "Signaling By VEGF R-HSA-194138",
+                "Signaling By Non-Receptor Tyrosine Kinases R-HSA-9006927",
+                "Signaling By NOTCH R-HSA-157118",
+                "Signal Transduction R-HSA-162582",
+                "VEGFR2 Mediated Vascular Permeability R-HSA-5218920",
+                "Cellular Responses To Stress R-HSA-2262752",
+                "Cellular Responses To Stimuli R-HSA-8953897"
+            ]
+        },
+        "Alcoholic_liver_disease": {
+            "cluster": 3,
+            "pathways": [
+                "Signaling By Interleukins R-HSA-449147",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Transcriptional Regulation Of White Adipocyte Differentiation R-HSA-381340",
+                "Biological Oxidations R-HSA-211859",
+                "Phase I - Functionalization Of Compounds R-HSA-211945",
+                "Cytoprotection By HMOX1 R-HSA-9707564",
+                "Cell Recruitment (Pro-Inflammatory Response) R-HSA-9664424",
+                "Cellular Responses To Stress R-HSA-2262752",
+                "Interleukin-1 Processing R-HSA-448706",
+                "Cellular Responses To Stimuli R-HSA-8953897",
+                "Ethanol Oxidation R-HSA-71384",
+                "Immune System R-HSA-168256",
+                "Leishmania Infection R-HSA-9658195"
+            ]
+        },
+        "Hepatitis_C": {
+            "cluster": 5,
+            "pathways": [
+                "Plasma Lipoprotein Assembly, Remodeling, And Clearance R-HSA-174824",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Chylomicron Remodeling R-HSA-8963901",
+                "Immune System R-HSA-168256",
+                "Plasma Lipoprotein Remodeling R-HSA-8963899",
+                "Plasma Lipoprotein Clearance R-HSA-8964043",
+                "Infectious Disease R-HSA-5663205",
+                "Retinoid Metabolism And Transport R-HSA-975634",
+                "Metabolism Of Fat-Soluble Vitamins R-HSA-6806667",
+                "Chylomicron Clearance R-HSA-8964026",
+                "Scavenging By Class B Receptors R-HSA-3000471",
+                "Disease R-HSA-1643685",
+                "Interferon Signaling R-HSA-913531",
+                "Interferon Alpha/Beta Signaling R-HSA-909733",
+                "Chylomicron Assembly R-HSA-8963888"
+            ]
+        },
+        "Basal_cell_carcinoma": {
+            "cluster": 12,
+            "pathways": [
+                "GLI Proteins Bind Promoters Of Hh Responsive Genes To Promote Transcription R-HSA-5635851",
+                "Hedgehog On State R-HSA-5632684",
+                "Signaling By Hedgehog R-HSA-5358351",
+                "Signal Transduction R-HSA-162582",
+                "Hedgehog Off State R-HSA-5610787",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Intrinsic Pathway For Apoptosis R-HSA-109606",
+                "Signaling By ALK R-HSA-201556",
+                "Activation Of BH3-only Proteins R-HSA-114452",
+                "RUNX2 Regulates Bone Development R-HSA-8941326",
+                "Apoptosis R-HSA-109581",
+                "Transcriptional Regulation By RUNX3 R-HSA-8878159",
+                "Transcriptional Regulation By VENTX R-HSA-8853884",
+                "Signaling By Interleukins R-HSA-449147",
+                "Programmed Cell Death R-HSA-5357801"
+            ]
+        },
+        "Hypertrophic_cardiomyopathy": {
+            "cluster": 4,
+            "pathways": [
+                "Striated Muscle Contraction R-HSA-390522",
+                "Muscle Contraction R-HSA-397014",
+                "Platelet Degranulation R-HSA-114608",
+                "Response To Elevated Platelet Cytosolic Ca2+ R-HSA-76005",
+                "Platelet Activation, Signaling And Aggregation R-HSA-76002",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Extracellular Matrix Organization R-HSA-1474244",
+                "Syndecan Interactions R-HSA-3000170",
+                "Signaling By High-Kinase Activity BRAF Mutants R-HSA-6802948",
+                "Activation Of Matrix Metalloproteinases R-HSA-1592389",
+                "Hemostasis R-HSA-109582",
+                "MAP2K And MAPK Activation R-HSA-5674135",
+                "Signaling By RAF1 Mutants R-HSA-9656223",
+                "Signaling By Interleukins R-HSA-449147",
+                "Paradoxical Activation Of RAF Signaling By Kinase Inactive BRAF R-HSA-6802955"
+            ]
+        },
+        "Primary_immunodeficiency": {
+            "cluster": 1,
+            "pathways": [
+                "Immune System R-HSA-168256",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Signaling By Interleukins R-HSA-449147",
+                "Disease R-HSA-1643685",
+                "Adaptive Immune System R-HSA-1280218",
+                "Interleukin-7 Signaling R-HSA-1266695",
+                "Interleukin-9 Signaling R-HSA-8985947",
+                "Infectious Disease R-HSA-5663205",
+                "Interleukin-21 Signaling R-HSA-9020958",
+                "Signaling By B Cell Receptor (BCR) R-HSA-983705",
+                "Diseases Associated With TLR Signaling Cascade R-HSA-5602358",
+                "Antigen Activates B Cell Receptor Leading To Second Messenger Generation R-HSA-983695",
+                "Innate Immune System R-HSA-168249",
+                "Early Phase Of HIV Life Cycle R-HSA-162594",
+                "Interleukin-2 Family Signaling R-HSA-451927"
+            ]
+        },
+        "Type_I_diabetes_mellitus": {
+            "cluster": 2,
+            "pathways": [
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Immune System R-HSA-168256",
+                "Peptide Hormone Metabolism R-HSA-2980736",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "Synthesis, Secretion, And Deacylation Of Ghrelin R-HSA-422085",
+                "Costimulation By CD28 Family R-HSA-388841",
+                "RUNX1 And FOXP3 Control Development Of Regulatory T Lymphocytes (Tregs) R-HSA-8877330",
+                "Translocation Of ZAP-70 To Immunological Synapse R-HSA-202430",
+                "Signaling By Interleukins R-HSA-449147",
+                "Phosphorylation Of CD3 And TCR Zeta Chains R-HSA-202427",
+                "CTLA4 Inhibitory Signaling R-HSA-389513",
+                "Adaptive Immune System R-HSA-1280218",
+                "Regulation Of IGF Transport And Uptake By IGFBPs R-HSA-381426",
+                "Endosomal/Vacuolar Pathway R-HSA-1236977",
+                "CD28 Dependent Vav1 Pathway R-HSA-389359"
+            ]
+        },
+        "Glioma": {
+            "cluster": 15,
+            "pathways": [
+                "Signal Transduction R-HSA-162582",
+                "Chemokine Receptors Bind Chemokines R-HSA-380108",
+                "Peptide Ligand-Binding Receptors R-HSA-375276",
+                "Signaling By Receptor Tyrosine Kinases R-HSA-9006934",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Class A/1 (Rhodopsin-like Receptors) R-HSA-373076",
+                "Signaling By GPCR R-HSA-372790",
+                "GPCR Ligand Binding R-HSA-500792",
+                "MTOR Signaling R-HSA-165159",
+                "Immune System R-HSA-168256",
+                "GPCR Downstream Signaling R-HSA-388396",
+                "mRNA Activation Upon Binding Of Cap-Binding Complex And eIFs, Subsequent Binding To 43S R-HSA-72662",
+                "mTORC1-mediated Signaling R-HSA-166208",
+                "G Alpha (I) Signaling Events R-HSA-418594",
+                "Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202"
+            ]
+        },
+        "Vibrio_cholerae_infection": {
+            "cluster": 1,
+            "pathways": [
+                "Immune System R-HSA-168256",
+                "Translocation Of ZAP-70 To Immunological Synapse R-HSA-202430",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "Phosphorylation Of CD3 And TCR Zeta Chains R-HSA-202427",
+                "PD-1 Signaling R-HSA-389948",
+                "Costimulation By CD28 Family R-HSA-388841",
+                "Innate Immune System R-HSA-168249",
+                "Generation Of Second Messenger Molecules R-HSA-202433",
+                "Disease R-HSA-1643685",
+                "Downstream TCR Signaling R-HSA-202424",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Adaptive Immune System R-HSA-1280218",
+                "TCR Signaling R-HSA-202403",
+                "Nef-mediated Downmodulation Of Cell Surface Receptors By Recruitment To Clathrin Adapters R-HSA-164938",
+                "Role Of Nef In HIV-1 Replication And Disease Pathogenesis R-HSA-164952"
+            ]
+        },
+        "Allograft_rejection": {
+            "cluster": 1,
+            "pathways": [
+                "Immune System R-HSA-168256",
+                "Cytokine Signaling In Immune System R-HSA-1280215",
+                "RUNX1 And FOXP3 Control Development Of Regulatory T Lymphocytes (Tregs) R-HSA-8877330",
+                "Signaling By Interleukins R-HSA-449147",
+                "Interleukin-12 Signaling R-HSA-9020591",
+                "Interleukin-10 Signaling R-HSA-6783783",
+                "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+                "Interleukin-12 Family Signaling R-HSA-447115",
+                "Nef-mediated Downmodulation Of Cell Surface Receptors By Recruitment To Clathrin Adapters R-HSA-164938",
+                "Costimulation By CD28 Family R-HSA-388841",
+                "Role Of Nef In HIV-1 Replication And Disease Pathogenesis R-HSA-164952",
+                "Adaptive Immune System R-HSA-1280218",
+                "Gene And Protein Expression By JAK-STAT Signaling After Interleukin-12 Stimulation R-HSA-8950505",
+                "Peptide Ligand-Binding Receptors R-HSA-375276",
+                "Transcriptional Regulation By RUNX1 R-HSA-8878171"
+            ]
+        },
+        "Arrhythmogenic_right_ventricular_cardiomyopathy": {
+            "cluster": 4,
+            "pathways": [
+                "Muscle Contraction R-HSA-397014",
+                "Striated Muscle Contraction R-HSA-390522",
+                "Adherens Junctions Interactions R-HSA-418990",
+                "Cell Junction Organization R-HSA-446728",
+                "Apoptotic Cleavage Of Cell Adhesion Proteins R-HSA-351906",
+                "Apoptotic Cleavage Of Cellular Proteins R-HSA-111465",
+                "Apoptotic Execution Phase R-HSA-75153",
+                "Cell-Cell Communication R-HSA-1500931",
+                "Cell-cell Junction Organization R-HSA-421270",
+                "VEGFR2 Mediated Vascular Permeability R-HSA-5218920",
+                "Myogenesis R-HSA-525793",
+                "Developmental Biology R-HSA-1266738",
+                "SARS-CoV-2 Targets PDZ Proteins In Cell-Cell Junction R-HSA-9705677",
+                "Programmed Cell Death R-HSA-5357801",
+                "Cardiac Conduction R-HSA-5576891"
+            ]
+        }
+    },
+    "cluster_to_diseases": {
+        "9": [
+            "Malaria",
+            "Legionellosis",
+            "Pertussis",
+            "African_trypanosomiasis"
+        ],
+        "10": [
+            "Parkinson_disease",
+            "Alcoholism"
+        ],
+        "2": [
+            "Salmonella_infection",
+            "Measles",
+            "Hepatitis_B",
+            "Graft-versus-host_disease",
+            "Rheumatoid_arthritis",
+            "Human_T-cell_leukemia_virus_1_infection",
+            "Leishmaniasis",
+            "Type_I_diabetes_mellitus"
+        ],
+        "14": [
+            "Colorectal_cancer",
+            "Non-small_cell_lung_cancer",
+            "Gastric_cancer",
+            "Thyroid_cancer",
+            "Endometrial_cancer",
+            "Bladder_cancer",
+            "Hepatocellular_carcinoma"
+        ],
+        "1": [
+            "Prion_disease",
+            "Influenza_A",
+            "Systemic_lupus_erythematosus",
+            "Human_cytomegalovirus_infection",
+            "Yersinia_infection",
+            "Staphylococcus_aureus_infection",
+            "Asthma",
+            "Chagas_disease",
+            "Viral_myocarditis",
+            "Inflammatory_bowel_disease",
+            "Chronic_myeloid_leukemia",
+            "Primary_immunodeficiency",
+            "Vibrio_cholerae_infection",
+            "Allograft_rejection"
+        ],
+        "15": [
+            "Cushing_syndrome",
+            "Huntington_disease",
+            "Type_II_diabetes_mellitus",
+            "Alzheimer_disease",
+            "Glioma"
+        ],
+        "7": [
+            "Renal_cell_carcinoma",
+            "Epstein-Barr_virus_infection"
+        ],
+        "13": [
+            "Prostate_cancer",
+            "Breast_cancer",
+            "Small_cell_lung_cancer",
+            "Acute_myeloid_leukemia"
+        ],
+        "4": [
+            "Dilated_cardiomyopathy",
+            "Hypertrophic_cardiomyopathy",
+            "Arrhythmogenic_right_ventricular_cardiomyopathy"
+        ],
+        "6": [
+            "Human_immunodeficiency_virus_1_infection",
+            "Amoebiasis"
+        ],
+        "3": [
+            "Kaposi_sarcoma-associated_herpesvirus_infection",
+            "Toxoplasmosis",
+            "Amyotrophic_lateral_sclerosis",
+            "Shigellosis",
+            "Pancreatic_cancer",
+            "Epithelial_cell_signaling_in_Helicobacter_pylori_infection",
+            "Diabetic_cardiomyopathy",
+            "Tuberculosis",
+            "Alcoholic_liver_disease"
+        ],
+        "8": [
+            "Pathogenic_Escherichia_coli_infection",
+            "Herpes_simplex_virus_1_infection",
+            "Coronavirus_disease_-_COVID-19"
+        ],
+        "11": [
+            "Maturity_onset_diabetes_of_the_young",
+            "Non-alcoholic_fatty_liver_disease"
+        ],
+        "5": [
+            "Lipid_and_atherosclerosis",
+            "Hepatitis_C"
+        ],
+        "12": [
+            "Melanoma",
+            "Spinocerebellar_ataxia",
+            "Basal_cell_carcinoma"
+        ]
+    },
+    "disease_cluster_labels": [
+        9,
+        10,
+        2,
+        14,
+        1,
+        15,
+        2,
+        14,
+        7,
+        13,
+        1,
+        14,
+        2,
+        15,
+        2,
+        14,
+        1,
+        4,
+        9,
+        6,
+        3,
+        1,
+        3,
+        1,
+        15,
+        9,
+        1,
+        3,
+        7,
+        3,
+        14,
+        8,
+        1,
+        14,
+        2,
+        3,
+        11,
+        13,
+        5,
+        15,
+        6,
+        11,
+        8,
+        10,
+        1,
+        3,
+        8,
+        9,
+        2,
+        13,
+        1,
+        12,
+        1,
+        13,
+        1,
+        3,
+        3,
+        2,
+        12,
+        14,
+        3,
+        5,
+        12,
+        4,
+        1,
+        2,
+        15,
+        1,
+        1,
+        4
+    ],
+    "linkage_matrix": [
+        [
+            23.0,
+            26.0,
+            0.3716953029436638,
+            2.0
+        ],
+        [
+            22.0,
+            56.0,
+            0.4116023815243308,
+            2.0
+        ],
+        [
+            14.0,
+            57.0,
+            0.41691640064870394,
+            2.0
+        ],
+        [
+            50.0,
+            64.0,
+            0.43155530373797835,
+            2.0
+        ],
+        [
+            2.0,
+            12.0,
+            0.43199917715407565,
+            2.0
+        ],
+        [
+            16.0,
+            44.0,
+            0.43333506877689254,
+            2.0
+        ],
+        [
+            21.0,
+            54.0,
+            0.44239429910098094,
+            2.0
+        ],
+        [
+            7.0,
+            30.0,
+            0.47949501035098085,
+            2.0
+        ],
+        [
+            32.0,
+            70.0,
+            0.4826153595626041,
+            3.0
+        ],
+        [
+            55.0,
+            60.0,
+            0.48425396026375767,
+            2.0
+        ],
+        [
+            68.0,
+            75.0,
+            0.5007842949923536,
+            3.0
+        ],
+        [
+            9.0,
+            49.0,
+            0.5020242184219462,
+            2.0
+        ],
+        [
+            72.0,
+            74.0,
+            0.5260184892959915,
+            4.0
+        ],
+        [
+            20.0,
+            79.0,
+            0.5280905874231876,
+            3.0
+        ],
+        [
+            73.0,
+            76.0,
+            0.5414046109807072,
+            4.0
+        ],
+        [
+            13.0,
+            66.0,
+            0.5528169361915656,
+            2.0
+        ],
+        [
+            37.0,
+            81.0,
+            0.5590796749497513,
+            3.0
+        ],
+        [
+            3.0,
+            77.0,
+            0.5625430641296039,
+            3.0
+        ],
+        [
+            35.0,
+            71.0,
+            0.5628900492766089,
+            3.0
+        ],
+        [
+            48.0,
+            82.0,
+            0.5631120764606354,
+            5.0
+        ],
+        [
+            10.0,
+            80.0,
+            0.5668527754630232,
+            4.0
+        ],
+        [
+            27.0,
+            29.0,
+            0.5730448062924454,
+            2.0
+        ],
+        [
+            83.0,
+            88.0,
+            0.5926491450549067,
+            6.0
+        ],
+        [
+            38.0,
+            61.0,
+            0.60473548824189,
+            2.0
+        ],
+        [
+            17.0,
+            69.0,
+            0.6065708708616302,
+            2.0
+        ],
+        [
+            65.0,
+            89.0,
+            0.613391751359534,
+            6.0
+        ],
+        [
+            67.0,
+            90.0,
+            0.677270321649369,
+            5.0
+        ],
+        [
+            59.0,
+            87.0,
+            0.683969828946635,
+            4.0
+        ],
+        [
+            6.0,
+            95.0,
+            0.6858843705442662,
+            7.0
+        ],
+        [
+            84.0,
+            96.0,
+            0.6888830330576984,
+            9.0
+        ],
+        [
+            45.0,
+            91.0,
+            0.7013585367007843,
+            3.0
+        ],
+        [
+            42.0,
+            46.0,
+            0.7016772417232604,
+            2.0
+        ],
+        [
+            34.0,
+            98.0,
+            0.7092692629672849,
+            8.0
+        ],
+        [
+            1.0,
+            43.0,
+            0.7319478477619774,
+            2.0
+        ],
+        [
+            63.0,
+            94.0,
+            0.7368946918935826,
+            3.0
+        ],
+        [
+            4.0,
+            52.0,
+            0.7381130653973446,
+            2.0
+        ],
+        [
+            33.0,
+            97.0,
+            0.7441893787193592,
+            5.0
+        ],
+        [
+            8.0,
+            28.0,
+            0.7499446974850112,
+            2.0
+        ],
+        [
+            24.0,
+            39.0,
+            0.7532854354308152,
+            2.0
+        ],
+        [
+            19.0,
+            40.0,
+            0.7553821098161735,
+            2.0
+        ],
+        [
+            0.0,
+            25.0,
+            0.7633985008281596,
+            2.0
+        ],
+        [
+            53.0,
+            86.0,
+            0.7673218243437969,
+            4.0
+        ],
+        [
+            78.0,
+            99.0,
+            0.7861344392197164,
+            12.0
+        ],
+        [
+            85.0,
+            108.0,
+            0.7982085684427551,
+            4.0
+        ],
+        [
+            15.0,
+            106.0,
+            0.8147389646839092,
+            6.0
+        ],
+        [
+            47.0,
+            110.0,
+            0.8201046896383033,
+            3.0
+        ],
+        [
+            51.0,
+            62.0,
+            0.8625668440984171,
+            2.0
+        ],
+        [
+            31.0,
+            101.0,
+            0.9104689630552462,
+            3.0
+        ],
+        [
+            11.0,
+            114.0,
+            0.9256983116390856,
+            7.0
+        ],
+        [
+            92.0,
+            100.0,
+            0.9364958641185259,
+            9.0
+        ],
+        [
+            105.0,
+            112.0,
+            0.9383719809081966,
+            14.0
+        ],
+        [
+            18.0,
+            115.0,
+            0.9597687475423288,
+            4.0
+        ],
+        [
+            5.0,
+            113.0,
+            0.9608386631887006,
+            5.0
+        ],
+        [
+            36.0,
+            41.0,
+            0.9609606625890036,
+            2.0
+        ],
+        [
+            58.0,
+            116.0,
+            0.9987101533028498,
+            3.0
+        ],
+        [
+            107.0,
+            117.0,
+            1.0325867292408466,
+            5.0
+        ],
+        [
+            123.0,
+            124.0,
+            1.0720799180260119,
+            5.0
+        ],
+        [
+            109.0,
+            125.0,
+            1.0911347455879181,
+            7.0
+        ],
+        [
+            103.0,
+            126.0,
+            1.1551144603810297,
+            7.0
+        ],
+        [
+            93.0,
+            127.0,
+            1.2126231942334718,
+            9.0
+        ],
+        [
+            121.0,
+            128.0,
+            1.226137509218882,
+            11.0
+        ],
+        [
+            102.0,
+            119.0,
+            1.2854835833857094,
+            17.0
+        ],
+        [
+            129.0,
+            130.0,
+            1.3006212128950554,
+            20.0
+        ],
+        [
+            118.0,
+            122.0,
+            1.423919939102726,
+            12.0
+        ],
+        [
+            104.0,
+            132.0,
+            1.4260527558841416,
+            23.0
+        ],
+        [
+            111.0,
+            133.0,
+            1.4880222093526085,
+            16.0
+        ],
+        [
+            120.0,
+            131.0,
+            1.5791721915932388,
+            31.0
+        ],
+        [
+            134.0,
+            135.0,
+            1.797931496274151,
+            39.0
+        ],
+        [
+            136.0,
+            137.0,
+            2.736610385792833,
+            70.0
+        ]
+    ]
+}

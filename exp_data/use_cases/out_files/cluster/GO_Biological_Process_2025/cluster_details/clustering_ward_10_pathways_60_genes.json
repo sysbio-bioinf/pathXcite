@@ -1,0 +1,1669 @@
+{
+    "metadata": {
+        "timestamp": "2025-03-19T14:15:51.889818",
+        "top_n": 10,
+        "gene_n": 60,
+        "method": "ward",
+        "num_clusters": 24
+    },
+    "disease_to_cluster": {
+        "Allograft_rejection": {
+            "cluster": 1,
+            "pathways": [
+                "Regulation of T Cell Proliferation (GO:0042129)",
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Positive Regulation of T Cell Activation (GO:0050870)",
+                "Positive Regulation of Lymphocyte Proliferation (GO:0050671)",
+                "Negative Regulation of Lymphocyte Proliferation (GO:0050672)",
+                "Cellular Response to Lipopolysaccharide (GO:0071222)",
+                "T Cell Differentiation (GO:0030217)",
+                "Response to Lipopolysaccharide (GO:0032496)",
+                "Positive Regulation of T Cell Proliferation (GO:0042102)",
+                "T Cell Activation (GO:0042110)"
+            ]
+        },
+        "Arrhythmogenic_right_ventricular_cardiomyopathy": {
+            "cluster": 13,
+            "pathways": [
+                "Ventricular Cardiac Muscle Tissue Morphogenesis (GO:0055010)",
+                "Ventricular Cardiac Muscle Tissue Development (GO:0003229)",
+                "Striated Muscle Contraction (GO:0006941)",
+                "Regulation of Cardiac Muscle Cell Contraction (GO:0086004)",
+                "Cardiac Muscle Tissue Morphogenesis (GO:0055008)",
+                "Cardiac Muscle Contraction (GO:0060048)",
+                "Regulation of Ventricular Cardiac Muscle Cell Action Potential (GO:0098911)",
+                "Heart Contraction (GO:0060047)",
+                "Cell-Cell Junction Assembly (GO:0007043)",
+                "Cardiac Ventricle Morphogenesis (GO:0003208)"
+            ]
+        },
+        "Type_I_diabetes_mellitus": {
+            "cluster": 3,
+            "pathways": [
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Positive Regulation of T Cell Proliferation (GO:0042102)",
+                "T Cell Activation (GO:0042110)",
+                "Cellular Response to Lipopolysaccharide (GO:0071222)",
+                "Response to Lipopolysaccharide (GO:0032496)",
+                "Cytokine-Mediated Signaling Pathway (GO:0019221)",
+                "Cellular Response to Molecule of Bacterial Origin (GO:0071219)",
+                "Positive Regulation of Lymphocyte Proliferation (GO:0050671)",
+                "Negative Regulation of Lymphocyte Proliferation (GO:0050672)",
+                "T Cell Differentiation (GO:0030217)"
+            ]
+        },
+        "Glioma": {
+            "cluster": 4,
+            "pathways": [
+                "Positive Regulation of Cellular Process (GO:0048522)",
+                "Cell Chemotaxis (GO:0060326)",
+                "Positive Regulation of Cell Migration (GO:0030335)",
+                "Intracellular Signaling Cassette (GO:0141124)",
+                "Positive Regulation of Macromolecule Biosynthetic Process (GO:0010557)",
+                "Positive Regulation of Cell Motility (GO:2000147)",
+                "Positive Regulation of Gene Expression (GO:0010628)",
+                "Negative Regulation of Apoptotic Process (GO:0043066)",
+                "Regulation of Cell Migration (GO:0030334)",
+                "Regulation of miRNA Transcription (GO:1902893)"
+            ]
+        },
+        "Vibrio_cholerae_infection": {
+            "cluster": 2,
+            "pathways": [
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Positive Regulation of Interleukin-8 Production (GO:0032757)",
+                "Regulation of Calcidiol 1-Monooxygenase Activity (GO:0060558)",
+                "Positive Regulation of Interleukin-6 Production (GO:0032755)",
+                "Inflammatory Response (GO:0006954)",
+                "Regulation of Interleukin-8 Production (GO:0032677)",
+                "Positive Regulation of T Cell Cytokine Production (GO:0002726)",
+                "Regulation of Type II Interferon Production (GO:0032649)",
+                "Cellular Response to Mechanical Stimulus (GO:0071260)",
+                "Positive Regulation of Chemokine Production (GO:0032722)"
+            ]
+        },
+        "Hepatocellular_carcinoma": {
+            "cluster": 8,
+            "pathways": [
+                "Regulation of miRNA Transcription (GO:1902893)",
+                "Positive Regulation of miRNA Transcription (GO:1902895)",
+                "Positive Regulation of miRNA Metabolic Process (GO:2000630)",
+                "Cellular Response to Hypoxia (GO:0071456)",
+                "Cellular Response to Decreased Oxygen Levels (GO:0036294)",
+                "Positive Regulation of Endothelial Cell Migration (GO:0010595)",
+                "Positive Regulation of Blood Vessel Endothelial Cell Migration (GO:0043536)",
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Positive Regulation of Gene Expression (GO:0010628)",
+                "Regulation of Blood Vessel Endothelial Cell Migration (GO:0043535)"
+            ]
+        },
+        "Alcoholic_liver_disease": {
+            "cluster": 8,
+            "pathways": [
+                "Positive Regulation of miRNA Metabolic Process (GO:2000630)",
+                "Regulation of Inflammatory Response (GO:0050727)",
+                "Regulation of miRNA Transcription (GO:1902893)",
+                "Positive Regulation of miRNA Transcription (GO:1902895)",
+                "Positive Regulation of Biosynthetic Process (GO:0009891)",
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Cellular Response to Molecule of Bacterial Origin (GO:0071219)",
+                "Positive Regulation of Chemokine Production (GO:0032722)",
+                "Inflammatory Response (GO:0006954)",
+                "Positive Regulation of Macromolecule Biosynthetic Process (GO:0010557)"
+            ]
+        },
+        "Hypertrophic_cardiomyopathy": {
+            "cluster": 13,
+            "pathways": [
+                "Heart Contraction (GO:0060047)",
+                "Cardiac Muscle Tissue Morphogenesis (GO:0055008)",
+                "Cardiac Muscle Contraction (GO:0060048)",
+                "Striated Muscle Contraction (GO:0006941)",
+                "Ventricular Cardiac Muscle Tissue Morphogenesis (GO:0055010)",
+                "Myofibril Assembly (GO:0030239)",
+                "Ventricular Cardiac Muscle Tissue Development (GO:0003229)",
+                "Sarcomere Organization (GO:0045214)",
+                "Actomyosin Structure Organization (GO:0031032)",
+                "Cardiac Ventricle Morphogenesis (GO:0003208)"
+            ]
+        },
+        "Basal_cell_carcinoma": {
+            "cluster": 18,
+            "pathways": [
+                "Epithelial Cell Differentiation (GO:0030855)",
+                "Positive Regulation of RNA Biosynthetic Process (GO:1902680)",
+                "Regulation of Smoothened Signaling Pathway (GO:0008589)",
+                "Epithelium Development (GO:0060429)",
+                "Smoothened Signaling Pathway (GO:0007224)",
+                "Regulation of Gene Expression (GO:0010468)",
+                "T Cell Differentiation (GO:0030217)",
+                "Positive Regulation of miRNA Transcription (GO:1902895)",
+                "Positive Regulation of Apoptotic Process (GO:0043065)",
+                "Positive Regulation of miRNA Metabolic Process (GO:2000630)"
+            ]
+        },
+        "Hepatitis_C": {
+            "cluster": 14,
+            "pathways": [
+                "Cholesterol Homeostasis (GO:0042632)",
+                "Sterol Homeostasis (GO:0055092)",
+                "Cholesterol Transport (GO:0030301)",
+                "Interferon-Mediated Signaling Pathway (GO:0140888)",
+                "Negative Regulation of Gene Expression (GO:0010629)",
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "High-Density Lipoprotein Particle Remodeling (GO:0034375)",
+                "Negative Regulation of Macromolecule Biosynthetic Process (GO:0010558)",
+                "Positive Regulation of Chemokine Production (GO:0032722)",
+                "Sterol Transport (GO:0015918)"
+            ]
+        },
+        "Primary_immunodeficiency": {
+            "cluster": 6,
+            "pathways": [
+                "Lymphocyte Differentiation (GO:0030098)",
+                "Cellular Response to Cytokine Stimulus (GO:0071345)",
+                "T Cell Differentiation (GO:0030217)",
+                "Cytokine-Mediated Signaling Pathway (GO:0019221)",
+                "B Cell Activation (GO:0042113)",
+                "Positive Regulation of Intracellular Signal Transduction (GO:1902533)",
+                "Antigen Receptor-Mediated Signaling Pathway (GO:0050851)",
+                "Cellular Response to Interleukin-2 (GO:0071352)",
+                "Interleukin-2-Mediated Signaling Pathway (GO:0038110)",
+                "B Cell Differentiation (GO:0030183)"
+            ]
+        },
+        "Acute_myeloid_leukemia": {
+            "cluster": 5,
+            "pathways": [
+                "Positive Regulation of Transcription by RNA Polymerase II (GO:0045944)",
+                "Regulation of Cell Population Proliferation (GO:0042127)",
+                "Regulation of Transcription by RNA Polymerase II (GO:0006357)",
+                "Positive Regulation of DNA-templated Transcription (GO:0045893)",
+                "Negative Regulation of DNA-templated Transcription (GO:0045892)",
+                "Negative Regulation of Transcription by RNA Polymerase II (GO:0000122)",
+                "Hemopoiesis (GO:0030097)",
+                "Negative Regulation of RNA Biosynthetic Process (GO:1902679)",
+                "Myeloid Cell Differentiation (GO:0030099)",
+                "Positive Regulation of Cellular Process (GO:0048522)"
+            ]
+        },
+        "Chronic_myeloid_leukemia": {
+            "cluster": 5,
+            "pathways": [
+                "Positive Regulation of DNA-templated Transcription (GO:0045893)",
+                "T Cell Activation (GO:0042110)",
+                "Regulation of Interleukin-2 Production (GO:0032663)",
+                "Regulation of Transcription by RNA Polymerase II (GO:0006357)",
+                "Regulation of Cell Population Proliferation (GO:0042127)",
+                "Positive Regulation of Cell Population Proliferation (GO:0008284)",
+                "Positive Regulation of Transcription by RNA Polymerase II (GO:0045944)",
+                "Cytokine-Mediated Signaling Pathway (GO:0019221)",
+                "Negative Regulation of DNA-templated Transcription (GO:0045892)",
+                "Positive Regulation of Cell Migration (GO:0030335)"
+            ]
+        },
+        "Diabetic_cardiomyopathy": {
+            "cluster": 9,
+            "pathways": [
+                "Negative Regulation of Macromolecule Biosynthetic Process (GO:0010558)",
+                "Glucose Homeostasis (GO:0042593)",
+                "Negative Regulation of Gene Expression (GO:0010629)",
+                "Positive Regulation of Biosynthetic Process (GO:0009891)",
+                "Regulation of Fat Cell Differentiation (GO:0045598)",
+                "Sodium Ion Import Across Plasma Membrane (GO:0098719)",
+                "Intracellular Signaling Cassette (GO:0141124)",
+                "Negative Regulation of Apoptotic Process (GO:0043066)",
+                "Fatty Acid Homeostasis (GO:0055089)",
+                "Positive Regulation of Protein Localization (GO:1903829)"
+            ]
+        },
+        "Tuberculosis": {
+            "cluster": 7,
+            "pathways": [
+                "Cytokine-Mediated Signaling Pathway (GO:0019221)",
+                "Regulation of Membrane Protein Ectodomain Proteolysis (GO:0051043)",
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Regulation of Calcidiol 1-Monooxygenase Activity (GO:0060558)",
+                "Positive Regulation of DNA-templated Transcription (GO:0045893)",
+                "Positive Regulation of Immune Effector Process (GO:0002699)",
+                "Regulation of Interleukin-6 Production (GO:0032675)",
+                "Positive Regulation of Inflammatory Response (GO:0050729)",
+                "Regulation of Glial Cell Proliferation (GO:0060251)",
+                "Regulation of Inflammatory Response (GO:0050727)"
+            ]
+        },
+        "Leishmaniasis": {
+            "cluster": 2,
+            "pathways": [
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Regulation of Type II Interferon Production (GO:0032649)",
+                "Positive Regulation of Type II Interferon Production (GO:0032729)",
+                "Regulation of Inflammatory Response (GO:0050727)",
+                "Regulation of Interleukin-6 Production (GO:0032675)",
+                "Positive Regulation of Inflammatory Response (GO:0050729)",
+                "Positive Regulation of Interleukin-6 Production (GO:0032755)",
+                "Cell Surface Receptor Signaling Pathway via JAK-STAT (GO:0007259)",
+                "Regulation of T Cell Proliferation (GO:0042129)",
+                "Regulation of Interleukin-12 Production (GO:0032655)"
+            ]
+        },
+        "Spinocerebellar_ataxia": {
+            "cluster": 21,
+            "pathways": [
+                "Stress Granule Assembly (GO:0034063)",
+                "RNA Transport (GO:0050658)",
+                "Negative Regulation of Protein Modification Process (GO:0031400)",
+                "Anterograde Trans-Synaptic Signaling (GO:0098916)",
+                "Regulation of Autophagy (GO:0010506)",
+                "Protein Quality Control for Misfolded or Incompletely Synthesized Proteins (GO:0006515)",
+                "Regulation of Supramolecular Fiber Organization (GO:1902903)",
+                "Chemical Synaptic Transmission (GO:0007268)",
+                "Fatty Acid Elongation, Monounsaturated Fatty Acid (GO:0034625)",
+                "Fatty Acid Elongation, Polyunsaturated Fatty Acid (GO:0034626)"
+            ]
+        },
+        "Small_cell_lung_cancer": {
+            "cluster": 4,
+            "pathways": [
+                "Positive Regulation of Cellular Process (GO:0048522)",
+                "Positive Regulation of Cell Population Proliferation (GO:0008284)",
+                "Positive Regulation of Transcription by RNA Polymerase II (GO:0045944)",
+                "Positive Regulation of DNA-templated Transcription (GO:0045893)",
+                "Regulation of Cell Population Proliferation (GO:0042127)",
+                "Regulation of Transcription by RNA Polymerase II (GO:0006357)",
+                "Negative Regulation of Apoptotic Process (GO:0043066)",
+                "Regulation of Phosphatidylinositol 3-Kinase/Protein Kinase B Signal Transduction (GO:0051896)",
+                "Cell Surface Receptor Protein Tyrosine Kinase Signaling Pathway (GO:0007169)",
+                "Positive Regulation of Cell Differentiation (GO:0045597)"
+            ]
+        },
+        "Viral_myocarditis": {
+            "cluster": 23,
+            "pathways": [
+                "Positive Regulation of Gene Expression (GO:0010628)",
+                "Inflammatory Response (GO:0006954)",
+                "Cellular Response to Molecule of Bacterial Origin (GO:0071219)",
+                "Positive Regulation of Macromolecule Biosynthetic Process (GO:0010557)",
+                "Regulation of Inflammatory Response (GO:0050727)",
+                "Positive Regulation of Intracellular Signal Transduction (GO:1902533)",
+                "Positive Regulation of Interleukin-6 Production (GO:0032755)",
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Positive Regulation of Inflammatory Response (GO:0050729)",
+                "Response to Lipopolysaccharide (GO:0032496)"
+            ]
+        },
+        "Melanoma": {
+            "cluster": 12,
+            "pathways": [
+                "Regulation of Apoptotic Process (GO:0042981)",
+                "Positive Regulation of Intracellular Signal Transduction (GO:1902533)",
+                "Positive Regulation of Cellular Process (GO:0048522)",
+                "Regulation of Cell Migration (GO:0030334)",
+                "Positive Regulation of Cell Population Proliferation (GO:0008284)",
+                "Positive Regulation of T Cell Apoptotic Process (GO:0070234)",
+                "Apoptotic Process (GO:0006915)",
+                "Positive Regulation of Gene Expression (GO:0010628)",
+                "Positive Regulation of Macromolecule Biosynthetic Process (GO:0010557)",
+                "Positive Regulation of MAPK Cascade (GO:0043410)"
+            ]
+        },
+        "Inflammatory_bowel_disease": {
+            "cluster": 2,
+            "pathways": [
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Regulation of Interleukin-8 Production (GO:0032677)",
+                "Regulation of Interleukin-6 Production (GO:0032675)",
+                "Positive Regulation of Interleukin-6 Production (GO:0032755)",
+                "Positive Regulation of Interleukin-8 Production (GO:0032757)",
+                "Regulation of Inflammatory Response (GO:0050727)",
+                "Toll-Like Receptor Signaling Pathway (GO:0002224)",
+                "Positive Regulation of Canonical NF-kappaB Signal Transduction (GO:0043123)",
+                "Pattern Recognition Receptor Signaling Pathway (GO:0002221)",
+                "Regulation of Canonical NF-kappaB Signal Transduction (GO:0043122)"
+            ]
+        },
+        "Chagas_disease": {
+            "cluster": 1,
+            "pathways": [
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Positive Regulation of T Cell Activation (GO:0050870)",
+                "Positive Regulation of Lymphocyte Proliferation (GO:0050671)",
+                "Regulation of T Cell Proliferation (GO:0042129)",
+                "Regulation of Inflammatory Response (GO:0050727)",
+                "Cytokine-Mediated Signaling Pathway (GO:0019221)",
+                "Regulation of Interleukin-6 Production (GO:0032675)",
+                "Positive Regulation of Defense Response (GO:0031349)",
+                "Positive Regulation of T Cell Proliferation (GO:0042102)",
+                "Positive Regulation of Interleukin-6 Production (GO:0032755)"
+            ]
+        },
+        "Alcoholism": {
+            "cluster": 19,
+            "pathways": [
+                "Response to Cocaine (GO:0042220)",
+                "Phospholipase C-activating Dopamine Receptor Signaling Pathway (GO:0060158)",
+                "Regulation of Dopamine Uptake Involved in Synaptic Transmission (GO:0051584)",
+                "Arachidonate Secretion (GO:0050482)",
+                "Arachidonate Transport (GO:1903963)",
+                "Response to Histamine (GO:0034776)",
+                "Icosanoid Secretion (GO:0032309)",
+                "Adult Locomotory Behavior (GO:0008344)",
+                "Response to Ethanol (GO:0045471)",
+                "G Protein-Coupled Dopamine Receptor Signaling Pathway (GO:0007212)"
+            ]
+        },
+        "Coronavirus_disease_-_COVID-19": {
+            "cluster": 6,
+            "pathways": [
+                "Lymphocyte Differentiation (GO:0030098)",
+                "Positive Regulation of DNA-binding Transcription Factor Activity (GO:0051091)",
+                "Regulation of Membrane Protein Ectodomain Proteolysis (GO:0051043)",
+                "Cytokine-Mediated Signaling Pathway (GO:0019221)",
+                "Inflammatory Response (GO:0006954)",
+                "Response to Corticosteroid (GO:0031960)",
+                "Positive Regulation of Heterotypic Cell-Cell Adhesion (GO:0034116)",
+                "Positive Regulation of Viral Entry Into Host Cell (GO:0046598)",
+                "Positive Regulation by Symbiont of Entry Into Host (GO:0075294)",
+                "Positive Regulation of Immune Response (GO:0050778)"
+            ]
+        },
+        "Epithelial_cell_signaling_in_Helicobacter_pylori_infection": {
+            "cluster": 12,
+            "pathways": [
+                "Positive Regulation of Intracellular Signal Transduction (GO:1902533)",
+                "Cytokine-Mediated Signaling Pathway (GO:0019221)",
+                "Cellular Response to Oxygen-Containing Compound (GO:1901701)",
+                "Regulation of Interleukin-8 Production (GO:0032677)",
+                "Negative Regulation of Apoptotic Process (GO:0043066)",
+                "Positive Regulation of Interleukin-8 Production (GO:0032757)",
+                "Regulation of Apoptotic Process (GO:0042981)",
+                "Positive Regulation of Cellular Process (GO:0048522)",
+                "Regulation of Cytokine Production Involved in Inflammatory Response (GO:1900015)",
+                "Cellular Response to Molecule of Bacterial Origin (GO:0071219)"
+            ]
+        },
+        "African_trypanosomiasis": {
+            "cluster": 2,
+            "pathways": [
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Negative Regulation of Cytokine Production (GO:0001818)",
+                "Regulation of Interleukin-6 Production (GO:0032675)",
+                "Regulation of Heterotypic Cell-Cell Adhesion (GO:0034114)",
+                "Regulation of Tumor Necrosis Factor Production (GO:0032680)",
+                "Regulation of Interleukin-8 Production (GO:0032677)",
+                "Response to Corticosteroid (GO:0031960)",
+                "Regulation of Cytokine Production (GO:0001817)",
+                "Regulation of Protein Secretion (GO:0050708)",
+                "Positive Regulation of Heterotypic Cell-Cell Adhesion (GO:0034116)"
+            ]
+        },
+        "Human_T-cell_leukemia_virus_1_infection": {
+            "cluster": 8,
+            "pathways": [
+                "Positive Regulation of RNA Biosynthetic Process (GO:1902680)",
+                "Positive Regulation of miRNA Metabolic Process (GO:2000630)",
+                "Positive Regulation of DNA-templated Transcription (GO:0045893)",
+                "Positive Regulation of Transcription by RNA Polymerase II (GO:0045944)",
+                "Regulation of miRNA Transcription (GO:1902893)",
+                "Regulation of Interleukin-17 Production (GO:0032660)",
+                "Canonical NF-kappaB Signal Transduction (GO:0007249)",
+                "T Cell Differentiation (GO:0030217)",
+                "Positive Regulation of miRNA Transcription (GO:1902895)",
+                "Negative Regulation of DNA-templated Transcription (GO:0045892)"
+            ]
+        },
+        "Lipid_and_atherosclerosis": {
+            "cluster": 14,
+            "pathways": [
+                "Cholesterol Homeostasis (GO:0042632)",
+                "Sterol Homeostasis (GO:0055092)",
+                "High-Density Lipoprotein Particle Remodeling (GO:0034375)",
+                "Reverse Cholesterol Transport (GO:0043691)",
+                "Cholesterol Transport (GO:0030301)",
+                "Phosphatidylcholine Metabolic Process (GO:0046470)",
+                "Regulation of Macrophage Derived Foam Cell Differentiation (GO:0010743)",
+                "Cholesterol Efflux (GO:0033344)",
+                "Glycerophospholipid Metabolic Process (GO:0006650)",
+                "Negative Regulation of Cholesterol Transport (GO:0032375)"
+            ]
+        },
+        "Alzheimer_disease": {
+            "cluster": 9,
+            "pathways": [
+                "Negative Regulation of Macromolecule Biosynthetic Process (GO:0010558)",
+                "Amyloid Precursor Protein Metabolic Process (GO:0042982)",
+                "Negative Regulation of Apoptotic Process (GO:0043066)",
+                "Positive Regulation of Multicellular Organismal Process (GO:0051240)",
+                "Amyloid-Beta Formation (GO:0034205)",
+                "Positive Regulation of Carbohydrate Metabolic Process (GO:0045913)",
+                "Positive Regulation of Macromolecule Biosynthetic Process (GO:0010557)",
+                "Regulation of Autophagy (GO:0010506)",
+                "Negative Regulation of Gene Expression (GO:0010629)",
+                "Regulation of Gene Expression (GO:0010468)"
+            ]
+        },
+        "Amoebiasis": {
+            "cluster": 18,
+            "pathways": [
+                "T Cell Differentiation (GO:0030217)",
+                "T Cell Activation (GO:0042110)",
+                "Enzyme-Linked Receptor Protein Signaling Pathway (GO:0007167)",
+                "Positive Regulation of Viral Life Cycle (GO:1903902)",
+                "Positive Regulation of mRNA Splicing, via Spliceosome (GO:0048026)",
+                "Adaptive Imm Resp Based on Som Recomb of Imm Rcptrs Built Frm IgSF Domains (GO:0002460)",
+                "Macrophage Differentiation (GO:0030225)",
+                "Negative Regulation of Catalytic Activity (GO:0043086)",
+                "Positive Regulation of Interleukin-2 Production (GO:0032743)",
+                "Positive Regulation of mRNA Processing (GO:0050685)"
+            ]
+        },
+        "Non-alcoholic_fatty_liver_disease": {
+            "cluster": 21,
+            "pathways": [
+                "Fatty Acid Metabolic Process (GO:0006631)",
+                "Negative Regulation of Lipid Storage (GO:0010888)",
+                "Positive Regulation of Lipid Metabolic Process (GO:0045834)",
+                "Lipid Metabolic Process (GO:0006629)",
+                "Regulation of Cholesterol Storage (GO:0010885)",
+                "Negative Regulation of Inflammatory Response (GO:0050728)",
+                "Regulation of Inflammatory Response (GO:0050727)",
+                "Positive Regulation of Biosynthetic Process (GO:0009891)",
+                "Negative Regulation of Cholesterol Storage (GO:0010887)",
+                "Regulation of Cytokine Production Involved in Inflammatory Response (GO:1900015)"
+            ]
+        },
+        "Herpes_simplex_virus_1_infection": {
+            "cluster": 16,
+            "pathways": [
+                "Defense Response to Virus (GO:0051607)",
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Antiviral Innate Immune Response (GO:0140374)",
+                "Regulation of Type I Interferon Production (GO:0032479)",
+                "Positive Regulation of Type I Interferon Production (GO:0032481)",
+                "Regulation of Cytokine Production (GO:0001817)",
+                "Positive Regulation of Transcription by RNA Polymerase II (GO:0045944)",
+                "Positive Regulation of DNA-templated Transcription (GO:0045893)",
+                "Positive Regulation of Gene Expression (GO:0010628)",
+                "Response to Exogenous dsRNA (GO:0043330)"
+            ]
+        },
+        "Rheumatoid_arthritis": {
+            "cluster": 22,
+            "pathways": [
+                "Inflammatory Response (GO:0006954)",
+                "Cellular Response to Cytokine Stimulus (GO:0071345)",
+                "Cytokine-Mediated Signaling Pathway (GO:0019221)",
+                "Cellular Response to Lipopolysaccharide (GO:0071222)",
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Response to Lipopolysaccharide (GO:0032496)",
+                "Cellular Response to Molecule of Bacterial Origin (GO:0071219)",
+                "Regulation of ERK1 and ERK2 Cascade (GO:0070372)",
+                "Intracellular Signaling Cassette (GO:0141124)",
+                "Calcium-Mediated Signaling (GO:0019722)"
+            ]
+        },
+        "Pancreatic_cancer": {
+            "cluster": 24,
+            "pathways": [
+                "mRNA Metabolic Process (GO:0016071)",
+                "Regulation of Cell Growth (GO:0001558)",
+                "Negative Regulation of Growth (GO:0045926)",
+                "Positive Regulation of Gene Expression (GO:0010628)",
+                "Negative Regulation of Cell Growth (GO:0030308)",
+                "Negative Regulation of Gene Expression (GO:0010629)",
+                "Radial Glial Cell Differentiation (GO:0060019)",
+                "Positive Regulation of mRNA Catabolic Process (GO:0061014)",
+                "mRNA Processing (GO:0006397)",
+                "Positive Regulation of Cytoplasmic Translational Initiation (GO:1904690)"
+            ]
+        },
+        "Maturity_onset_diabetes_of_the_young": {
+            "cluster": 10,
+            "pathways": [
+                "Glucose Homeostasis (GO:0042593)",
+                "Regulation of Insulin Secretion (GO:0050796)",
+                "Enteroendocrine Cell Differentiation (GO:0035883)",
+                "Regulation of Peptide Hormone Secretion (GO:0090276)",
+                "Positive Regulation of Insulin Secretion (GO:0032024)",
+                "Insulin Secretion (GO:0030073)",
+                "Regulation of Protein Secretion (GO:0050708)",
+                "Positive Regulation of D-glucose Import (GO:0046326)",
+                "Peptide Hormone Secretion (GO:0030072)",
+                "Regulation of Insulin Secretion Involved in Cellular Response to Glucose Stimulus (GO:0061178)"
+            ]
+        },
+        "Breast_cancer": {
+            "cluster": 5,
+            "pathways": [
+                "Regulation of DNA-templated Transcription (GO:0006355)",
+                "Positive Regulation of DNA-templated Transcription (GO:0045893)",
+                "Positive Regulation of Cellular Process (GO:0048522)",
+                "Regulation of Transcription by RNA Polymerase II (GO:0006357)",
+                "Positive Regulation of Gene Expression (GO:0010628)",
+                "Negative Regulation of DNA-templated Transcription (GO:0045892)",
+                "Positive Regulation of MAPK Cascade (GO:0043410)",
+                "Regulation of Cell Growth (GO:0001558)",
+                "Positive Regulation of Cell Differentiation (GO:0045597)",
+                "Positive Regulation of Epithelial Cell Proliferation (GO:0050679)"
+            ]
+        },
+        "Pathogenic_Escherichia_coli_infection": {
+            "cluster": 20,
+            "pathways": [
+                "Regulation of Cell Adhesion Molecule Production (GO:0060353)",
+                "Positive Regulation of Vascular Permeability (GO:0043117)",
+                "Negative Regulation of Cell-Cell Adhesion (GO:0022408)",
+                "Regulation of Cell-Cell Adhesion Mediated by Cadherin (GO:2000047)",
+                "Positive Regulation of Angiogenesis (GO:0045766)",
+                "Defense Response to Bacterium (GO:0042742)",
+                "Maintenance of Blood-Brain Barrier (GO:0035633)",
+                "Regulation of Interleukin-8 Production (GO:0032677)",
+                "Inflammatory Response (GO:0006954)",
+                "Regulation of Blood-Brain Barrier Permeability (GO:1905603)"
+            ]
+        },
+        "Asthma": {
+            "cluster": 7,
+            "pathways": [
+                "Cytokine-Mediated Signaling Pathway (GO:0019221)",
+                "Regulation of Inflammatory Response (GO:0050727)",
+                "Mononuclear Cell Differentiation (GO:1903131)",
+                "Macrophage Differentiation (GO:0030225)",
+                "Inflammatory Response (GO:0006954)",
+                "Myeloid Leukocyte Differentiation (GO:0002573)",
+                "Regulation of Interleukin-10 Production (GO:0032653)",
+                "Regulation of Neuroinflammatory Response (GO:0150077)",
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Cell Surface Receptor Signaling Pathway via STAT (GO:0097696)"
+            ]
+        },
+        "Bladder_cancer": {
+            "cluster": 11,
+            "pathways": [
+                "Negative Regulation of Apoptotic Process (GO:0043066)",
+                "Regulation of miRNA Transcription (GO:1902893)",
+                "Positive Regulation of Intracellular Signal Transduction (GO:1902533)",
+                "Positive Regulation of Cellular Process (GO:0048522)",
+                "Regulation of ERK1 and ERK2 Cascade (GO:0070372)",
+                "Negative Regulation of Programmed Cell Death (GO:0043069)",
+                "Positive Regulation of Cell Population Proliferation (GO:0008284)",
+                "Regulation of Apoptotic Process (GO:0042981)",
+                "Regulation of MAPK Cascade (GO:0043408)",
+                "Positive Regulation of miRNA Transcription (GO:1902895)"
+            ]
+        },
+        "Shigellosis": {
+            "cluster": 12,
+            "pathways": [
+                "Regulation of Neuroinflammatory Response (GO:0150077)",
+                "Cytoskeleton-Dependent Cytokinesis (GO:0061640)",
+                "Positive Regulation of Intracellular Signal Transduction (GO:1902533)",
+                "Positive Regulation of Cellular Process (GO:0048522)",
+                "Negative Regulation of Cell Development (GO:0010721)",
+                "Protein Localization (GO:0008104)",
+                "Positive Regulation of ATP Metabolic Process (GO:1903580)",
+                "Regulation of Amyloid-Beta Formation (GO:1902003)",
+                "Regulation of Epithelial to Mesenchymal Transition (GO:0010717)",
+                "Regulation of Protein Secretion (GO:0050708)"
+            ]
+        },
+        "Endometrial_cancer": {
+            "cluster": 5,
+            "pathways": [
+                "Phosphatidylinositol 3-Kinase/Protein Kinase B Signal Transduction (GO:0043491)",
+                "Positive Regulation of DNA-templated Transcription (GO:0045893)",
+                "Epidermal Growth Factor Receptor Signaling Pathway (GO:0007173)",
+                "Positive Regulation of Cellular Process (GO:0048522)",
+                "Positive Regulation of Transcription by RNA Polymerase II (GO:0045944)",
+                "ERBB2-EGFR Signaling Pathway (GO:0038134)",
+                "ERBB Signaling Pathway (GO:0038127)",
+                "Positive Regulation of Gene Expression (GO:0010628)",
+                "Regulation of miRNA Transcription (GO:1902893)",
+                "Negative Regulation of Apoptotic Process (GO:0043066)"
+            ]
+        },
+        "Pertussis": {
+            "cluster": 22,
+            "pathways": [
+                "Regulation of Dopamine Metabolic Process (GO:0042053)",
+                "Positive Regulation of Myeloid Leukocyte Mediated Immunity (GO:0002888)",
+                "Inflammatory Response (GO:0006954)",
+                "Positive Regulation of Leukocyte Degranulation (GO:0043302)",
+                "Regulation of Leukocyte Adhesion to Vascular Endothelial Cell (GO:1904994)",
+                "Positive Regulation of Acute Inflammatory Response (GO:0002675)",
+                "Regulation of Superoxide Anion Generation (GO:0032928)",
+                "Positive Regulation of Superoxide Anion Generation (GO:0032930)",
+                "Positive Regulation of Leukocyte Adhesion to Vascular Endothelial Cell (GO:1904996)",
+                "Microglial Cell Activation (GO:0001774)"
+            ]
+        },
+        "Staphylococcus_aureus_infection": {
+            "cluster": 3,
+            "pathways": [
+                "Regulation of Inflammatory Response (GO:0050727)",
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Inflammatory Response (GO:0006954)",
+                "Positive Regulation of Chemokine Production (GO:0032722)",
+                "Positive Regulation of Macromolecule Biosynthetic Process (GO:0010557)",
+                "Cytokine-Mediated Signaling Pathway (GO:0019221)",
+                "Regulation of Chemokine Production (GO:0032642)",
+                "Positive Regulation of Inflammatory Response (GO:0050729)",
+                "Positive Regulation of Interleukin-6 Production (GO:0032755)",
+                "Regulation of Interleukin-6 Production (GO:0032675)"
+            ]
+        },
+        "Amyotrophic_lateral_sclerosis": {
+            "cluster": 15,
+            "pathways": [
+                "Regulation of Autophagy (GO:0010506)",
+                "Positive Regulation of Autophagy (GO:0010508)",
+                "Macrophage Activation (GO:0042116)",
+                "Microglial Cell Activation (GO:0001774)",
+                "Positive Regulation of Catabolic Process (GO:0009896)",
+                "Astrocyte Activation (GO:0048143)",
+                "Astrocyte Development (GO:0014002)",
+                "Positive Regulation of Superoxide Anion Generation (GO:0032930)",
+                "Regulation of Superoxide Anion Generation (GO:0032928)",
+                "Negative Regulation of Macromolecule Biosynthetic Process (GO:0010558)"
+            ]
+        },
+        "Epstein-Barr_virus_infection": {
+            "cluster": 3,
+            "pathways": [
+                "Apoptotic Process (GO:0006915)",
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Cellular Response to Molecule of Bacterial Origin (GO:0071219)",
+                "Cellular Response to Lipopolysaccharide (GO:0071222)",
+                "Negative Regulation of Cytokine Production (GO:0001818)",
+                "B Cell Proliferation (GO:0042100)",
+                "Negative Regulation of Lymphocyte Proliferation (GO:0050672)",
+                "Cellular Response to Oxygen-Containing Compound (GO:1901701)",
+                "Regulation of Interleukin-2 Production (GO:0032663)",
+                "Negative Regulation of T Cell Activation (GO:0050868)"
+            ]
+        },
+        "Kaposi_sarcoma-associated_herpesvirus_infection": {
+            "cluster": 8,
+            "pathways": [
+                "Negative Regulation of Programmed Cell Death (GO:0043069)",
+                "Positive Regulation of miRNA Metabolic Process (GO:2000630)",
+                "Positive Regulation of Cell Migration (GO:0030335)",
+                "Regulation of miRNA Transcription (GO:1902893)",
+                "Cell Surface Receptor Protein Tyrosine Kinase Signaling Pathway (GO:0007169)",
+                "Negative Regulation of Apoptotic Process (GO:0043066)",
+                "Regulation of Apoptotic Process (GO:0042981)",
+                "Positive Regulation of miRNA Transcription (GO:1902895)",
+                "Positive Regulation of Cell Motility (GO:2000147)",
+                "Regulation of ERK1 and ERK2 Cascade (GO:0070372)"
+            ]
+        },
+        "Human_cytomegalovirus_infection": {
+            "cluster": 8,
+            "pathways": [
+                "Positive Regulation of miRNA Metabolic Process (GO:2000630)",
+                "Defense Response to Virus (GO:0051607)",
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Positive Regulation of miRNA Transcription (GO:1902895)",
+                "Positive Regulation of DNA-templated Transcription (GO:0045893)",
+                "Regulation of miRNA Transcription (GO:1902893)",
+                "Positive Regulation of Transcription by RNA Polymerase II (GO:0045944)",
+                "Cellular Response to Cytokine Stimulus (GO:0071345)",
+                "Regulation of Interleukin-6 Production (GO:0032675)",
+                "Regulation of Apoptotic Process (GO:0042981)"
+            ]
+        },
+        "Yersinia_infection": {
+            "cluster": 2,
+            "pathways": [
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Regulation of Inflammatory Response (GO:0050727)",
+                "Positive Regulation of Intracellular Signal Transduction (GO:1902533)",
+                "Regulation of Interleukin-6 Production (GO:0032675)",
+                "Positive Regulation of Inflammatory Response (GO:0050729)",
+                "Positive Regulation of DNA-binding Transcription Factor Activity (GO:0051091)",
+                "Cellular Response to Molecule of Bacterial Origin (GO:0071219)",
+                "Cellular Response to Lipopolysaccharide (GO:0071222)",
+                "Regulation of Tumor Necrosis Factor Production (GO:0032680)",
+                "Regulation of Interleukin-8 Production (GO:0032677)"
+            ]
+        },
+        "Toxoplasmosis": {
+            "cluster": 6,
+            "pathways": [
+                "Lymphocyte Differentiation (GO:0030098)",
+                "Regulation of Immunoglobulin Production (GO:0002637)",
+                "Cytokine-Mediated Signaling Pathway (GO:0019221)",
+                "Regulation of Complement-Dependent Cytotoxicity (GO:1903659)",
+                "Positive Regulation of Immune Effector Process (GO:0002699)",
+                "Positive Regulation of Multicellular Organismal Process (GO:0051240)",
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Regulation of MHC Class II Biosynthetic Process (GO:0045346)",
+                "B Cell Differentiation (GO:0030183)",
+                "Cell Surface Receptor Signaling Pathway via STAT (GO:0097696)"
+            ]
+        },
+        "Type_II_diabetes_mellitus": {
+            "cluster": 10,
+            "pathways": [
+                "Glucose Homeostasis (GO:0042593)",
+                "+ Reg of Phosphatidylinositol 3-Kinase/Prot Kinase B Signal Transduction (GO:0051897)",
+                "Regulation of Phosphatidylinositol 3-Kinase/Protein Kinase B Signal Transduction (GO:0051896)",
+                "Cellular Response to Insulin Stimulus (GO:0032869)",
+                "Negative Regulation of Apoptotic Process (GO:0043066)",
+                "Positive Regulation of Multicellular Organismal Process (GO:0051240)",
+                "Positive Regulation of Biosynthetic Process (GO:0009891)",
+                "Positive Regulation of Cellular Process (GO:0048522)",
+                "Positive Regulation of Macromolecule Biosynthetic Process (GO:0010557)",
+                "Negative Regulation of Intrinsic Apoptotic Signaling Pathway (GO:2001243)"
+            ]
+        },
+        "Huntington_disease": {
+            "cluster": 17,
+            "pathways": [
+                "Positive Regulation of Multicellular Organismal Process (GO:0051240)",
+                "Regulation of Gene Expression (GO:0010468)",
+                "Regulation of Neuron Apoptotic Process (GO:0043523)",
+                "Regulation of Cell Population Proliferation (GO:0042127)",
+                "Positive Regulation of Macromolecule Biosynthetic Process (GO:0010557)",
+                "Negative Regulation of Apoptotic Process (GO:0043066)",
+                "Negative Regulation of Transcription by RNA Polymerase II (GO:0000122)",
+                "Negative Regulation of DNA-templated Transcription (GO:0045892)",
+                "Protein Deacetylation (GO:0006476)",
+                "Negative Regulation of Amyloid-Beta Formation (GO:1902430)"
+            ]
+        },
+        "Graft-versus-host_disease": {
+            "cluster": 3,
+            "pathways": [
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Inflammatory Response (GO:0006954)",
+                "Positive Regulation of Multicellular Organismal Process (GO:0051240)",
+                "Negative Regulation of Macromolecule Biosynthetic Process (GO:0010558)",
+                "Positive Regulation of Intracellular Signal Transduction (GO:1902533)",
+                "T Cell Activation (GO:0042110)",
+                "T Cell Differentiation (GO:0030217)",
+                "Cellular Response to Lipopolysaccharide (GO:0071222)",
+                "Cytokine-Mediated Signaling Pathway (GO:0019221)",
+                "Positive Regulation of Canonical NF-kappaB Signal Transduction (GO:0043123)"
+            ]
+        },
+        "Thyroid_cancer": {
+            "cluster": 4,
+            "pathways": [
+                "Positive Regulation of Cellular Process (GO:0048522)",
+                "Positive Regulation of Gene Expression (GO:0010628)",
+                "Regulation of Cell Population Proliferation (GO:0042127)",
+                "Regulation of Phosphatidylinositol 3-Kinase/Protein Kinase B Signal Transduction (GO:0051896)",
+                "+ Reg of Phosphatidylinositol 3-Kinase/Prot Kinase B Signal Transduction (GO:0051897)",
+                "Positive Regulation of Cell Population Proliferation (GO:0008284)",
+                "Positive Regulation of Cell Migration (GO:0030335)",
+                "Positive Regulation of Intracellular Signal Transduction (GO:1902533)",
+                "Positive Regulation of MAPK Cascade (GO:0043410)",
+                "Negative Regulation of Apoptotic Process (GO:0043066)"
+            ]
+        },
+        "Dilated_cardiomyopathy": {
+            "cluster": 13,
+            "pathways": [
+                "Striated Muscle Contraction (GO:0006941)",
+                "Cardiac Muscle Contraction (GO:0060048)",
+                "Heart Contraction (GO:0060047)",
+                "Response to Muscle Stretch (GO:0035994)",
+                "Actomyosin Structure Organization (GO:0031032)",
+                "Ventricular Cardiac Muscle Tissue Morphogenesis (GO:0055010)",
+                "Sarcomere Organization (GO:0045214)",
+                "Cellular Response to Hypoxia (GO:0071456)",
+                "Cellular Response to Decreased Oxygen Levels (GO:0036294)",
+                "Muscle Contraction (GO:0006936)"
+            ]
+        },
+        "Systemic_lupus_erythematosus": {
+            "cluster": 3,
+            "pathways": [
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Positive Regulation of Chemokine Production (GO:0032722)",
+                "Cellular Response to Lipopolysaccharide (GO:0071222)",
+                "Inflammatory Response (GO:0006954)",
+                "Cellular Response to Oxygen-Containing Compound (GO:1901701)",
+                "Cellular Response to Lipid (GO:0071396)",
+                "Positive Regulation of T Cell Activation (GO:0050870)",
+                "Positive Regulation of Interleukin-12 Production (GO:0032735)",
+                "Regulation of Interleukin-6 Production (GO:0032675)",
+                "Regulation of Inflammatory Response (GO:0050727)"
+            ]
+        },
+        "Human_immunodeficiency_virus_1_infection": {
+            "cluster": 16,
+            "pathways": [
+                "DNA Cytosine Deamination (GO:0070383)",
+                "Negative Regulation of Viral Genome Replication (GO:0045071)",
+                "Defense Response to Virus (GO:0051607)",
+                "- Reg of Single Stranded Viral RNA Replication via Double Stranded DNA Intermediate (GO:0045869)",
+                "Cytidine to Uridine Editing (GO:0016554)",
+                "DNA Deamination (GO:0045006)",
+                "Reg of Single Stranded Viral RNA Replication via Double Stranded DNA Intermediate (GO:0045091)",
+                "Base Conversion or Substitution Editing (GO:0016553)",
+                "Clearance of Foreign Intracellular DNA (GO:0044355)",
+                "Clearance of Foreign Intracellular Nucleic Acids (GO:0099046)"
+            ]
+        },
+        "Legionellosis": {
+            "cluster": 21,
+            "pathways": [
+                "Ammonium Homeostasis (GO:0097272)",
+                "Ammonium Transmembrane Transport (GO:0072488)",
+                "Positive Regulation of Protein-Containing Complex Assembly (GO:0031334)",
+                "Positive Regulation of Macrophage Derived Foam Cell Differentiation (GO:0010744)",
+                "Negative Regulation of Extrinsic Apoptotic Signaling Pathway in Absence of Ligand (GO:2001240)",
+                "Negative Regulation of Signal Transduction in Absence of Ligand (GO:1901099)",
+                "Regulation of Extrinsic Apoptotic Signaling Pathway in Absence of Ligand (GO:2001239)",
+                "Regulation of Macrophage Derived Foam Cell Differentiation (GO:0010743)",
+                "Cell Surface Receptor Signaling Pathway via JAK-STAT (GO:0007259)",
+                "Cell Surface Receptor Signaling Pathway via STAT (GO:0097696)"
+            ]
+        },
+        "Influenza_A": {
+            "cluster": 22,
+            "pathways": [
+                "Inflammatory Response (GO:0006954)",
+                "Fc-gamma Receptor Signaling Pathway (GO:0038094)",
+                "Positive Regulation of Tumor Necrosis Factor Production (GO:0032760)",
+                "Positive Regulation of Tumor Necrosis Factor Superfamily Cytokine Production (GO:1903557)",
+                "Positive Regulation of Immune Response (GO:0050778)",
+                "Regulation of B Cell Proliferation (GO:0030888)",
+                "T Cell Differentiation (GO:0030217)",
+                "T Cell Activation (GO:0042110)",
+                "T Cell Migration (GO:0072678)",
+                "B Cell Mediated Immunity (GO:0019724)"
+            ]
+        },
+        "Gastric_cancer": {
+            "cluster": 23,
+            "pathways": [
+                "Positive Regulation of Gene Expression (GO:0010628)",
+                "Positive Regulation of DNA-templated Transcription (GO:0045893)",
+                "Negative Regulation of Programmed Cell Death (GO:0043069)",
+                "Positive Regulation of Transcription by RNA Polymerase I (GO:0045943)",
+                "Neuron Differentiation (GO:0030182)",
+                "Positive Regulation of Macromolecule Biosynthetic Process (GO:0010557)",
+                "Phosphatidylinositol 3-Kinase/Protein Kinase B Signal Transduction (GO:0043491)",
+                "Regulation of Apoptotic Process (GO:0042981)",
+                "Positive Regulation of Transcription by RNA Polymerase II (GO:0045944)",
+                "Negative Regulation of Apoptotic Process (GO:0043066)"
+            ]
+        },
+        "Hepatitis_B": {
+            "cluster": 7,
+            "pathways": [
+                "Cytokine-Mediated Signaling Pathway (GO:0019221)",
+                "Response to Corticosteroid (GO:0031960)",
+                "Positive Regulation of Heterotypic Cell-Cell Adhesion (GO:0034116)",
+                "Positive Regulation of miRNA Transcription (GO:1902895)",
+                "T Cell Activation (GO:0042110)",
+                "Positive Regulation of miRNA Metabolic Process (GO:2000630)",
+                "Regulation of Inflammatory Response (GO:0050727)",
+                "Regulation of miRNA Transcription (GO:1902893)",
+                "Regulation of Heterotypic Cell-Cell Adhesion (GO:0034114)",
+                "Response to Glucocorticoid (GO:0051384)"
+            ]
+        },
+        "Cushing_syndrome": {
+            "cluster": 17,
+            "pathways": [
+                "Adenylate Cyclase-Activating G Protein-Coupled Receptor Signaling Pathway (GO:0007189)",
+                "Glucocorticoid Metabolic Process (GO:0008211)",
+                "GPCR Sgnlng Pway, Coupled to Cyclic Nucleotide Second Messenger (GO:0007187)",
+                "Positive Regulation of Multicellular Organismal Process (GO:0051240)",
+                "Response to Estradiol (GO:0032355)",
+                "Neuropeptide Signaling Pathway (GO:0007218)",
+                "Adenylate Cyclase-Modulating G Protein-Coupled Receptor Signaling Pathway (GO:0007188)",
+                "Cellular Response to Corticosteroid Stimulus (GO:0071384)",
+                "Activation of Adenylate Cyclase Activity (GO:0007190)",
+                "Cellular Response to Peptide Hormone Stimulus (GO:0071375)"
+            ]
+        },
+        "Measles": {
+            "cluster": 1,
+            "pathways": [
+                "Positive Regulation of Immune Effector Process (GO:0002699)",
+                "Regulation of Interleukin-12 Production (GO:0032655)",
+                "Regulation of T Cell Proliferation (GO:0042129)",
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Positive Regulation of Immune Response (GO:0050778)",
+                "Positive Regulation of T Cell Activation (GO:0050870)",
+                "Negative Regulation of Interleukin-12 Production (GO:0032695)",
+                "Positive Regulation of Alpha-Beta T Cell Proliferation (GO:0046641)",
+                "Regulation of Tumor Necrosis Factor Production (GO:0032680)",
+                "Positive Regulation of Alpha-Beta T Cell Activation (GO:0046635)"
+            ]
+        },
+        "Non-small_cell_lung_cancer": {
+            "cluster": 24,
+            "pathways": [
+                "Positive Regulation of Cell Motility (GO:2000147)",
+                "Positive Regulation of Cell Migration (GO:0030335)",
+                "Cell Surface Receptor Protein Tyrosine Kinase Signaling Pathway (GO:0007169)",
+                "Protein Phosphorylation (GO:0006468)",
+                "Regulation of Cell Migration (GO:0030334)",
+                "Positive Regulation of Gene Expression (GO:0010628)",
+                "Phosphorylation (GO:0016310)",
+                "Positive Regulation of Intracellular Signal Transduction (GO:1902533)",
+                "Phosphatidylinositol 3-Kinase/Protein Kinase B Signal Transduction (GO:0043491)",
+                "Regulation of Cell Growth (GO:0001558)"
+            ]
+        },
+        "Renal_cell_carcinoma": {
+            "cluster": 11,
+            "pathways": [
+                "Negative Regulation of Programmed Cell Death (GO:0043069)",
+                "Negative Regulation of Apoptotic Process (GO:0043066)",
+                "Positive Regulation of Biosynthetic Process (GO:0009891)",
+                "Positive Regulation of Cellular Process (GO:0048522)",
+                "Cellular Response to Hypoxia (GO:0071456)",
+                "Cellular Response to Decreased Oxygen Levels (GO:0036294)",
+                "Positive Regulation of T Cell Apoptotic Process (GO:0070234)",
+                "Regulation of Autophagy (GO:0010506)",
+                "Branching Morphogenesis of an Epithelial Tube (GO:0048754)",
+                "Positive Regulation of Endothelial Cell Migration (GO:0010595)"
+            ]
+        },
+        "Prostate_cancer": {
+            "cluster": 5,
+            "pathways": [
+                "Positive Regulation of DNA-templated Transcription (GO:0045893)",
+                "Positive Regulation of Transcription by RNA Polymerase II (GO:0045944)",
+                "Positive Regulation of Cellular Process (GO:0048522)",
+                "Regulation of miRNA Transcription (GO:1902893)",
+                "Regulation of Apoptotic Process (GO:0042981)",
+                "Negative Regulation of Apoptotic Process (GO:0043066)",
+                "Regulation of Cell Growth (GO:0001558)",
+                "Negative Regulation of Multicellular Organismal Process (GO:0051241)",
+                "Response to Estradiol (GO:0032355)",
+                "Regulation of Transcription by RNA Polymerase II (GO:0006357)"
+            ]
+        },
+        "Malaria": {
+            "cluster": 20,
+            "pathways": [
+                "Regulation of Immunoglobulin Production (GO:0002637)",
+                "Regulation of Interleukin-8 Production (GO:0032677)",
+                "Positive Regulation of Immunoglobulin Production (GO:0002639)",
+                "Regulation of Isotype Switching (GO:0045191)",
+                "Cellular Response to Lipopolysaccharide (GO:0071222)",
+                "Positive Regulation of Interleukin-8 Production (GO:0032757)",
+                "Response to Molecule of Bacterial Origin (GO:0002237)",
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Regulation of B Cell Activation (GO:0050864)",
+                "Negative Regulation of Endothelial Cell Apoptotic Process (GO:2000352)"
+            ]
+        },
+        "Parkinson_disease": {
+            "cluster": 19,
+            "pathways": [
+                "Dopamine Metabolic Process (GO:0042417)",
+                "Cellular Response to Oxidative Stress (GO:0034599)",
+                "Cellular Response to Chemical Stress (GO:0062197)",
+                "Negative Regulation of Protein Secretion (GO:0050709)",
+                "Negative Regulation of Oxidative Stress-Induced Intrinsic Apoptotic Signaling Pathway (GO:1902176)",
+                "Catecholamine Metabolic Process (GO:0006584)",
+                "Regulation of Protein Secretion (GO:0050708)",
+                "Response to Ethanol (GO:0045471)",
+                "Regulation of Dopamine Uptake Involved in Synaptic Transmission (GO:0051584)",
+                "Negative Regulation of Secretion by Cell (GO:1903531)"
+            ]
+        },
+        "Salmonella_infection": {
+            "cluster": 3,
+            "pathways": [
+                "Cellular Response to Molecule of Bacterial Origin (GO:0071219)",
+                "Positive Regulation of Intracellular Signal Transduction (GO:1902533)",
+                "Inflammatory Response (GO:0006954)",
+                "Positive Regulation of Cytokine Production (GO:0001819)",
+                "Cellular Response to Lipopolysaccharide (GO:0071222)",
+                "Regulation of Inflammatory Response (GO:0050727)",
+                "Response to Lipopolysaccharide (GO:0032496)",
+                "Cellular Response to Lipid (GO:0071396)",
+                "Regulation of Interleukin-6 Production (GO:0032675)",
+                "Cellular Response to Oxygen-Containing Compound (GO:1901701)"
+            ]
+        },
+        "Prion_disease": {
+            "cluster": 15,
+            "pathways": [
+                "Microglial Cell Activation (GO:0001774)",
+                "Macrophage Activation (GO:0042116)",
+                "Regulation of Apoptotic Process (GO:0042981)",
+                "Regulation of Superoxide Anion Generation (GO:0032928)",
+                "Positive Regulation of Superoxide Anion Generation (GO:0032930)",
+                "Regulation of Amyloid Fibril Formation (GO:1905906)",
+                "Positive Regulation of Reactive Oxygen Species Metabolic Process (GO:2000379)",
+                "Cellular Response to Unfolded Protein (GO:0034620)",
+                "Response to Type II Interferon (GO:0034341)",
+                "Amyloid Fibril Formation (GO:1990000)"
+            ]
+        },
+        "Colorectal_cancer": {
+            "cluster": 11,
+            "pathways": [
+                "Negative Regulation of Apoptotic Process (GO:0043066)",
+                "Negative Regulation of Programmed Cell Death (GO:0043069)",
+                "Positive Regulation of Gene Expression (GO:0010628)",
+                "Intracellular Signaling Cassette (GO:0141124)",
+                "Positive Regulation of DNA-templated Transcription (GO:0045893)",
+                "Positive Regulation of Protein Phosphorylation (GO:0001934)",
+                "Epidermal Growth Factor Receptor Signaling Pathway (GO:0007173)",
+                "Positive Regulation of miRNA Metabolic Process (GO:2000630)",
+                "ERBB Signaling Pathway (GO:0038127)",
+                "Positive Regulation of Macromolecule Biosynthetic Process (GO:0010557)"
+            ]
+        }
+    },
+    "cluster_to_diseases": {
+        "1": [
+            "Allograft_rejection",
+            "Chagas_disease",
+            "Measles"
+        ],
+        "13": [
+            "Arrhythmogenic_right_ventricular_cardiomyopathy",
+            "Hypertrophic_cardiomyopathy",
+            "Dilated_cardiomyopathy"
+        ],
+        "3": [
+            "Type_I_diabetes_mellitus",
+            "Staphylococcus_aureus_infection",
+            "Epstein-Barr_virus_infection",
+            "Graft-versus-host_disease",
+            "Systemic_lupus_erythematosus",
+            "Salmonella_infection"
+        ],
+        "4": [
+            "Glioma",
+            "Small_cell_lung_cancer",
+            "Thyroid_cancer"
+        ],
+        "2": [
+            "Vibrio_cholerae_infection",
+            "Leishmaniasis",
+            "Inflammatory_bowel_disease",
+            "African_trypanosomiasis",
+            "Yersinia_infection"
+        ],
+        "8": [
+            "Hepatocellular_carcinoma",
+            "Alcoholic_liver_disease",
+            "Human_T-cell_leukemia_virus_1_infection",
+            "Kaposi_sarcoma-associated_herpesvirus_infection",
+            "Human_cytomegalovirus_infection"
+        ],
+        "18": [
+            "Basal_cell_carcinoma",
+            "Amoebiasis"
+        ],
+        "14": [
+            "Hepatitis_C",
+            "Lipid_and_atherosclerosis"
+        ],
+        "6": [
+            "Primary_immunodeficiency",
+            "Coronavirus_disease_-_COVID-19",
+            "Toxoplasmosis"
+        ],
+        "5": [
+            "Acute_myeloid_leukemia",
+            "Chronic_myeloid_leukemia",
+            "Breast_cancer",
+            "Endometrial_cancer",
+            "Prostate_cancer"
+        ],
+        "9": [
+            "Diabetic_cardiomyopathy",
+            "Alzheimer_disease"
+        ],
+        "7": [
+            "Tuberculosis",
+            "Asthma",
+            "Hepatitis_B"
+        ],
+        "21": [
+            "Spinocerebellar_ataxia",
+            "Non-alcoholic_fatty_liver_disease",
+            "Legionellosis"
+        ],
+        "23": [
+            "Viral_myocarditis",
+            "Gastric_cancer"
+        ],
+        "12": [
+            "Melanoma",
+            "Epithelial_cell_signaling_in_Helicobacter_pylori_infection",
+            "Shigellosis"
+        ],
+        "19": [
+            "Alcoholism",
+            "Parkinson_disease"
+        ],
+        "16": [
+            "Herpes_simplex_virus_1_infection",
+            "Human_immunodeficiency_virus_1_infection"
+        ],
+        "22": [
+            "Rheumatoid_arthritis",
+            "Pertussis",
+            "Influenza_A"
+        ],
+        "24": [
+            "Pancreatic_cancer",
+            "Non-small_cell_lung_cancer"
+        ],
+        "10": [
+            "Maturity_onset_diabetes_of_the_young",
+            "Type_II_diabetes_mellitus"
+        ],
+        "20": [
+            "Pathogenic_Escherichia_coli_infection",
+            "Malaria"
+        ],
+        "11": [
+            "Bladder_cancer",
+            "Renal_cell_carcinoma",
+            "Colorectal_cancer"
+        ],
+        "15": [
+            "Amyotrophic_lateral_sclerosis",
+            "Prion_disease"
+        ],
+        "17": [
+            "Huntington_disease",
+            "Cushing_syndrome"
+        ]
+    },
+    "disease_cluster_labels": [
+        1,
+        13,
+        3,
+        4,
+        2,
+        8,
+        8,
+        13,
+        18,
+        14,
+        6,
+        5,
+        5,
+        9,
+        7,
+        2,
+        21,
+        4,
+        23,
+        12,
+        2,
+        1,
+        19,
+        6,
+        12,
+        2,
+        8,
+        14,
+        9,
+        18,
+        21,
+        16,
+        22,
+        24,
+        10,
+        5,
+        20,
+        7,
+        11,
+        12,
+        5,
+        22,
+        3,
+        15,
+        3,
+        8,
+        8,
+        2,
+        6,
+        10,
+        17,
+        3,
+        4,
+        13,
+        3,
+        16,
+        21,
+        22,
+        23,
+        7,
+        17,
+        1,
+        24,
+        11,
+        5,
+        20,
+        19,
+        3,
+        15,
+        11
+    ],
+    "linkage_matrix": [
+        [
+            9.0,
+            27.0,
+            0.561747902297143,
+            2.0
+        ],
+        [
+            4.0,
+            20.0,
+            0.623906402297143,
+            2.0
+        ],
+        [
+            15.0,
+            47.0,
+            0.623906402297143,
+            2.0
+        ],
+        [
+            6.0,
+            46.0,
+            0.6370284022971429,
+            2.0
+        ],
+        [
+            0.0,
+            21.0,
+            0.6386772284071429,
+            2.0
+        ],
+        [
+            17.0,
+            52.0,
+            0.6688127116928572,
+            2.0
+        ],
+        [
+            51.0,
+            54.0,
+            0.6865313160085715,
+            2.0
+        ],
+        [
+            10.0,
+            48.0,
+            0.6972929962585714,
+            2.0
+        ],
+        [
+            7.0,
+            53.0,
+            0.7003883432671429,
+            2.0
+        ],
+        [
+            23.0,
+            77.0,
+            0.7024538545306325,
+            3.0
+        ],
+        [
+            2.0,
+            76.0,
+            0.7087487198784522,
+            3.0
+        ],
+        [
+            25.0,
+            71.0,
+            0.7091013291239239,
+            3.0
+        ],
+        [
+            63.0,
+            69.0,
+            0.7291672011485715,
+            2.0
+        ],
+        [
+            18.0,
+            58.0,
+            0.7325142011485715,
+            2.0
+        ],
+        [
+            12.0,
+            64.0,
+            0.7384814962585715,
+            2.0
+        ],
+        [
+            13.0,
+            28.0,
+            0.7412905415442858,
+            2.0
+        ],
+        [
+            37.0,
+            59.0,
+            0.7423557011485715,
+            2.0
+        ],
+        [
+            3.0,
+            75.0,
+            0.7535629012454249,
+            3.0
+        ],
+        [
+            38.0,
+            82.0,
+            0.7581759162111127,
+            3.0
+        ],
+        [
+            14.0,
+            86.0,
+            0.7610148204751246,
+            3.0
+        ],
+        [
+            34.0,
+            49.0,
+            0.7645836005742858,
+            2.0
+        ],
+        [
+            32.0,
+            57.0,
+            0.7645836005742858,
+            2.0
+        ],
+        [
+            72.0,
+            81.0,
+            0.7768913234237307,
+            5.0
+        ],
+        [
+            35.0,
+            84.0,
+            0.7858805476369791,
+            3.0
+        ],
+        [
+            44.0,
+            67.0,
+            0.7971015968328572,
+            2.0
+        ],
+        [
+            40.0,
+            93.0,
+            0.8060467326989379,
+            4.0
+        ],
+        [
+            5.0,
+            73.0,
+            0.8105504643887903,
+            3.0
+        ],
+        [
+            26.0,
+            45.0,
+            0.8107350272585715,
+            2.0
+        ],
+        [
+            42.0,
+            80.0,
+            0.813991397772376,
+            4.0
+        ],
+        [
+            43.0,
+            68.0,
+            0.8228741421185715,
+            2.0
+        ],
+        [
+            19.0,
+            24.0,
+            0.8277198160085715,
+            2.0
+        ],
+        [
+            1.0,
+            78.0,
+            0.83391003160127,
+            3.0
+        ],
+        [
+            11.0,
+            95.0,
+            0.8595722906663303,
+            5.0
+        ],
+        [
+            96.0,
+            97.0,
+            0.8684966607769845,
+            5.0
+        ],
+        [
+            61.0,
+            74.0,
+            0.8817582593092418,
+            3.0
+        ],
+        [
+            39.0,
+            100.0,
+            0.884824012164386,
+            3.0
+        ],
+        [
+            94.0,
+            98.0,
+            0.8948196145738402,
+            6.0
+        ],
+        [
+            31.0,
+            55.0,
+            0.9095836005742857,
+            2.0
+        ],
+        [
+            50.0,
+            60.0,
+            0.9365836005742857,
+            2.0
+        ],
+        [
+            41.0,
+            91.0,
+            0.9530269711936432,
+            3.0
+        ],
+        [
+            33.0,
+            62.0,
+            0.9640563956842857,
+            2.0
+        ],
+        [
+            8.0,
+            29.0,
+            0.9777721005742858,
+            2.0
+        ],
+        [
+            22.0,
+            66.0,
+            0.98268565222,
+            2.0
+        ],
+        [
+            36.0,
+            65.0,
+            0.98536411486,
+            2.0
+        ],
+        [
+            16.0,
+            30.0,
+            1.0,
+            2.0
+        ],
+        [
+            56.0,
+            114.0,
+            1.0,
+            3.0
+        ],
+        [
+            113.0,
+            115.0,
+            1.0086796006104721,
+            5.0
+        ],
+        [
+            112.0,
+            116.0,
+            1.0138251887580239,
+            7.0
+        ],
+        [
+            92.0,
+            106.0,
+            1.0154871849630636,
+            11.0
+        ],
+        [
+            111.0,
+            117.0,
+            1.0189293332495961,
+            9.0
+        ],
+        [
+            83.0,
+            110.0,
+            1.028924733496777,
+            4.0
+        ],
+        [
+            85.0,
+            90.0,
+            1.0329741283067644,
+            4.0
+        ],
+        [
+            108.0,
+            119.0,
+            1.0456311723146186,
+            11.0
+        ],
+        [
+            107.0,
+            122.0,
+            1.0723002885450084,
+            13.0
+        ],
+        [
+            104.0,
+            118.0,
+            1.0844825797443216,
+            14.0
+        ],
+        [
+            88.0,
+            105.0,
+            1.1073564899165027,
+            6.0
+        ],
+        [
+            99.0,
+            123.0,
+            1.1305761919078148,
+            15.0
+        ],
+        [
+            109.0,
+            120.0,
+            1.1314806854455792,
+            7.0
+        ],
+        [
+            87.0,
+            102.0,
+            1.13994353356445,
+            8.0
+        ],
+        [
+            79.0,
+            89.0,
+            1.1717924412005631,
+            6.0
+        ],
+        [
+            126.0,
+            127.0,
+            1.1970466231922574,
+            22.0
+        ],
+        [
+            70.0,
+            130.0,
+            1.2791513038916038,
+            24.0
+        ],
+        [
+            121.0,
+            125.0,
+            1.287589998443539,
+            10.0
+        ],
+        [
+            101.0,
+            131.0,
+            1.331279862960985,
+            27.0
+        ],
+        [
+            132.0,
+            133.0,
+            1.3735309948810164,
+            37.0
+        ],
+        [
+            103.0,
+            134.0,
+            1.4732020949560092,
+            42.0
+        ],
+        [
+            129.0,
+            135.0,
+            1.4759640187547194,
+            48.0
+        ],
+        [
+            128.0,
+            136.0,
+            1.5778328560839623,
+            56.0
+        ],
+        [
+            124.0,
+            137.0,
+            2.073080447429782,
+            70.0
+        ]
+    ]
+}

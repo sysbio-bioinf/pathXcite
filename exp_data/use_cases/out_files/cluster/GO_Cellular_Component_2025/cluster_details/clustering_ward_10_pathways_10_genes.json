@@ -1,0 +1,1665 @@
+{
+    "metadata": {
+        "timestamp": "2025-03-19T14:15:47.918433",
+        "top_n": 10,
+        "gene_n": 10,
+        "method": "ward",
+        "num_clusters": 23
+    },
+    "disease_to_cluster": {
+        "Herpes_simplex_virus_1_infection": {
+            "cluster": 18,
+            "pathways": [
+                "NURF Complex (GO:0016589)",
+                "B-WICH Complex (GO:0110016)",
+                "Set1C/COMPASS Complex (GO:0048188)",
+                "ISWI-type Complex (GO:0031010)",
+                "H4 Histone Acetyltransferase Complex (GO:1902562)",
+                "Pericentric Heterochromatin (GO:0005721)",
+                "Protein Kinase Complex (GO:1902911)",
+                "MLL1 Complex (GO:0071339)",
+                "MLL1/2 Complex (GO:0044665)",
+                "Nucleus (GO:0005634)"
+            ]
+        },
+        "Non-alcoholic_fatty_liver_disease": {
+            "cluster": 21,
+            "pathways": [
+                "Endoplasmic reticulum-Golgi Intermediate Compartment Membrane (GO:0033116)",
+                "Endosome Lumen (GO:0031904)",
+                "Lipid Droplet (GO:0005811)",
+                "Golgi Lumen (GO:0005796)",
+                "Cytoplasmic Vesicle Lumen (GO:0060205)",
+                "Endoplasmic Reticulum Membrane (GO:0005789)",
+                "Bounding Membrane of Organelle (GO:0098588)",
+                "Secretory Granule Lumen (GO:0034774)",
+                "Lytic Vacuole Membrane (GO:0098852)",
+                "Lytic Vacuole (GO:0000323)"
+            ]
+        },
+        "Amoebiasis": {
+            "cluster": 1,
+            "pathways": [
+                "T Cell Receptor Complex (GO:0042101)",
+                "Membrane Raft (GO:0045121)",
+                "Microbody Lumen (GO:0031907)",
+                "Peroxisomal Matrix (GO:0005782)",
+                "Clathrin-Coated Endocytic Vesicle Membrane (GO:0030669)",
+                "Clathrin-Coated Endocytic Vesicle (GO:0045334)",
+                "Plasma Membrane Raft (GO:0044853)",
+                "Clathrin-Coated Vesicle Membrane (GO:0030665)",
+                "Azurophil Granule Lumen (GO:0035578)",
+                "Endocytic Vesicle Membrane (GO:0030666)"
+            ]
+        },
+        "Alzheimer_disease": {
+            "cluster": 2,
+            "pathways": [
+                "Dendrite (GO:0030425)",
+                "Neuron Projection (GO:0043005)",
+                "Axon (GO:0030424)",
+                "Low-Density Lipoprotein Particle (GO:0034362)",
+                "Triglyceride-Rich Plasma Lipoprotein Particle (GO:0034385)",
+                "Very-Low-Density Lipoprotein Particle (GO:0034361)",
+                "High-Density Lipoprotein Particle (GO:0034364)",
+                "Smooth Endoplasmic Reticulum (GO:0005790)",
+                "Membrane Raft (GO:0045121)",
+                "Serine/Threonine Protein Kinase Complex (GO:1902554)"
+            ]
+        },
+        "Lipid_and_atherosclerosis": {
+            "cluster": 10,
+            "pathways": [
+                "Chylomicron (GO:0042627)",
+                "Triglyceride-Rich Plasma Lipoprotein Particle (GO:0034385)",
+                "Very-Low-Density Lipoprotein Particle (GO:0034361)",
+                "Endocytic Vesicle Lumen (GO:0071682)",
+                "Early Endosome (GO:0005769)",
+                "Low-Density Lipoprotein Particle (GO:0034362)",
+                "Endoplasmic Reticulum Lumen (GO:0005788)",
+                "Secretory Granule Lumen (GO:0034774)",
+                "Cytoplasmic Vesicle Lumen (GO:0060205)",
+                "High-Density Lipoprotein Particle (GO:0034364)"
+            ]
+        },
+        "Breast_cancer": {
+            "cluster": 9,
+            "pathways": [
+                "Nucleus (GO:0005634)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)",
+                "SWI/SNF Complex (GO:0016514)",
+                "bBAF Complex (GO:0140092)",
+                "npBAF Complex (GO:0071564)",
+                "Brahma Complex (GO:0035060)",
+                "nBAF Complex (GO:0071565)",
+                "RSC-type Complex (GO:0016586)",
+                "Clathrin-Coated Endocytic Vesicle Membrane (GO:0030669)",
+                "Clathrin-Coated Vesicle Membrane (GO:0030665)"
+            ]
+        },
+        "Maturity_onset_diabetes_of_the_young": {
+            "cluster": 21,
+            "pathways": [
+                "Potassium Channel Complex (GO:0034705)",
+                "Endosome Lumen (GO:0031904)",
+                "Endoplasmic reticulum-Golgi Intermediate Compartment Membrane (GO:0033116)",
+                "Golgi Lumen (GO:0005796)",
+                "Cytoplasmic Vesicle Lumen (GO:0060205)",
+                "Endoplasmic Reticulum Lumen (GO:0005788)",
+                "Secretory Granule Lumen (GO:0034774)",
+                "Golgi Membrane (GO:0000139)",
+                "Bounding Membrane of Organelle (GO:0098588)",
+                "Intracellular Organelle Lumen (GO:0070013)"
+            ]
+        },
+        "Pancreatic_cancer": {
+            "cluster": 16,
+            "pathways": [
+                "RNA N6-methyladenosine Methyltransferase Complex (GO:0036396)",
+                "Glial Cell Projection (GO:0097386)",
+                "Neuromuscular Junction (GO:0031594)",
+                "Sarcolemma (GO:0042383)",
+                "Filopodium (GO:0030175)",
+                "Actin-Based Cell Projection (GO:0098858)",
+                "Golgi Lumen (GO:0005796)",
+                "Intracellular Organelle Lumen (GO:0070013)",
+                "Membrane Raft (GO:0045121)",
+                "Cytoplasmic Vesicle Membrane (GO:0030659)"
+            ]
+        },
+        "Rheumatoid_arthritis": {
+            "cluster": 4,
+            "pathways": [
+                "MHC Protein Complex (GO:0042611)",
+                "Lumenal Side of Endoplasmic Reticulum Membrane (GO:0098553)",
+                "ER to Golgi Transport Vesicle Membrane (GO:0012507)",
+                "Coated Vesicle Membrane (GO:0030662)",
+                "Transport Vesicle Membrane (GO:0030658)",
+                "COPII-coated ER to Golgi Transport Vesicle (GO:0030134)",
+                "Endosome Membrane (GO:0010008)",
+                "Late Endosome Membrane (GO:0031902)",
+                "Early Endosome Membrane (GO:0031901)",
+                "MHC Class I Protein Complex (GO:0042612)"
+            ]
+        },
+        "Inflammatory_bowel_disease": {
+            "cluster": 19,
+            "pathways": [
+                "Autophagosome Membrane (GO:0000421)",
+                "Vacuolar Membrane (GO:0005774)",
+                "Autophagosome (GO:0005776)",
+                "Endolysosome Membrane (GO:0036020)",
+                "Endolysosome (GO:0036019)",
+                "Lysosomal Membrane (GO:0005765)",
+                "Cytoskeleton (GO:0005856)",
+                "Phagocytic Vesicle (GO:0045335)",
+                "Cytoplasmic Vesicle Lumen (GO:0060205)",
+                "Recycling Endosome (GO:0055037)"
+            ]
+        },
+        "Melanoma": {
+            "cluster": 7,
+            "pathways": [
+                "Chitosome (GO:0045009)",
+                "Melanosome Membrane (GO:0033162)",
+                "Pigment Granule Membrane (GO:0090741)",
+                "Early Endosome (GO:0005769)",
+                "Pigment Granule (GO:0048770)",
+                "Melanosome (GO:0042470)",
+                "Sarcoplasmic Reticulum (GO:0016529)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)",
+                "Recycling Endosome Membrane (GO:0055038)",
+                "Tertiary Granule Membrane (GO:0070821)"
+            ]
+        },
+        "Viral_myocarditis": {
+            "cluster": 3,
+            "pathways": [
+                "TORC1 Complex (GO:0031931)",
+                "Apicolateral Plasma Membrane (GO:0016327)",
+                "Membrane Raft (GO:0045121)",
+                "TORC2 Complex (GO:0031932)",
+                "Endocytic Vesicle (GO:0030139)",
+                "Brush Border Membrane (GO:0031526)",
+                "Cytosolic Small Ribosomal Subunit (GO:0022627)",
+                "Neuromuscular Junction (GO:0031594)",
+                "Small Ribosomal Subunit (GO:0015935)",
+                "Myofibril (GO:0030016)"
+            ]
+        },
+        "Small_cell_lung_cancer": {
+            "cluster": 7,
+            "pathways": [
+                "Early Endosome Membrane (GO:0031901)",
+                "Multivesicular Body, Internal Vesicle (GO:0097487)",
+                "Intracellular Vesicle (GO:0097708)",
+                "Early Endosome (GO:0005769)",
+                "Endosome Membrane (GO:0010008)",
+                "Nucleus (GO:0005634)",
+                "Clathrin-Coated Endocytic Vesicle Membrane (GO:0030669)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)",
+                "Recycling Endosome Membrane (GO:0055038)",
+                "Clathrin-Coated Endocytic Vesicle (GO:0045334)"
+            ]
+        },
+        "Human_T-cell_leukemia_virus_1_infection": {
+            "cluster": 13,
+            "pathways": [
+                "ATAC Complex (GO:0140672)",
+                "Clathrin-Coated Vesicle Membrane (GO:0030665)",
+                "Coated Vesicle (GO:0030135)",
+                "Clathrin-Coated Endocytic Vesicle (GO:0045334)",
+                "COPII-coated ER to Golgi Transport Vesicle (GO:0030134)",
+                "Synaptic Vesicle Membrane (GO:0030672)",
+                "Exocytic Vesicle Membrane (GO:0099501)",
+                "Plasma Membrane Raft (GO:0044853)",
+                "Caveola (GO:0005901)",
+                "cis-Golgi Network (GO:0005801)"
+            ]
+        },
+        "African_trypanosomiasis": {
+            "cluster": 10,
+            "pathways": [
+                "MHC Class II Protein Complex (GO:0042613)",
+                "Triglyceride-Rich Plasma Lipoprotein Particle (GO:0034385)",
+                "Very-Low-Density Lipoprotein Particle (GO:0034361)",
+                "High-Density Lipoprotein Particle (GO:0034364)",
+                "MHC Protein Complex (GO:0042611)",
+                "Cilium (GO:0005929)",
+                "Motile Cilium (GO:0031514)",
+                "Azurophil Granule Lumen (GO:0035578)",
+                "Late Endosome Membrane (GO:0031902)",
+                "Azurophil Granule (GO:0042582)"
+            ]
+        },
+        "Epithelial_cell_signaling_in_Helicobacter_pylori_infection": {
+            "cluster": 22,
+            "pathways": [
+                "Late Endosome (GO:0005770)",
+                "Secretory Granule Lumen (GO:0034774)",
+                "Cell-Cell Junction (GO:0005911)",
+                "Microtubule Cytoskeleton (GO:0015630)",
+                "Cilium (GO:0005929)",
+                "Specific Granule Lumen (GO:0035580)",
+                "Caveola (GO:0005901)",
+                "Mitochondrial Intermembrane Space (GO:0005758)",
+                "Plasma Membrane Raft (GO:0044853)",
+                "Azurophil Granule Lumen (GO:0035578)"
+            ]
+        },
+        "Coronavirus_disease_-_COVID-19": {
+            "cluster": 11,
+            "pathways": [
+                "Membrane Raft (GO:0045121)",
+                "bBAF Complex (GO:0140092)",
+                "npBAF Complex (GO:0071564)",
+                "Brahma Complex (GO:0035060)",
+                "nBAF Complex (GO:0071565)",
+                "RSC-type Complex (GO:0016586)",
+                "SWI/SNF Complex (GO:0016514)",
+                "Brush Border Membrane (GO:0031526)",
+                "Multivesicular Body (GO:0005771)",
+                "Cell Projection Membrane (GO:0031253)"
+            ]
+        },
+        "Chagas_disease": {
+            "cluster": 1,
+            "pathways": [
+                "T Cell Receptor Complex (GO:0042101)",
+                "MHC Protein Complex (GO:0042611)",
+                "Endocytic Vesicle Membrane (GO:0030666)",
+                "Membrane Raft (GO:0045121)",
+                "Lumenal Side of Endoplasmic Reticulum Membrane (GO:0098553)",
+                "ER to Golgi Transport Vesicle Membrane (GO:0012507)",
+                "Coated Vesicle Membrane (GO:0030662)",
+                "Transport Vesicle Membrane (GO:0030658)",
+                "Clathrin-Coated Endocytic Vesicle Membrane (GO:0030669)",
+                "COPII-coated ER to Golgi Transport Vesicle (GO:0030134)"
+            ]
+        },
+        "Alcoholism": {
+            "cluster": 2,
+            "pathways": [
+                "Dendrite (GO:0030425)",
+                "Neuron Projection (GO:0043005)",
+                "Axon (GO:0030424)",
+                "Non-Motile Cilium (GO:0097730)",
+                "Ciliary Membrane (GO:0060170)",
+                "Vesicle Membrane (GO:0012506)",
+                "Autophagosome (GO:0005776)",
+                "Glutamatergic Synapse (GO:0098978)",
+                "Cell Projection Membrane (GO:0031253)",
+                "Membrane Raft (GO:0045121)"
+            ]
+        },
+        "Primary_immunodeficiency": {
+            "cluster": 1,
+            "pathways": [
+                "T Cell Receptor Complex (GO:0042101)",
+                "Membrane Raft (GO:0045121)",
+                "Pericentric Heterochromatin (GO:0005721)",
+                "Specific Granule Lumen (GO:0035580)",
+                "Clathrin-Coated Endocytic Vesicle Membrane (GO:0030669)",
+                "Actin Filament (GO:0005884)",
+                "Clathrin-Coated Endocytic Vesicle (GO:0045334)",
+                "Plasma Membrane Raft (GO:0044853)",
+                "Clathrin-Coated Vesicle (GO:0030136)",
+                "Clathrin-Coated Vesicle Membrane (GO:0030665)"
+            ]
+        },
+        "Basal_cell_carcinoma": {
+            "cluster": 8,
+            "pathways": [
+                "Transferase Complex, Transferring Phosphorus-Containing Groups (GO:0061695)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)",
+                "Nucleus (GO:0005634)",
+                "Ciliary Membrane (GO:0060170)",
+                "Caveola (GO:0005901)",
+                "Plasma Membrane Raft (GO:0044853)",
+                "Cell Projection Membrane (GO:0031253)",
+                "Nucleolus (GO:0005730)",
+                "Nuclear Lumen (GO:0031981)",
+                "Membrane Raft (GO:0045121)"
+            ]
+        },
+        "Hypertrophic_cardiomyopathy": {
+            "cluster": 15,
+            "pathways": [
+                "Myofibril (GO:0030016)",
+                "Muscle Myosin Complex (GO:0005859)",
+                "Myosin Filament (GO:0032982)",
+                "Supramolecular Fiber (GO:0099512)",
+                "Collagen-Containing Extracellular Matrix (GO:0062023)",
+                "Ficolin-1-Rich Granule Membrane (GO:0101003)",
+                "Platelet Alpha Granule Lumen (GO:0031093)",
+                "Actin Filament (GO:0005884)",
+                "Clathrin-Coated Vesicle (GO:0030136)",
+                "Platelet Alpha Granule (GO:0031091)"
+            ]
+        },
+        "Hepatitis_C": {
+            "cluster": 10,
+            "pathways": [
+                "Low-Density Lipoprotein Particle (GO:0034362)",
+                "Chylomicron (GO:0042627)",
+                "Vesicle (GO:0031982)",
+                "Triglyceride-Rich Plasma Lipoprotein Particle (GO:0034385)",
+                "Very-Low-Density Lipoprotein Particle (GO:0034361)",
+                "Protein Phosphatase Type 2A Complex (GO:0000159)",
+                "High-Density Lipoprotein Particle (GO:0034364)",
+                "Endocytic Vesicle Lumen (GO:0071682)",
+                "Protein Serine/Threonine Phosphatase Complex (GO:0008287)",
+                "Melanosome (GO:0042470)"
+            ]
+        },
+        "Alcoholic_liver_disease": {
+            "cluster": 21,
+            "pathways": [
+                "Endoplasmic Reticulum Membrane (GO:0005789)",
+                "Endoplasmic reticulum-Golgi Intermediate Compartment Membrane (GO:0033116)",
+                "Lipid Droplet (GO:0005811)",
+                "Recycling Endosome (GO:0055037)",
+                "Membrane Raft (GO:0045121)",
+                "Lytic Vacuole (GO:0000323)",
+                "Mitochondrial Inner Membrane (GO:0005743)",
+                "Mitochondrial Matrix (GO:0005759)",
+                "Lytic Vacuole Membrane (GO:0098852)",
+                "Lysosomal Membrane (GO:0005765)"
+            ]
+        },
+        "Hepatocellular_carcinoma": {
+            "cluster": 3,
+            "pathways": [
+                "Lysosome (GO:0005764)",
+                "TORC1 Complex (GO:0031931)",
+                "TORC2 Complex (GO:0031932)",
+                "Lytic Vacuole (GO:0000323)",
+                "Protein Kinase Complex (GO:1902911)",
+                "Golgi Lumen (GO:0005796)",
+                "Platelet Alpha Granule (GO:0031091)",
+                "Phagocytic Vesicle (GO:0045335)",
+                "Serine/Threonine Protein Kinase Complex (GO:1902554)",
+                "Platelet Alpha Granule Lumen (GO:0031093)"
+            ]
+        },
+        "Spinocerebellar_ataxia": {
+            "cluster": 17,
+            "pathways": [
+                "Nuclear Inclusion Body (GO:0042405)",
+                "Dendrite (GO:0030425)",
+                "Voltage-Gated Calcium Channel Complex (GO:0005891)",
+                "Transcription Factor TFIID Complex (GO:0005669)",
+                "Cortical Actin Cytoskeleton (GO:0030864)",
+                "Calcium Channel Complex (GO:0034704)",
+                "Neuron Projection (GO:0043005)",
+                "Cortical Cytoskeleton (GO:0030863)",
+                "Mitochondrial Membrane (GO:0031966)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)"
+            ]
+        },
+        "Leishmaniasis": {
+            "cluster": 1,
+            "pathways": [
+                "T Cell Receptor Complex (GO:0042101)",
+                "Membrane Raft (GO:0045121)",
+                "Late Endosome Lumen (GO:0031906)",
+                "Endosome Lumen (GO:0031904)",
+                "Clathrin-Coated Endocytic Vesicle Membrane (GO:0030669)",
+                "Clathrin-Coated Endocytic Vesicle (GO:0045334)",
+                "Plasma Membrane Raft (GO:0044853)",
+                "Clathrin-Coated Vesicle Membrane (GO:0030665)",
+                "Endocytic Vesicle Membrane (GO:0030666)",
+                "Recycling Endosome (GO:0055037)"
+            ]
+        },
+        "Tuberculosis": {
+            "cluster": 1,
+            "pathways": [
+                "Membrane Attack Complex (GO:0005579)",
+                "Membrane Raft (GO:0045121)",
+                "T Cell Receptor Complex (GO:0042101)",
+                "Microbody Lumen (GO:0031907)",
+                "Peroxisomal Matrix (GO:0005782)",
+                "Clathrin-Coated Endocytic Vesicle Membrane (GO:0030669)",
+                "Clathrin-Coated Endocytic Vesicle (GO:0045334)",
+                "Clathrin-Coated Vesicle Membrane (GO:0030665)",
+                "Cytoplasmic Vesicle Lumen (GO:0060205)",
+                "Peroxisome (GO:0005777)"
+            ]
+        },
+        "Diabetic_cardiomyopathy": {
+            "cluster": 23,
+            "pathways": [
+                "Secretory Granule Lumen (GO:0034774)",
+                "Golgi Lumen (GO:0005796)",
+                "Cytoplasmic Vesicle Lumen (GO:0060205)",
+                "Shelterin Complex (GO:0070187)",
+                "Nucleus (GO:0005634)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)",
+                "TIM23 Mitochondrial Import Inner Membrane Translocase Complex (GO:0005744)",
+                "Endosome Lumen (GO:0031904)",
+                "Endoplasmic reticulum-Golgi Intermediate Compartment Membrane (GO:0033116)",
+                "Microvillus (GO:0005902)"
+            ]
+        },
+        "Chronic_myeloid_leukemia": {
+            "cluster": 9,
+            "pathways": [
+                "Cortical Endoplasmic Reticulum (GO:0032541)",
+                "Nucleolus (GO:0005730)",
+                "Nuclear Lumen (GO:0031981)",
+                "Endoplasmic Reticulum Tubular Network (GO:0071782)",
+                "Sarcoplasmic Reticulum Membrane (GO:0033017)",
+                "Sarcoplasmic Reticulum (GO:0016529)",
+                "Intracellular Membraneless Organelle (GO:0043232)",
+                "Plasma Membrane Raft (GO:0044853)",
+                "Glutamatergic Synapse (GO:0098978)",
+                "Membrane Raft (GO:0045121)"
+            ]
+        },
+        "Acute_myeloid_leukemia": {
+            "cluster": 9,
+            "pathways": [
+                "Nucleus (GO:0005634)",
+                "Nucleolus (GO:0005730)",
+                "Nuclear Lumen (GO:0031981)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)",
+                "MLL1 Complex (GO:0071339)",
+                "MLL1/2 Complex (GO:0044665)",
+                "Intracellular Membraneless Organelle (GO:0043232)",
+                "Microbody Lumen (GO:0031907)",
+                "Peroxisomal Matrix (GO:0005782)",
+                "Tertiary Granule Lumen (GO:1904724)"
+            ]
+        },
+        "Arrhythmogenic_right_ventricular_cardiomyopathy": {
+            "cluster": 17,
+            "pathways": [
+                "Intercalated Disc (GO:0014704)",
+                "Cell-Cell Contact Zone (GO:0044291)",
+                "Intermediate Filament (GO:0005882)",
+                "Intermediate Filament Cytoskeleton (GO:0045111)",
+                "Desmosome (GO:0030057)",
+                "Cornified Envelope (GO:0001533)",
+                "Polymeric Cytoskeletal Fiber (GO:0099513)",
+                "Cell-Cell Junction (GO:0005911)",
+                "Nuclear Membrane (GO:0031965)",
+                "Sarcoplasmic Reticulum Membrane (GO:0033017)"
+            ]
+        },
+        "Allograft_rejection": {
+            "cluster": 1,
+            "pathways": [
+                "T Cell Receptor Complex (GO:0042101)",
+                "MHC Class I Protein Complex (GO:0042612)",
+                "Endocytic Vesicle Membrane (GO:0030666)",
+                "Membrane Raft (GO:0045121)",
+                "Golgi Medial Cisterna (GO:0005797)",
+                "MHC Protein Complex (GO:0042611)",
+                "Early Endosome (GO:0005769)",
+                "Lumenal Side of Endoplasmic Reticulum Membrane (GO:0098553)",
+                "Phagocytic Vesicle Membrane (GO:0030670)",
+                "Golgi Cisterna (GO:0031985)"
+            ]
+        },
+        "Vibrio_cholerae_infection": {
+            "cluster": 23,
+            "pathways": [
+                "Golgi Lumen (GO:0005796)",
+                "Golgi Membrane (GO:0000139)",
+                "Multivesicular Body (GO:0005771)",
+                "Extracellular Vesicle (GO:1903561)",
+                "Bicellular Tight Junction (GO:0005923)",
+                "Lipid Droplet (GO:0005811)",
+                "Tight Junction (GO:0070160)",
+                "Apical Junction Complex (GO:0043296)",
+                "Intracellular Organelle Lumen (GO:0070013)",
+                "Bounding Membrane of Organelle (GO:0098588)"
+            ]
+        },
+        "Glioma": {
+            "cluster": 7,
+            "pathways": [
+                "Multivesicular Body, Internal Vesicle (GO:0097487)",
+                "Intracellular Vesicle (GO:0097708)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)",
+                "Chitosome (GO:0045009)",
+                "Melanosome Membrane (GO:0033162)",
+                "Pigment Granule Membrane (GO:0090741)",
+                "Dendrite (GO:0030425)",
+                "Multivesicular Body Membrane (GO:0032585)",
+                "Secretory Granule Lumen (GO:0034774)",
+                "Pigment Granule (GO:0048770)"
+            ]
+        },
+        "Type_I_diabetes_mellitus": {
+            "cluster": 4,
+            "pathways": [
+                "MHC Protein Complex (GO:0042611)",
+                "Lumenal Side of Endoplasmic Reticulum Membrane (GO:0098553)",
+                "ER to Golgi Transport Vesicle Membrane (GO:0012507)",
+                "Coated Vesicle Membrane (GO:0030662)",
+                "MHC Class I Protein Complex (GO:0042612)",
+                "Transport Vesicle Membrane (GO:0030658)",
+                "COPII-coated ER to Golgi Transport Vesicle (GO:0030134)",
+                "Golgi Membrane (GO:0000139)",
+                "Endocytic Vesicle Membrane (GO:0030666)",
+                "Phagocytic Vesicle Membrane (GO:0030670)"
+            ]
+        },
+        "Prostate_cancer": {
+            "cluster": 16,
+            "pathways": [
+                "Microvillus (GO:0005902)",
+                "Cul3-RING Ubiquitin Ligase Complex (GO:0031463)",
+                "Actin-Based Cell Projection (GO:0098858)",
+                "Cytoplasmic Side of Plasma Membrane (GO:0009898)",
+                "Basolateral Plasma Membrane (GO:0016323)",
+                "cullin-RING Ubiquitin Ligase Complex (GO:0031461)",
+                "Secretory Granule Membrane (GO:0030667)",
+                "Focal Adhesion (GO:0005925)",
+                "Cell-Substrate Junction (GO:0030055)",
+                "Cytoplasmic Vesicle Membrane (GO:0030659)"
+            ]
+        },
+        "Renal_cell_carcinoma": {
+            "cluster": 3,
+            "pathways": [
+                "Lytic Vacuole Membrane (GO:0098852)",
+                "Lysosomal Membrane (GO:0005765)",
+                "Lysosome (GO:0005764)",
+                "TORC1 Complex (GO:0031931)",
+                "TORC2 Complex (GO:0031932)",
+                "Protein Kinase Complex (GO:1902911)",
+                "Platelet Alpha Granule Lumen (GO:0031093)",
+                "Serine/Threonine Protein Kinase Complex (GO:1902554)",
+                "Platelet Alpha Granule (GO:0031091)",
+                "Phagocytic Vesicle (GO:0045335)"
+            ]
+        },
+        "Non-small_cell_lung_cancer": {
+            "cluster": 7,
+            "pathways": [
+                "Cilium (GO:0005929)",
+                "Early Endosome Membrane (GO:0031901)",
+                "Multivesicular Body, Internal Vesicle (GO:0097487)",
+                "Intracellular Vesicle (GO:0097708)",
+                "Early Endosome (GO:0005769)",
+                "Endosome Membrane (GO:0010008)",
+                "Clathrin-Coated Endocytic Vesicle Membrane (GO:0030669)",
+                "Recycling Endosome Membrane (GO:0055038)",
+                "Clathrin-Coated Endocytic Vesicle (GO:0045334)",
+                "Clathrin-Coated Vesicle Membrane (GO:0030665)"
+            ]
+        },
+        "Measles": {
+            "cluster": 5,
+            "pathways": [
+                "MHC Class I Protein Complex (GO:0042612)",
+                "Late Endosome Lumen (GO:0031906)",
+                "Golgi Medial Cisterna (GO:0005797)",
+                "MHC Protein Complex (GO:0042611)",
+                "Endosome Lumen (GO:0031904)",
+                "Lumenal Side of Endoplasmic Reticulum Membrane (GO:0098553)",
+                "Phagocytic Vesicle Membrane (GO:0030670)",
+                "Golgi Cisterna (GO:0031985)",
+                "ER to Golgi Transport Vesicle Membrane (GO:0012507)",
+                "Coated Vesicle Membrane (GO:0030662)"
+            ]
+        },
+        "Cushing_syndrome": {
+            "cluster": 20,
+            "pathways": [
+                "Microbody Lumen (GO:0031907)",
+                "Peroxisomal Matrix (GO:0005782)",
+                "Cytoplasmic Vesicle Lumen (GO:0060205)",
+                "Peroxisome (GO:0005777)",
+                "Secretory Granule Lumen (GO:0034774)",
+                "Focal Adhesion (GO:0005925)",
+                "Cell-Substrate Junction (GO:0030055)",
+                "Mitochondrial Matrix (GO:0005759)",
+                "Mitochondrial Inner Membrane (GO:0005743)",
+                "Mitochondrial Membrane (GO:0031966)"
+            ]
+        },
+        "Prion_disease": {
+            "cluster": 2,
+            "pathways": [
+                "Axon (GO:0030424)",
+                "Neuron Projection (GO:0043005)",
+                "Dendrite (GO:0030425)",
+                "Platelet Alpha Granule (GO:0031091)",
+                "High-Density Lipoprotein Particle (GO:0034364)",
+                "Membrane Raft (GO:0045121)",
+                "Lytic Vacuole (GO:0000323)",
+                "Platelet Alpha Granule Lumen (GO:0031093)",
+                "Lysosome (GO:0005764)",
+                "Nuclear Envelope Lumen (GO:0005641)"
+            ]
+        },
+        "Colorectal_cancer": {
+            "cluster": 6,
+            "pathways": [
+                "Basolateral Plasma Membrane (GO:0016323)",
+                "Cilium (GO:0005929)",
+                "Early Endosome Membrane (GO:0031901)",
+                "Multivesicular Body, Internal Vesicle (GO:0097487)",
+                "Intracellular Vesicle (GO:0097708)",
+                "beta-catenin-TCF Complex (GO:1990907)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)",
+                "Intracellular Organelle Lumen (GO:0070013)",
+                "Early Endosome (GO:0005769)",
+                "Cell-Substrate Junction (GO:0030055)"
+            ]
+        },
+        "Salmonella_infection": {
+            "cluster": 14,
+            "pathways": [
+                "Late Endosome Lumen (GO:0031906)",
+                "Endoplasmic Reticulum Lumen (GO:0005788)",
+                "Endosome Lumen (GO:0031904)",
+                "Specific Granule Lumen (GO:0035580)",
+                "Nuclear Membrane (GO:0031965)",
+                "Spindle (GO:0005819)",
+                "Axon (GO:0030424)",
+                "Late Endosome (GO:0005770)",
+                "Mitotic Spindle (GO:0072686)",
+                "Intracellular Organelle Lumen (GO:0070013)"
+            ]
+        },
+        "Parkinson_disease": {
+            "cluster": 2,
+            "pathways": [
+                "Axon (GO:0030424)",
+                "Neuron Projection (GO:0043005)",
+                "Lytic Vacuole (GO:0000323)",
+                "Dendrite (GO:0030425)",
+                "Lysosome (GO:0005764)",
+                "Multivesicular Body, Internal Vesicle (GO:0097487)",
+                "Polymeric Cytoskeletal Fiber (GO:0099513)",
+                "Platelet Alpha Granule Membrane (GO:0031092)",
+                "Clathrin Coat (GO:0030118)",
+                "Glial Cell Projection (GO:0097386)"
+            ]
+        },
+        "Malaria": {
+            "cluster": 13,
+            "pathways": [
+                "Clathrin-Coated Vesicle Membrane (GO:0030665)",
+                "Macropinosome (GO:0044354)",
+                "Azurophil Granule Membrane (GO:0035577)",
+                "Clathrin-Coated Endocytic Vesicle Membrane (GO:0030669)",
+                "Clathrin-Coated Endocytic Vesicle (GO:0045334)",
+                "Specific Granule Membrane (GO:0035579)",
+                "Azurophil Granule (GO:0042582)",
+                "Specific Granule (GO:0042581)",
+                "Endocytic Vesicle Membrane (GO:0030666)",
+                "Chromosome (GO:0005694)"
+            ]
+        },
+        "Human_immunodeficiency_virus_1_infection": {
+            "cluster": 22,
+            "pathways": [
+                "Late Endosome (GO:0005770)",
+                "Lytic Vacuole (GO:0000323)",
+                "Platelet Dense Granule Lumen (GO:0031089)",
+                "T Cell Receptor Complex (GO:0042101)",
+                "Platelet Dense Granule (GO:0042827)",
+                "Secretory Granule Lumen (GO:0034774)",
+                "Early Endosome (GO:0005769)",
+                "Lysosomal Membrane (GO:0005765)",
+                "Multivesicular Body (GO:0005771)",
+                "Lysosome (GO:0005764)"
+            ]
+        },
+        "Legionellosis": {
+            "cluster": 20,
+            "pathways": [
+                "Microbody Lumen (GO:0031907)",
+                "Peroxisomal Matrix (GO:0005782)",
+                "Clathrin-Coated Vesicle (GO:0030136)",
+                "Coated Vesicle (GO:0030135)",
+                "Peroxisome (GO:0005777)",
+                "Chromosome (GO:0005694)",
+                "Vesicle (GO:0031982)",
+                "trans-Golgi Network (GO:0005802)",
+                "Endoplasmic Reticulum Lumen (GO:0005788)",
+                "Nucleolus (GO:0005730)"
+            ]
+        },
+        "Dilated_cardiomyopathy": {
+            "cluster": 15,
+            "pathways": [
+                "Filopodium Membrane (GO:0031527)",
+                "Myofibril (GO:0030016)",
+                "Cation-Transporting ATPase Complex (GO:0090533)",
+                "Sarcoplasmic Reticulum Membrane (GO:0033017)",
+                "Sarcoplasmic Reticulum (GO:0016529)",
+                "Sarcolemma (GO:0042383)",
+                "Filopodium (GO:0030175)",
+                "Intermediate Filament (GO:0005882)",
+                "Intermediate Filament Cytoskeleton (GO:0045111)",
+                "Cytoplasmic Stress Granule (GO:0010494)"
+            ]
+        },
+        "Systemic_lupus_erythematosus": {
+            "cluster": 12,
+            "pathways": [
+                "Cytoplasmic Stress Granule (GO:0010494)",
+                "U12-type Spliceosomal Complex (GO:0005689)",
+                "SCF Ubiquitin Ligase Complex (GO:0019005)",
+                "Tertiary Granule Membrane (GO:0070821)",
+                "Plasma Membrane Raft (GO:0044853)",
+                "Specific Granule Membrane (GO:0035579)",
+                "Tertiary Granule (GO:0070820)",
+                "Membrane Raft (GO:0045121)",
+                "Specific Granule (GO:0042581)",
+                "cullin-RING Ubiquitin Ligase Complex (GO:0031461)"
+            ]
+        },
+        "Thyroid_cancer": {
+            "cluster": 8,
+            "pathways": [
+                "Transferase Complex, Transferring Phosphorus-Containing Groups (GO:0061695)",
+                "Cyclin-Dependent Protein Kinase Holoenzyme Complex (GO:0000307)",
+                "Extracellular Membrane-Bounded Organelle (GO:0065010)",
+                "Extracellular Vesicle (GO:1903561)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)",
+                "Serine/Threonine Protein Kinase Complex (GO:1902554)",
+                "Nucleolus (GO:0005730)",
+                "Nuclear Lumen (GO:0031981)",
+                "Nucleus (GO:0005634)",
+                "Axon (GO:0030424)"
+            ]
+        },
+        "Graft-versus-host_disease": {
+            "cluster": 1,
+            "pathways": [
+                "T Cell Receptor Complex (GO:0042101)",
+                "Membrane Raft (GO:0045121)",
+                "Phagocytic Vesicle (GO:0045335)",
+                "MHC Class I Protein Complex (GO:0042612)",
+                "Recycling Endosome (GO:0055037)",
+                "Endocytic Vesicle Membrane (GO:0030666)",
+                "Golgi Medial Cisterna (GO:0005797)",
+                "Early Phagosome (GO:0032009)",
+                "MHC Protein Complex (GO:0042611)",
+                "Early Endosome (GO:0005769)"
+            ]
+        },
+        "Huntington_disease": {
+            "cluster": 2,
+            "pathways": [
+                "Axon (GO:0030424)",
+                "Neuron Projection (GO:0043005)",
+                "Dendrite (GO:0030425)",
+                "Membrane Raft (GO:0045121)",
+                "Platelet Alpha Granule (GO:0031091)",
+                "Nuclear Envelope Lumen (GO:0005641)",
+                "Endoplasmic Reticulum Lumen (GO:0005788)",
+                "Polymeric Cytoskeletal Fiber (GO:0099513)",
+                "Glial Cell Projection (GO:0097386)",
+                "Platelet Alpha Granule Membrane (GO:0031092)"
+            ]
+        },
+        "Hepatitis_B": {
+            "cluster": 16,
+            "pathways": [
+                "Brush Border Membrane (GO:0031526)",
+                "Cell Projection Membrane (GO:0031253)",
+                "Intracellular Organelle Lumen (GO:0070013)",
+                "Membrane Raft (GO:0045121)",
+                "Basolateral Plasma Membrane (GO:0016323)",
+                "Endocytic Vesicle (GO:0030139)",
+                "Lytic Vacuole (GO:0000323)",
+                "Endoplasmic Reticulum Lumen (GO:0005788)",
+                "Lytic Vacuole Membrane (GO:0098852)",
+                "Lysosomal Membrane (GO:0005765)"
+            ]
+        },
+        "Gastric_cancer": {
+            "cluster": 14,
+            "pathways": [
+                "Collagen-Containing Extracellular Matrix (GO:0062023)",
+                "ATAC Complex (GO:0140672)",
+                "Endoplasmic Reticulum Lumen (GO:0005788)",
+                "SAGA Complex (GO:0000124)",
+                "SAGA-type Complex (GO:0070461)",
+                "Platelet Alpha Granule Lumen (GO:0031093)",
+                "Platelet Alpha Granule (GO:0031091)",
+                "Adherens Junction (GO:0005912)",
+                "Intracellular Organelle Lumen (GO:0070013)",
+                "Mitotic Spindle (GO:0072686)"
+            ]
+        },
+        "Influenza_A": {
+            "cluster": 1,
+            "pathways": [
+                "RSC-type Complex (GO:0016586)",
+                "T Cell Receptor Complex (GO:0042101)",
+                "SWI/SNF Complex (GO:0016514)",
+                "Cul3-RING Ubiquitin Ligase Complex (GO:0031463)",
+                "Plasma Membrane Raft (GO:0044853)",
+                "Azurophil Granule Lumen (GO:0035578)",
+                "Nuclear Chromosome (GO:0000228)",
+                "Cytoplasmic Vesicle Lumen (GO:0060205)",
+                "Chromosome (GO:0005694)",
+                "Membrane Raft (GO:0045121)"
+            ]
+        },
+        "Epstein-Barr_virus_infection": {
+            "cluster": 1,
+            "pathways": [
+                "T Cell Receptor Complex (GO:0042101)",
+                "Membrane Raft (GO:0045121)",
+                "Mitochondrial Matrix (GO:0005759)",
+                "Cyclin-Dependent Protein Kinase Holoenzyme Complex (GO:0000307)",
+                "Basement Membrane (GO:0005604)",
+                "Clathrin-Coated Endocytic Vesicle Membrane (GO:0030669)",
+                "Spindle Microtubule (GO:0005876)",
+                "Mitochondrial Intermembrane Space (GO:0005758)",
+                "Serine/Threonine Protein Kinase Complex (GO:1902554)",
+                "Clathrin-Coated Endocytic Vesicle (GO:0045334)"
+            ]
+        },
+        "Amyotrophic_lateral_sclerosis": {
+            "cluster": 19,
+            "pathways": [
+                "Autophagosome (GO:0005776)",
+                "P-body (GO:0000932)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)",
+                "Peroxisome (GO:0005777)",
+                "Intracellular Membraneless Organelle (GO:0043232)",
+                "Dendrite Cytoplasm (GO:0032839)",
+                "Autolysosome (GO:0044754)",
+                "Neuron Projection Cytoplasm (GO:0120111)",
+                "Amphisome (GO:0044753)",
+                "Secondary Lysosome (GO:0005767)"
+            ]
+        },
+        "Staphylococcus_aureus_infection": {
+            "cluster": 13,
+            "pathways": [
+                "Lamellar Body (GO:0042599)",
+                "Multivesicular Body (GO:0005771)",
+                "Clathrin-Coated Endocytic Vesicle (GO:0045334)",
+                "Clathrin-Coated Vesicle (GO:0030136)",
+                "Late Endosome (GO:0005770)",
+                "Endocytic Vesicle (GO:0030139)",
+                "Spindle (GO:0005819)",
+                "Mitotic Spindle (GO:0072686)",
+                "Membrane Raft (GO:0045121)",
+                "Secretory Granule Membrane (GO:0030667)"
+            ]
+        },
+        "Pertussis": {
+            "cluster": 11,
+            "pathways": [
+                "Membrane Raft (GO:0045121)",
+                "Secretory Granule Membrane (GO:0030667)",
+                "Tertiary Granule Membrane (GO:0070821)",
+                "Plasma Membrane Raft (GO:0044853)",
+                "Specific Granule Membrane (GO:0035579)",
+                "Specific Granule (GO:0042581)",
+                "Tertiary Granule (GO:0070820)",
+                "Endoplasmic Reticulum Lumen (GO:0005788)",
+                "Nuclear Outer Membrane (GO:0005640)",
+                "Nuclear Inner Membrane (GO:0005637)"
+            ]
+        },
+        "Type_II_diabetes_mellitus": {
+            "cluster": 3,
+            "pathways": [
+                "TORC1 Complex (GO:0031931)",
+                "TORC2 Complex (GO:0031932)",
+                "Endocytic Vesicle (GO:0030139)",
+                "Lytic Vacuole Membrane (GO:0098852)",
+                "Protein Kinase Complex (GO:1902911)",
+                "Endosome Lumen (GO:0031904)",
+                "Lysosomal Membrane (GO:0005765)",
+                "Endoplasmic reticulum-Golgi Intermediate Compartment Membrane (GO:0033116)",
+                "Lysosome (GO:0005764)",
+                "Cul3-RING Ubiquitin Ligase Complex (GO:0031463)"
+            ]
+        },
+        "Yersinia_infection": {
+            "cluster": 5,
+            "pathways": [
+                "MHC Class I Protein Complex (GO:0042612)",
+                "Membrane Raft (GO:0045121)",
+                "Transport Vesicle Membrane (GO:0030658)",
+                "Filopodium (GO:0030175)",
+                "Coated Vesicle Membrane (GO:0030662)",
+                "ER to Golgi Transport Vesicle Membrane (GO:0012507)",
+                "Sarcolemma (GO:0042383)",
+                "Phagocytic Vesicle Membrane (GO:0030670)",
+                "Multivesicular Body (GO:0005771)",
+                "Cytoplasmic Vesicle Membrane (GO:0030659)"
+            ]
+        },
+        "Toxoplasmosis": {
+            "cluster": 12,
+            "pathways": [
+                "Cul4-RING E3 Ubiquitin Ligase Complex (GO:0080008)",
+                "Cul2-RING Ubiquitin Ligase Complex (GO:0031462)",
+                "SCF Ubiquitin Ligase Complex (GO:0019005)",
+                "Mitotic Spindle (GO:0072686)",
+                "cullin-RING Ubiquitin Ligase Complex (GO:0031461)",
+                "Spindle (GO:0005819)",
+                "Nucleus (GO:0005634)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)"
+            ]
+        },
+        "Human_cytomegalovirus_infection": {
+            "cluster": 14,
+            "pathways": [
+                "G Protein-Coupled Receptor Dimeric Complex (GO:0038037)",
+                "Dendrite Membrane (GO:0032590)",
+                "Tertiary Granule Lumen (GO:1904724)",
+                "Specific Granule Lumen (GO:0035580)",
+                "Azurophil Granule Lumen (GO:0035578)",
+                "Late Endosome Membrane (GO:0031902)",
+                "Early Endosome Membrane (GO:0031901)",
+                "Azurophil Granule (GO:0042582)",
+                "Specific Granule (GO:0042581)",
+                "Vacuolar Lumen (GO:0005775)"
+            ]
+        },
+        "Kaposi_sarcoma-associated_herpesvirus_infection": {
+            "cluster": 1,
+            "pathways": [
+                "T Cell Receptor Complex (GO:0042101)",
+                "Keratin Filament (GO:0045095)",
+                "Recycling Endosome Membrane (GO:0055038)",
+                "Intermediate Filament (GO:0005882)",
+                "Autophagosome (GO:0005776)",
+                "Plasma Membrane Raft (GO:0044853)",
+                "Endoplasmic Reticulum Membrane (GO:0005789)",
+                "Nucleus (GO:0005634)",
+                "Adherens Junction (GO:0005912)",
+                "Recycling Endosome (GO:0055037)"
+            ]
+        },
+        "Bladder_cancer": {
+            "cluster": 23,
+            "pathways": [
+                "Astral Microtubule (GO:0000235)",
+                "Phosphatidylinositol 3-Kinase Complex, Class I (GO:0097651)",
+                "Phosphatidylinositol 3-Kinase Complex, Class IA (GO:0005943)",
+                "Microtubule Cytoskeleton (GO:0015630)",
+                "Nucleus (GO:0005634)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)",
+                "Recycling Endosome Membrane (GO:0055038)",
+                "Spindle Microtubule (GO:0005876)",
+                "Mitochondrial Intermembrane Space (GO:0005758)",
+                "Cytoskeleton (GO:0005856)"
+            ]
+        },
+        "Asthma": {
+            "cluster": 8,
+            "pathways": [
+                "Axonal Growth Cone (GO:0044295)",
+                "Cyclin-Dependent Protein Kinase Holoenzyme Complex (GO:0000307)",
+                "Filopodium (GO:0030175)",
+                "Extracellular Membrane-Bounded Organelle (GO:0065010)",
+                "Extracellular Vesicle (GO:1903561)",
+                "Serine/Threonine Protein Kinase Complex (GO:1902554)",
+                "P-body (GO:0000932)",
+                "Cytoplasmic Stress Granule (GO:0010494)",
+                "Actin-Based Cell Projection (GO:0098858)",
+                "Vesicle (GO:0031982)"
+            ]
+        },
+        "Pathogenic_Escherichia_coli_infection": {
+            "cluster": 16,
+            "pathways": [
+                "Cell-Cell Junction (GO:0005911)",
+                "Voltage-Gated Potassium Channel Complex (GO:0008076)",
+                "Motile Cilium (GO:0031514)",
+                "Potassium Channel Complex (GO:0034705)",
+                "Adherens Junction (GO:0005912)",
+                "Basolateral Plasma Membrane (GO:0016323)",
+                "Actin Cytoskeleton (GO:0015629)",
+                "Cilium (GO:0005929)",
+                "Neuron Projection (GO:0043005)",
+                "Cytoskeleton (GO:0005856)"
+            ]
+        },
+        "Endometrial_cancer": {
+            "cluster": 6,
+            "pathways": [
+                "Basolateral Plasma Membrane (GO:0016323)",
+                "Cytoplasmic Side of Plasma Membrane (GO:0009898)",
+                "Neuron Projection (GO:0043005)",
+                "Adherens Junction (GO:0005912)",
+                "Nucleus (GO:0005634)",
+                "beta-catenin-TCF Complex (GO:1990907)",
+                "Intracellular Membrane-Bounded Organelle (GO:0043231)",
+                "Cell-Cell Junction (GO:0005911)",
+                "Catenin Complex (GO:0016342)",
+                "Intercalated Disc (GO:0014704)"
+            ]
+        },
+        "Shigellosis": {
+            "cluster": 18,
+            "pathways": [
+                "Set1C/COMPASS Complex (GO:0048188)",
+                "Basolateral Plasma Membrane (GO:0016323)",
+                "Anaphase-Promoting Complex (GO:0005680)",
+                "Phagocytic Vesicle Membrane (GO:0030670)",
+                "Autophagosome (GO:0005776)",
+                "Voltage-Gated Potassium Channel Complex (GO:0008076)",
+                "Potassium Channel Complex (GO:0034705)",
+                "Phagocytic Vesicle (GO:0045335)",
+                "Chromosome (GO:0005694)",
+                "Endocytic Vesicle Membrane (GO:0030666)"
+            ]
+        }
+    },
+    "cluster_to_diseases": {
+        "18": [
+            "Herpes_simplex_virus_1_infection",
+            "Shigellosis"
+        ],
+        "21": [
+            "Non-alcoholic_fatty_liver_disease",
+            "Maturity_onset_diabetes_of_the_young",
+            "Alcoholic_liver_disease"
+        ],
+        "1": [
+            "Amoebiasis",
+            "Chagas_disease",
+            "Primary_immunodeficiency",
+            "Leishmaniasis",
+            "Tuberculosis",
+            "Allograft_rejection",
+            "Graft-versus-host_disease",
+            "Influenza_A",
+            "Epstein-Barr_virus_infection",
+            "Kaposi_sarcoma-associated_herpesvirus_infection"
+        ],
+        "2": [
+            "Alzheimer_disease",
+            "Alcoholism",
+            "Prion_disease",
+            "Parkinson_disease",
+            "Huntington_disease"
+        ],
+        "10": [
+            "Lipid_and_atherosclerosis",
+            "African_trypanosomiasis",
+            "Hepatitis_C"
+        ],
+        "9": [
+            "Breast_cancer",
+            "Chronic_myeloid_leukemia",
+            "Acute_myeloid_leukemia"
+        ],
+        "16": [
+            "Pancreatic_cancer",
+            "Prostate_cancer",
+            "Hepatitis_B",
+            "Pathogenic_Escherichia_coli_infection"
+        ],
+        "4": [
+            "Rheumatoid_arthritis",
+            "Type_I_diabetes_mellitus"
+        ],
+        "19": [
+            "Inflammatory_bowel_disease",
+            "Amyotrophic_lateral_sclerosis"
+        ],
+        "7": [
+            "Melanoma",
+            "Small_cell_lung_cancer",
+            "Glioma",
+            "Non-small_cell_lung_cancer"
+        ],
+        "3": [
+            "Viral_myocarditis",
+            "Hepatocellular_carcinoma",
+            "Renal_cell_carcinoma",
+            "Type_II_diabetes_mellitus"
+        ],
+        "13": [
+            "Human_T-cell_leukemia_virus_1_infection",
+            "Malaria",
+            "Staphylococcus_aureus_infection"
+        ],
+        "22": [
+            "Epithelial_cell_signaling_in_Helicobacter_pylori_infection",
+            "Human_immunodeficiency_virus_1_infection"
+        ],
+        "11": [
+            "Coronavirus_disease_-_COVID-19",
+            "Pertussis"
+        ],
+        "8": [
+            "Basal_cell_carcinoma",
+            "Thyroid_cancer",
+            "Asthma"
+        ],
+        "15": [
+            "Hypertrophic_cardiomyopathy",
+            "Dilated_cardiomyopathy"
+        ],
+        "17": [
+            "Spinocerebellar_ataxia",
+            "Arrhythmogenic_right_ventricular_cardiomyopathy"
+        ],
+        "23": [
+            "Diabetic_cardiomyopathy",
+            "Vibrio_cholerae_infection",
+            "Bladder_cancer"
+        ],
+        "5": [
+            "Measles",
+            "Yersinia_infection"
+        ],
+        "20": [
+            "Cushing_syndrome",
+            "Legionellosis"
+        ],
+        "6": [
+            "Colorectal_cancer",
+            "Endometrial_cancer"
+        ],
+        "14": [
+            "Salmonella_infection",
+            "Gastric_cancer",
+            "Human_cytomegalovirus_infection"
+        ],
+        "12": [
+            "Systemic_lupus_erythematosus",
+            "Toxoplasmosis"
+        ]
+    },
+    "disease_cluster_labels": [
+        18,
+        21,
+        1,
+        2,
+        10,
+        9,
+        21,
+        16,
+        4,
+        19,
+        7,
+        3,
+        7,
+        13,
+        10,
+        22,
+        11,
+        1,
+        2,
+        1,
+        8,
+        15,
+        10,
+        21,
+        3,
+        17,
+        1,
+        1,
+        23,
+        9,
+        9,
+        17,
+        1,
+        23,
+        7,
+        4,
+        16,
+        3,
+        7,
+        5,
+        20,
+        2,
+        6,
+        14,
+        2,
+        13,
+        22,
+        20,
+        15,
+        12,
+        8,
+        1,
+        2,
+        16,
+        14,
+        1,
+        1,
+        19,
+        13,
+        11,
+        3,
+        5,
+        12,
+        14,
+        1,
+        23,
+        8,
+        16,
+        6,
+        18
+    ],
+    "linkage_matrix": [
+        [
+            8.0,
+            35.0,
+            0.4171628985557144,
+            2.0
+        ],
+        [
+            41.0,
+            52.0,
+            0.4576157979814287,
+            2.0
+        ],
+        [
+            2.0,
+            26.0,
+            0.5111684128414287,
+            2.0
+        ],
+        [
+            3.0,
+            18.0,
+            0.5348765968328573,
+            2.0
+        ],
+        [
+            19.0,
+            72.0,
+            0.5535148707488478,
+            3.0
+        ],
+        [
+            44.0,
+            71.0,
+            0.5636916407981425,
+            3.0
+        ],
+        [
+            17.0,
+            32.0,
+            0.5640455171571429,
+            2.0
+        ],
+        [
+            40.0,
+            47.0,
+            0.5839758017228571,
+            2.0
+        ],
+        [
+            12.0,
+            38.0,
+            0.5987307246657143,
+            2.0
+        ],
+        [
+            56.0,
+            74.0,
+            0.6212514701409033,
+            4.0
+        ],
+        [
+            51.0,
+            76.0,
+            0.6340663592804741,
+            3.0
+        ],
+        [
+            1.0,
+            6.0,
+            0.6422663432671429,
+            2.0
+        ],
+        [
+            11.0,
+            60.0,
+            0.6559758017228572,
+            2.0
+        ],
+        [
+            20.0,
+            50.0,
+            0.6874419682285715,
+            2.0
+        ],
+        [
+            5.0,
+            30.0,
+            0.7011672011485715,
+            2.0
+        ],
+        [
+            4.0,
+            22.0,
+            0.7053963122671429,
+            2.0
+        ],
+        [
+            42.0,
+            68.0,
+            0.7102863017228571,
+            2.0
+        ],
+        [
+            15.0,
+            46.0,
+            0.7325142011485715,
+            2.0
+        ],
+        [
+            39.0,
+            61.0,
+            0.7374163366542857,
+            2.0
+        ],
+        [
+            24.0,
+            37.0,
+            0.7438436447371428,
+            2.0
+        ],
+        [
+            27.0,
+            79.0,
+            0.757397955413711,
+            5.0
+        ],
+        [
+            16.0,
+            59.0,
+            0.7645836005742858,
+            2.0
+        ],
+        [
+            13.0,
+            45.0,
+            0.8193922011485715,
+            2.0
+        ],
+        [
+            55.0,
+            64.0,
+            0.8325142011485714,
+            2.0
+        ],
+        [
+            10.0,
+            34.0,
+            0.8408127116928572,
+            2.0
+        ],
+        [
+            14.0,
+            85.0,
+            0.8563511370126732,
+            3.0
+        ],
+        [
+            73.0,
+            75.0,
+            0.8626663082753169,
+            5.0
+        ],
+        [
+            21.0,
+            48.0,
+            0.8645836005742857,
+            2.0
+        ],
+        [
+            28.0,
+            33.0,
+            0.8645836005742857,
+            2.0
+        ],
+        [
+            23.0,
+            81.0,
+            0.8768718888079542,
+            3.0
+        ],
+        [
+            82.0,
+            89.0,
+            0.8823145356397768,
+            4.0
+        ],
+        [
+            43.0,
+            54.0,
+            0.9018351907942858,
+            2.0
+        ],
+        [
+            49.0,
+            62.0,
+            0.9057093956842857,
+            2.0
+        ],
+        [
+            0.0,
+            69.0,
+            0.9095836005742857,
+            2.0
+        ],
+        [
+            9.0,
+            57.0,
+            0.9095836005742857,
+            2.0
+        ],
+        [
+            80.0,
+            90.0,
+            0.913561626529796,
+            8.0
+        ],
+        [
+            66.0,
+            83.0,
+            0.9265535600441768,
+            3.0
+        ],
+        [
+            29.0,
+            84.0,
+            0.937939227417284,
+            3.0
+        ],
+        [
+            36.0,
+            53.0,
+            0.9548086005742857,
+            2.0
+        ],
+        [
+            67.0,
+            108.0,
+            0.9722652461102994,
+            3.0
+        ],
+        [
+            93.0,
+            105.0,
+            0.9838455535390188,
+            10.0
+        ],
+        [
+            58.0,
+            92.0,
+            0.984258270626082,
+            3.0
+        ],
+        [
+            7.0,
+            109.0,
+            0.9886560565577085,
+            4.0
+        ],
+        [
+            78.0,
+            94.0,
+            0.9891269865354133,
+            4.0
+        ],
+        [
+            63.0,
+            101.0,
+            0.9901297844852496,
+            3.0
+        ],
+        [
+            65.0,
+            98.0,
+            0.9925372309206023,
+            3.0
+        ],
+        [
+            25.0,
+            31.0,
+            1.0,
+            2.0
+        ],
+        [
+            112.0,
+            116.0,
+            1.01968999652522,
+            6.0
+        ],
+        [
+            103.0,
+            104.0,
+            1.0346254263525376,
+            4.0
+        ],
+        [
+            91.0,
+            102.0,
+            1.0555373719724228,
+            4.0
+        ],
+        [
+            70.0,
+            88.0,
+            1.0613768874273215,
+            4.0
+        ],
+        [
+            117.0,
+            118.0,
+            1.0687474856062555,
+            10.0
+        ],
+        [
+            111.0,
+            114.0,
+            1.073003674307738,
+            6.0
+        ],
+        [
+            86.0,
+            113.0,
+            1.0845330175950085,
+            6.0
+        ],
+        [
+            87.0,
+            115.0,
+            1.0937462160221436,
+            5.0
+        ],
+        [
+            97.0,
+            121.0,
+            1.1076784917128861,
+            12.0
+        ],
+        [
+            106.0,
+            107.0,
+            1.124065645421345,
+            6.0
+        ],
+        [
+            122.0,
+            125.0,
+            1.150464215578015,
+            18.0
+        ],
+        [
+            119.0,
+            127.0,
+            1.1664227125724311,
+            22.0
+        ],
+        [
+            99.0,
+            124.0,
+            1.186848956189936,
+            8.0
+        ],
+        [
+            77.0,
+            129.0,
+            1.2543083337136223,
+            10.0
+        ],
+        [
+            128.0,
+            130.0,
+            1.2847113292372772,
+            32.0
+        ],
+        [
+            95.0,
+            131.0,
+            1.3171618357549515,
+            35.0
+        ],
+        [
+            126.0,
+            132.0,
+            1.3543829314659095,
+            41.0
+        ],
+        [
+            123.0,
+            133.0,
+            1.415191785251754,
+            47.0
+        ],
+        [
+            120.0,
+            134.0,
+            1.440794043453688,
+            51.0
+        ],
+        [
+            100.0,
+            135.0,
+            1.4657840776300102,
+            55.0
+        ],
+        [
+            96.0,
+            136.0,
+            1.7705667839467059,
+            60.0
+        ],
+        [
+            110.0,
+            137.0,
+            2.061885556693696,
+            70.0
+        ]
+    ]
+}

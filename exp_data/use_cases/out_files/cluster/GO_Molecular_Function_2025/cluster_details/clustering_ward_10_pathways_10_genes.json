@@ -1,0 +1,1673 @@
+{
+    "metadata": {
+        "timestamp": "2025-03-19T14:14:37.515999",
+        "top_n": 10,
+        "gene_n": 10,
+        "method": "ward",
+        "num_clusters": 26
+    },
+    "disease_to_cluster": {
+        "Herpes_simplex_virus_1_infection": {
+            "cluster": 6,
+            "pathways": [
+                "DNA-binding Transcription Factor Binding (GO:0140297)",
+                "Adenyl Ribonucleotide Binding (GO:0032559)",
+                "Histone Octamer Slider Activity (GO:0140751)",
+                "Omega Peptidase Activity (GO:0008242)",
+                "Protein Homodimerization Activity (GO:0042803)",
+                "Proton Channel Activity (GO:0015252)",
+                "RNA Polymerase II-specific DNA-binding Transcription Factor Binding (GO:0061629)",
+                "SUMO Binding (GO:0032183)",
+                "ATP Binding (GO:0005524)",
+                "SUMO Transferase Activity (GO:0019789)"
+            ]
+        },
+        "Non-alcoholic_fatty_liver_disease": {
+            "cluster": 1,
+            "pathways": [
+                "Receptor Ligand Activity (GO:0048018)",
+                "Hormone Activity (GO:0005179)",
+                "Lysophosphatidic Acid Acyltransferase Activity (GO:0042171)",
+                "Triacylglycerol Lipase Activity (GO:0004806)",
+                "DNA-binding Transcription Activator Activity, RNA Polymerase II-specific (GO:0001228)",
+                "1-Acylglycerol-3-Phosphate O-acyltransferase Activity (GO:0003841)",
+                "Insulin Receptor Binding (GO:0005158)",
+                "Solute:Proton Symporter Activity (GO:0015295)",
+                "Nuclear Steroid Receptor Activity (GO:0003707)",
+                "Insulin-Like Growth Factor Receptor Binding (GO:0005159)"
+            ]
+        },
+        "Amoebiasis": {
+            "cluster": 5,
+            "pathways": [
+                "MHC Protein Binding (GO:0042287)",
+                "1-Acylglycerophosphocholine O-acyltransferase Activity (GO:0047184)",
+                "Calcium-Independent Phospholipase A2 Activity (GO:0047499)",
+                "MHC Class I Protein Binding (GO:0042288)",
+                "Cysteine-Type Endopeptidase Inhibitor Activity Involved in Apoptotic Process (GO:0043027)",
+                "MHC Class II Protein Complex Binding (GO:0023026)",
+                "Phospholipase A2 Activity (GO:0004623)",
+                "O-acyltransferase Activity (GO:0008374)",
+                "Cytokine Receptor Activity (GO:0004896)",
+                "Phospholipase Activity (GO:0004620)"
+            ]
+        },
+        "Alzheimer_disease": {
+            "cluster": 19,
+            "pathways": [
+                "Aspartic Endopeptidase Activity, Intramembrane Cleaving (GO:0042500)",
+                "Aspartic-Type Endopeptidase Activity (GO:0004190)",
+                "Low-Density Lipoprotein Particle Receptor Binding (GO:0050750)",
+                "Lipoprotein Particle Receptor Binding (GO:0070325)",
+                "Tau Protein Binding (GO:0048156)",
+                "ATPase Binding (GO:0051117)",
+                "Protein Serine/Threonine Kinase Activity (GO:0004674)",
+                "Receptor Ligand Activity (GO:0048018)",
+                "Phosphatidylcholine-Sterol O-acyltransferase Activator Activity (GO:0060228)",
+                "RNA Polymerase III Type 3 Promoter Sequence-Specific DNA Binding (GO:0001006)"
+            ]
+        },
+        "Lipid_and_atherosclerosis": {
+            "cluster": 19,
+            "pathways": [
+                "Lipoprotein Particle Receptor Binding (GO:0070325)",
+                "Cholesterol Transfer Activity (GO:0120020)",
+                "Sterol Transfer Activity (GO:0120015)",
+                "Cholesterol Binding (GO:0015485)",
+                "Sterol Binding (GO:0032934)",
+                "Receptor Ligand Activity (GO:0048018)",
+                "Low-Density Lipoprotein Particle Receptor Binding (GO:0050750)",
+                "Phosphatidylcholine-Sterol O-acyltransferase Activator Activity (GO:0060228)",
+                "Apolipoprotein Receptor Binding (GO:0034190)",
+                "Neurotrophin Binding (GO:0043121)"
+            ]
+        },
+        "Breast_cancer": {
+            "cluster": 25,
+            "pathways": [
+                "Estrogen Response Element Binding (GO:0034056)",
+                "Nuclear Receptor Binding (GO:0016922)",
+                "Nuclear Steroid Receptor Activity (GO:0003707)",
+                "Transcription Coactivator Binding (GO:0001223)",
+                "Sequence-Specific Double-Stranded DNA Binding (GO:1990837)",
+                "ATPase Binding (GO:0051117)",
+                "Transcription Coregulator Binding (GO:0001221)",
+                "Transcription Cis-Regulatory Region Binding (GO:0000976)",
+                "Histone H2A Ubiquitin Ligase Activity (GO:0141053)",
+                "Ubiquitin-Modified Histone Reader Activity (GO:0061649)"
+            ]
+        },
+        "Maturity_onset_diabetes_of_the_young": {
+            "cluster": 18,
+            "pathways": [
+                "ATP-activated Inward Rectifier Potassium Channel Activity (GO:0015272)",
+                "RNA Polymerase II Cis-Regulatory Region Sequence-Specific DNA Binding (GO:0000978)",
+                "Cis-Regulatory Region Sequence-Specific DNA Binding (GO:0000987)",
+                "Insulin Receptor Binding (GO:0005158)",
+                "Triacylglycerol Lipase Activity (GO:0004806)",
+                "Alkali Metal Ion Binding (GO:0031420)",
+                "Insulin-Like Growth Factor Receptor Binding (GO:0005159)",
+                "Potassium Ion Binding (GO:0030955)",
+                "Ankyrin Binding (GO:0030506)",
+                "Inward Rectifier Potassium Channel Activity (GO:0005242)"
+            ]
+        },
+        "Pancreatic_cancer": {
+            "cluster": 17,
+            "pathways": [
+                "2-Oxoglutarate-Dependent Dioxygenase Activity (GO:0016706)",
+                "Cell-Matrix Adhesion Mediator Activity (GO:0098634)",
+                "Protein Heterodimerization Activity (GO:0046982)",
+                "Cyclin-Dependent Protein Serine/Threonine Kinase Inhibitor Activity (GO:0004861)",
+                "mRNA Methyltransferase Activity (GO:0008174)",
+                "Disordered Domain Specific Binding (GO:0097718)",
+                "RNA Methyltransferase Activity (GO:0008173)",
+                "Ferrous Iron Binding (GO:0008198)",
+                "SUMO Transferase Activity (GO:0019789)",
+                "NF-kappaB Binding (GO:0051059)"
+            ]
+        },
+        "Rheumatoid_arthritis": {
+            "cluster": 3,
+            "pathways": [
+                "CD4 Receptor Binding (GO:0042609)",
+                "Cytokine Activity (GO:0005125)",
+                "MHC Class II Receptor Activity (GO:0032395)",
+                "Tumor Necrosis Factor Receptor Binding (GO:0005164)",
+                "mRNA Methyltransferase Activity (GO:0008174)",
+                "Receptor Ligand Activity (GO:0048018)",
+                "MHC Protein Binding (GO:0042287)",
+                "Tumor Necrosis Factor Receptor Superfamily Binding (GO:0032813)",
+                "Actinin Binding (GO:0042805)",
+                "RNA Methyltransferase Activity (GO:0008173)"
+            ]
+        },
+        "Inflammatory_bowel_disease": {
+            "cluster": 24,
+            "pathways": [
+                "CARD Domain Binding (GO:0050700)",
+                "Cytokine Receptor Activity (GO:0004896)",
+                "BH Domain Binding (GO:0051400)",
+                "BH3 Domain Binding (GO:0051434)",
+                "Death Domain Binding (GO:0070513)",
+                "RAGE Receptor Binding (GO:0050786)",
+                "Tumor Necrosis Factor Receptor Binding (GO:0005164)",
+                "Cardiolipin Binding (GO:1901612)",
+                "Phosphatidylglycerol Binding (GO:1901611)",
+                "Peptidoglycan Binding (GO:0042834)"
+            ]
+        },
+        "Melanoma": {
+            "cluster": 25,
+            "pathways": [
+                "MAP Kinase Kinase Activity (GO:0004708)",
+                "Protein Serine/Threonine/Tyrosine Kinase Activity (GO:0004712)",
+                "Metal Ion Binding (GO:0046872)",
+                "STAT Family Protein Binding (GO:0097677)",
+                "Calcium Ion Binding (GO:0005509)",
+                "MAP Kinase Kinase Kinase Activity (GO:0004709)",
+                "Transmembrane Receptor Protein Kinase Activity (GO:0019199)",
+                "Transmembrane Receptor Protein Tyrosine Kinase Activity (GO:0004714)",
+                "GDP Binding (GO:0019003)",
+                "ATPase Binding (GO:0051117)"
+            ]
+        },
+        "Viral_myocarditis": {
+            "cluster": 11,
+            "pathways": [
+                "Protein Serine/Threonine Kinase Activity (GO:0004674)",
+                "RNA Polymerase III Type 3 Promoter Sequence-Specific DNA Binding (GO:0001006)",
+                "Potassium Channel Activator Activity (GO:0099104)",
+                "RNA Polymerase III Cis-Regulatory Region Sequence-Specific DNA Binding (GO:0000992)",
+                "Channel Activator Activity (GO:0099103)",
+                "Protein Binding Involved in Heterotypic Cell-Cell Adhesion (GO:0086080)",
+                "Eukaryotic Initiation Factor 4E Binding (GO:0008190)",
+                "Calcium Channel Inhibitor Activity (GO:0019855)",
+                "Hormone Receptor Binding (GO:0051427)",
+                "Phosphatidylinositol-3,4-Bisphosphate Binding (GO:0043325)"
+            ]
+        },
+        "Small_cell_lung_cancer": {
+            "cluster": 6,
+            "pathways": [
+                "DNA-binding Transcription Factor Binding (GO:0140297)",
+                "Nuclear Androgen Receptor Binding (GO:0050681)",
+                "Notch Binding (GO:0005112)",
+                "MAP Kinase Kinase Kinase Activity (GO:0004709)",
+                "bHLH Transcription Factor Binding (GO:0043425)",
+                "Histone Demethylase Activity (GO:0032452)",
+                "Histone H3 Demethylase Activity (GO:0141052)",
+                "Insulin Receptor Binding (GO:0005158)",
+                "Histone H3K9 Demethylase Activity (GO:0032454)",
+                "RNA Polymerase II-specific DNA-binding Transcription Factor Binding (GO:0061629)"
+            ]
+        },
+        "Human_T-cell_leukemia_virus_1_infection": {
+            "cluster": 21,
+            "pathways": [
+                "DNA-directed DNA Polymerase Activity (GO:0003887)",
+                "DNA Polymerase Activity (GO:0034061)",
+                "MHC Class II Protein Complex Binding (GO:0023026)",
+                "MHC Protein Binding (GO:0042287)",
+                "Palmitoyltransferase Activity (GO:0016409)",
+                "Cell Adhesion Mediator Activity (GO:0098631)",
+                "Phosphatidylinositol-3-Phosphate Binding (GO:0032266)",
+                "Cell-Cell Adhesion Mediator Activity (GO:0098632)",
+                "Cytokine Receptor Activity (GO:0004896)",
+                "Protein Tyrosine Kinase Binding (GO:1990782)"
+            ]
+        },
+        "African_trypanosomiasis": {
+            "cluster": 21,
+            "pathways": [
+                "Hydrolase Activity, Acting on Carbon-Nitrogen (But Not Peptide) Bonds, in Linear Amidines (GO:0016813)",
+                "MHC Class II Protein Complex Binding (GO:0023026)",
+                "Nuclear Estrogen Receptor Binding (GO:0030331)",
+                "Chloride Channel Activity (GO:0005254)",
+                "Chloride Transmembrane Transporter Activity (GO:0015108)",
+                "Monoatomic Anion Channel Activity (GO:0005253)",
+                "Phosphatidylinositol Binding (GO:0035091)",
+                "Nuclear Receptor Binding (GO:0016922)",
+                "Cytokine Activity (GO:0005125)",
+                "GTP Binding (GO:0005525)"
+            ]
+        },
+        "Epithelial_cell_signaling_in_Helicobacter_pylori_infection": {
+            "cluster": 16,
+            "pathways": [
+                "Growth Factor Activity (GO:0008083)",
+                "Potassium Channel Activator Activity (GO:0099104)",
+                "Channel Activator Activity (GO:0099103)",
+                "Cysteine-Type Endopeptidase Activator Activity Involved in Apoptotic Process (GO:0008656)",
+                "Peptidase Activator Activity Involved in Apoptotic Process (GO:0016505)",
+                "CARD Domain Binding (GO:0050700)",
+                "MAP Kinase Activity (GO:0004707)",
+                "CXCR Chemokine Receptor Binding (GO:0045236)",
+                "Peptidoglycan Binding (GO:0042834)",
+                "DNA-binding Transcription Factor Binding (GO:0140297)"
+            ]
+        },
+        "Coronavirus_disease_-_COVID-19": {
+            "cluster": 14,
+            "pathways": [
+                "Interleukin-6 Receptor Binding (GO:0005138)",
+                "RNA Polymerase I Core Promoter Sequence-Specific DNA Binding (GO:0001164)",
+                "Tat Protein Binding (GO:0030957)",
+                "acyl-CoA Dehydrogenase Activity (GO:0003995)",
+                "RNA Polymerase I Transcription Regulatory Region Sequence-Specific DNA Binding (GO:0001163)",
+                "Oxidoreductase Activity, Acting on the CH-CH Group of Donors, NAD or NADP as Acceptor (GO:0016628)",
+                "Endopeptidase Activity (GO:0004175)",
+                "Nucleosomal DNA Binding (GO:0031492)",
+                "Core Promoter Sequence-Specific DNA Binding (GO:0001046)",
+                "Exopeptidase Activity (GO:0008238)"
+            ]
+        },
+        "Chagas_disease": {
+            "cluster": 5,
+            "pathways": [
+                "MHC Protein Binding (GO:0042287)",
+                "Receptor Ligand Activity (GO:0048018)",
+                "MHC Class II Protein Complex Binding (GO:0023026)",
+                "Cytokine Activity (GO:0005125)",
+                "CD4 Receptor Binding (GO:0042609)",
+                "MHC Class Ib Protein Binding (GO:0023029)",
+                "Natural Killer Cell Lectin-Like Receptor Binding (GO:0046703)",
+                "MHC Class II Receptor Activity (GO:0032395)",
+                "Tumor Necrosis Factor Receptor Binding (GO:0005164)",
+                "MHC Class I Protein Binding (GO:0042288)"
+            ]
+        },
+        "Alcoholism": {
+            "cluster": 23,
+            "pathways": [
+                "Potassium Channel Regulator Activity (GO:0015459)",
+                "Ion Channel Regulator Activity (GO:0099106)",
+                "Threonine-Type Peptidase Activity (GO:0070003)",
+                "Sodium Ion Binding (GO:0031402)",
+                "Omega Peptidase Activity (GO:0008242)",
+                "Dynactin Binding (GO:0034452)",
+                "Monoamine Transmembrane Transporter Activity (GO:0008504)",
+                "Sodium:Chloride Symporter Activity (GO:0015378)",
+                "Alkali Metal Ion Binding (GO:0031420)",
+                "Postsynaptic Neurotransmitter Receptor Activity (GO:0098960)"
+            ]
+        },
+        "Primary_immunodeficiency": {
+            "cluster": 5,
+            "pathways": [
+                "Phospholipase Binding (GO:0043274)",
+                "MHC Protein Binding (GO:0042287)",
+                "Kinase Binding (GO:0019900)",
+                "Protein Kinase Binding (GO:0019901)",
+                "DNA-methyltransferase Activity (GO:0009008)",
+                "Tumor Necrosis Factor Receptor Binding (GO:0005164)",
+                "Lipase Activator Activity (GO:0060229)",
+                "RNA Polymerase II Core Promoter Sequence-Specific DNA Binding (GO:0000979)",
+                "MHC Class I Protein Binding (GO:0042288)",
+                "Phospholipase Activator Activity (GO:0016004)"
+            ]
+        },
+        "Basal_cell_carcinoma": {
+            "cluster": 13,
+            "pathways": [
+                "Telomerase Activity (GO:0003720)",
+                "RNA-directed DNA Polymerase Activity (GO:0003964)",
+                "Morphogen Activity (GO:0016015)",
+                "Patched Binding (GO:0005113)",
+                "Sequence-Specific Double-Stranded DNA Binding (GO:1990837)",
+                "Sequence-Specific DNA Binding (GO:0043565)",
+                "Racemase and Epimerase Activity, Acting on Carbohydrates and Derivatives (GO:0016857)",
+                "Nucleotidyltransferase Activity (GO:0016779)",
+                "Telomerase RNA Binding (GO:0070034)",
+                "DNA Polymerase Activity (GO:0034061)"
+            ]
+        },
+        "Hypertrophic_cardiomyopathy": {
+            "cluster": 10,
+            "pathways": [
+                "Actin Binding (GO:0003779)",
+                "Myosin Heavy Chain Binding (GO:0032036)",
+                "Myosin II Binding (GO:0045159)",
+                "Calcium Channel Inhibitor Activity (GO:0019855)",
+                "Titin Binding (GO:0031432)",
+                "Tropomyosin Binding (GO:0005523)",
+                "Hormone Receptor Binding (GO:0051427)",
+                "Actin Monomer Binding (GO:0003785)",
+                "Receptor Ligand Activity (GO:0048018)",
+                "Phosphatase Inhibitor Activity (GO:0019212)"
+            ]
+        },
+        "Hepatitis_C": {
+            "cluster": 3,
+            "pathways": [
+                "Receptor Ligand Activity (GO:0048018)",
+                "Phosphatidylcholine-Sterol O-acyltransferase Activator Activity (GO:0060228)",
+                "MHC Class II Protein Binding (GO:0042289)",
+                "Cytokine Activity (GO:0005125)",
+                "Vascular Endothelial Growth Factor Receptor 2 Binding (GO:0043184)",
+                "Vascular Endothelial Growth Factor Receptor Binding (GO:0005172)",
+                "Platelet-Derived Growth Factor Receptor Binding (GO:0005161)",
+                "Protein Tyrosine Kinase Activator Activity (GO:0030296)",
+                "Lipoprotein Particle Receptor Binding (GO:0070325)",
+                "Virus Receptor Activity (GO:0001618)"
+            ]
+        },
+        "Alcoholic_liver_disease": {
+            "cluster": 24,
+            "pathways": [
+                "Lysophospholipid Acyltransferase Activity (GO:0071617)",
+                "1-Acylglycerol-3-Phosphate O-acyltransferase Activity (GO:0003841)",
+                "Lysophosphatidic Acid Acyltransferase Activity (GO:0042171)",
+                "Acylglycerol O-acyltransferase Activity (GO:0016411)",
+                "O-acyltransferase Activity (GO:0008374)",
+                "Carboxylic Ester Hydrolase Activity (GO:0052689)",
+                "2-Acylglycerol-3-Phosphate O-acyltransferase Activity (GO:0047144)",
+                "Tumor Necrosis Factor Receptor Binding (GO:0005164)",
+                "fatty-acyl-CoA Binding (GO:0000062)",
+                "Lipoprotein Lipase Activity (GO:0004465)"
+            ]
+        },
+        "Hepatocellular_carcinoma": {
+            "cluster": 11,
+            "pathways": [
+                "Protein Tyrosine Kinase Activity (GO:0004713)",
+                "RNA Polymerase III Type 3 Promoter Sequence-Specific DNA Binding (GO:0001006)",
+                "RNA Polymerase III Cis-Regulatory Region Sequence-Specific DNA Binding (GO:0000992)",
+                "Serine-Type Exopeptidase Activity (GO:0070008)",
+                "Vascular Endothelial Growth Factor Receptor 2 Binding (GO:0043184)",
+                "Vascular Endothelial Growth Factor Receptor Binding (GO:0005172)",
+                "Platelet-Derived Growth Factor Receptor Binding (GO:0005161)",
+                "Transmembrane Receptor Protein Tyrosine Kinase Activator Activity (GO:0030297)",
+                "Neuropilin Binding (GO:0038191)",
+                "Mitogen-Activated Protein Kinase Binding (GO:0051019)"
+            ]
+        },
+        "Spinocerebellar_ataxia": {
+            "cluster": 14,
+            "pathways": [
+                "Aryl Hydrocarbon Receptor Binding (GO:0017162)",
+                "RNA Polymerase I Core Promoter Sequence-Specific DNA Binding (GO:0001164)",
+                "Calcium-Dependent Protein Serine/Threonine Kinase Activity (GO:0009931)",
+                "RNA Polymerase II General Transcription Initiation Factor Binding (GO:0001091)",
+                "RNA Polymerase I Transcription Regulatory Region Sequence-Specific DNA Binding (GO:0001163)",
+                "Diacylglycerol-Dependent Serine/Threonine Kinase Activity (GO:0004697)",
+                "RNA Polymerase II Core Promoter Sequence-Specific DNA Binding (GO:0000979)",
+                "Voltage-Gated Calcium Channel Activity (GO:0005245)",
+                "Basal RNA Polymerase II Transcription Machinery Binding (GO:0001099)",
+                "Core Promoter Sequence-Specific DNA Binding (GO:0001046)"
+            ]
+        },
+        "Leishmaniasis": {
+            "cluster": 3,
+            "pathways": [
+                "Cytokine Activity (GO:0005125)",
+                "Receptor Ligand Activity (GO:0048018)",
+                "Growth Factor Activity (GO:0008083)",
+                "Growth Factor Receptor Binding (GO:0070851)",
+                "Cytokine Receptor Binding (GO:0005126)",
+                "MHC Protein Binding (GO:0042287)",
+                "Tumor Necrosis Factor Receptor Binding (GO:0005164)",
+                "Protein Heterodimerization Activity (GO:0046982)",
+                "MHC Class I Protein Binding (GO:0042288)",
+                "Metallocarboxypeptidase Activity (GO:0004181)"
+            ]
+        },
+        "Tuberculosis": {
+            "cluster": 3,
+            "pathways": [
+                "Receptor Ligand Activity (GO:0048018)",
+                "Cytokine Activity (GO:0005125)",
+                "Tumor Necrosis Factor Receptor Binding (GO:0005164)",
+                "Cysteine-Type Endopeptidase Inhibitor Activity Involved in Apoptotic Process (GO:0043027)",
+                "CXCR Chemokine Receptor Binding (GO:0045236)",
+                "MHC Class II Protein Complex Binding (GO:0023026)",
+                "MHC Protein Binding (GO:0042287)",
+                "Tumor Necrosis Factor Receptor Superfamily Binding (GO:0032813)",
+                "Chemoattractant Activity (GO:0042056)",
+                "Kinase Activator Activity (GO:0019209)"
+            ]
+        },
+        "Diabetic_cardiomyopathy": {
+            "cluster": 18,
+            "pathways": [
+                "DNA-binding Transcription Activator Activity, RNA Polymerase II-specific (GO:0001228)",
+                "Sequence-Specific DNA Binding (GO:0043565)",
+                "Cis-Regulatory Region Sequence-Specific DNA Binding (GO:0000987)",
+                "RNA Polymerase II Cis-Regulatory Region Sequence-Specific DNA Binding (GO:0000978)",
+                "RNA Polymerase II-specific DNA-binding Transcription Factor Binding (GO:0061629)",
+                "Single-Stranded Telomeric DNA Binding (GO:0043047)",
+                "Carbohydrate:Monoatomic Cation Symporter Activity (GO:0005402)",
+                "G-rich Strand Telomeric DNA Binding (GO:0098505)",
+                "DNA-binding Transcription Repressor Activity, RNA Polymerase II-specific (GO:0001227)",
+                "Type I Transforming Growth Factor Beta Receptor Binding (GO:0034713)"
+            ]
+        },
+        "Chronic_myeloid_leukemia": {
+            "cluster": 7,
+            "pathways": [
+                "Protein Tyrosine Kinase Activity (GO:0004713)",
+                "DNA-binding Transcription Factor Binding (GO:0140297)",
+                "Protease Binding (GO:0002020)",
+                "RNA Polymerase II-specific DNA-binding Transcription Factor Binding (GO:0061629)",
+                "Nuclear Retinoic Acid Receptor Binding (GO:0042974)",
+                "Disordered Domain Specific Binding (GO:0097718)",
+                "Microtubule Plus-End Binding (GO:0051010)",
+                "Actin Monomer Binding (GO:0003785)",
+                "Protein Phosphatase 2A Binding (GO:0051721)",
+                "Syntaxin Binding (GO:0019905)"
+            ]
+        },
+        "Acute_myeloid_leukemia": {
+            "cluster": 6,
+            "pathways": [
+                "DNA-binding Transcription Factor Binding (GO:0140297)",
+                "RNA Polymerase II-specific DNA-binding Transcription Factor Binding (GO:0061629)",
+                "Unmethylated CpG Binding (GO:0045322)",
+                "S-methyltransferase Activity (GO:0008172)",
+                "Protein Homodimerization Activity (GO:0042803)",
+                "Transcription Cis-Regulatory Region Binding (GO:0000976)",
+                "Core Promoter Sequence-Specific DNA Binding (GO:0001046)",
+                "S-adenosylmethionine-dependent Methyltransferase Activity (GO:0008757)",
+                "DNA-binding Transcription Activator Activity, RNA Polymerase II-specific (GO:0001228)",
+                "Zinc Ion Binding (GO:0008270)"
+            ]
+        },
+        "Arrhythmogenic_right_ventricular_cardiomyopathy": {
+            "cluster": 23,
+            "pathways": [
+                "Protein Binding Involved in Heterotypic Cell-Cell Adhesion (GO:0086080)",
+                "Sodium Channel Regulator Activity (GO:0017080)",
+                "Protein Kinase C Binding (GO:0005080)",
+                "ATPase Binding (GO:0051117)",
+                "Ion Channel Regulator Activity (GO:0099106)",
+                "Cadherin Binding (GO:0045296)",
+                "DNA-binding Transcription Activator Activity, RNA Polymerase II-specific (GO:0001228)",
+                "Calcium Ion Binding (GO:0005509)",
+                "Sequence-Specific DNA Binding (GO:0043565)",
+                "Sequence-Specific Double-Stranded DNA Binding (GO:1990837)"
+            ]
+        },
+        "Allograft_rejection": {
+            "cluster": 5,
+            "pathways": [
+                "MHC Protein Binding (GO:0042287)",
+                "MHC Class I Protein Binding (GO:0042288)",
+                "Histone Acetyltransferase Binding (GO:0035035)",
+                "DNA-binding Transcription Activator Activity, RNA Polymerase II-specific (GO:0001228)",
+                "Phosphatidylinositol Phospholipase C Activity (GO:0004435)",
+                "MHC Class II Protein Complex Binding (GO:0023026)",
+                "Phospholipase C Activity (GO:0004629)",
+                "NF-kappaB Binding (GO:0051059)",
+                "Taste Receptor Activity (GO:0008527)",
+                "Histone Deacetylase Binding (GO:0042826)"
+            ]
+        },
+        "Vibrio_cholerae_infection": {
+            "cluster": 26,
+            "pathways": [
+                "CCR6 Chemokine Receptor Binding (GO:0031731)",
+                "CCR Chemokine Receptor Binding (GO:0048020)",
+                "Aminophospholipid Flippase Activity (GO:0015247)",
+                "Alpha-(1->3)-Fucosyltransferase Activity (GO:0046920)",
+                "Cytidylyltransferase Activity (GO:0070567)",
+                "Glycerophospholipid Flippase Activity (GO:0140333)",
+                "Fucosyltransferase Activity (GO:0008417)",
+                "Phosphatidylcholine Transporter Activity (GO:0008525)",
+                "Phosphatidylcholine Binding (GO:0031210)",
+                "Chemoattractant Activity (GO:0042056)"
+            ]
+        },
+        "Glioma": {
+            "cluster": 20,
+            "pathways": [
+                "Histone Deacetylase Binding (GO:0042826)",
+                "Gamma-Tubulin Binding (GO:0043015)",
+                "Nuclear Androgen Receptor Binding (GO:0050681)",
+                "Protein Phosphatase 2A Binding (GO:0051721)",
+                "Chemokine Receptor Activity (GO:0004950)",
+                "C-C Chemokine Binding (GO:0019957)",
+                "C-C Chemokine Receptor Activity (GO:0016493)",
+                "Cadherin Binding (GO:0045296)",
+                "Disordered Domain Specific Binding (GO:0097718)",
+                "DNA-binding Transcription Factor Binding (GO:0140297)"
+            ]
+        },
+        "Type_I_diabetes_mellitus": {
+            "cluster": 4,
+            "pathways": [
+                "Insulin-Like Growth Factor Receptor Binding (GO:0005159)",
+                "Insulin Receptor Binding (GO:0005158)",
+                "Omega Peptidase Activity (GO:0008242)",
+                "MHC Class I Protein Binding (GO:0042288)",
+                "Transmembrane Receptor Protein Tyrosine Kinase Activator Activity (GO:0030297)",
+                "MHC Class II Protein Complex Binding (GO:0023026)",
+                "MHC Protein Binding (GO:0042287)",
+                "Carboxy-Lyase Activity (GO:0016831)",
+                "Receptor Ligand Activity (GO:0048018)",
+                "Protein Tyrosine Kinase Activator Activity (GO:0030296)"
+            ]
+        },
+        "Prostate_cancer": {
+            "cluster": 26,
+            "pathways": [
+                "Phosphatidylinositol Phosphate Phosphatase Activity (GO:0052866)",
+                "Phosphatidylinositol Trisphosphate Phosphatase Activity (GO:0034594)",
+                "Ubiquitin Ligase Activator Activity (GO:1990757)",
+                "Ubiquitin-Protein Transferase Activator Activity (GO:0097027)",
+                "Hyaluronic Acid Binding (GO:0005540)",
+                "Phosphatidylinositol-3-Phosphate Phosphatase Activity (GO:0004438)",
+                "Phosphatidylinositol Monophosphate Phosphatase Activity (GO:0052744)",
+                "Ubiquitin-Specific Protease Binding (GO:1990381)",
+                "Metallocarboxypeptidase Activity (GO:0004181)",
+                "Carboxypeptidase Activity (GO:0004180)"
+            ]
+        },
+        "Renal_cell_carcinoma": {
+            "cluster": 11,
+            "pathways": [
+                "RNA Polymerase III Type 3 Promoter Sequence-Specific DNA Binding (GO:0001006)",
+                "Acid-Amino Acid Ligase Activity (GO:0016881)",
+                "RNA Polymerase III Cis-Regulatory Region Sequence-Specific DNA Binding (GO:0000992)",
+                "Vascular Endothelial Growth Factor Receptor 2 Binding (GO:0043184)",
+                "Vascular Endothelial Growth Factor Receptor Binding (GO:0005172)",
+                "Platelet-Derived Growth Factor Receptor Binding (GO:0005161)",
+                "Transmembrane Receptor Protein Tyrosine Kinase Activator Activity (GO:0030297)",
+                "Protein Serine/Threonine Kinase Binding (GO:0120283)",
+                "Neuropilin Binding (GO:0038191)",
+                "ADP Binding (GO:0043531)"
+            ]
+        },
+        "Non-small_cell_lung_cancer": {
+            "cluster": 7,
+            "pathways": [
+                "Protein Tyrosine Kinase Activity (GO:0004713)",
+                "Transmembrane Receptor Protein Kinase Activity (GO:0019199)",
+                "Transmembrane Receptor Protein Tyrosine Kinase Activity (GO:0004714)",
+                "Phosphatase Binding (GO:0019902)",
+                "Protein Phosphatase Binding (GO:0019903)",
+                "MAP Kinase Kinase Kinase Activity (GO:0004709)",
+                "Protein Tyrosine Kinase Activator Activity (GO:0030296)",
+                "Adenosine Deaminase Activity (GO:0004000)",
+                "Pseudouridine Synthase Activity (GO:0009982)",
+                "MAP Kinase Kinase Activity (GO:0004708)"
+            ]
+        },
+        "Measles": {
+            "cluster": 2,
+            "pathways": [
+                "Cytokine Receptor Binding (GO:0005126)",
+                "Receptor Ligand Activity (GO:0048018)",
+                "Cytokine Activity (GO:0005125)",
+                "Growth Factor Activity (GO:0008083)",
+                "Growth Factor Receptor Binding (GO:0070851)",
+                "Nitrite Reductase Activity (GO:0098809)",
+                "Virus Receptor Activity (GO:0001618)",
+                "SH2 Domain Binding (GO:0042169)",
+                "Protein Heterodimerization Activity (GO:0046982)",
+                "Cadherin Binding (GO:0045296)"
+            ]
+        },
+        "Cushing_syndrome": {
+            "cluster": 1,
+            "pathways": [
+                "Hormone Activity (GO:0005179)",
+                "Receptor Ligand Activity (GO:0048018)",
+                "Neuropeptide Activity (GO:0160041)",
+                "Neuropeptide Hormone Activity (GO:0005184)",
+                "Histone H3 Demethylase Activity (GO:0141052)",
+                "Nuclear Androgen Receptor Binding (GO:0050681)",
+                "bHLH Transcription Factor Binding (GO:0043425)",
+                "Steroid Hydroxylase Activity (GO:0008395)",
+                "TBP-class Protein Binding (GO:0017025)",
+                "Histone H3K9 Demethylase Activity (GO:0032454)"
+            ]
+        },
+        "Prion_disease": {
+            "cluster": 9,
+            "pathways": [
+                "Endopeptidase Inhibitor Activity (GO:0004866)",
+                "Cuprous Ion Binding (GO:1903136)",
+                "Tubulin Binding (GO:0015631)",
+                "Cysteine-Type Endopeptidase Inhibitor Activity (GO:0004869)",
+                "Low-Density Lipoprotein Particle Receptor Binding (GO:0050750)",
+                "Lipoprotein Particle Receptor Binding (GO:0070325)",
+                "Tau Protein Binding (GO:0048156)",
+                "Copper Ion Binding (GO:0005507)",
+                "Protease Binding (GO:0002020)",
+                "Phospholipase Inhibitor Activity (GO:0004859)"
+            ]
+        },
+        "Colorectal_cancer": {
+            "cluster": 8,
+            "pathways": [
+                "Protein Phosphatase Binding (GO:0019903)",
+                "Disordered Domain Specific Binding (GO:0097718)",
+                "MAP Kinase Kinase Kinase Activity (GO:0004709)",
+                "RNA Polymerase II-specific DNA-binding Transcription Factor Binding (GO:0061629)",
+                "Ubiquitin Protein Ligase Binding (GO:0031625)",
+                "Ubiquitin-Like Protein Ligase Binding (GO:0044389)",
+                "DNA-binding Transcription Factor Binding (GO:0140297)",
+                "Protein Kinase Activator Activity (GO:0030295)",
+                "Kinase Binding (GO:0019900)",
+                "Phosphatase Binding (GO:0019902)"
+            ]
+        },
+        "Salmonella_infection": {
+            "cluster": 2,
+            "pathways": [
+                "Cytokine Receptor Binding (GO:0005126)",
+                "Nucleobase-Containing Compound Kinase Activity (GO:0019205)",
+                "Nucleoside Monophosphate Kinase Activity (GO:0050145)",
+                "Protein Serine/Threonine Kinase Binding (GO:0120283)",
+                "Actinin Binding (GO:0042805)",
+                "Nucleoside Diphosphate Kinase Activity (GO:0004550)",
+                "Nitrite Reductase Activity (GO:0098809)",
+                "Nucleoside Kinase Activity (GO:0019206)",
+                "MAP Kinase Activity (GO:0004707)",
+                "Phosphotransferase Activity, Phosphate Group as Acceptor (GO:0016776)"
+            ]
+        },
+        "Parkinson_disease": {
+            "cluster": 10,
+            "pathways": [
+                "Actin Binding (GO:0003779)",
+                "Cuprous Ion Binding (GO:1903136)",
+                "Tubulin Binding (GO:0015631)",
+                "Ubiquitin-Specific Protease Binding (GO:1990381)",
+                "Hsp70 Protein Binding (GO:0030544)",
+                "Ubiquitin-Like Protein Conjugating Enzyme Binding (GO:0044390)",
+                "Copper Ion Binding (GO:0005507)",
+                "SH3 Domain Binding (GO:0017124)",
+                "Single-Stranded DNA Binding (GO:0003697)",
+                "Transition Metal Ion Binding (GO:0046914)"
+            ]
+        },
+        "Malaria": {
+            "cluster": 26,
+            "pathways": [
+                "Wnt Receptor Activity (GO:0042813)",
+                "Histone H3 Reader Activity (GO:0140006)",
+                "mRNA 5'-UTR Binding (GO:0048027)",
+                "Histone Reader Activity (GO:0140566)",
+                "Frizzled Binding (GO:0005109)",
+                "Telomeric DNA Binding (GO:0042162)",
+                "PDZ Domain Binding (GO:0030165)",
+                "Methylated Histone Binding (GO:0035064)",
+                "Methylation-Dependent Protein Binding (GO:0140034)",
+                "Protein Homodimerization Activity (GO:0042803)"
+            ]
+        },
+        "Human_immunodeficiency_virus_1_infection": {
+            "cluster": 20,
+            "pathways": [
+                "C-C Chemokine Receptor Activity (GO:0016493)",
+                "C-C Chemokine Binding (GO:0019957)",
+                "Chemokine Receptor Activity (GO:0004950)",
+                "Chemokine Binding (GO:0019956)",
+                "Cytokine Receptor Activity (GO:0004896)",
+                "Endopeptidase Inhibitor Activity (GO:0004866)",
+                "Actin Binding (GO:0003779)",
+                "Protein Homodimerization Activity (GO:0042803)",
+                "L-serine Transmembrane Transporter Activity (GO:0015194)",
+                "Cytidine Deaminase Activity (GO:0004126)"
+            ]
+        },
+        "Legionellosis": {
+            "cluster": 12,
+            "pathways": [
+                "Ammonium Channel Activity (GO:0008519)",
+                "Inorganic Cation Transmembrane Transporter Activity (GO:0022890)",
+                "Channel Activity (GO:0015267)",
+                "1-Phosphatidylinositol-4,5-Bisphosphate 3-Kinase Activity (GO:0046934)",
+                "1-Phosphatidylinositol-4-Phosphate 3-Kinase Activity (GO:0035005)",
+                "Androsterone Dehydrogenase [NAD(P)+] Activity (GO:0047023)",
+                "1-Phosphatidylinositol-3-Kinase Activity (GO:0016303)",
+                "Arylsulfatase Activity (GO:0004065)",
+                "Sulfuric Ester Hydrolase Activity (GO:0008484)",
+                "All-Trans-Retinol Dehydrogenase (NAD+) Activity (GO:0004745)"
+            ]
+        },
+        "Dilated_cardiomyopathy": {
+            "cluster": 15,
+            "pathways": [
+                "Myosin Binding (GO:0017022)",
+                "Nitric-Oxide Synthase Binding (GO:0050998)",
+                "pre-mRNA Intronic Binding (GO:0097157)",
+                "Vinculin Binding (GO:0017166)",
+                "Complement Component C3b Binding (GO:0001851)",
+                "Myosin Heavy Chain Binding (GO:0032036)",
+                "Titin Binding (GO:0031432)",
+                "R-SMAD Binding (GO:0070412)",
+                "Kinase Binding (GO:0019900)",
+                "Kinase Activator Activity (GO:0019209)"
+            ]
+        },
+        "Systemic_lupus_erythematosus": {
+            "cluster": 15,
+            "pathways": [
+                "IgG Binding (GO:0019864)",
+                "pre-mRNA Intronic Binding (GO:0097157)",
+                "Complement Component C3b Binding (GO:0001851)",
+                "Sequence-Specific mRNA Binding (GO:1990825)",
+                "poly(U) RNA Binding (GO:0008266)",
+                "Poly-Pyrimidine Tract Binding (GO:0008187)",
+                "Receptor Ligand Activity (GO:0048018)",
+                "pre-mRNA Binding (GO:0036002)",
+                "snRNA Binding (GO:0017069)",
+                "tRNA Binding (GO:0000049)"
+            ]
+        },
+        "Thyroid_cancer": {
+            "cluster": 13,
+            "pathways": [
+                "Iodide Transmembrane Transporter Activity (GO:0015111)",
+                "Telomerase Activity (GO:0003720)",
+                "RNA-directed DNA Polymerase Activity (GO:0003964)",
+                "Calcium Ion Binding (GO:0005509)",
+                "Telomerase RNA Binding (GO:0070034)",
+                "DNA Polymerase Activity (GO:0034061)",
+                "MAP Kinase Kinase Kinase Activity (GO:0004709)",
+                "Nucleotidyltransferase Activity (GO:0016779)",
+                "Cyclin-Dependent Protein Serine/Threonine Kinase Activator Activity (GO:0061575)",
+                "MAP Kinase Kinase Activity (GO:0004708)"
+            ]
+        },
+        "Graft-versus-host_disease": {
+            "cluster": 2,
+            "pathways": [
+                "Cytokine Receptor Binding (GO:0005126)",
+                "Receptor Ligand Activity (GO:0048018)",
+                "MHC Protein Binding (GO:0042287)",
+                "Cytokine Activity (GO:0005125)",
+                "Cytokine Receptor Activity (GO:0004896)",
+                "Growth Factor Activity (GO:0008083)",
+                "Growth Factor Receptor Binding (GO:0070851)",
+                "Tumor Necrosis Factor Receptor Binding (GO:0005164)",
+                "MHC Class I Protein Binding (GO:0042288)",
+                "Phospholipase Binding (GO:0043274)"
+            ]
+        },
+        "Huntington_disease": {
+            "cluster": 9,
+            "pathways": [
+                "Cuprous Ion Binding (GO:1903136)",
+                "Tubulin Binding (GO:0015631)",
+                "Endopeptidase Inhibitor Activity (GO:0004866)",
+                "Copper Ion Binding (GO:0005507)",
+                "Phospholipase Inhibitor Activity (GO:0004859)",
+                "Cyclic-Nucleotide Phosphodiesterase Activity (GO:0004112)",
+                "G Protein-Coupled Glutamate Receptor Binding (GO:0035256)",
+                "Actin Binding (GO:0003779)",
+                "Magnesium Ion Binding (GO:0000287)",
+                "Aspartic-Type Endopeptidase Inhibitor Activity (GO:0019828)"
+            ]
+        },
+        "Hepatitis_B": {
+            "cluster": 3,
+            "pathways": [
+                "Receptor Ligand Activity (GO:0048018)",
+                "Interleukin-6 Receptor Binding (GO:0005138)",
+                "Cytokine Activity (GO:0005125)",
+                "G Protein-Coupled Photoreceptor Activity (GO:0008020)",
+                "Solute:Proton Symporter Activity (GO:0015295)",
+                "Bile Acid Transmembrane Transporter Activity (GO:0015125)",
+                "Monocarboxylic Acid Transmembrane Transporter Activity (GO:0008028)",
+                "Exopeptidase Activity (GO:0008238)",
+                "Cytokine Receptor Binding (GO:0005126)",
+                "Growth Factor Receptor Binding (GO:0070851)"
+            ]
+        },
+        "Gastric_cancer": {
+            "cluster": 17,
+            "pathways": [
+                "L-amino-acid N-acetyltransferase Activity (GO:0140085)",
+                "Vascular Endothelial Growth Factor Receptor 2 Binding (GO:0043184)",
+                "Cyclin-Dependent Protein Serine/Threonine Kinase Inhibitor Activity (GO:0004861)",
+                "Platelet-Derived Growth Factor Binding (GO:0048407)",
+                "Vascular Endothelial Growth Factor Receptor Binding (GO:0005172)",
+                "Platelet-Derived Growth Factor Receptor Binding (GO:0005161)",
+                "Transmembrane Receptor Protein Tyrosine Kinase Activator Activity (GO:0030297)",
+                "Histone H3 Acetyltransferase Activity (GO:0010484)",
+                "Neuropilin Binding (GO:0038191)",
+                "Acetyltransferase Activity (GO:0016407)"
+            ]
+        },
+        "Influenza_A": {
+            "cluster": 4,
+            "pathways": [
+                "MHC Class I Protein Binding (GO:0042288)",
+                "Metallocarboxypeptidase Activity (GO:0004181)",
+                "MHC Protein Binding (GO:0042287)",
+                "Carboxypeptidase Activity (GO:0004180)",
+                "Metalloexopeptidase Activity (GO:0008235)",
+                "Histone Deacetylase Binding (GO:0042826)",
+                "Ubiquitin-Like Ligase-Substrate Adaptor Activity (GO:1990756)",
+                "Serine-Type Endopeptidase Activity (GO:0004252)",
+                "Serine-Type Peptidase Activity (GO:0008236)",
+                "GTPase Activator Activity (GO:0005096)"
+            ]
+        },
+        "Epstein-Barr_virus_infection": {
+            "cluster": 5,
+            "pathways": [
+                "MHC Protein Binding (GO:0042287)",
+                "RNA Polymerase II CTD Heptapeptide Repeat Kinase Activity (GO:0008353)",
+                "MHC Class I Protein Binding (GO:0042288)",
+                "Cyclin-Dependent Protein Kinase Activity (GO:0097472)",
+                "Cyclin-Dependent Protein Serine/Threonine Kinase Activity (GO:0004693)",
+                "Muscle Alpha-Actinin Binding (GO:0051371)",
+                "Alpha-Actinin Binding (GO:0051393)",
+                "MHC Class II Protein Complex Binding (GO:0023026)",
+                "Beta-Tubulin Binding (GO:0048487)",
+                "Protein Tyrosine Kinase Binding (GO:1990782)"
+            ]
+        },
+        "Amyotrophic_lateral_sclerosis": {
+            "cluster": 26,
+            "pathways": [
+                "Polyubiquitin Modification-Dependent Protein Binding (GO:0031593)",
+                "All-Trans-Retinol Dehydrogenase (NADP+) Activity (GO:0052650)",
+                "K63-linked Polyubiquitin Modification-Dependent Protein Binding (GO:0070530)",
+                "Alcohol Dehydrogenase (NADP+) Activity (GO:0008106)",
+                "Protein Phosphatase Binding (GO:0019903)",
+                "Protein Phosphatase 2B Binding (GO:0030346)",
+                "Carbonyl Reductase (NADPH) Activity (GO:0004090)",
+                "Small GTPase Binding (GO:0031267)",
+                "GTPase Binding (GO:0051020)",
+                "All-Trans-Retinol Dehydrogenase (NAD+) Activity (GO:0004745)"
+            ]
+        },
+        "Staphylococcus_aureus_infection": {
+            "cluster": 3,
+            "pathways": [
+                "Cytokine Activity (GO:0005125)",
+                "Receptor Ligand Activity (GO:0048018)",
+                "Growth Factor Activity (GO:0008083)",
+                "Growth Factor Receptor Binding (GO:0070851)",
+                "Cytokine Receptor Binding (GO:0005126)",
+                "Interleukin-6 Receptor Binding (GO:0005138)",
+                "Toll-like Receptor Binding (GO:0035325)",
+                "CXCR Chemokine Receptor Binding (GO:0045236)",
+                "Peptidoglycan Binding (GO:0042834)",
+                "Histone Deacetylase Activity (GO:0004407)"
+            ]
+        },
+        "Pertussis": {
+            "cluster": 15,
+            "pathways": [
+                "Complement Component C3b Binding (GO:0001851)",
+                "Extracellular Ligand-Gated Monoatomic Ion Channel Activity (GO:0005230)",
+                "Intracellularly Ligand-Gated Monoatomic Ion Channel Activity (GO:0005217)",
+                "Intracellularly Gated Calcium Channel Activity (GO:0015278)",
+                "Ligand-Gated Calcium Channel Activity (GO:0099604)",
+                "Cysteine-Type Endopeptidase Inhibitor Activity (GO:0004869)",
+                "Oxidoreductase, Single Donors W Incorp of O2, Incorp of Two Atoms of O (GO:0016702)",
+                "Zinc Ion Binding (GO:0008270)",
+                "Ubiquitin Conjugating Enzyme Binding (GO:0031624)",
+                "Ligand-Gated Monoatomic Ion Channel Activity (GO:0015276)"
+            ]
+        },
+        "Type_II_diabetes_mellitus": {
+            "cluster": 1,
+            "pathways": [
+                "Hormone Activity (GO:0005179)",
+                "Receptor Ligand Activity (GO:0048018)",
+                "Protease Binding (GO:0002020)",
+                "RNA Polymerase III Type 3 Promoter Sequence-Specific DNA Binding (GO:0001006)",
+                "Potassium Channel Activator Activity (GO:0099104)",
+                "RNA Polymerase III Cis-Regulatory Region Sequence-Specific DNA Binding (GO:0000992)",
+                "Peptide Hormone Receptor Binding (GO:0051428)",
+                "RNA Polymerase II-specific DNA-binding Transcription Factor Binding (GO:0061629)",
+                "Insulin-Like Growth Factor Receptor Binding (GO:0005159)",
+                "Channel Activator Activity (GO:0099103)"
+            ]
+        },
+        "Yersinia_infection": {
+            "cluster": 16,
+            "pathways": [
+                "3'-5' RNA Helicase Activity (GO:0034458)",
+                "Cell-Matrix Adhesion Mediator Activity (GO:0098634)",
+                "N6-methyladenosine-containing RNA Reader Activity (GO:1990247)",
+                "Cysteine-Type Endopeptidase Activator Activity Involved in Apoptotic Process (GO:0008656)",
+                "Peptidase Activator Activity Involved in Apoptotic Process (GO:0016505)",
+                "CARD Domain Binding (GO:0050700)",
+                "RNA Polymerase Binding (GO:0070063)",
+                "Cadherin Binding (GO:0045296)",
+                "Phosphotransferase Activity, Phosphate Group as Acceptor (GO:0016776)",
+                "Chemokine Binding (GO:0019956)"
+            ]
+        },
+        "Toxoplasmosis": {
+            "cluster": 12,
+            "pathways": [
+                "Ammonium Channel Activity (GO:0008519)",
+                "Endopeptidase Regulator Activity (GO:0061135)",
+                "Inorganic Cation Transmembrane Transporter Activity (GO:0022890)",
+                "Peptidase Inhibitor Activity (GO:0030414)",
+                "Hydrolase Activity, Acting on Carbon-Nitrogen (But Not Peptide) Bonds, in Linear Amides (GO:0016811)",
+                "Ubiquitin-Like Protein Conjugating Enzyme Binding (GO:0044390)",
+                "Transcription Corepressor Binding (GO:0001222)",
+                "Ubiquitin Conjugating Enzyme Binding (GO:0031624)",
+                "Oxidoreductase, Single Donors W Incorp of O2, Incorp of Two Atoms of O (GO:0016702)",
+                "Histone Deacetylase Activity (GO:0004407)"
+            ]
+        },
+        "Human_cytomegalovirus_infection": {
+            "cluster": 23,
+            "pathways": [
+                "Nuclease Activity (GO:0004518)",
+                "Transition Metal Ion Binding (GO:0046914)",
+                "5'-Flap Endonuclease Activity (GO:0017108)",
+                "Flap Endonuclease Activity (GO:0048256)",
+                "Omega Peptidase Activity (GO:0008242)",
+                "GPI Anchor Binding (GO:0034235)",
+                "DNA Exonuclease Activity, Producing 5'-Phosphomonoesters (GO:0016895)",
+                "G Protein-Coupled Receptor Activity (GO:0004930)",
+                "5'-3' Exonuclease Activity (GO:0008409)",
+                "Endodeoxyribonuclease Activity, Producing 5'-Phosphomonoesters (GO:0016888)"
+            ]
+        },
+        "Kaposi_sarcoma-associated_herpesvirus_infection": {
+            "cluster": 4,
+            "pathways": [
+                "Cadherin Binding (GO:0045296)",
+                "MutLalpha Complex Binding (GO:0032405)",
+                "MHC Class I Protein Binding (GO:0042288)",
+                "Histone Acetyltransferase Binding (GO:0035035)",
+                "DNA Polymerase Binding (GO:0070182)",
+                "Gamma-Tubulin Binding (GO:0043015)",
+                "MHC Protein Binding (GO:0042287)",
+                "Virus Receptor Activity (GO:0001618)",
+                "Ubiquitin-Like Protein Conjugating Enzyme Binding (GO:0044390)",
+                "Cell Adhesion Mediator Activity (GO:0098631)"
+            ]
+        },
+        "Bladder_cancer": {
+            "cluster": 8,
+            "pathways": [
+                "Disordered Domain Specific Binding (GO:0097718)",
+                "Receptor Tyrosine Kinase Binding (GO:0030971)",
+                "Protein Phosphatase Binding (GO:0019903)",
+                "1-Phosphatidylinositol-3-Kinase Regulator Activity (GO:0046935)",
+                "Neurotrophin TRK Receptor Binding (GO:0005167)",
+                "Neurotrophin TRKA Receptor Binding (GO:0005168)",
+                "Potassium Channel Activator Activity (GO:0099104)",
+                "Insulin-Like Growth Factor Receptor Binding (GO:0005159)",
+                "Transmembrane Receptor Protein Tyrosine Kinase Adaptor Activity (GO:0005068)",
+                "Microtubule Minus-End Binding (GO:0051011)"
+            ]
+        },
+        "Asthma": {
+            "cluster": 2,
+            "pathways": [
+                "Cytokine Receptor Binding (GO:0005126)",
+                "Cytokine Activity (GO:0005125)",
+                "Cyclin-Dependent Protein Serine/Threonine Kinase Activator Activity (GO:0061575)",
+                "N6-methyladenosine-containing RNA Reader Activity (GO:1990247)",
+                "Phosphatidylglycerol Binding (GO:1901611)",
+                "Phosphatidylinositol-4-Phosphate Binding (GO:0070273)",
+                "Receptor Ligand Activity (GO:0048018)",
+                "Wide Pore Channel Activity (GO:0022829)",
+                "Transcription Coactivator Binding (GO:0001223)",
+                "Cyclin-Dependent Protein Serine/Threonine Kinase Regulator Activity (GO:0016538)"
+            ]
+        },
+        "Pathogenic_Escherichia_coli_infection": {
+            "cluster": 22,
+            "pathways": [
+                "Chloride Channel Inhibitor Activity (GO:0019869)",
+                "Nucleoside Triphosphate Diphosphatase Activity (GO:0047429)",
+                "Chloride Channel Regulator Activity (GO:0017081)",
+                "4 Iron, 4 Sulfur Cluster Binding (GO:0051539)",
+                "Cadherin Binding Involved in Cell-Cell Adhesion (GO:0098641)",
+                "Virus Receptor Activity (GO:0001618)",
+                "Iron-Sulfur Cluster Binding (GO:0051536)",
+                "Ion Channel Inhibitor Activity (GO:0008200)",
+                "Phosphoric Diester Hydrolase Activity (GO:0008081)",
+                "Hydro-Lyase Activity (GO:0016836)"
+            ]
+        },
+        "Endometrial_cancer": {
+            "cluster": 8,
+            "pathways": [
+                "Phosphatase Binding (GO:0019902)",
+                "Protein Phosphatase Binding (GO:0019903)",
+                "RNA Polymerase II-specific DNA-binding Transcription Factor Binding (GO:0061629)",
+                "DNA-binding Transcription Factor Binding (GO:0140297)",
+                "Receptor Tyrosine Kinase Binding (GO:0030971)",
+                "DNA-binding Transcription Activator Activity, RNA Polymerase II-specific (GO:0001228)",
+                "Protein Tyrosine Kinase Binding (GO:1990782)",
+                "Transcription Coregulator Binding (GO:0001221)",
+                "Protease Binding (GO:0002020)",
+                "Kinase Binding (GO:0019900)"
+            ]
+        },
+        "Shigellosis": {
+            "cluster": 22,
+            "pathways": [
+                "Histone H3K4 Methyltransferase Activity (GO:0042800)",
+                "Histone H3 Methyltransferase Activity (GO:0140938)",
+                "Protein-Lysine N-methyltransferase Activity (GO:0016279)",
+                "alpha-N-acetylneuraminate Alpha-2,8-Sialyltransferase Activity (GO:0003828)",
+                "Chloride Channel Inhibitor Activity (GO:0019869)",
+                "JUN Kinase Binding (GO:0008432)",
+                "RNA Polymerase II-specific DNA-binding Transcription Factor Binding (GO:0061629)",
+                "Chloride Channel Regulator Activity (GO:0017081)",
+                "Purine Ribonucleotide Transmembrane Transporter Activity (GO:0005346)",
+                "DNA-binding Transcription Factor Binding (GO:0140297)"
+            ]
+        }
+    },
+    "cluster_to_diseases": {
+        "6": [
+            "Herpes_simplex_virus_1_infection",
+            "Small_cell_lung_cancer",
+            "Acute_myeloid_leukemia"
+        ],
+        "1": [
+            "Non-alcoholic_fatty_liver_disease",
+            "Cushing_syndrome",
+            "Type_II_diabetes_mellitus"
+        ],
+        "5": [
+            "Amoebiasis",
+            "Chagas_disease",
+            "Primary_immunodeficiency",
+            "Allograft_rejection",
+            "Epstein-Barr_virus_infection"
+        ],
+        "19": [
+            "Alzheimer_disease",
+            "Lipid_and_atherosclerosis"
+        ],
+        "25": [
+            "Breast_cancer",
+            "Melanoma"
+        ],
+        "18": [
+            "Maturity_onset_diabetes_of_the_young",
+            "Diabetic_cardiomyopathy"
+        ],
+        "17": [
+            "Pancreatic_cancer",
+            "Gastric_cancer"
+        ],
+        "3": [
+            "Rheumatoid_arthritis",
+            "Hepatitis_C",
+            "Leishmaniasis",
+            "Tuberculosis",
+            "Hepatitis_B",
+            "Staphylococcus_aureus_infection"
+        ],
+        "24": [
+            "Inflammatory_bowel_disease",
+            "Alcoholic_liver_disease"
+        ],
+        "11": [
+            "Viral_myocarditis",
+            "Hepatocellular_carcinoma",
+            "Renal_cell_carcinoma"
+        ],
+        "21": [
+            "Human_T-cell_leukemia_virus_1_infection",
+            "African_trypanosomiasis"
+        ],
+        "16": [
+            "Epithelial_cell_signaling_in_Helicobacter_pylori_infection",
+            "Yersinia_infection"
+        ],
+        "14": [
+            "Coronavirus_disease_-_COVID-19",
+            "Spinocerebellar_ataxia"
+        ],
+        "23": [
+            "Alcoholism",
+            "Arrhythmogenic_right_ventricular_cardiomyopathy",
+            "Human_cytomegalovirus_infection"
+        ],
+        "13": [
+            "Basal_cell_carcinoma",
+            "Thyroid_cancer"
+        ],
+        "10": [
+            "Hypertrophic_cardiomyopathy",
+            "Parkinson_disease"
+        ],
+        "7": [
+            "Chronic_myeloid_leukemia",
+            "Non-small_cell_lung_cancer"
+        ],
+        "26": [
+            "Vibrio_cholerae_infection",
+            "Prostate_cancer",
+            "Malaria",
+            "Amyotrophic_lateral_sclerosis"
+        ],
+        "20": [
+            "Glioma",
+            "Human_immunodeficiency_virus_1_infection"
+        ],
+        "4": [
+            "Type_I_diabetes_mellitus",
+            "Influenza_A",
+            "Kaposi_sarcoma-associated_herpesvirus_infection"
+        ],
+        "2": [
+            "Measles",
+            "Salmonella_infection",
+            "Graft-versus-host_disease",
+            "Asthma"
+        ],
+        "9": [
+            "Prion_disease",
+            "Huntington_disease"
+        ],
+        "8": [
+            "Colorectal_cancer",
+            "Bladder_cancer",
+            "Endometrial_cancer"
+        ],
+        "12": [
+            "Legionellosis",
+            "Toxoplasmosis"
+        ],
+        "15": [
+            "Dilated_cardiomyopathy",
+            "Systemic_lupus_erythematosus",
+            "Pertussis"
+        ],
+        "22": [
+            "Pathogenic_Escherichia_coli_infection",
+            "Shigellosis"
+        ]
+    },
+    "disease_cluster_labels": [
+        6,
+        1,
+        5,
+        19,
+        19,
+        25,
+        18,
+        17,
+        3,
+        24,
+        25,
+        11,
+        6,
+        21,
+        21,
+        16,
+        14,
+        5,
+        23,
+        5,
+        13,
+        10,
+        3,
+        24,
+        11,
+        14,
+        3,
+        3,
+        18,
+        7,
+        6,
+        23,
+        5,
+        26,
+        20,
+        4,
+        26,
+        11,
+        7,
+        2,
+        1,
+        9,
+        8,
+        2,
+        10,
+        26,
+        20,
+        12,
+        15,
+        15,
+        13,
+        2,
+        9,
+        3,
+        17,
+        4,
+        5,
+        26,
+        3,
+        15,
+        1,
+        16,
+        12,
+        23,
+        4,
+        8,
+        2,
+        22,
+        8,
+        22
+    ],
+    "linkage_matrix": [
+        [
+            26.0,
+            58.0,
+            0.4301430028714287,
+            2.0
+        ],
+        [
+            39.0,
+            51.0,
+            0.5114535028714287,
+            2.0
+        ],
+        [
+            40.0,
+            60.0,
+            0.6291672011485715,
+            2.0
+        ],
+        [
+            24.0,
+            37.0,
+            0.6513854438414286,
+            2.0
+        ],
+        [
+            32.0,
+            56.0,
+            0.6595313160085714,
+            2.0
+        ],
+        [
+            41.0,
+            52.0,
+            0.6652407116928571,
+            2.0
+        ],
+        [
+            27.0,
+            53.0,
+            0.6741672011485715,
+            2.0
+        ],
+        [
+            47.0,
+            62.0,
+            0.6741672011485715,
+            2.0
+        ],
+        [
+            2.0,
+            74.0,
+            0.6838744220653487,
+            3.0
+        ],
+        [
+            0.0,
+            30.0,
+            0.6971643017228573,
+            2.0
+        ],
+        [
+            66.0,
+            71.0,
+            0.7095496626993208,
+            3.0
+        ],
+        [
+            22.0,
+            76.0,
+            0.709939049205772,
+            3.0
+        ],
+        [
+            20.0,
+            50.0,
+            0.7469999372285715,
+            2.0
+        ],
+        [
+            1.0,
+            72.0,
+            0.7571037155511408,
+            3.0
+        ],
+        [
+            17.0,
+            78.0,
+            0.7639127176764535,
+            4.0
+        ],
+        [
+            29.0,
+            38.0,
+            0.7645836005742858,
+            2.0
+        ],
+        [
+            21.0,
+            44.0,
+            0.7645836005742858,
+            2.0
+        ],
+        [
+            42.0,
+            68.0,
+            0.7711908919428572,
+            2.0
+        ],
+        [
+            12.0,
+            79.0,
+            0.7807426112645759,
+            3.0
+        ],
+        [
+            16.0,
+            25.0,
+            0.8155179962585715,
+            2.0
+        ],
+        [
+            43.0,
+            80.0,
+            0.8178463935373127,
+            4.0
+        ],
+        [
+            65.0,
+            87.0,
+            0.8363177373992396,
+            3.0
+        ],
+        [
+            11.0,
+            73.0,
+            0.8452164496617512,
+            3.0
+        ],
+        [
+            6.0,
+            28.0,
+            0.8461672011485715,
+            2.0
+        ],
+        [
+            15.0,
+            61.0,
+            0.8593228017228571,
+            2.0
+        ],
+        [
+            48.0,
+            49.0,
+            0.8643922011485714,
+            2.0
+        ],
+        [
+            55.0,
+            64.0,
+            0.8873557011485714,
+            2.0
+        ],
+        [
+            3.0,
+            4.0,
+            0.8910626421185714,
+            2.0
+        ],
+        [
+            34.0,
+            46.0,
+            0.9005113017228572,
+            2.0
+        ],
+        [
+            8.0,
+            70.0,
+            0.9024427734711842,
+            3.0
+        ],
+        [
+            13.0,
+            14.0,
+            0.9095836005742857,
+            2.0
+        ],
+        [
+            35.0,
+            96.0,
+            0.9231802374637197,
+            3.0
+        ],
+        [
+            81.0,
+            99.0,
+            0.924285541821862,
+            6.0
+        ],
+        [
+            19.0,
+            84.0,
+            0.9339612243053028,
+            5.0
+        ],
+        [
+            7.0,
+            54.0,
+            0.9365836005742857,
+            2.0
+        ],
+        [
+            67.0,
+            69.0,
+            0.9401727154342857,
+            2.0
+        ],
+        [
+            59.0,
+            95.0,
+            0.9540841512365218,
+            3.0
+        ],
+        [
+            18.0,
+            31.0,
+            0.9548086005742857,
+            2.0
+        ],
+        [
+            63.0,
+            107.0,
+            0.9851665618446838,
+            3.0
+        ],
+        [
+            9.0,
+            23.0,
+            0.98536411486,
+            2.0
+        ],
+        [
+            5.0,
+            10.0,
+            0.99612579511,
+            2.0
+        ],
+        [
+            33.0,
+            36.0,
+            1.0,
+            2.0
+        ],
+        [
+            45.0,
+            111.0,
+            1.0,
+            3.0
+        ],
+        [
+            57.0,
+            112.0,
+            1.0,
+            4.0
+        ],
+        [
+            110.0,
+            113.0,
+            1.0025744861161094,
+            6.0
+        ],
+        [
+            109.0,
+            114.0,
+            1.011156575850644,
+            8.0
+        ],
+        [
+            75.0,
+            86.0,
+            1.0159511061550994,
+            4.0
+        ],
+        [
+            94.0,
+            104.0,
+            1.0324437718240354,
+            4.0
+        ],
+        [
+            108.0,
+            115.0,
+            1.0337639360169733,
+            11.0
+        ],
+        [
+            101.0,
+            103.0,
+            1.0418457315154712,
+            8.0
+        ],
+        [
+            105.0,
+            118.0,
+            1.0522306858062525,
+            13.0
+        ],
+        [
+            85.0,
+            91.0,
+            1.0662464782985188,
+            5.0
+        ],
+        [
+            100.0,
+            120.0,
+            1.0735101931864544,
+            15.0
+        ],
+        [
+            98.0,
+            122.0,
+            1.076783215999362,
+            17.0
+        ],
+        [
+            97.0,
+            123.0,
+            1.0874481212921558,
+            19.0
+        ],
+        [
+            93.0,
+            124.0,
+            1.1219248192573041,
+            21.0
+        ],
+        [
+            117.0,
+            125.0,
+            1.1293508943458788,
+            25.0
+        ],
+        [
+            106.0,
+            126.0,
+            1.1502191866813496,
+            28.0
+        ],
+        [
+            89.0,
+            127.0,
+            1.1523129348686123,
+            30.0
+        ],
+        [
+            90.0,
+            102.0,
+            1.1845564079633384,
+            10.0
+        ],
+        [
+            82.0,
+            128.0,
+            1.1845769409666047,
+            32.0
+        ],
+        [
+            88.0,
+            121.0,
+            1.1991877312264088,
+            8.0
+        ],
+        [
+            77.0,
+            130.0,
+            1.2357455439769063,
+            34.0
+        ],
+        [
+            83.0,
+            129.0,
+            1.2737694536514292,
+            13.0
+        ],
+        [
+            92.0,
+            132.0,
+            1.3285652473888785,
+            37.0
+        ],
+        [
+            116.0,
+            134.0,
+            1.357499158825813,
+            41.0
+        ],
+        [
+            131.0,
+            135.0,
+            1.4661756198045555,
+            49.0
+        ],
+        [
+            119.0,
+            136.0,
+            1.624986871698773,
+            57.0
+        ],
+        [
+            133.0,
+            137.0,
+            1.9625559141585183,
+            70.0
+        ]
+    ]
+}

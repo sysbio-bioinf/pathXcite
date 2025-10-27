@@ -1,0 +1,1305 @@
+{
+    "metadata": {
+        "timestamp": "2025-03-19T15:44:58.839544",
+        "top_n": 5,
+        "gene_n": 20,
+        "method": "ward",
+        "num_clusters": 17
+    },
+    "disease_to_cluster": {
+        "Endometrial_cancer": {
+            "cluster": 17,
+            "pathways": [
+                "Gastric Adenocarcinoma",
+                "Malignant neoplasm of endometrium",
+                "Uterine Corpus Cancer",
+                "Endometrial Carcinoma",
+                "Undifferentiated carcinoma"
+            ]
+        },
+        "Shigellosis": {
+            "cluster": 17,
+            "pathways": [
+                "Shigella Infections",
+                "Hemolytic-Uremic Syndrome",
+                "Diarrhea",
+                "Carcinoma of lung",
+                "Loose stool"
+            ]
+        },
+        "Bladder_cancer": {
+            "cluster": 11,
+            "pathways": [
+                "Carcinoma of bladder",
+                "Bladder Neoplasm",
+                "Malignant neoplasm of urinary bladder",
+                "Urothelial Carcinoma",
+                "Carcinoma, Transitional Cell"
+            ]
+        },
+        "Asthma": {
+            "cluster": 17,
+            "pathways": [
+                "Allergic asthma",
+                "Allergic disposition",
+                "Wheezing",
+                "Allergic sensitization",
+                "Dermatitis, Atopic"
+            ]
+        },
+        "Pathogenic_Escherichia_coli_infection": {
+            "cluster": 12,
+            "pathways": [
+                "Pyelonephritis",
+                "Diarrhea-associated hemolytic uremic syndrome",
+                "Cystic Fibrosis",
+                "Glomerulonephritis",
+                "Pulmonary Fibrosis"
+            ]
+        },
+        "Type_II_diabetes_mellitus": {
+            "cluster": 7,
+            "pathways": [
+                "Non-alcoholic Fatty Liver Disease",
+                "Diabetes Mellitus",
+                "Diabetes",
+                "Impaired glucose tolerance",
+                "Hyperglycemia"
+            ]
+        },
+        "Toxoplasmosis": {
+            "cluster": 17,
+            "pathways": [
+                "Scotoma, Centrocecal",
+                "Retinal telangiectasia",
+                "Retinal vascular tortuosity",
+                "Decreased visual acuity, slowly progressive",
+                "Mitochondrial respiratory chain defects"
+            ]
+        },
+        "Yersinia_infection": {
+            "cluster": 6,
+            "pathways": [
+                "Mixed phenotype acute leukemia B/myeloid",
+                "Rheumatoid Arthritis",
+                "Deficiency of mevalonate kinase",
+                "Dermatitis",
+                "Colitis"
+            ]
+        },
+        "Human_cytomegalovirus_infection": {
+            "cluster": 11,
+            "pathways": [
+                "Pleural Neoplasms",
+                "Gastrointestinal Carcinoid Tumor",
+                "Monosomy",
+                "Malignant neoplasm of urinary bladder",
+                "Bladder Neoplasm"
+            ]
+        },
+        "Kaposi_sarcoma-associated_herpesvirus_infection": {
+            "cluster": 2,
+            "pathways": [
+                "Kaposi Sarcoma",
+                "Malignant neoplasm of liver",
+                "Virus Diseases",
+                "Multiple Myeloma",
+                "Primary Effusion Lymphoma"
+            ]
+        },
+        "Epstein-Barr_virus_infection": {
+            "cluster": 10,
+            "pathways": [
+                "Lymphoepithelial carcinoma",
+                "Lymphoproliferative Disorders",
+                "Hematologic Neoplasms",
+                "HIV Infections",
+                "Post-transplant lymphoproliferative disorder"
+            ]
+        },
+        "Amyotrophic_lateral_sclerosis": {
+            "cluster": 17,
+            "pathways": [
+                "Fatigable weakness of respiratory muscles",
+                "Fatigable weakness of swallowing muscles",
+                "GRN-related frontotemporal dementia",
+                "Paralysed",
+                "Frontotemporal Lobar Degeneration"
+            ]
+        },
+        "Staphylococcus_aureus_infection": {
+            "cluster": 17,
+            "pathways": [
+                "Inflammatory dermatosis",
+                "Respiratory Syncytial Virus Infections",
+                "Dermatitis",
+                "Experimental Lung Inflammation",
+                "Lung diseases"
+            ]
+        },
+        "Pertussis": {
+            "cluster": 17,
+            "pathways": [
+                "Pancreatitis",
+                "Hyperalgesia, Secondary",
+                "Allodynia",
+                "Hyperalgesia, Primary",
+                "Tactile Allodynia"
+            ]
+        },
+        "Hepatitis_B": {
+            "cluster": 17,
+            "pathways": [
+                "Liver diseases",
+                "Hepatitis B",
+                "Fibrosis, Liver",
+                "Hepatitis",
+                "Hepatitis B, Chronic"
+            ]
+        },
+        "Gastric_cancer": {
+            "cluster": 17,
+            "pathways": [
+                "Keloid",
+                "Aortic Aneurysm, Thoracic",
+                "synovial sarcoma",
+                "Ehlers-Danlos syndrome type 1",
+                "Ehlers-Danlos Syndrome, Type IV"
+            ]
+        },
+        "Influenza_A": {
+            "cluster": 6,
+            "pathways": [
+                "Skin Diseases, Vascular",
+                "Rheumatoid Arthritis",
+                "Idiopathic Interstitial Pneumonias",
+                "Chronic Lung Injury",
+                "Yellow Fever"
+            ]
+        },
+        "Legionellosis": {
+            "cluster": 14,
+            "pathways": [
+                "Chills",
+                "Acral pseudolymphomatous angiokeratoma of children (APACHE)",
+                "Cytomegalovirus Infections",
+                "Congestive heart failure",
+                "Diabetes Mellitus"
+            ]
+        },
+        "Human_immunodeficiency_virus_1_infection": {
+            "cluster": 15,
+            "pathways": [
+                "Acquired Immunodeficiency Syndrome",
+                "Superinfection",
+                "Primary infection NOS",
+                "HIV Infections",
+                "Immunologic Deficiency Syndromes"
+            ]
+        },
+        "Systemic_lupus_erythematosus": {
+            "cluster": 8,
+            "pathways": [
+                "Lupus Erythematosus, Systemic",
+                "Lupus Vulgaris",
+                "Lupus Erythematosus",
+                "Lupus Erythematosus, Discoid",
+                "Autoimmune Diseases"
+            ]
+        },
+        "Dilated_cardiomyopathy": {
+            "cluster": 4,
+            "pathways": [
+                "Familial dilated cardiomyopathy",
+                "Conduction disorder of the heart",
+                "Cardiomyopathies",
+                "Cardiomyopathy, Familial Idiopathic",
+                "Cardiomyopathy, Dilated"
+            ]
+        },
+        "Thyroid_cancer": {
+            "cluster": 17,
+            "pathways": [
+                "Follicular thyroid carcinoma",
+                "Anaplastic thyroid carcinoma",
+                "Thyroid Gland Follicular Adenoma",
+                "Thyroid Nodule",
+                "Malignant neoplasm of thyroid"
+            ]
+        },
+        "Graft-versus-host_disease": {
+            "cluster": 17,
+            "pathways": [
+                "Myasthenia Gravis",
+                "Chronic Lymphocytic Leukemia",
+                "Juvenile arthritis",
+                "Acute GVH disease",
+                "Immune thrombocytopenic purpura"
+            ]
+        },
+        "Huntington_disease": {
+            "cluster": 16,
+            "pathways": [
+                "Neurodegenerative Disorders",
+                "nervous system disorder",
+                "Parkinson Disease",
+                "Huntington Disease",
+                "Parkinsonian Disorders"
+            ]
+        },
+        "Colorectal_cancer": {
+            "cluster": 13,
+            "pathways": [
+                "Meningioma",
+                "Malignant neoplasm of brain",
+                "Transitional cell carcinoma of bladder",
+                "Intrahepatic Cholangiocarcinoma",
+                "Rectal Carcinoma"
+            ]
+        },
+        "Prion_disease": {
+            "cluster": 17,
+            "pathways": [
+                "Prion Diseases",
+                "Creutzfeldt-Jakob disease",
+                "Creutzfeldt-Jakob Disease, Sporadic",
+                "Amyotrophic Lateral Sclerosis",
+                "Motor Neuron Disease"
+            ]
+        },
+        "Salmonella_infection": {
+            "cluster": 5,
+            "pathways": [
+                "Tuberculosis",
+                "Behcet Syndrome",
+                "Infection",
+                "Pneumonia",
+                "Pneumococcal Infections"
+            ]
+        },
+        "Parkinson_disease": {
+            "cluster": 16,
+            "pathways": [
+                "Parkinsonian Disorders",
+                "Parkinsonism, Juvenile",
+                "PARKINSON DISEASE, LATE-ONSET",
+                "Autosomal Recessive Parkinsonism",
+                "Bradykinesia"
+            ]
+        },
+        "Malaria": {
+            "cluster": 17,
+            "pathways": [
+                "Exudative vitreoretinopathy",
+                "Exudative vitreoretinopathy 1",
+                "Congenital blindness",
+                "Drug usage",
+                "Malaria"
+            ]
+        },
+        "Prostate_cancer": {
+            "cluster": 17,
+            "pathways": [
+                "Adenocarcinoma of prostate",
+                "Metastasis from malignant tumor of prostate",
+                "Metastatic Prostate Carcinoma",
+                "Prostatic Neoplasms",
+                "High-Grade Prostatic Intraepithelial Neoplasia"
+            ]
+        },
+        "Renal_cell_carcinoma": {
+            "cluster": 17,
+            "pathways": [
+                "Clear-cell metastatic renal cell carcinoma",
+                "Kidney Neoplasm",
+                "Malignant neoplasm of kidney",
+                "Renal carcinoma",
+                "Collecting Duct Carcinoma of the Kidney"
+            ]
+        },
+        "Non-small_cell_lung_cancer": {
+            "cluster": 13,
+            "pathways": [
+                "Metastatic malignant neoplasm to brain",
+                "Mucinous Adenocarcinoma",
+                "Primary Lesion",
+                "Medullary carcinoma of thyroid",
+                "Malignant neoplasm of brain"
+            ]
+        },
+        "Measles": {
+            "cluster": 3,
+            "pathways": [
+                "Measles",
+                "Virus Diseases",
+                "Glomerulonephritis",
+                "Infection",
+                "Recurrent urinary tract infection"
+            ]
+        },
+        "Cushing_syndrome": {
+            "cluster": 17,
+            "pathways": [
+                "Cushing Syndrome",
+                "Adrenal Cushing's syndrome",
+                "Pituitary-dependent Cushing's disease",
+                "Congenital adrenal hyperplasia",
+                "Hyperaldosteronism"
+            ]
+        },
+        "Vibrio_cholerae_infection": {
+            "cluster": 5,
+            "pathways": [
+                "Primary sclerosing cholangitis",
+                "Infectious Mononucleosis",
+                "Cholera",
+                "Primary biliary cirrhosis",
+                "Lymphoproliferative Disorder of the Skin"
+            ]
+        },
+        "Glioma": {
+            "cluster": 13,
+            "pathways": [
+                "Stage III Colon Cancer",
+                "Pleomorphic Xanthoastrocytoma",
+                "Rectal Carcinoma",
+                "Stage III Colon Cancer AJCC v7",
+                "Adenocarcinoma, Endometrioid"
+            ]
+        },
+        "Type_I_diabetes_mellitus": {
+            "cluster": 9,
+            "pathways": [
+                "Diabetes Mellitus, Insulin-Dependent",
+                "Autoimmune Diseases",
+                "Multiple Sclerosis",
+                "Autoimmune thyroiditis",
+                "Tumor Immunity"
+            ]
+        },
+        "Arrhythmogenic_right_ventricular_cardiomyopathy": {
+            "cluster": 4,
+            "pathways": [
+                "Arrhythmogenic Right Ventricular Dysplasia",
+                "Conduction disorder of the heart",
+                "Right ventricular cardiomyopathy",
+                "Tachycardia, Ventricular",
+                "Cardiomyopathy, Dilated"
+            ]
+        },
+        "Allograft_rejection": {
+            "cluster": 3,
+            "pathways": [
+                "Virus Diseases",
+                "Graves Disease",
+                "Sjogren's Syndrome",
+                "Systemic Scleroderma",
+                "Multiple Sclerosis"
+            ]
+        },
+        "Spinocerebellar_ataxia": {
+            "cluster": 17,
+            "pathways": [
+                "Ataxias, Hereditary",
+                "Ataxia, Spinocerebellar",
+                "Spinocerebellar Ataxia Type 2",
+                "Spinocerebellar Ataxia Type 7",
+                "Progressive cerebellar ataxia"
+            ]
+        },
+        "Leishmaniasis": {
+            "cluster": 8,
+            "pathways": [
+                "Leishmaniasis, Cutaneous",
+                "Chagas Disease",
+                "Lupus Erythematosus, Systemic",
+                "Herpesviridae Infections",
+                "Virus Diseases"
+            ]
+        },
+        "Tuberculosis": {
+            "cluster": 12,
+            "pathways": [
+                "Eosinophilic disorder",
+                "Eosinophilia",
+                "Bright Disease",
+                "Glomerulonephritis",
+                "Hepatitis, Autoimmune"
+            ]
+        },
+        "Diabetic_cardiomyopathy": {
+            "cluster": 1,
+            "pathways": [
+                "Fatty Liver",
+                "Hyperglycemia",
+                "Steatohepatitis",
+                "Diabetes",
+                "Diabetes Mellitus, Non-Insulin-Dependent"
+            ]
+        },
+        "Chronic_myeloid_leukemia": {
+            "cluster": 10,
+            "pathways": [
+                "Juvenile Myelomonocytic Leukemia",
+                "Hematologic Neoplasms",
+                "Myelofibrosis",
+                "Myeloid Leukemia, Chronic",
+                "Congenital chromosomal disease"
+            ]
+        },
+        "Acute_myeloid_leukemia": {
+            "cluster": 17,
+            "pathways": [
+                "Cytogenetically normal acute myeloid leukemia",
+                "Adult Acute Myeloblastic Leukemia",
+                "Childhood Acute Myeloid Leukemia",
+                "Acute Promyelocytic Leukemia",
+                "Acute leukemia"
+            ]
+        },
+        "Primary_immunodeficiency": {
+            "cluster": 15,
+            "pathways": [
+                "Hypogammaglobulinemia",
+                "Immunologic Deficiency Syndromes",
+                "Lymphopenia",
+                "Immune System Diseases",
+                "Decreased antibody level in blood"
+            ]
+        },
+        "Hepatitis_C": {
+            "cluster": 2,
+            "pathways": [
+                "Hepatitis C, Chronic",
+                "Hepatitis C",
+                "Liver neoplasms",
+                "Infection",
+                "Virus Diseases"
+            ]
+        },
+        "Hypertrophic_cardiomyopathy": {
+            "cluster": 4,
+            "pathways": [
+                "Hypertrophic Cardiomyopathy",
+                "Cardiomyopathy, Hypertrophic, Familial",
+                "Conduction disorder of the heart",
+                "Charcot-Marie-Tooth Disease",
+                "Cardiomyopathy, Dilated"
+            ]
+        },
+        "Basal_cell_carcinoma": {
+            "cluster": 17,
+            "pathways": [
+                "Basal cell carcinoma",
+                "Pigmented Basal Cell Carcinoma",
+                "Basal Cell Nevus Syndrome",
+                "Embryonal Rhabdomyosarcoma",
+                "Experimental Organism Basal Cell Carcinoma"
+            ]
+        },
+        "Alcoholic_liver_disease": {
+            "cluster": 1,
+            "pathways": [
+                "Fatty Liver",
+                "Steatohepatitis",
+                "Alcoholic Liver Diseases",
+                "Nonalcoholic Steatohepatitis",
+                "Non-alcoholic Fatty Liver Disease"
+            ]
+        },
+        "Hepatocellular_carcinoma": {
+            "cluster": 2,
+            "pathways": [
+                "Hepatitis C",
+                "Malignant neoplasm of liver",
+                "Liver diseases",
+                "Liver and Intrahepatic Biliary Tract Carcinoma",
+                "Stage IV Breast Cancer AJCC v6 and v7"
+            ]
+        },
+        "Human_T-cell_leukemia_virus_1_infection": {
+            "cluster": 17,
+            "pathways": [
+                "Adult T-Cell Lymphoma/Leukemia",
+                "Tropical Spastic Paraparesis",
+                "Sezary Syndrome",
+                "Leukemia, T-Cell",
+                "Leukemogenesis"
+            ]
+        },
+        "African_trypanosomiasis": {
+            "cluster": 14,
+            "pathways": [
+                "African Trypanosomiasis",
+                "Breast Carcinoma",
+                "Malignant neoplasm of breast",
+                "Immune reconstitution inflammatory syndrome [IRIS]",
+                "Chills"
+            ]
+        },
+        "Coronavirus_disease_-_COVID-19": {
+            "cluster": 3,
+            "pathways": [
+                "Virus Diseases",
+                "Impaired glucose tolerance",
+                "Immune thrombocytopenic purpura",
+                "Influenza",
+                "Presenile dementia"
+            ]
+        },
+        "Epithelial_cell_signaling_in_Helicobacter_pylori_infection": {
+            "cluster": 17,
+            "pathways": [
+                "Infection caused by Helicobacter pylori",
+                "Cholangiocarcinoma",
+                "Stomach Carcinoma",
+                "Degenerative polyarthritis",
+                "Squamous cell carcinoma of esophagus"
+            ]
+        },
+        "Alcoholism": {
+            "cluster": 17,
+            "pathways": [
+                "Delinquent behavior",
+                "Violence",
+                "Alcohol Use Disorder",
+                "Alcohol abuse",
+                "Bulimia"
+            ]
+        },
+        "Chagas_disease": {
+            "cluster": 5,
+            "pathways": [
+                "Behcet Syndrome",
+                "Acute GVH disease",
+                "Primary sclerosing cholangitis",
+                "Arthritis, Psoriatic",
+                "Thymoma"
+            ]
+        },
+        "Inflammatory_bowel_disease": {
+            "cluster": 17,
+            "pathways": [
+                "Inflammatory Bowel Diseases",
+                "Crohn Disease",
+                "Regional enteritis",
+                "IIeocolitis",
+                "Ulcerative Colitis"
+            ]
+        },
+        "Melanoma": {
+            "cluster": 17,
+            "pathways": [
+                "melanoma",
+                "Uveal melanoma",
+                "Cutaneous Melanoma",
+                "Melanocytic nevus",
+                "Neoplasms"
+            ]
+        },
+        "Viral_myocarditis": {
+            "cluster": 17,
+            "pathways": [
+                "Left Ventricular Hypertrophy",
+                "Myocarditis",
+                "Heart Diseases",
+                "Cardiomyopathy, Familial Idiopathic",
+                "Acute myocardial infarction"
+            ]
+        },
+        "Small_cell_lung_cancer": {
+            "cluster": 17,
+            "pathways": [
+                "Small cell carcinoma of lung",
+                "Non-Small Cell Lung Carcinoma",
+                "Merkel cell carcinoma",
+                "Carcinoma, Small Cell",
+                "Ewings sarcoma"
+            ]
+        },
+        "Breast_cancer": {
+            "cluster": 17,
+            "pathways": [
+                "Neoplasm of uncertain or unknown behavior of breast",
+                "BREAST CANCER 3",
+                "Early-Stage Breast Carcinoma",
+                "Malignant neoplasm of other specified sites of female breast",
+                "Malignant Childhood Neoplasm"
+            ]
+        },
+        "Maturity_onset_diabetes_of_the_young": {
+            "cluster": 7,
+            "pathways": [
+                "Maturity onset diabetes mellitus in young",
+                "Neonatal diabetes mellitus",
+                "Diabetes",
+                "Diabetes Mellitus, Non-Insulin-Dependent",
+                "Diabetes Mellitus"
+            ]
+        },
+        "Pancreatic_cancer": {
+            "cluster": 17,
+            "pathways": [
+                "Functional intestinal obstruction",
+                "Chronic fatigue",
+                "Benign tumor of pancreas",
+                "Pancreatic Ductal Adenocarcinoma",
+                "Back Pain"
+            ]
+        },
+        "Rheumatoid_arthritis": {
+            "cluster": 17,
+            "pathways": [
+                "Idiopathic Inflammatory Myopathies",
+                "Vasculitis",
+                "Arthritis",
+                "Dermatomyositis",
+                "Arthritis, Psoriatic"
+            ]
+        },
+        "Herpes_simplex_virus_1_infection": {
+            "cluster": 3,
+            "pathways": [
+                "Herpes Simplex Infections",
+                "Infection",
+                "Virus Diseases",
+                "Cervical intraepithelial neoplasia grade 2",
+                "AICARDI-GOUTIERES SYNDROME 1"
+            ]
+        },
+        "Non-alcoholic_fatty_liver_disease": {
+            "cluster": 1,
+            "pathways": [
+                "Fatty Liver",
+                "Steatohepatitis",
+                "Nonalcoholic Steatohepatitis",
+                "Non-alcoholic Fatty Liver Disease",
+                "Hepatitis"
+            ]
+        },
+        "Amoebiasis": {
+            "cluster": 9,
+            "pathways": [
+                "Arthritis, Infectious",
+                "Multiple Sclerosis",
+                "Presenile dementia",
+                "Dementia",
+                "Rheumatoid Arthritis"
+            ]
+        },
+        "Alzheimer_disease": {
+            "cluster": 17,
+            "pathways": [
+                "Alzheimer's Disease, Focal Onset",
+                "Acute Confusional Senile Dementia",
+                "Alzheimer Disease, Late Onset",
+                "Alzheimer Disease, Early Onset",
+                "Familial Alzheimer Disease (FAD)"
+            ]
+        },
+        "Lipid_and_atherosclerosis": {
+            "cluster": 17,
+            "pathways": [
+                "Coronary heart disease",
+                "Coronary Arteriosclerosis",
+                "Cardiovascular Diseases",
+                "Hypertriglyceridemia",
+                "Coronary Artery Disease"
+            ]
+        }
+    },
+    "cluster_to_diseases": {
+        "17": [
+            "Endometrial_cancer",
+            "Shigellosis",
+            "Asthma",
+            "Toxoplasmosis",
+            "Amyotrophic_lateral_sclerosis",
+            "Staphylococcus_aureus_infection",
+            "Pertussis",
+            "Hepatitis_B",
+            "Gastric_cancer",
+            "Thyroid_cancer",
+            "Graft-versus-host_disease",
+            "Prion_disease",
+            "Malaria",
+            "Prostate_cancer",
+            "Renal_cell_carcinoma",
+            "Cushing_syndrome",
+            "Spinocerebellar_ataxia",
+            "Acute_myeloid_leukemia",
+            "Basal_cell_carcinoma",
+            "Human_T-cell_leukemia_virus_1_infection",
+            "Epithelial_cell_signaling_in_Helicobacter_pylori_infection",
+            "Alcoholism",
+            "Inflammatory_bowel_disease",
+            "Melanoma",
+            "Viral_myocarditis",
+            "Small_cell_lung_cancer",
+            "Breast_cancer",
+            "Pancreatic_cancer",
+            "Rheumatoid_arthritis",
+            "Alzheimer_disease",
+            "Lipid_and_atherosclerosis"
+        ],
+        "11": [
+            "Bladder_cancer",
+            "Human_cytomegalovirus_infection"
+        ],
+        "12": [
+            "Pathogenic_Escherichia_coli_infection",
+            "Tuberculosis"
+        ],
+        "7": [
+            "Type_II_diabetes_mellitus",
+            "Maturity_onset_diabetes_of_the_young"
+        ],
+        "6": [
+            "Yersinia_infection",
+            "Influenza_A"
+        ],
+        "2": [
+            "Kaposi_sarcoma-associated_herpesvirus_infection",
+            "Hepatitis_C",
+            "Hepatocellular_carcinoma"
+        ],
+        "10": [
+            "Epstein-Barr_virus_infection",
+            "Chronic_myeloid_leukemia"
+        ],
+        "14": [
+            "Legionellosis",
+            "African_trypanosomiasis"
+        ],
+        "15": [
+            "Human_immunodeficiency_virus_1_infection",
+            "Primary_immunodeficiency"
+        ],
+        "8": [
+            "Systemic_lupus_erythematosus",
+            "Leishmaniasis"
+        ],
+        "4": [
+            "Dilated_cardiomyopathy",
+            "Arrhythmogenic_right_ventricular_cardiomyopathy",
+            "Hypertrophic_cardiomyopathy"
+        ],
+        "16": [
+            "Huntington_disease",
+            "Parkinson_disease"
+        ],
+        "13": [
+            "Colorectal_cancer",
+            "Non-small_cell_lung_cancer",
+            "Glioma"
+        ],
+        "5": [
+            "Salmonella_infection",
+            "Vibrio_cholerae_infection",
+            "Chagas_disease"
+        ],
+        "3": [
+            "Measles",
+            "Allograft_rejection",
+            "Coronavirus_disease_-_COVID-19",
+            "Herpes_simplex_virus_1_infection"
+        ],
+        "9": [
+            "Type_I_diabetes_mellitus",
+            "Amoebiasis"
+        ],
+        "1": [
+            "Diabetic_cardiomyopathy",
+            "Alcoholic_liver_disease",
+            "Non-alcoholic_fatty_liver_disease"
+        ]
+    },
+    "disease_cluster_labels": [
+        17,
+        17,
+        11,
+        17,
+        12,
+        7,
+        17,
+        6,
+        11,
+        2,
+        10,
+        17,
+        17,
+        17,
+        17,
+        17,
+        6,
+        14,
+        15,
+        8,
+        4,
+        17,
+        17,
+        16,
+        13,
+        17,
+        5,
+        16,
+        17,
+        17,
+        17,
+        13,
+        3,
+        17,
+        5,
+        13,
+        9,
+        4,
+        3,
+        17,
+        8,
+        12,
+        1,
+        10,
+        17,
+        15,
+        2,
+        4,
+        17,
+        1,
+        2,
+        17,
+        14,
+        3,
+        17,
+        17,
+        5,
+        17,
+        17,
+        17,
+        17,
+        17,
+        7,
+        17,
+        17,
+        3,
+        1,
+        9,
+        17,
+        17
+    ],
+    "linkage_matrix": [
+        [
+            49.0,
+            66.0,
+            0.6488370000000001,
+            2.0
+        ],
+        [
+            42.0,
+            70.0,
+            0.7658097122164227,
+            3.0
+        ],
+        [
+            38.0,
+            53.0,
+            0.7966530000000001,
+            2.0
+        ],
+        [
+            20.0,
+            37.0,
+            0.8835310000000001,
+            2.0
+        ],
+        [
+            7.0,
+            16.0,
+            0.896653,
+            2.0
+        ],
+        [
+            9.0,
+            50.0,
+            0.896653,
+            2.0
+        ],
+        [
+            26.0,
+            56.0,
+            0.896653,
+            2.0
+        ],
+        [
+            32.0,
+            65.0,
+            0.9103060000000001,
+            2.0
+        ],
+        [
+            5.0,
+            62.0,
+            0.928531,
+            2.0
+        ],
+        [
+            10.0,
+            43.0,
+            0.941653,
+            2.0
+        ],
+        [
+            19.0,
+            40.0,
+            0.941653,
+            2.0
+        ],
+        [
+            36.0,
+            67.0,
+            0.941653,
+            2.0
+        ],
+        [
+            47.0,
+            73.0,
+            0.9430539475348163,
+            3.0
+        ],
+        [
+            2.0,
+            8.0,
+            0.955531,
+            2.0
+        ],
+        [
+            46.0,
+            75.0,
+            0.9577478749958154,
+            3.0
+        ],
+        [
+            4.0,
+            41.0,
+            0.968653,
+            2.0
+        ],
+        [
+            72.0,
+            77.0,
+            0.9793061149586986,
+            4.0
+        ],
+        [
+            17.0,
+            52.0,
+            0.986878,
+            2.0
+        ],
+        [
+            18.0,
+            45.0,
+            0.986878,
+            2.0
+        ],
+        [
+            23.0,
+            27.0,
+            0.986878,
+            2.0
+        ],
+        [
+            24.0,
+            31.0,
+            0.986878,
+            2.0
+        ],
+        [
+            34.0,
+            76.0,
+            0.9948926478786542,
+            3.0
+        ],
+        [
+            35.0,
+            90.0,
+            0.9956452157410289,
+            3.0
+        ],
+        [
+            63.0,
+            64.0,
+            0.9999999999999996,
+            2.0
+        ],
+        [
+            68.0,
+            93.0,
+            0.9999999999999996,
+            3.0
+        ],
+        [
+            69.0,
+            94.0,
+            0.9999999999999996,
+            4.0
+        ],
+        [
+            61.0,
+            95.0,
+            0.9999999999999997,
+            5.0
+        ],
+        [
+            57.0,
+            58.0,
+            0.9999999999999998,
+            2.0
+        ],
+        [
+            59.0,
+            97.0,
+            0.9999999999999998,
+            3.0
+        ],
+        [
+            60.0,
+            98.0,
+            0.9999999999999998,
+            4.0
+        ],
+        [
+            96.0,
+            99.0,
+            0.9999999999999998,
+            9.0
+        ],
+        [
+            11.0,
+            12.0,
+            0.9999999999999999,
+            2.0
+        ],
+        [
+            13.0,
+            101.0,
+            0.9999999999999999,
+            3.0
+        ],
+        [
+            14.0,
+            102.0,
+            0.9999999999999999,
+            4.0
+        ],
+        [
+            15.0,
+            103.0,
+            0.9999999999999999,
+            5.0
+        ],
+        [
+            21.0,
+            104.0,
+            0.9999999999999999,
+            6.0
+        ],
+        [
+            22.0,
+            105.0,
+            0.9999999999999999,
+            7.0
+        ],
+        [
+            25.0,
+            106.0,
+            0.9999999999999999,
+            8.0
+        ],
+        [
+            51.0,
+            54.0,
+            0.9999999999999999,
+            2.0
+        ],
+        [
+            55.0,
+            108.0,
+            0.9999999999999999,
+            3.0
+        ],
+        [
+            100.0,
+            109.0,
+            0.9999999999999999,
+            12.0
+        ],
+        [
+            0.0,
+            1.0,
+            1.0,
+            2.0
+        ],
+        [
+            3.0,
+            111.0,
+            1.0,
+            3.0
+        ],
+        [
+            6.0,
+            112.0,
+            1.0,
+            4.0
+        ],
+        [
+            107.0,
+            113.0,
+            1.0,
+            12.0
+        ],
+        [
+            28.0,
+            114.0,
+            1.0,
+            13.0
+        ],
+        [
+            29.0,
+            115.0,
+            1.0,
+            14.0
+        ],
+        [
+            30.0,
+            116.0,
+            1.0,
+            15.0
+        ],
+        [
+            33.0,
+            117.0,
+            1.0,
+            16.0
+        ],
+        [
+            39.0,
+            118.0,
+            1.0,
+            17.0
+        ],
+        [
+            44.0,
+            119.0,
+            1.0,
+            18.0
+        ],
+        [
+            48.0,
+            120.0,
+            1.0,
+            19.0
+        ],
+        [
+            110.0,
+            121.0,
+            1.0,
+            31.0
+        ],
+        [
+            89.0,
+            122.0,
+            1.0121717755550101,
+            33.0
+        ],
+        [
+            88.0,
+            123.0,
+            1.012260977820015,
+            35.0
+        ],
+        [
+            87.0,
+            124.0,
+            1.012335708801338,
+            37.0
+        ],
+        [
+            92.0,
+            125.0,
+            1.0161064539679783,
+            40.0
+        ],
+        [
+            85.0,
+            126.0,
+            1.0291176355800427,
+            42.0
+        ],
+        [
+            83.0,
+            127.0,
+            1.0408763108734862,
+            44.0
+        ],
+        [
+            80.0,
+            81.0,
+            1.0489297979526562,
+            4.0
+        ],
+        [
+            79.0,
+            128.0,
+            1.0517757999216817,
+            46.0
+        ],
+        [
+            129.0,
+            130.0,
+            1.0572600119748463,
+            50.0
+        ],
+        [
+            78.0,
+            131.0,
+            1.0637719218525867,
+            52.0
+        ],
+        [
+            74.0,
+            132.0,
+            1.0889509077443849,
+            54.0
+        ],
+        [
+            91.0,
+            133.0,
+            1.0929872224780253,
+            57.0
+        ],
+        [
+            84.0,
+            86.0,
+            1.1012605029989497,
+            7.0
+        ],
+        [
+            82.0,
+            134.0,
+            1.1464193912751584,
+            60.0
+        ],
+        [
+            135.0,
+            136.0,
+            1.2490511520893415,
+            67.0
+        ],
+        [
+            71.0,
+            137.0,
+            1.3958688747554227,
+            70.0
+        ]
+    ]
+}
