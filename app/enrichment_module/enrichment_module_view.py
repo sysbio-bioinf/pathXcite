@@ -528,10 +528,6 @@ class EnrichmentModuleView(QWidget):
 
         self.selected_species = self.species_selection_dropdown.get_selected_items(
             include_unchecked=True)
-        print("Selected species for gene list update:", self.selected_species)
-
-        taxids = [str(species.split(" ")[-1].replace("(", "").replace(")", ""))
-                  for species in self.selected_species]
         for pubmed_id in self.documents_splitter.get_checked_pubmed_ids():
             document_data = retrieve_document_data(pubmed_id, self.db_path)
             num_genes = len(document_data.get("annotations", {}))
@@ -544,11 +540,6 @@ class EnrichmentModuleView(QWidget):
 
             annotations = document_data.get("annotations", {})
             for (entrez_id, gene_symbol, tax_id), annotation_list in annotations.items():
-                # Filter by selected species
-                if self.selected_species and str(tax_id[0]) not in taxids:
-                    print(
-                        f"Skipping gene {gene_symbol} (Entrez ID: {entrez_id}) due to species filter. Tax ID: {tax_id}")
-                    continue
                 num_annotations = len(annotation_list)
 
                 # Aggregate num_annotations if gene already exists in dictionary
